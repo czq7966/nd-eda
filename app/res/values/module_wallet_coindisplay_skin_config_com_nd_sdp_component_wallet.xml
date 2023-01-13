@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--SDK余额显示控件分隔线-->
+    <drawable name="module_wallet_sdk_coin_item_line">@drawable/module_wallet_sdk_coin_divider_line</drawable>
+    <!--SDK余额显示控件分隔线颜色-->
+    <color name="module_wallet_sdk_coin_line_color">@color/module_wallet_line_color8</color>
+    <!--SDK余额显示控件分隔线缩进-->
+    <dimen name="module_wallet_sdk_coin_line_margin">@dimen/module_wallet_dimen_dip15</dimen>
+
+    <!--SDK余额显示控件-过期帮助提示背景-->
+    <drawable name="module_wallet_sdk_coin_help_tip_bg">@color/color11</drawable>
+    <!--SDK余额显示控件-过期帮助提示文字颜色-->
+    <color name="module_wallet_sdk_coin_help_tip_font_color">#ff186d</color>
+    <!--SDK余额显示控件-过期金额和日期字体颜色-->
+    <color name="module_wallet_sdk_coin_expire_font_color">@color/color4</color>
+    <!--SDK余额显示控件-总额和可用字体颜色-->
+    <color name="module_wallet_sdk_coin_balance_font_color">@color/module_wallet_text_color2</color>
+</resources>

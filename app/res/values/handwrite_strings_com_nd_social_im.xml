@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="im_chat_hand_write_chat_no_sdcard_image">No SD card detected, picture can\'t be sent!</string>
+    <string name="im_chat_hand_write_get_pic_fail">Fail to get picture</string>
+    <string name="im_chat_hand_write_no_sdcard_for_send_fail">No SD card detected, fail to send!</string>
+    <string name="im_chat_hand_write_bigger_than_file_size">Exceeds text length</string>
+    <string name="im_chat_hand_write_scrawl">Scrawl</string>
+    <string name="im_chat_hand_write">Handwriting</string>
+    <string name="im_chat_hand_write_clear">Clear</string>
+    <string name="im_chat_hand_write_send">Send</string>
+    <string name="im_chat_hand_write_has_sketch_prompt_switch">You have unsent draft, and draft will be discarded if you switch mode.Are you sure?</string>
+    <string name="im_chat_hand_write_has_sketch_prompt_leave">You have unsent draft, are you sure to give up?</string>
+    <string name="im_chat_hand_write_has_sketch">Draft unsent</string>
+    <string name="im_chat_hand_write_yes">Confirm</string>
+    <string name="im_chat_hand_write_no">No</string>
+    <string name="im_chat_hand_write_nothing">No content for sending</string>
+    <string name="im_chat_hand_write_low_memory_background">Out of memory, can\'t load background picture</string>
+    <string name="im_chat_hand_write_low_memory_send">Out of memory, can\'t send the picture</string>
+    <string name="im_chat_hand_write_low_memory">Out of memory, please retry later or restart your app</string>
+    <string name="im_chat_hand_write_save">Can\'t save picture to specific path %s. Failed to send</string>
+    <string name="im_chat_hand_write_select">Confirm</string>
+    <string name="im_chat_hand_write_select_panel">Drawing board</string>
+    <string name="im_chat_hand_write_color_black">Black</string>
+    <string name="im_chat_hand_write_color_yellow">Yellow</string>
+    <string name="im_chat_hand_write_color_green">Green</string>
+    <string name="im_chat_hand_write_color_blue">Blue</string>
+    <string name="im_chat_hand_write_color_red">Red</string>
+    <string name="im_chat_hand_write_color_custom">Custom</string>
+    <string name="im_chat_hand_write_color_rubber">Eraser</string>
+    <string name="im_chat_hand_write_color_pallet">Color pallet</string>
+    <string name="im_chat_hand_write_btn_ok">Confirm</string>
+    <string name="im_chat_hand_write_btn_cancel">Cancel</string>
+</resources>

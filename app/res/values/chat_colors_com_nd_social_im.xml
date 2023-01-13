@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="im_chat_15_transparent">#26000000</color>
+    <color name="im_chat_black">#ff000000</color>
+    <color name="im_chat_sbc_snippet_text">#ff4b4b4b</color>
+    <color name="im_chat_transparent">#00000000</color>
+    <color name="im_chat_viewfinder_frame">#ff00ff01</color>
+    <color name="im_chat_viewfinder_laser">#ffff0000</color>
+    <color name="im_chat_btn_logout_normal">#d33f3f</color>
+    <color name="im_chat_btn_logout_pressed">#DA5A4D</color>
+    <color name="im_chat_top_bar_normal_bg">#4ebcd3</color>
+    <color name="im_chat_btn_green_noraml">#68C270</color>
+    <color name="im_chat_btn_green_pressed">#6FCD78</color>
+    <color name="im_chat_btn_gray_normal">#c0c0c0</color>
+    <color name="im_chat_btn_gray_pressed_status">#b5b5b6</color>
+    <color name="im_chat_btn_blue_normal">#1e90ff</color>
+    <color name="im_chat_btn_blue_pressed">#0066FF</color>
+    <color name="im_chat_orange">#FFA500</color>
+    <color name="im_chat_gray_pressed">#b5b5b6</color>
+    <color name="im_chat_gray_normal">#666667</color>
+    <color name="im_chat_light_green">#7ACA7C</color>
+    <color name="im_chat_dark_red">#C31C20</color>
+
+    <color name="im_chat_item_gray">#C7C7C7</color>
+    <!-- contact -->
+    <color name="im_chat_sectionbar">#FF98897B</color>
+    <color name="im_chat_color_bai">#FFFFFFFF</color>
+    <!-- 通讯录导航字体默认颜色 -->
+    <color name="im_chat_default_tab_text">#d0d0d2</color>
+    <!-- 通讯录导航显示页面字体颜色 -->
+    <color name="im_chat_select_tab_text">#f8b22c</color>
+
+    <color name="im_chat_login_title">#bdc2dd</color>
+    <color name="im_chat_white">#ffffff</color>
+
+    <!-- 通用activity背景 -->
+    <drawable name="im_chat_activity_bg_2">#f5f5f5</drawable>
+    <color name="im_chat_top_menu_bg">#f5f5f5</color>
+
+    <color name="im_chat_wb_sectionbar_line">#FFB1A599</color>
+    <color name="im_chat_text_default_color">#888f95</color>
+    <!-- 群组 -->
+    <color name="im_chat_dark_gray">#5F6065</color>
+    <!--<color name="im_chat_orange">#F8B22C</color>-->
+    <color name="im_chat_group_pinned_header">@color/common_window_background</color>
+    <color name="im_chat_search_group_detail_join_allow">#ffffff</color>
+    <color name="im_chat_search_group_detail_join_disallow">#cccccc</color>
+    <color name="im_chat_search_group_result_intro_color">#999999</color>
+    <color name="im_chat_search_group_result_member_count_color">#999999</color>
+    <color name="im_chat_recommend_group_color">#999999</color>
+    <color name="im_chat_search_group_key_span_color">#1e62ec</color>
+    <color name="im_chat_group_member_name_bg_owner">@color/color17</color>
+    <color name="im_chat_group_member_name_fg">#ffffff</color>
+    <color name="im_chat_group_member_name_bg_admin">@color/color20</color>
+    <color name="im_chat_group_member_name_bg_guest">#1e62ec</color>
+    <color name="im_chat_friend_search_noresult_text_color">#5C5C5C</color>
+    <!-- 最近会话列表 -->
+    <color name="im_chat_item_selected">#DDDDDD</color>
+    <color name="im_chat_item_devider">#DDBBBBBB</color>
+    <color name="im_chat_item_tips">#E03232</color>
+    <color name="im_chat_recent_item_unread_text">#ffffff</color>
+    <!--<color name="im_psp_detail_head_bg">#37AEFF</color>-->
+    <color name="im_psp_color_black">#000000</color>
+    <color name="im_psp_color_white">#FFFFFF</color>
+    <color name="im_psp_title_font">#4e4e4e</color>
+    <color name="im_psp_name_text_color">#131313</color>
+    <color name="im_psp_pspinfo_bg">#F9F9F9</color>
+    <color name="im_psp_transparent">#00000000</color>
+    <color name="im_psp_bg_tv_group_list_group_view">#EEEEEE</color>
+    <color name="im_psp_bg_tv_recommend_view_reommend">#EEEEEE</color>
+    <color name="im_psp_info_desc">#666666</color>
+    <color name="im_psp_property_detail_content">#333333</color>
+    <!--公众号 end-->
+
+    <!-- 学号菜单 -->
+    <color name="im_chat_like_account_title_color">#333333</color>
+    <color name="im_chat_like_account_btn_text_color">#3399FF</color>
+
+    <!--群助手-->
+    <color name="im_chat_group_assistance_status_text_color">#A2A2A2</color>
+    <color name="im_chat_group_assistance_detail_deny_button_color">#C91F1F</color>
+    <color name="im_chat_group_assistance_detail_approve_button_color">#74C77E</color>
+    <color name="im_chat_group_assistance_detail_button_pressed_color">#E4800A</color>
+
+    <color name="im_chat_dark_slate_gray">#2F4F4F</color>
+    <color name="im_chat_load_more_gray_2">#AFAFAF</color>
+    <color name="im_chat_load_more_gray_1">#C0C0C0</color>
+    <color name="im_chat_bg_searchbar">#F6F6F6</color>
+
+    <color name="im_chat_blue">#02A8F3</color>
+    <color name="im_chat_grey">#CBCBCB</color>
+
+    <color name="im_chat_listview_pressed">#FFdddddd</color>
+    <color name="im_chat_listview_focused">#FF7dbcd3</color>
+    <color name="im_chat_listview_checked">#FFededed</color>
+
+    <color name="im_chat_pinned_header_text">@color/common_text_color_secondary</color>
+    <color name="im_chat_activity_chat_bottom_bg">#f5f5f5</color>
+    <color name="im_chat_normal_link">#0090ff</color>
+    <color name="im_chat_list_item_background">@android:color/white</color>
+
+    <!-- 快捷回复界面提示语背景 -->
+    <color name="im_chat_quick_replay_tip_bg">#f5f5f5</color>
+    <!-- 快捷回复界面提示语文字颜色 -->
+    <color name="im_chat_quick_replay_tip_text">#999999</color>
+    <!-- 快捷回复界面列表item背景色 -->
+    <color name="im_chat_quick_replay_item_bg">@color/im_chat_white</color>
+    <!--<color name="im_psp_detail_avatar_border_color">#87D0FF</color>-->
+    <color name="im_psp_detail_header_bg_border">#84D0FF</color>
+    <!-- 加入群、查找群、公众号详细资料名称文字颜色 -->
+    <color name="im_psp_detail_name_color">#ffffff</color>
+    <!-- 加入群、查找群详细资料界面成员数量颜色 -->
+    <color name="im_chat_search_group_detail_member_count_color">#ffffff</color>
+    <!-- 加入群、查找群详细资料界面“群简介”标题颜色 -->
+    <color name="im_chat_search_group_detail_title_color">#333333</color>
+    <!-- 加入群、查找群详细资料界面群简介内容文字颜色 -->
+    <color name="im_chat_search_group_detail_intro_color">#999999</color>
+    <!-- 加入群、查找群详细资料界面群简介区域背景颜色 -->
+    <color name="im_chat_search_group_detail_intro_bg">#ffffff</color>
+    <!-- 查找群结果item名字颜色  -->
+    <color name="im_chat_search_group_result_name_color">#333333</color>
+    <color name="im_chat_web_view_load_progress_color">#1e62ec</color>
+    <color name="im_chat_web_view_load_progress_bg_color">#f5f5f5</color>
+
+    <!-- 目前用于公众号详情界面按钮 -->
+    <color name="im_chat_common_btn_red_pressed">#b54342</color>
+    <!-- 目前用于公众号详情界面按钮 -->
+    <color name="im_chat_common_btn_red_normal">#ff6f6f</color>
+    <!-- 目前用于公众号详情界面按钮 -->
+    <color name="im_chat_common_btn_blue_pressed">#2a82bf</color>
+    <!-- 目前用于公众号详情界面按钮 -->
+    <color name="im_chat_common_btn_blue_normal">#1e62ec</color>
+
+    <!-- 公众号推荐标题文字颜色 -->
+    <color name="im_psp_recommend_title">#333333</color>
+    <!-- 公众号推荐内容文字颜色 -->
+    <color name="im_psp_recommend_content">#999999</color>
+    <!-- 公众号推荐关注按钮颜色 -->
+    <color name="im_psp_recommend_follow_btn">#1e62ec</color>
+
+    <!--<color name="im_chat_force_offline_dialog_bg">@color/common_window_background</color>-->
+
+
+    <!-- 顶部标签选中后的下划线颜色 -->
+    <color name="im_chat_tabIndicatorColor">#1e62ec</color>
+
+    <!-- 顶部标签选中后的文字颜色-->
+    <color name="im_chat_tabSelectedTextColor">#1e62ec</color>
+
+    <!-- 顶部标签默认文字颜色 -->
+    <color name="im_chat_tabTextColor">@android:color/black</color>
+
+    <!-- 聊天进度提示文字颜色 -->
+    <color name="im_chat_progress_text_color">#999999</color>
+
+    <!-- 聊天界面背景色 -->
+    <color name="im_chat_activity_bg">@color/common_window_background</color>
+
+    <!-- 聊天界面底部录音按钮默认背景色 -->
+    <color name="bottom_record_bg_normal_android_color">#ffffff</color>
+    <!-- 聊天界面底部录音按钮点击背景色 -->
+    <color name="bottom_record_bg_pressed_android_color">#999999</color>
+    <!-- 聊天界面底部录音按钮边框颜色 -->
+    <color name="bottom_record_frame_android_color">#cccccc</color>
+    <!-- 聊天界面底部录音按钮文字颜色 -->
+    <color name="bottom_record_txt_android_color">#0A123D</color>
+
+    <!-- 快捷回复文字颜色 -->
+    <color name="im_chat_quick_reply_text_color">#333333</color>
+    <!-- 快捷回复文字数量颜色 -->
+    <color name="im_chat_quick_reply_text_count_color">#999999</color>
+    <!-- 快捷回复输入框背景 -->
+    <color name="im_chat_quick_reply_input_bg_color">#ffffff</color>
+    <!-- 快捷回复输入框边框颜色 -->
+    <color name="im_chat_quick_reply_input_stroke_color">@color/im_chat_gray</color>
+
+    <!-- 群设置界面背景色 -->
+    <color name="im_chat_group_detail_bg">#f5f5f5</color>
+
+    <!-- 群信息展示界面文字颜色 -->
+    <color name="im_chat_group_show_message_text">#333333</color>
+    <!-- 群信息战士界面提示文字颜色 -->
+    <color name="im_chat_group_show_message_hint_text">#999999</color>
+
+    <!-- 群成员名字颜色 -->
+    <color name="im_chat_group_member_name_color">#333333</color>
+
+    <!-- 往来文件、群文件列表文件名文字颜色 -->
+    <color name="im_chat_file_list_file_name_color">#333333</color>
+
+    <!-- 往来文件、群文件列表文大小文字颜色 -->
+    <color name="im_chat_file_list_file_size_color">#999999</color>
+
+    <!-- 圆形进度条背景 -->
+    <color name="im_chat_file_list_rpb_roundColor">#ebeced</color>
+    <!-- 圆形进度条进度颜色 -->
+    <color name="im_chat_file_list_rpb_roundProgressColor">#9bd6ff</color>
+
+    <!-- 对话框确认文字警告文字颜色 -->
+    <color name="im_chat_dialog_confirm_warning_color">#74C77E</color>
+
+    <!-- 聊天底部菜单按钮文字颜色-->
+    <color name="im_chat_bottom_item_text_color">#666666</color>
+
+    <!-- 聊天底部菜单页面标签圆点选中态 -->
+    <color name="im_chat_bottom_page_dot_checked_color">#999999</color>
+    <!-- 聊天底部菜单页面标签圆点默认态 -->
+    <color name="im_chat_bottom_page_dot_normal_color">#B3B3B3</color>
+
+    <!-- 强制下线对话框背景色 -->
+    <color name="im_chat_force_offline_dialog_bg">@color/common_window_background</color>
+
+    <!-- 图片底部文字背景色 -->
+    <color name="im_chat_psparticle_main_text_bg">#88333333</color>
+    <!-- 图片底部文字颜色 -->
+    <color name="im_chat_psparticle_main_text_color">#ffffff</color>
+
+    <!-- 图文消息item背景色 -->
+    <color name="chat_message_bg_color">#ffffff</color>
+    <!-- link消息title颜色-->
+    <color name="im_chat_list_item_link_title">#333333</color>
+    <!-- link消息summary颜色-->
+    <color name="im_chat_list_item_link_summary">#999999</color>
+    <!-- link消息from颜色-->
+    <color name="im_chat_list_item_link_from">#999999</color>
+
+
+    <!-- 快捷回复对话框列表分割线颜色 -->
+    <color name="im_chat_quick_reply_list_line_color">#dddddd</color>
+    <!-- 视频消息文件大小文字颜色 -->
+    <color name="im_chat_list_item_video_size_color">#eeeeee</color>
+    <!-- 视频消息视频长度文字颜色 -->
+    <color name="im_chat_list_item_video_length_color">#eeeeee</color>
+
+    <!-- 历史消息搜索界面item匹配关键字高亮颜色 -->
+    <color name="im_chat_history_msg_search_hightlight_text">#0090ff</color>
+    <!-- 历史消息搜索界面item默认背景色 -->
+    <color name="im_chat_history_msg_search_item_normal">#ffffff</color>
+    <!-- 历史消息搜索界面时间范围下拉框时间默认文字颜色 -->
+    <color name="im_chat_history_msg_spinner_text_normal">#333333</color>
+    <!-- 历史消息搜索界面时间范围下拉框时间选中文字颜色 -->
+    <color name="im_chat_history_msg_spinner_text_checked">#0090ff</color>
+    <!-- 历史消息搜索界面时间范围下拉框列表分割线颜色 -->
+    <color name="im_chat_history_msg_spinner_divider">#dddddd</color>
+    <!-- 历史消息搜索界面时间范围下拉框文字颜色 -->
+    <color name="im_chat_history_msg_spinner_dropdown_text">#ffffff</color>
+    <!-- 历史消息搜索界无搜索数据 -->
+    <color name="im_chat_history_msg_search_nodata">#666666</color>
+    <!-- 最近联系人4合1tab 文本颜色-->
+    <color name="navigation_4in1_color">#333333</color>
+    <!-- 聊天记录搜索底部文字颜色-->
+    <color name="im_chat_history_msg_search_foot_text">#333333</color>
+    <!-- 聊天记录搜索底部文字颜色-->
+    <color name="im_chat_history_msg_search_foot_bg">#ffffff</color>
+    <!-- @消息的提示文字颜色-->
+    <color name="im_chat_someone_at_you">#f43531</color>
+
+    <!-- 2016-03-22 换肤资源命名规范化修改 —— by Hyk  -->
+    <!-- 最近会话列表消息内容颜色 -->
+    <color name="chatlist_txt_color">#999999</color>
+    <!-- 列表头部标签文字颜色 -->
+    <color name="chatlist_separatr_txt_color">#999999</color>
+    <!-- 列表头部标签背景颜色 -->
+    <color name="chatlist_separatr_bg_color">#f5f5f5</color>
+
+    <!-- 选择联系人列表头部标签背景颜色 -->
+    <color name="chat_select_list_separatr_bg_color">#f5f5f5</color>
+    <!-- 选择联系人列表头部标签文字颜色 -->
+    <color name="chat_select_list_separatr_txt_color">#999999</color>
+
+    <!-- 最近会话列表名字文字颜色 -->
+    <color name="chatlist_name_color">#333333</color>
+    <!-- 最近会话列表时间文字颜色 -->
+    <color name="chatlist_time_color">#999999</color>
+    <!-- 最近会话列表置顶的item背景色 -->
+    <color name="chatlist_top_color">#f5f8fe</color>
+    <!-- 最近会话列表item背景色 -->
+    <color name="chatlist_bg_color">#ffffff</color>
+    <!-- 最近会话列表item点击色 -->
+    <color name="chatlist_pressed_color">#ede2e2</color>
+    <!-- 最近会话列表item点击色 -->
+    <color name="chat_name_color">#666666</color>
+    <!-- 聊天列表我发送的消息布局中的文字颜色 -->
+    <color name="chat_me_txt_color">#FF0A123D</color>
+
+    <!-- 聊天列表别人发送的消息布局中的文字颜色 -->
+    <color name="chat_other_txt_color">#333333</color>
+    <!-- 聊天列表时间文字颜色 -->
+    <color name="chat_time_color">#999999</color>
+
+    <!-- 聊天列表自己发送的文件消息的文件大小文字颜色 -->
+    <color name="chat_me_size_color">#333333</color>
+
+    <!-- 聊天列表别人发送的文件消息的文件大小文字颜色 -->
+    <color name="chat_other_size_color">#999999</color>
+
+    <!-- 我发送的消息中的连接文字颜色 -->
+    <color name="chat_me_link_color">#1e62ec</color>
+
+    <!-- 别人发送的消息中的连接文字颜色 -->
+    <color name="chat_other_link_color">#1e62ec</color>
+
+    <!-- 我发送的消息中的连接文字点击背景颜色 -->
+    <color name="chat_me_link_bg_color">#33000000</color>
+    <!-- 别人发送的消息中的连接文字点击背景颜色 -->
+    <color name="chat_other_link_bg_color">#33000000</color>
+    <!-- 公众号详情界面头部背景色 -->
+    <color name="public_detail_headview_color">#1e62ec</color>
+    <!-- 公众号详情界面头部圆形边框 -->
+    <color name="public_detail_circle_color">#5694ed</color>
+    <!-- 聊天界面顶部提示背景色 -->
+    <color name="chat_toptip_bg_color">#92b6ff</color>
+
+    <!-- 聊天界面顶部提示文字颜色 -->
+    <color name="chat_toptip_color">#0090ff</color>
+
+    <!-- 聊天界面顶部 查看更多消息 文字颜色-->
+    <color name="chat_more_color">#4e7cbe</color>
+    <!--聊天系统消息提示背景色-->
+    <color name="chat_tiptxt_bg_color">#04000000</color>
+
+    <!--聊天系统消息提示文字颜色-->
+    <color name="chat_tiptxt_color">#99a3bb</color>
+
+    <!-- [抖了你一下]提示文字颜色 -->
+    <color name="chatlist_shake_color">#ff9518</color>
+    <!-- [草稿]提示文字颜色 -->
+    <color name="chatlist_draft_color">#f43531</color>
+    <!-- 聊天界面底部分割线颜色 -->
+    <color name="bottom_input_line_color">#dddddd</color>
+    <!-- 聊天界面底部输入框文字颜色 -->
+    <color name="bottom_input_txt_android_color">#333333</color>
+    <!-- 聊天界面底部输入框光标颜色和输入框横线背景色 -->
+    <color name="bottom_input_android_color">#1e62ec</color>
+
+    <!-- 公众号底部菜单文字颜色 -->
+    <color name="bottom_txt_color">#333333</color>
+    <!-- 特别关心的用户名称文字颜色 -->
+    <color name="chatlist_care_color">#f43531</color>
+    <!-- 聊天界面底部和内容区域之间的分割先颜色 -->
+    <color name="bottom_input_top_line_color">#dddddd</color>
+
+    <!-- 最近会话列表未读消息气泡背景色 -->
+    <color name="chatlist_unread_bg_color">#f43531</color>
+    <!-- 最近会话列表开启免打扰后的未读消息气泡背景色 -->
+    <color name="chatlist_unread_no_disturbing_bg_color">#cccccc</color>
+
+    <color name="chat_message_title_color">#333333</color>
+    <color name="chat_message_txt_color">#999999</color>
+
+    <!-- 本地box消息字体大小 -->
+    <!-- 本地box链接颜色 -->
+    <color name="chat_message_line_color">#eeeeee</color>
+    <!-- 本地box按钮 -->
+    <color name="chat_message_btn_color">#1e62ec</color>
+    <!-- 本地box按钮字体 -->
+    <color name="chat_message_box_btn_text_color">#1e62ec</color>
+    <!-- 本地box标题字体颜色 -->
+    <color name="chat_message_box_default_title_color">#666666</color>
+    <!-- 本地box日期字体，仅限card内的日期，ui考类是否和通用聊天时间颜色统一 -->
+    <color name="chat_message_box_default_date_color">#999999</color>
+    <!-- 本地box正文字体 -->
+    <color name="chat_message_box_default_text_color">#333333</color>
+
+    <color name="chat_dialog_positive_color">#f43531</color>
+    <color name="chat_refresh_layout_scheme_color">#1e62ec</color>
+    <color name="chat_search_current_org_color">#1e62ec</color>
+
+    <color name="chat_list_item_link_bg_color">#ffffff</color>
+
+    <color name="chat_bg_color">#FF0057FF</color>
+    <color name="chat_video_message_default_color">#999999</color>
+
+    <color name="chat_item_cloud_contact_divider_color">#eeeeee</color>
+    <color name="chat_item_contact_display_text_color">#666666</color>
+    <color name="chat_item_cloud_contact_display_text_color">#666666</color>
+
+    <color name="chat_history_msg_search_item_bg_normal_color">#ffffff</color>
+    <color name="chat_history_msg_search_item_bg_pressed_color">#dddddd</color>
+
+    <color name="chat_button_white_stroke">#cccccc</color>
+    <color name="chat_button_white_bg_normal">#ffffff</color>
+    <color name="chat_button_white_bg_pressed">#dddddd</color>
+
+    <color name="chat_divider_color">#dddddd</color>
+
+    <color name="chat_list_line_long_bg_color">#dddddd</color>
+    <color name="chat_list_line_short_bg_color">#dddddd</color>
+
+    <color name="chat_style_search_title">#333333</color>
+
+    <color name="chat_history_msg_search_title_color">#333333</color>
+    <color name="chat_history_msg_search_subtitle_color">#999999</color>
+
+    <color name="chat_top_menu_item_text_color">#333333</color>
+
+    <color name="chat_friendlist_item_divider_color">#dddddd</color>
+
+    <color name="chat_recommend_group_bg_color">#f5f5f5</color>
+
+    <color name="chat_group_detail_avatar_label_color">#333333</color>
+    <color name="chat_group_detail_label_color">#333333</color>
+
+    <color name="chat_pspinfo_page_bg_color">#f5f5f5</color>
+
+    <color name="chat_activity_edit_count_color">#333333</color>
+
+    <color name="chat_activity_select_members_bg_color">#ffffff</color>
+
+    <color name="chat_person_file_create_name_color">#0090ff</color>
+
+    <color name="chat_pspinfo_recommend_bg_color">#f5f5f5</color>
+    <color name="chat_pspinfo_recommend_text_color">#999999</color>
+
+    <color name="chat_group_member_addtype_color">#ffffff</color>
+
+    <color name="chat_search_result_list_bg">#ffffff</color>
+
+    <color name="chat_psp_info_name_color">#ffffff</color>
+    <color name="chat_psp_info_num_follow_color">#ffffff</color>
+
+    <color name="chat_listitem_system_message_agree">#0090ff</color>
+    <color name="chat_listitem_system_message_refuse">#0090ff</color>
+
+    <color name="chat_history_msg_search_empty_bg">#ffffff</color>
+
+    <color name="chat_font_size_chatcontent_receive2">#333333</color>
+
+    <color name="chat_activity_tip_count">#0090ff</color>
+    <color name="im_chat_ephemerality_time_tip_txt_color">#ed6326</color>
+
+    <!-- 阅后即焚皮肤色值 -->
+
+
+    <color name="im_chat_group_unread_text_color">#999999</color>
+
+    <color name="im_chat_redenvelop_text_color">#ffffff</color>
+
+    <color name="im_chat_sel_group_bottom_divider">#cccccc</color>
+    <color name="im_chat_sel_group_item_divider">#dddddd</color>
+    <color name="im_chat_sel_group_item_unable_text_color">#cccccc</color>
+
+    <color name="im_chat_burn_group_recent_content_unread_color">#f43531</color>
+
+    <color name="im_chat_burn_msg_group_empty_tip_color">#666666</color>
+
+
+    <!-- 自定义 MaterialDialog 背景颜色 -->
+    <color name="im_chat_custom_materialdialog_bg_color">#ffffff</color>
+    <!-- 自定义 MaterialDialog 标题文本颜色 -->
+    <color name="im_chat_custom_materialdialog_title">#333333</color>
+
+    <!-- 入群条件divider -->
+    <color name="im_chat_group_join_divider_dark">#dddddd</color>
+    <color name="im_chat_group_join_divider_light">#eeeeee</color>
+    <!-- 入群条件文字颜色 -->
+    <color name="im_chat_group_join_subtitle">#666666</color>
+    <color name="im_chat_group_join_hint">#cccccc</color>
+    <color name="im_chat_group_join_tips">#999999</color>
+    <!-- 入群密码输入框文字颜色 -->
+    <color name="im_chat_group_join_psd_dlg_txt">#333333</color>
+    <color name="im_chat_group_join_psd_border">#cccccc</color>
+    <color name="im_chat_group_join_psd_splitline">#cccccc</color>
+    <color name="im_chat_group_join_psd_border_force">#0090ff</color>
+    <!-- 入群条件设置下拉框文本颜色 -->
+    <color name="im_chat_group_join_spinner_text_normal">#333333</color>
+
+
+    <color name="im_chat_group_invitation_color">#333333</color>
+    <color name="im_chat_group_invitation_input_hint_color">#cccccc</color>
+    <color name="im_chat_group_invitation_time_color">#999999</color>
+    <color name="im_chat_group_invitation_txt_count">#999999</color>
+    <color name="im_chat_group_invitation_settting_title">#999999</color>
+    <color name="im_chat_group_invitation_main_hint">#333333</color>
+    <color name="im_chat_group_invitation_sub_hint">#999999</color>
+    <color name="im_chat_group_invitation_pickerbar_bg">#eeeeee</color>
+    <color name="im_chat_group_verification_color">#333333</color>
+
+    <color name="im_chat_searchwidget_item_divider">#dddddd</color>
+
+    <!-- 群职位 -->
+    <color name="im_chat_group_role_tips_color">#999999</color>
+    <color name="im_chat_group_role_color_first">#ffb822</color>
+    <color name="im_chat_group_role_color_second">#1e62ec</color>
+    <color name="im_chat_group_role_color_third">#7ed728</color>
+    <color name="im_chat_group_role_color_fourth">#2dd2d0</color>
+    <color name="im_chat_group_role_color_fifth">#c166d8</color>
+    <color name="im_chat_group_role_color_sixth">#ff6f6f</color>
+
+    <!-- 群等级 -->
+    <color name="im_chat_group_level_dialog_tips_color">#666666</color>
+    <color name="im_chat_group_level_dialog_button_text_color">#ffffff</color>
+
+    <!--闪聊-->
+    <color name="im_chat_shanliao_name_color">#ffffff</color>
+    <color name="im_chat_shanliao_time_color">#8fffffff</color>
+
+    <color name="im_chat_shanliao_send_effect_text_bg_color">#62c5ff</color>
+    <color name="im_chat_shanliao_recieve_effect_text_bg_color">#ba90fe</color>
+
+    <color name="im_chat_color_white">#FFFFFF</color>
+    <color name="im_chat_title_font">#4e4e4e</color>
+    <color name="im_chat_gray">#BFBFBF</color>
+
+
+
+    <color name="im_chat_photo_viewpager_bg">@color/background_material_dark</color>
+
+    <color name="im_chat_bg_permission_help_tip">#ffefd9</color>
+    <color name="im_chat_bg_permission_tip_text_color">#ff9518</color>
+    <color name="im_chat_bg_permission_btn_text_color">#ffffff</color>
+    <color name="im_chat_bg_permission_btn_bg_color">#ff9518</color>
+
+    <color name="im_chat_group_tag_text_color">#ff9518</color>
+    <color name="color_im_chat_filter_confirm_bg">#358CFF</color>
+    <color name="color_im_chat_filter_confirm_text">#FFFFFF</color>
+    <color name="im_chat_history_filter_bg">#F6F5FA</color>
+    <color name="im_chat_history_filter_item_bg">#FFFFFF</color>
+
+    <color name="im_chat_select_concat_deliver_text_color">#333333</color>
+
+    
+    <!--普通群边框-->
+    <color name="im_chat_group_tag_border_color_normal">#ffd6b4</color>
+    <!--普通群字体颜色-->
+    <color name="im_chat_group_tag_text_color_normal">#ff7200</color>
+
+    <!--讨论群边框-->
+    <color name="im_chat_group_tag_border_color_discussion">#ffd6b4</color>
+    <!--讨论群字体颜色-->
+    <color name="im_chat_group_tag_text_color_discussion">#ff7200</color>
+
+    <!--讨论群边框-->
+    <color name="im_chat_group_tag_border_color_department">#ffd6b4</color>
+    <!--讨论群字体颜色-->
+    <color name="im_chat_group_tag_text_color_department">#ff7200</color>
+
+    <!--讨论群边框-->
+    <color name="im_chat_group_tag_border_color_recommend">#ffd6b4</color>
+    <!--讨论群字体颜色-->
+    <color name="im_chat_group_tag_text_color_recommend">#ff7200</color>
+
+    <!--讨论群边框-->
+    <color name="im_chat_group_tag_border_color_course">#ffd6b4</color>
+    <!--讨论群字体颜色-->
+    <color name="im_chat_group_tag_text_color_course">#ff7200</color>
+
+    <!--ai群边框-->
+    <color name="im_chat_group_tag_border_color_aiservice">#ffd6b4</color>
+    <!--ai群字体颜色-->
+    <color name="im_chat_group_tag_text_color_aiservicel">#ff7200</color>
+
+    <!--班级群边框-->
+    <color name="im_chat_group_tag_border_color_class">#ffd6b4</color>
+    <!--班级群字体颜色-->
+    <color name="im_chat_group_tag_text_color_class">#ff7200</color>
+
+    <!--家校群边框-->
+    <color name="im_chat_group_tag_border_color_school">#b4e2da</color>
+    <!--家校群字体颜色-->
+    <color name="im_chat_group_tag_text_color_school">#4eb7a4</color>
+
+    <!--家校群边框-->
+    <color name="im_chat_group_tag_border_color_famous_teacher">#b4e0ff</color>
+    <!--家校群字体颜色-->
+    <color name="im_chat_group_tag_text_color_famous_teacher">#0698ff</color>
+
+    <!--教研群边框-->
+    <color name="im_chat_group_tag_border_color_famous_teacher_jy">#82c1c2</color>
+    <!--教研群字体颜色-->
+    <color name="im_chat_group_tag_text_color_famous_teacher_jy">#82c1c2</color>
+
+    <!--专家工作室边框-->
+    <color name="im_chat_group_tag_border_color_studio_expert">#bbd0f9</color>
+    <!--专家工作室字体颜色-->
+    <color name="im_chat_group_tag_text_color_studio_expert">#1e62ec</color>
+
+    <!--毛玻璃颜色-->
+    <color name="im_chat_real_time_blur_color">#55FFFFFF</color>
+    <color name="im_recent_contact_navigation_title_line_color">#00000000</color>
+
+</resources>

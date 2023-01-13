@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="im_group_setting_banned">Mute Settings</string>
+    <string name="im_group_open_all_banned">%1$s turned on the Mute All</string>
+    <string name="im_group_banned_ban_all">Mute All</string>
+    <string name="im_group_banned_setting_tip1">When activated, the member who has mute permission is allowed to post</string>
+    <string name="im_group_close_all_banned">%1$s turned off the Mute All</string>
+    <string name="im_group_banned_btn_unbanned_text">Unmute</string>
+
+    <string name="im_group_banned_uris_by_operator">%1$s was muted by %2$s %3$s</string>
+    <string name="im_group_banned_uris_by_operator_more">%1$s about %3$d persons were muted by %2$s %4$s </string>
+
+    <string name="im_group_banned_forever_uris_by_operator">%1$s mute by %2$s forever</string>
+    <string name="im_group_banned_forever_uris_by_operator_more">%1$s about %3$d persons to be mute by %2$s forever</string>
+
+    <string name="im_group_unbanned_uris_by_operator">%1$s unmuted on %2$s</string>
+    <string name="im_group_unbanned_uris_by_operator_more">%1$s unmuted on %2$s members including %3$d </string>
+
+    <string name="im_group_banned_you">You</string>
+    <string name="im_group_banned_black_list_label_text">Partially muted</string>
+    <string name="im_group_banned_add_banned_users">Add muted member</string>
+    <string name="im_group_banned_setting_tip2">All new muted members cannot post in the group</string>
+
+    <string name="im_group_banneding_retry_after_unbanned">Being muted. Please try again after you are unmuted</string>
+
+    <string name="im_group_you_have_been_banned">You are muted</string>
+
+    <string name="im_group_all_have_been_banned">All are muted...</string>
+
+    <string name="im_group_banned_toast_ban_failed">Failed</string>
+    <string name="im_group_banned_toast_ban_success">Succeeded</string>
+    <string name="im_group_banned_toast_unban_success">Lifted</string>
+    <string name="im_group_banned_toast_unban_failed">Failed</string>
+    <string name="im_group_banned_toast_banned_info_failed">Mute information access failed</string>
+    <string name="im_group_banned_toast_lose_permission">You don\'t have the permission of mute due to your position has changed</string>
+    <string name="im_group_banned_toast_reach_limit_tip">Number of exceeded limits: %1$d</string>
+    <string name="im_group_banned_toast_network_error">Network connection failed</string>
+
+    <string name="im_group_banned_add_ban_group_member">Add muted member</string>
+
+    <string name="im_group_banned_deal">Processing...</string>
+
+    <string name="im_group_banned_ten_minutes">10 minutes</string>
+
+    <string name="im_group_banned_thirty_minutes">30 minutes</string>
+
+    <string name="im_group_banned_one_hour">1 hour</string>
+
+    <string name="im_group_banned_one_day">One Day</string>
+
+    <string name="im_group_banned_seven_days">7 days</string>
+
+    <string name="im_group_banned_thirty_days">30 days</string>
+
+    <string name="im_group_banned_forever">Mute indefinitely</string>
+
+    <string name="im_group_banned_add_speakable_uris_by_operator">%1$s set as talkable by %2$s</string>
+
+    <string name="im_group_banned_add_speakable_uris_by_operator_more">%1$s about %3$d persons to be set as talkable by %2$s</string>
+
+    <string name="im_group_banned_remove_speakable_uris_by_operator">%1$s remove %2$s from the list of speakers</string>
+
+    <string name="im_group_banned_remove_speakable_uris_by_operator_more">%1$s remove %2$s about %3$d persons from the list of speakers</string>
+
+    <string name="im_group_you_have_been_banned_unbanned_after">In mute, lift the mute after about %1$s</string>
+
+    <string name="im_group_banned_set_banned_duration">Set the duration of mute</string>
+
+    <string name="im_group_banned_cancel">Cancel</string>
+
+    <string name="im_group_banned_second">%1$s seconds</string>
+    <string name="im_group_banned_minute">Score:%1$s</string>
+    <string name="im_group_banned_hour">%1$s Hours</string>
+    <string name="im_group_banned_day">%1$s days</string>
+
+    <string name="im_group_banned_unbanned_after">Lift the mute in about %1$s</string>
+
+    <string name="im_group_banned_remove">Remove</string>
+
+    <string name="im_group_banned_add_speakable_member">Add speaker</string>
+    <string name="im_group_banned_add_speakable_member_sucs">Add speaker succeeded</string>
+    <string name="im_group_banned_add_speakable_member_faild">Failed to add speaker</string>
+
+    <string name="im_group_banned_remove_speakable_member_sucs">Successfully removed speakers</string>
+    <string name="im_group_banned_remove_speakable_member_faild">Failed to remove speakers</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--通用颜色规范-->
+    <color name="ele_schedule_common_bg_color_v10">#FFFFFF</color>
+    <color name="ele_schedule_class_text_color">#1e62ec</color>
+    <color name="ele_schedule_bg_light_blue">#e8effd</color>
+    <color name="ele_schedule_neutral_line_color">#EEEEEE</color>
+    <color name="ele_schedule_hint_text_color">#333333</color>
+    <color name="ele_schedule_hint_text_gray">#666666</color>
+    <color name="ele_schedule_hint_bg_gray">#E5E5E5</color>
+    <color name="ele_schedule_hint_text_assist_red">#F43531</color>
+</resources>

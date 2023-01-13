@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="line">
+
+    <stroke
+        android:width="1px"
+        android:dashWidth="@dimen/module_wallet_recharge_line_dash"
+        android:dashGap="@dimen/module_wallet_recharge_line_dash"
+        android:color="@color/module_wallet_sdk_coin_line_color"/>
+</shape>

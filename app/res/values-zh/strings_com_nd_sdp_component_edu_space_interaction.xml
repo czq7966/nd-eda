@@ -1,0 +1,261 @@
+﻿<resources>
+    <string name="el_notice_net_error_tips">网络连接错误，请重试</string>
+    <string name="el_notice_data_error_tips">数据解析错误，请重试</string>
+    <string name="el_notice_load_fail_retry">加载失败，请下拉重试</string>
+    <string name="el_notice_no_data">没有数据</string>
+    <string name="el_notice_loading_wait">正在加载中，请稍候...</string>
+    <string name="el_notice_retry">重试</string>
+
+    <string name="el_notice_no_more_data">没有更多数据啦</string>
+    <string name="el_notice_all">全部</string>
+    <string name="el_notice_hot">热门</string>
+    <string name="el_notice_new">新</string>
+    <string name="el_notice_template">模板</string>
+    <string name="el_notice_send_to">发送至</string>
+    <string name="el_notice_notice_title">通知标题</string>
+
+    <string name="el_notice_notice_title_hit">请输入标题</string>
+    <string name="el_notice_notice_conent_hit">请输入通知内容...</string>
+
+    <string name="el_notice_notice_save_temple">存为模板</string>
+    <string name="el_notice_notice_release">发布</string>
+    <string name="el_notice_space_select">提交</string>
+    <string name="el_notice_time_num">"2\""</string>
+    <string name="el_notice_net_warn_no_network">网络连接不可用</string>
+
+    <string name="el_notice_file_not_exist">对不起，文件数据异常，无法打开~</string>
+    <string name="el_notice_file_down_err">对不起，文件数据异常，无法下载~</string>
+    <string name="el_notice_audio_down_err">对不起，音频数据异常，无法下载~</string>
+    <string name="el_notice_audio_is_downloading">音频正在下载，请稍候。。。</string>
+    <string name="el_notice_play_audio_err">对不起，音频异常无法正常播放~</string>
+    <string name="el_notice_no_duplicate_files">不能上传重复文件~</string>
+    <string name="el_notice_no_more_than_max">最多只能发布个%d多媒体文件</string>
+
+    <string name="el_notice_feedback_method">反馈方式</string>
+    <string name="el_notice_timed_sending">定时发送</string>
+    <string name="el_notice_send_immediately">立即发送</string>
+
+    <string name="el_notice_time_clear">清除</string>
+    <string name="el_notice_title_words_limit_tip">%d/50</string>
+    <string name="el_notice_title_words_limit_8_tip">%d/8</string>
+    <string name="el_notice_title_words_limit_tip_red">&lt;font color="#f43531"&gt;%d&lt;/font&gt;/50</string>
+    <string name="el_notice_conent_words_limit_tip">%d/10000</string>
+
+    <string name="el_notice_title_words_limit_8_tip_red">&lt;font color="#f43531"&gt;%d&lt;/font&gt;/8</string>
+
+
+    <string name="el_notice_conent_words_limit_tip_red">&lt;font color="#f43531"&gt;%d&lt;/font&gt;/10000</string>
+
+    <string name="el_notice_time_err_tip">所选时间必须大于当前时间</string>
+    <string name="el_notice_my_custom_template">我的模板</string>
+    <string name="el_notice_recommend_template">推荐模板</string>
+    <string name="el_notice_template_title">通知模板</string>
+    <string name="el_notice_add_my_template">添加自定义模板</string>
+
+    <string name="el_notice_saved">模板保存成功</string>
+
+    <string name="el_notice_send_successful">发布成功</string>
+
+    <string name="el_notice_management">管理</string>
+
+    <string name="el_notice_complete">完成</string>
+
+    <string name="el_notice_title_format">M月d日</string>
+    <string name="el_notice_title_defaut">%s通知</string>
+    <string name="el_notice_save_temp">存为模板</string>
+
+    <string name="el_notice_del_temp_scuess">删除成功</string>
+
+    <string name="el_notice_tip_uri_to_file_error">URI转换文件路径失败</string>
+
+    <string name="el_notice_del_tip">提示</string>
+    <string name="el_notice_del_tip_conent">刪除后该自定义模板将不可恢复,\n确认删除</string>
+    <string name="el_notice_del_tip_new">删除模板</string>
+    <string name="el_notice_del_btn">删除</string>
+    <string name="el_notice_cancel_btn">取消</string>
+    <string name="el_notice_save_conflict_template">该通知标题已存在,点击确认\n将覆盖原模板，确认覆盖？</string>
+
+
+    <string name="el_notice_keep_content">保留本次编辑的内容?</string>
+    <string name="el_notice_keep">保留</string>
+    <string name="el_notice_continue">继续</string>
+
+    <string name="el_notice_continue_edit_tip">已经保留上次编辑内容，是否继续编辑?</string>
+
+    <string name="el_notice_see_only">普通通知-仅查看</string>
+    <string name="el_notice_need_confirmation">重要通知-需确认</string>
+    <string name="el_notice_need_confirm_hint">需确认回执</string>
+
+    <string name="el_notice_choose_sending_time">选择发送时间</string>
+    <string name="el_notice_tip_send_time">发送时间</string>
+
+    <string name="el_notice_pending">待处理</string>
+    <string name="el_notice_i_posted">我发布的</string>
+    <string name="el_notice_i_received">我收到的</string>
+
+    <string name="el_notice_select_class">选择班级</string>
+    <string name="el_notice_select_person">选择人员</string>
+
+    <string name="el_notice_just_now">刚刚</string>
+    <string name="el_notice_minutes_before">%1$d 分钟前</string>
+
+    <string name="el_notice_today_hm">今天HH:mm</string>
+    <string name="el_notice_yesterday_hm">昨天HH:mm</string>
+    <string name="el_notice_today">今天</string>
+    <string name="el_notice_yesterday">昨天</string>
+
+    <string name="el_notice_sunday">星期日</string>
+    <string name="el_notice_monday">星期一</string>
+    <string name="el_notice_tuesday">星期二</string>
+    <string name="el_notice_wednesday">星期三</string>
+    <string name="el_notice_thursday">星期四</string>
+    <string name="el_notice_friday">星期五</string>
+    <string name="el_notice_saturday">星期六</string>
+
+    <string name="el_notice_common">普通</string>
+    <string name="el_notice_important">重要</string>
+
+    <string name="el_notice_have_read_num">已查看 %s</string>
+
+    <string name="el_notice_confirmed_num">已确认 %s</string>
+
+    <string name="el_notice_type">类型</string>
+
+    <string name="el_notice_back_to_notice_list">返回通知列表</string>
+
+    <string name="el_notice_notice_type_confirm">需回执通知</string>
+
+    <string name="el_notice_notice_type_normal">普通通知</string>
+
+    <string name="el_notice_have_read">已查看</string>
+
+    <string name="el_notice_have_no_read">待查看</string>
+
+    <string name="el_notice_confirmed">已确认</string>
+
+    <string name="el_notice_no_confirmed">未确认</string>
+    <string name="el_notice_unpink">取消置顶</string>
+
+    <string name="el_notice_set_top">置顶</string>
+
+    <string name="el_notice_recall">撤回</string>
+
+    <string name="el_notice_recall_value">&lt;font color="#666666"&gt;刚刚撤回了一条通知, &lt;/font&gt;&lt;font color="#38adff"&gt;重新编辑 &lt;/font&gt;</string>
+    <string name="el_notice_recall_scuess">撤回成功</string>
+    <string name="el_notice_title">通知</string>
+
+    <string name="el_notice_edit_successful">编辑成功</string>
+
+    <string name="el_notice_receive">确认</string>
+    <string name="el_notice_receive_add_one">已确认</string>
+
+    <string name="el_notice_please_select_object">请选择通知对象</string>
+    <string name="el_notice_please_select_class">请选择班级</string>
+
+    <string name="el_notice_send_notice_title">发布通知</string>
+    <string name="el_notice_new_template">新增模板</string>
+    <string name="el_notice_set_top_scuess">置顶成功</string>
+
+    <string name="el_notice_recall_back_dialog">撤回后接收者将无法查看，可以重新编辑再次发布，确认撤回？</string>
+
+
+    <string name="el_notice_notice_save_title_to_long">模板标题不能超过8字符</string>
+
+
+    <string name="el_notice_notice_detail_title">通知详情</string>
+
+    <string name="el_notice_notice_post_empty_tip">还未发布通知</string>
+    <string name="el_notice_notice_post_empty_btn">发布通知</string>
+    <string name="el_notice_notice_recicve_empty_tip">暂未收到通知</string>
+    <string name="el_notice_notice_99_more">99</string>
+
+    <string name="el_notice_search_simple_search_for_notice">搜索通知</string>
+    <string name="el_notice_search_loading_wait">正在加载中，请稍候...</string>
+    <string name="el_notice_search_simple_empty_hint1">对不起，搜索不到相关内容</string>
+    <string name="el_notice_search_simple_empty_hint2">请修改或者输入一个新的关键字。</string>
+    <string name="el_notice_search_load_fail">加载失败，请下拉重试</string>
+    <string name="el_notice_search_recently_search">最近搜索</string>
+    <string name="el_notice_search_simple_clear_all">清空</string>
+    <string name="el_notice_search_listview_no_more_data">没有更多数据啦</string>
+
+    <string name="el_notice_notice_search_empty_tip">没找到相关结果</string>
+    <string name="el_notice_search_edit_hint">搜索</string>
+    <string name="el_notice_search_keyword_history">搜索历史</string>
+
+    <string name="el_notice_to_read">去查看</string>
+
+    <string name="el_notice_to_comfirm">去确认</string>
+
+    <string name="el_notice_to_remind">提醒</string>
+
+    <string name="el_notice_receipt_required">需回执</string>
+
+    <string name="el_notice_filter_type">通知类型</string>
+    <string name="el_notice_filter_incomplete">未完成</string>
+    <string name="el_notice_filter_complete">已完成</string>
+    <string name="el_notice_reset">重置</string>
+    <string name="el_notice_status">通知状态</string>
+    <string name="el_notice_status_common">普通</string>
+    <string name="el_notice_status_receipt_required">需回执</string>
+    <string name="el_notice_publish_date">发布时间</string>
+    <string name="el_notice_select_date_hint">请选择日期</string>
+    <string name="el_notice_confirm">确定</string>
+    <string name="el_notice_class_range">发送范围</string>
+
+    <string name="el_notice_create_new_notice">新建通知</string>
+
+
+    <string name="el_notice_action_copy">复制通知</string>
+
+    <string name="el_notice_action_share">分享</string>
+
+    <string name="el_notice_icon_tip_video">拍摄</string>
+    <string name="el_notice_icon_tip_image">相册</string>
+    <string name="el_notice_icon_tip_audio">语音</string>
+    <string name="el_notice_icon_tip_file">文件</string>
+    <string name="el_notice_publish_success_tip_share">可以立即分享，提醒家长查看通知内容</string>
+
+    <string name="el_notice_action_more">更多</string>
+    <string name="el_notice_action_remind">一键提醒</string>
+    <string name="el_notice_action_edit">编辑</string>
+    <string name="el_notice_remind_success">提醒成功</string>
+    <string name="el_notice_comfirm_success">确认成功</string>
+
+    <string name="el_notice_download_para_error">文件下载参数错误</string>
+    <string name="el_notice_upload_file_oversize">文件大小不得超过10MB</string>
+
+    <string name="el_notice_user_read_count">已查看· %d</string>
+
+    <string name="el_notice_user_un_read_count">未查看· %d</string>
+
+    <string name="el_notice_user_confirm_count">已确认· %d</string>
+
+    <string name="el_notice_user_un_confirm_count">未确认· %d</string>
+
+
+    <string name="el_notice_user_confirm_empty">暂无人员确认</string>
+    <string name="el_notice_user_read_empty">暂无人员查看</string>
+
+    <string name="el_notice_user_confirm_complete">全部人员已确认</string>
+    <string name="el_notice_user_read_complete">全部人员已查看</string>
+
+
+    <string name="el_notice_to_be_release_date">将在 %s 发布</string>
+
+    <string name="el_notice_expand_more">展开更多</string>
+
+    <string name="el_notice_release_tip">点击右下角去发布吧~</string>
+
+    <string name="el_notice_err_tip">哎呀，出错了，刷新试试看~</string>
+
+
+    <string name="el_notice_refresh">刷新</string>
+
+
+    <string name="el_notice_hours_before">%1$d 小时前</string>
+
+    <string name="el_notice_recall_value_new">&lt;font color="#666666"&gt;刚刚撤回了一条通知, &lt;/font&gt;&lt;font color="#1E62EC"&gt;重新编辑 &lt;/font&gt;</string>
+
+    <string name="el_notice_upload_file_number_over">文件个数不得超过%d个</string>
+
+</resources>

@@ -1,0 +1,242 @@
+<resources>
+    <!-- 标题-->
+    <string name="ndvote_title_votelist">投票</string>
+    <string name="ndvote_title_detail">投票</string>
+    <string name="ndvote_title_publish">投票</string>
+    <!-- 文字-->
+    <string name="ndvote_completed">完成</string>
+    <string name="ndvote_confirm">确定</string>
+    <string name="ndvote_cancel">取消</string>
+    <string name="ndvote_clear">清除</string>
+    <string name="ndvote_delete">删除</string>
+    <string name="ndvote_just_now">刚刚</string>
+    <string name="ndvote_minutes_before">分钟前</string>
+    <string name="ndvote_today_hm">今天HH:mm</string>
+    <string name="ndvote_yesterday_hm">昨天HH:mm</string>
+    <string name="ndvote_no_limit">不限</string>
+    <string name="ndvote_surplus">剩余</string>
+    <string name="ndvote_day">天</string>
+    <string name="ndvote_time_closing">截止</string>
+    <string name="ndvote_time_closing_time">截止时间:&#160;</string>
+    <string name="ndvote_loading">加载中,请稍候...</string>
+    <string name="ndvote_vote_voting">进行中</string>
+    <string name="ndvote_vote_end">已结束</string>
+    <string name="ndvote_vote">投票</string>
+    <string name="ndvote_vote_singleSelect">单选</string>
+    <string name="ndvote_vote_multiSelect">多选</string>
+    <string name="navote_vote_multi_select_more">多选，最多%1$d项</string>
+    <string name="ndvote_vote_lunch_in_time_prefix">发起于&#160;&#160;</string> <!-- 投票发起时间的前缀 -->
+    <string name="ndvote_lunch_vote">发起投票</string>
+    <!-- 投票列表-->
+    <string name="ndvote_list_vote_options">投票选项</string>
+    <string name="ndvote_list_vote_result">投票结果</string>
+    <string name="ndvote_list_pull_more">上拉加载</string>
+    <string name="ndvote_list_refresh_no_data">暂时没有新的数据</string>
+    <string name="ndvote_list_loadmore_no_data">没有更多数据了</string>
+    <string name="ndvote_list_vote_number_of_participants">参与人数:&#160;&#160;%1$d</string>
+    <!-- 投票详情-->
+    <string name="ndvote_detail_launch_user_text">%1$s&#160;发起</string>
+    <string name="ndvote_detail_vote_number_of_participants_label">参与人数</string>
+    <string name="ndvote_detail_options">&#160;&#160;投票选项</string>
+    <string name="ndvote_detail_result">&#160;&#160;投票结果</string>
+    <string name="ndvote_detail_vote_total_text">共%1$d票</string>
+    <string name="ndvote_detail_part_num_unit_text">万</string>
+    <string name="ndvote_detail_dialog_delete_vote_content">确定删除这条投票吗？</string>
+    <string name="ndvote_detail_deleting">正在删除...</string>
+    <string name="ndvote_detail_delete_success">删除成功</string>
+    <string name="ndvote_detail_loading">请稍候...</string>
+    <!-- 投票-->
+    <string name="ndvote_do_vote_uncheck_text">请选择投票选项</string>
+    <string name="ndvote_do_vote_dovoting">正在投票...</string>
+    <string name="ndvote_do_vote_success">投票成功</string>
+    <string name="ndvote_do_vote_is_end">投票已过截止时间</string>
+    <string name="ndvote_do_vote_hit_text">投票结果，投票后可见</string>
+    <string name="ndvote_do_voted_already">您已投票</string>
+    <!-- 发布投票-->
+    <string name="ndvote_publish_endTime_less_than_now">结束时间不能早于当前时间</string>
+    <string name="ndvote_publish_edit_limit">最多只能输入%1$d个字</string>
+    <string name="ndvote_publish_title_hit">投票标题</string>
+    <string name="ndvote_publish_explain_hit">请输入说明</string>
+    <string name="ndvote_publish_add_expain_btn_text">+ 添加说明</string>
+    <string name="ndvote_publish_del_expain_btn_text">- 删除说明</string>
+    <string name="ndvote_publish_advanceSetting_title">高级设置</string>
+    <string name="ndvote_publish_advanceSetting_voteType_title">投票类型</string>
+    <string name="ndvote_publish_advanceSetting_voteType_singleSelect">单选</string>
+    <string name="ndvote_publish_advanceSetting_voteType_multiSelect">多选</string>
+    <string name="ndvote_publish_advanceSetting_endTime_title">结束时间</string>
+    <string name="ndvote_publish_advanceSetting_endTime_default">不限</string>
+    <string name="ndvote_publish_options_voteType_title">投票类型</string>
+    <string name="ndvote_publish_options_voteType_text">文字</string>
+    <string name="ndvote_publish_options_voteType_pic">图片</string>
+    <string name="ndvote_publish_options_addOption">+ 添加选项</string>
+    <string name="ndvote_publish_options_ItemEditTextHint">%1$d、请输入选项内容</string>
+    <!-- 0.18.3-->
+    <string name="ndvote_publish_advanceSetting_range_tip">投票范围</string>
+    <string name="ndvote_publish_advanceSetting_range_all">不限</string>
+    <string name="ndvote_publish_advanceSetting_range_limit">指定人员/群组</string>
+    <string name="ndvote_publish_advanceSetting_range_org">指定组织</string>
+    <string name="ndvote_publish_advanceSetting_range_role">指定角色</string>
+    <string name="ndvote_publish_advanceSetting_range_limit_hint">请选择</string>
+    <string name="ndvote_publish_advanceSetting_range_limit_please">请选择投票范围哟~</string>
+    <string name="ndvote_publish_advanceSetting_notify_tip">投票提醒</string>
+    <string name="ndvote_publish_range_limit_select_title">选择投票范围</string>
+    <string name="ndvote_publish_range_null">请联系管理员开通投票范围权限</string>
+
+    <string name="ndvote_publish_range_limit_people_only">%1$d人</string>
+    <string name="ndvote_publish_range_limit_group_only">%1$d个群</string>
+    <string name="ndvote_publish_range_limit_all">%1$d人,%2$d个群</string>
+    <string name="ndvote_publish_range_org_content">%1$d个组织</string>
+    <string name="ndvote_publish_range_role_content">%1$d个角色</string>
+
+    <!-- 发布投票提示语-->
+    <string name="ndvote_publish_tip_title_null">请输入标题</string>
+    <string name="ndvote_publish_tip_item_null">请输入选项内容</string>
+    <string name="ndvote_publish_tip_pic_null">请上传图片</string>
+    <string name="ndvote_publish_tip_text_repeat">投票项文字不能重复</string>
+    <string name="ndvote_publish_tip_cretating">正在发布...</string>
+    <string name="ndvote_publish_tip_cretate_success">投票创建成功</string>
+    <string name="ndvote_publish_tip_cretate_fail">投票创建失败</string>
+
+    <string name="waf_status_cancel_by_interceptor">请求拦截器终止请求</string>
+    <string name="waf_status_network_connection_failed">网络连接失败</string>
+    <string name="waf_status_network_connection_timeout">网络连接超时</string>
+    <string name="waf_status_unknown_error">网络连接未知错误</string>
+
+    <string name="ndvote_im_group_stick_biz_name">群投票</string>
+    <string name="ndvote_im_group_stick_view_tip">%1$s发起了投票%2$s\n快来投票吧</string>
+    <string name="ndvote_im_list_no_vote">暂无数据</string>
+    <string name="ndvote_get_vote_detail_no_data">查询不到投票信息，请重试.</string>
+    <string name="ndvote_get_vote_detail_delete">投票内容已被删除</string>
+    <string name="ndvote_dialog_abandon">放弃</string>
+    <string name="ndvote_dialog_publish_abandon_message">放弃当前填写的投票信息吗？</string>
+
+    <string name="ndvote_publish_limit_forever">您无发起投票的权限</string>
+    <string name="ndvote_publish_limit_1">已被限制发起投票</string>
+
+    <string name="ndvote_common_refresh">请求失败，请点击刷新</string>
+    <string name="ndvote_common_refresh_1">请求失败，请重试</string>
+
+    <string name="ndvote_im_group_stick_who_vote">%1$s发了一个投票</string>
+
+    <string name="ndvote_common_error_system">系统错误，请重试</string>
+    <string name="ndvote_error_no_network">网络链接失败</string>
+
+    <!-- 群统计 -->
+    <string name="ndvote_group_statistics_title">群统计</string>
+    <string name="ndvote_group_vote_start_time">发起于 %1$s</string>
+    <string name="ndvote_group_vote_finish_time">结束于 %1$s</string>
+    <string name="ndvote_group_vote_status_start">进行中</string>
+    <string name="ndvote_group_vote_status_finish">已结束</string>
+    <string name="ndvote_group_vote_status_invalid">已失效</string>
+    <string name="ndvote_group_anonymous">匿名统计</string>
+    <string name="ndvote_group_join_number">已参与人数：</string>
+    <string name="ndvote_group_signup_number">已报名人数：</string>
+    <string name="ndvote_group_join_number_flow_interact_1">已有&#160;</string>
+    <string name="ndvote_group_join_number_flow_interact_2">&#160;人参与</string>
+    <string name="ndvote_group_remaining_time_1">剩余</string>
+    <string name="ndvote_group_remaining_time_day">天</string>
+    <string name="ndvote_group_remaining_time_hour">小时</string>
+    <string name="ndvote_group_remaining_time_minute">分钟</string>
+    <string name="ndvote_group_button_label">报名</string>
+    <string name="ndvote_group_button_label_vote">提交</string>
+    <string name="ndvote_group_button_revote_label">再发起</string>
+    <string name="ndvote_group_type_label">【%1$s】</string>
+    <string name="ndvote_group_type_sign_up">报名</string>
+    <string name="ndvote_group_type_pk">PK</string>
+    <string name="ndvote_group_type_vote">投票</string>
+    <string name="ndvote_group_detail_title">查看详情</string>
+    <string name="ndvote_group_anonymous_enable">匿名统计，无参与者详情</string>
+    <string name="ndvvote_group_item_member_empty">没有参与者</string>
+    <string name="ndvote_group_join_status_joined">已参加</string>
+    <string name="ndvote_group_item_percent_label">%1$d票(%2$s%%)</string>
+    <string name="ndvote_group_item_ticket_label">%1$d票</string>
+    <string name="ndvote_group_item_percent_label_1">%1$s%%</string>
+
+    <string name="ndvote_group_item_selected">已参与</string>
+    <string name="ndvote_group_detail_join_number">%1$d人参与</string>
+    <string name="ndvote_group_flowinteract_more_expand">查看更多</string>
+    <string name="ndvote_group_flowinteract_more_collapse">收起更多</string>
+    <string name="ndvote_group_flowinteract_progressbar_signup">已报名</string>
+    <string name="ndvote_group_flowinteract_vote_select_limit">最多可选%1$d项</string>
+    <string name="ndvote_group_flowinteract_count">等%1$d个互动</string>
+    <string name="ndvote_group_finish_button">结束统计</string>
+
+    <string name="ndvote_group_dialog_join_title_signup">确定报名</string>
+    <string name="ndvote_group_dialog_join_title_pk">确定支持</string>
+    <string name="ndvote_group_dialog_join_title_vote">确定选择</string>
+    <string name="ndvote_group_dialog_finish_title_signup">结束报名</string>
+    <string name="ndvote_group_dialog_join_message_separator">、</string>
+
+    <string name="ndvote_group_dialog_publish_signup">发起报名</string>
+    <string name="ndvote_group_dialog_publish_pk">发起PK</string>
+    <string name="ndvote_group_dialog_publish_vote">发起投票</string>
+    <string name="ndvote_group_dialog_publish_confirm">确定发起</string>
+    <string name="ndvote_group_dialog_publish_confirm_mark">%1$s？</string>
+
+    <string name="ndvote_group_dialog_finish_message_signup_t">结束报名</string>
+    <string name="ndvote_group_dialog_finish_message_pk_t">结束PK</string>
+    <string name="ndvote_group_dialog_finish_message_vote_t">结束投票</string>
+    <string name="ndvote_group_dialog_finish_message_signup">确定提前结束报名？</string>
+    <string name="ndvote_group_dialog_finish_message_pk">确定提前结束PK？</string>
+    <string name="ndvote_group_dialog_finish_message_vote">确定提前结束投票？</string>
+
+    <string name="ndvote_group_dialog_finish_signup_not_effective">未达生效人数，报名无效</string>
+    <string name="ndvote_group_dialog_finish_label_button_close">关闭</string>
+    <string name="ndvote_group_dialog_finish_label_button_detail">查看详情</string>
+    <string name="ndvote_group_dialog_finish_pk_equals">平局</string>
+
+    <string name="ndvote_group_header_publish">发起统计</string>
+    <string name="ndvote_group_header_history">查看历史</string>
+    <string name="ndvote_group_join_item_id_empty">请选择选项</string>
+    <string name="ndvote_group_publish_title_end_time">结束时间</string>
+    <string name="ndvote_group_publish_unlimit_time">选择时间</string>
+    <string name="ndvote_group_publish_title_creator_join">我要参加</string>
+    <string name="ndvote_group_publish_title_anonymous_statistics">匿名统计</string>
+    <string name="ndvote_group_publish_hint_title">请输入标题</string>
+    <string name="ndvote_group_publish_sign_up_btn_title">按钮文本</string>
+    <string name="ndvote_group_publish_sign_up_btn_hint">报名</string>
+    <string name="ndvote_group_publish_limit_count">封顶人数</string>
+    <string name="ndvote_group_publish_limit_count_explain">达到封顶人数时，报名结束；本群共%1$d人</string>
+    <string name="ndvote_group_publish_limit_count_over_group">封顶人数不能大于群内人数（%1$d人）</string>
+    <string name="ndvote_group_publish_effective_count">生效人数</string>
+    <string name="ndvote_group_publish_effective_count_explain">达到生效人数后，报名有效</string>
+    <string name="ndvote_group_publish_effective_count_over_limit">生效人数不能超过封顶人数</string>
+    <string name="ndvote_group_publish_effective_count_over_group">生效人数不能超过群内人数（%1$d人）</string>
+    <string name="ndvote_group_publish_person">人</string>
+    <string name="ndvote_group_publish_no_limit_person">不限人数</string>
+    <string name="ndvote_group_publish_text_num">%1$d/%2$d</string>
+    <string name="ndvote_group_publish_group_person_fail">获取群成员人数失败</string>
+    <string name="ndvote_group_publish_count_not_zero">人数不能为0</string>
+    <string name="ndvote_group_publish_create_signup">报名</string>
+    <string name="ndvote_group_publish_create_signup_explain">1个选项</string>
+    <string name="ndvote_group_publish_create_pk">PK</string>
+    <string name="ndvote_group_publish_create_pk_explain">2个选项</string>
+    <string name="ndvote_group_publish_create_vote">投票</string>
+    <string name="ndvote_group_publish_create_vote_explain">3-5个选项</string>
+    <string name="ndvote_group_publish_item_hint">选项%1$d</string>
+    <string name="ndvote_group_publish_add_item">添加选项，还可以添加%1$d个</string>
+    <string name="ndvote_group_publish_vote_item_type">投票选项</string>
+    <string name="ndvote_group_publish_vote_type">投票类型</string>
+    <string name="ndvote_group_publish_no_authority">仅群主或群管理员有发起权限</string>
+    <string name="ndvote_group_publish_vote_count_too">最大投票选项太多</string>
+    <string name="ndvote_group_publish_empty_image">请添加图片</string>
+    <string name="ndvote_group_publish_empty_text">请输入选项</string>
+    <string name="ndvote_group_publish_end_time_over">结束时间不能早于当前时间</string>
+    <string name="ndvote_group_msg_you">你</string>
+    <string name="ndvote_group_msg_publish_signup">%1$s发起了报名</string>
+    <string name="ndvote_group_msg_publish_pk">%1$s发起了PK</string>
+    <string name="ndvote_group_msg_publish_vote">%1$s发起了投票</string>
+    <string name="ndvote_group_interactive_already_signup_num">已报名人数</string>
+    <string name="ndvote_group_interactive_signup_limit">%1$d人封顶</string>
+    <string name="ndvote_group_interactive_signup_effect">%1$d人生效</string>
+    <string name="ndvote_group_interactive_already_signup">已报名</string>
+    <string name="ndvote_group_interactive_bar_pk_title">%1$s%%，%2$s</string>
+
+    <string name="ndvote_group_supplier_title">【%1$s】</string>
+    <string name="ndvote_group_supplier_finish_format_0">%1$s结束</string>
+    <string name="ndvote_group_supplier_finish_format_1">%1$s%2$s结束，有%3$d位小伙伴参与</string>
+    <string name="ndvote_group_supplier_finish_format_2">%1$s%2$s无效，未达到生效人数</string>
+    <string name="ndvote_group_supplier_finish_format_3">%1$s%2$s结束，平局</string>
+    <string name="ndvote_group_supplier_finish_format_4">%1$s%2$s结束，%3$s得票率最高</string>
+
+</resources>

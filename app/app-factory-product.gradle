@@ -1,0 +1,18 @@
+android {
+productFlavors {
+nd{}
+xiaomi{}
+vivo{}
+oppo{}
+huawei{}
+tencent{}
+}
+productFlavors.all {
+flavor -> flavor.manifestPlaceholders = [CHANNEL_NAME: name]
+}
+}
+android {
+    defaultConfig {
+        resConfigs "en", "zh"
+    }
+}

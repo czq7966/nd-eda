@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 网络操作 -->
+    <string name="cscollection_loading">加载中</string>
+    <string name="cscollection_loading_success">加载成功</string>
+    <string name="cscollection_loading_failed">加载失败</string>
+    <string name="cscollection_dealing">处理中</string>
+    <string name="cscollection_dealing_success">处理成功</string>
+    <string name="cscollection_dealing_failed">处理失败</string>
+    <string name="cscollection_load_more">加载更多…</string>
+    <string name="cscollection_download_success">下载成功</string>
+    <string name="cscollection_download_failed">下载失败</string>
+    <string name="cscollection_upload_success">上传成功</string>
+    <string name="cscollection_upload_failed">上传失败</string>
+
+    <!-- 处理动作 -->
+    <string name="cscollection_confirm">确定</string>
+    <string name="cscollection_cancel">取消</string>
+    <string name="cscollection_rename">重命名</string>
+    <string name="cscollection_move">移动</string>
+    <string name="cscollection_top">置顶</string>
+    <string name="cscollection_untop">取消置顶</string>
+    <string name="cscollection_delete">删除</string>
+    <string name="cscollection_forward">转发</string>
+    <string name="cscollection_forward_netdisk">保存至云盘</string>
+    <string name="cscollection_select_all">全选</string>
+
+    <!-- 功能 -->
+    <string name="cscollection_function_new_folder">新建文件夹</string>
+    <string name="cscollection_function_multi_select">多选</string>
+    <string name="cscollection_function_sort">排序</string>
+
+    <!-- 菜单 -->
+    <string name="cscollection_menu_search">搜索</string>
+    <string name="cscollection_menu_more">更多</string>
+    <string name="cscollection_menu_cancel">取消</string>
+    <string name="cscollection_menu_upload_image">上传图片</string>
+    <string name="cscollection_menu_upload_file">上传文件</string>
+    <string name="cscollection_menu_upload_list">上传进度</string>
+    <string name="cscollection_menu_display_icon">图标显示</string>
+    <string name="cscollection_menu_display_list">列表显示</string>
+
+    <!-- 标题 -->
+    <string name="cscollection_title_selected">已选%d个</string>
+    <string name="cscollection_title_select_target_folder">选择目标文件夹</string>
+    <string name="cscollection_title_search">搜索</string>
+    <string name="cscollection_title_new_folder">新建文件夹</string>
+    <string name="cscollection_title_rename_file_folder">重命名文件（夹）</string>
+    <string name="cscollection_title_select_dir">选择目录</string>
+    <string name="cscollection_title_upload_image">选择图片</string>
+    <string name="cscollection_title_upload_file">选择文件</string>
+    <string name="cscollection_title_upload_list">上传进度</string>
+    <string name="cscollection_title_search_by_type">%1$s中所有的“%2$s”</string>
+
+    <!-- 标签 -->
+    <string name="cscollection_label_time_order">时间顺序</string>
+    <string name="cscollection_label_time_reverse_order">时间逆序</string>
+    <string name="cscollection_label_name_order">名称顺序</string>
+    <string name="cscollection_label_name_reverse_order">名称逆序</string>
+    <string name="cscollection_label_file_type_doc">文档</string>
+    <string name="cscollection_label_file_type_image">图片</string>
+    <string name="cscollection_label_file_type_video">视频</string>
+    <string name="cscollection_label_file_type_audio">音频</string>
+    <string name="cscollection_label_file_type_others">其他</string>
+    <string name="cscollection_label_move_here">移动到当前文件夹</string>
+    <string name="cscollection_label_uploader">上传者：%s</string>
+    <string name="cscollection_label_delete">删除所选文件（夹）</string>
+    <string name="cscollection_label_select_dir">选定 %s</string>
+    <string name="cscollection_label_upload_dir">上传到：%s</string>
+    <string name="cscollection_label_upload">上传</string>
+    <string name="cscollection_label_upload_with_count">上传（%d）</string>
+    <string name="cscollection_label_path">/%s</string>
+
+    <!-- 提示 -->
+    <string name="cscollection_tips_no_list_data">暂无文件</string>
+    <string name="cscollection_tips_no_folder_data">暂无文件夹</string>
+    <string name="cscollection_tips_no_search_data">没有找到“%s”相关内容</string>
+    <string name="cscollection_tips_file_not_exist">文件不存在</string>
+    <string name="cscollection_tips_file_not_exist_and_redownload">文件不存在, 开始重新下载</string>
+    <string name="cscollection_tips_not_support_file_type">无法打开此类型文件</string>
+    <string name="cscollection_tips_name_can_not_be_empty">名称不能为空</string>
+    <string name="cscollection_tips_network_unavailable">网络连接不可用，请检查网络</string>
+    <string name="cscollection_tips_max_operation">最多只能操作10个</string>
+    <string name="cscollection_tips_no_permission">无操作权限，请到应用程序管理界面打开相关权限</string>
+    <string name="cscollection_tips_move_failed">移动失败</string>
+    <string name="cscollection_tips_move_failed_partially">部分移动失败</string>
+    <string name="cscollection_tips_delete_failed">删除失败</string>
+    <string name="cscollection_tips_delete_failed_partially">部分删除失败</string>
+
+    <string name="cscollection_hint_input_folder_name">输入文件夹名称</string>
+    <string name="cscollection_hint_input_file_folder_name">输入文件（夹）名称</string>
+
+    <string name="cscollection_foward_message_lack_of_md5">此文件没有MD5码，无法转发</string>
+    <string name="cscollection_save_to_netdisk_lack_of_md5">此文件没有MD5码，无法保存到云盘</string>
+
+    <string name="cscollection_select_all_with_unper_file">存在无权限操作的文件（夹），全选时已过滤</string>
+
+    <!--服务端错误码-->
+    <string name="FILE_NAME_CONFLICT">文件名冲突</string>
+    <string name="DISK_FILE_NOT_EXIST">文件（夹）不存在</string>
+    <string name="FILE_FILE_NOT_FOUND">文件（夹）不存在</string>
+
+    <string name="FILE_BAD_REQUEST">操作异常，稍后重试</string>
+    <string name="FILE_INVALID_ARGUMENT">操作异常，稍后重试</string>
+    <string name="FILE_REQUIRE_ARGUMENT">操作异常，稍后重试</string>
+    <string name="FILE_UNAUTHORIZED">未授权</string>
+    <string name="FILE_AUTH_DENIED">授权受限</string>
+
+    <string name="DISK_INTERNAL_SERVER_ERROR">服务端异常，稍后重试</string>
+    <string name="DISK_INVALID_ARGUMENT">操作异常，稍后重试</string>
+    <string name="DISK_REQUIRE_ARGUMENT">操作异常，稍后重试</string>
+    <string name="DISK_CS_TOKEN_CREATE_FAILURE">服务端异常，稍后重试</string>
+    <string name="DISK_CS_SESSION_CREATE_FAILURE">服务端异常，稍后重试</string>
+
+
+</resources>

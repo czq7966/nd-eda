@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 互相关注皮肤 -->
+    <style name="im_chat_IMModuleTheme.Friend" parent="im_chat_IMModuleTheme">
+<!--        <item name="im_chat_toolbar_bg">@drawable/chat_general_navigation_title_bg</item>-->
+<!--        <item name="im_chat_toolbar_title_appearance">@style/CommonBase.Style.Toolbar.TitleText.Friend</item>-->
+<!--        <item name="im_chat_toolbar_subtitle_appearance">@style/CommonBase.Style.Toolbar.SubTitleText.Friend</item>-->
+<!--        &lt;!&ndash;<item name="navigationIcon">@drawable/general_top_icon_back_android_birthday</item>&ndash;&gt;-->
+<!--        <item name="im_chat_title_style">@style/CommonBase.Style.Toolbar.Friend</item>-->
+<!--        <item name="im_chat_menu_detail">@drawable/chat_icon_chat_menu_detail_friend</item>-->
+<!--        <item name="im_chat_list_bg">@drawable/chat_list_bg_friend</item>-->
+<!--        <item name="im_chat_top_tip_color">@color/im_chat_toptip_color_friend</item>-->
+<!--        <item name="im_chat_top_tip_bg_color">@color/im_chat_toptip_bg_color_friend</item>-->
+<!--        <item name="im_chat_top_title_style">@style/CommonBase.Style.Toolbar.TitleText.Friend</item>-->
+<!--        <item name="im_chat_top_subtitle_style">@style/CommonBase.Style.Toolbar.SubTitleText.Friend</item>-->
+<!--        <item name="im_chat_bottom_view_bg">@drawable/chat_bottom_input_ornament_top_friend</item>-->
+<!--        <item name="im_chat_mic_icon">@drawable/chat_input_bottom_mic_friend</item>-->
+<!--        <item name="im_chat_keyboard_icon">@drawable/chat_input_bottom_keyboard_friend</item>-->
+<!--        <item name="im_chat_bottom_smiley_icon">@drawable/chat_input_bottom_face_friend</item>-->
+<!--        <item name="im_chat_bottom_more_icon">@drawable/chat_input_bottom_more_friend</item>-->
+<!--        <item name="im_chat_bottom_send_icon">@drawable/chat_input_bottom_send_friend</item>-->
+<!--        <item name="im_chat_bottom_menu_icon">@drawable/chat_input_bottom_menu_friend</item>-->
+<!--        <item name="im_chat_bottom_edit_style">@style/im_chat_chat_bottom_edittext_friend</item>-->
+<!--        <item name="im_chat_bottom_switch_keyboard_icon">@drawable/chat_input_bottom_switchkeyboard_friend</item>-->
+<!--        <item name="im_chat_bottom_chat_btn_record_normal_bg">@drawable/chat_btn_record_normal_friend</item>-->
+<!--        <item name="im_chat_bottom_chat_btn_record_press_bg">@drawable/chat_btn_record_pressed_friend</item>-->
+<!--        <item name="im_chat_bottom_chat_btn_record_text_color">@color/bottom_record_txt_android_color_friend</item>-->
+<!--        <item name="im_chat_item_send_bg_selector">@drawable/chat_dialog_bg_me_selector_friend</item>-->
+<!--        <item name="im_chat_item_receive_bg_selector">@drawable/chat_dialog_bg_other_selector_friend</item>-->
+<!--        <item name="im_chat_item_send_text_color">@color/im_chat_me_txt_color_friend</item>-->
+<!--        <item name="im_chat_item_receive_text_color">@color/im_chat_other_txt_color_friend</item>-->
+<!--        <item name="im_chat_burn_mode_me_txt_color">@color/im_chat_me_txt_color_friend</item>-->
+<!--        <item name="im_chat_burn_mode_other_txt_color">@color/im_chat_other_txt_color_friend</item>-->
+<!--        <item name="im_chat_message_send_failed_icon">@drawable/chat_msg_state_failed_resend</item> -&#45;&#45;&#45;&#45;&#45;&#45;-->
+<!--        <item name="im_chat_voice_send_play_animation">@drawable/chat_audio_record_sender_play_friend</item>-->
+<!--        <item name="im_chat_voice_icon_send_three">@drawable/chat_chatinterface_icon_sound_right_three_friend</item>-->
+<!--        <item name="im_chat_voice_receive_play_animation">@drawable/chat_audio_record_receive_play_friend</item>-->
+<!--        <item name="im_chat_voice_icon_receive_three">@drawable/chat_chatinterface_icon_sound_lift_three_friend</item>-->
+<!--        <item name="im_chat_send_link_color">@color/im_chat_me_link_color_friend</item>-->
+<!--        <item name="im_chat_receive_link_color">@color/im_chat_other_link_color_friend</item>-->
+<!--        <item name="im_chat_shake_send_icon">@drawable/chat_icon_shake_me_friend</item>-->
+<!--        <item name="im_chat_shake_receive_icon">@drawable/chat_icon_shake_other_friend</item>-->
+<!--        <item name="im_chat_shape_send_bg">@drawable/chat_dialog_shape_bg_me_normal_friend</item>-->
+<!--        <item name="im_chat_shape_receive_bg">@drawable/chat_dialog_shape_bg_other_normal_friend</item>-->
+<!--        <item name="im_chat_item_send_pic_selector">@drawable/chat_dialog_bg_me_pic_selector_friend</item>-->
+<!--        <item name="im_chat_item_receive_pic_selector">@drawable/chat_dialog_bg_other_pic_selector_friend</item>-->
+<!--        <item name="im_chat_item_file_send_progress">@drawable/chat_file_progress_send_friend</item>-->
+<!--        <item name="im_chat_item_file_receive_progress">@drawable/chat_file_progress_receive_friend</item>-->
+<!--        <item name="im_chat_send_file_size_text_color">@color/im_chat_me_size_color_friend</item>-->
+<!--        <item name="im_chat_receive_file_size_text_color">@color/im_chat_other_size_color_friend</item>-->
+<!--        <item name="im_chat_tip_bg_color">@drawable/chat_bg_chat_item_tip_friend</item>-->
+<!--        <item name="im_chat_tip_text_color">@color/im_chat_tiptxt_color_friend</item>-->
+<!--        <item name="im_chat_time_text_color">@color/im_chat_time_color_friend</item>-->
+<!--        <item name="im_chat_bottom_line_color">@color/im_bottom_input_top_line_color_friend</item>-->
+<!--        <item name="im_chat_top_icon_phone">@drawable/general_top_icon_phone_friend</item>-->
+<!--        <item name="im_chat_toolbar_theme">@style/im_chat_IMModuleTheme.Toolbar.Friend</item>-->
+<!--        <item name="im_chat_toolbar_line_color">@color/im_bottom_input_top_line_color_friend</item>-->
+<!--        <item name="im_chat_more_text_color">@color/im_chat_more_color_friend</item>-->
+    </style>
+
+    <style name="CommonBase.Style.Toolbar.Friend" parent="CommonBase.Style.Toolbar">
+        <item name="android:background">@drawable/general_navigation_title_bg_friend</item>
+        <!-- 标题左侧按钮（返回按钮） -->
+        <item name="collapseIcon">@drawable/general_top_icon_back_android_friend</item>
+        <item name="navigationIcon">@drawable/general_top_icon_back_android_friend</item>
+        <item name="subtitleTextAppearance">@style/CommonBase.Style.Toolbar.SubTitleText.Friend</item>
+        <!-- 主标题文字样式 -->
+        <item name="titleTextAppearance">@style/CommonBase.Style.Toolbar.TitleText.Friend</item>
+    </style>
+
+    <style name="CommonBase.Style.Toolbar.SubTitleText.Friend" parent="CommonBase.Style.Toolbar.SubTitleText">
+        <!-- 副标题颜色 -->
+        <item name="android:textColor">@color/navigation_online_color_friend</item>
+    </style>
+    <style name="CommonBase.Style.Toolbar.TitleText.Friend" parent="CommonBase.Style.Toolbar.TitleText">
+        <!-- 主标题文字颜色-->
+        <item name="android:textColor">@color/navigation_title_main_color_friend</item>
+    </style>
+
+    <style name="im_chat_chat_bottom_edittext_friend" >
+        <item name="android:textColor">@color/im_bottom_input_txt_android_color_friend</item>
+        <item name="android:textCursorDrawable">@drawable/chat_bottom_input_cursor_drawable_birthday</item>
+        <item name="android:background">@drawable/chat_bottom_input_bg</item>
+    </style>
+
+    <style name="im_chat_IMModuleTheme.Toolbar.Friend" parent="@style/Base.CommonBase.Theme.ActionBar">
+        <!-- 返回按钮图标 -->
+        <item name="navigationIcon">@drawable/chat_top_icon_back_android</item>
+        <!-- 返回按钮图标 -->
+        <item name="android:homeAsUpIndicator">@drawable/chat_top_icon_back_android</item>
+    </style>
+
+
+
+</resources>

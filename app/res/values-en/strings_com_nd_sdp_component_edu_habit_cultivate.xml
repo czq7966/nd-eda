@@ -1,0 +1,236 @@
+<resources>
+    <string name="x_habit_share">分享</string>
+    <string name="x_habit_more">更多</string>
+    <string name="x_habit_remind">一键提醒</string>
+    <string name="x_habit_go_habit">去打卡</string>
+    <string name="x_habit_publish_person">%1$s发布</string>
+    <string name="x_habit_publish_me">我发布</string>
+    <string name="x_habit_habit_period">打卡周期：%1$s 共%2$d天</string>
+    <string name="x_habit_habit_count">打卡频次：%1$s</string>
+    <string name="x_habit_complete_people_count">完成人数</string>
+    <string name="x_habit_complete_rate">完成率</string>
+    <string name="x_habit_not_start">未开始</string>
+    <string name="x_habit_today">今天</string>
+    <string name="x_habit_i_posted">我发布的</string>
+    <string name="x_habit_i_joined">我参与的</string>
+    <string name="x_habit_all">全部</string>
+    <string name="x_habit_circle_public">公开</string>
+    <string name="x_habit_circle_area">区域</string>
+    <string name="x_habit_circle_school">本校</string>
+    <string name="x_habit_title">打卡</string>
+    <string name="x_habit_tag_join">我参与的</string>
+    <string name="x_habit_go_habit_continue">继续打卡</string>
+    <string name="x_habit_to_join">去参与</string>
+
+    <string name="x_habit_detail">打卡详情</string>
+    <string name="x_habit_has_habit_count">已打卡·%1$d</string>
+    <string name="x_habit_no_habit_count">未打卡·%1$d</string>
+    <string name="x_habit_all_habit">全部打卡</string>
+    <string name="x_habit_my_habit">我的打卡</string>
+    <string name="x_habit_no_habit">暂无打卡</string>
+    <string name="x_habit_all_complete">全部人员已完成打卡</string>
+    <string name="x_habit_no_need_punch">今日无需打卡</string>
+    <string name="x_habit_net_error">哎呀，网络丢了，刷新试试看</string>
+    <string name="x_habit_habit_no_found">当前活动不存在</string>
+    <string name="x_habit_check_network">检查网络</string>
+    <string name="x_habit_sunday">周日</string>
+    <string name="x_habit_monday">周一</string>
+    <string name="x_habit_tuesday">周二</string>
+    <string name="x_habit_wednesday">周三</string>
+    <string name="x_habit_thursday">周四</string>
+    <string name="x_habit_friday">周五</string>
+    <string name="x_habit_saturday">周六</string>
+    <string name="x_habit_everyday">每天</string>
+    <string name="x_habit_going_day">已进行 %1$d/%2$d 天</string>
+    <string name="x_habit_no_start_title">%1$d天打卡未开始</string>
+    <string name="x_habit_finish_title">%1$d天打卡已结束</string>
+    <string name="x_habit_no_start">打卡未开始</string>
+    <string name="x_habit_participate">立即参与</string>
+    <string name="x_habit_has_finished">打卡已结束</string>
+    <string name="x_habit_continue_habit">继续打卡</string>
+    <string name="x_habit_rest">今日休息</string>
+    <string name="x_habit_weekend">周末</string>
+    <string name="x_habit_day">天</string>
+    <string name="x_habit_has_hold">我已坚持</string>
+    <string name="x_habit_hold_total">我共坚持</string>
+    <string name="x_habit_result">打卡成果%1$d条</string>
+    <string name="x_habit_continue">最高连续%1$d天</string>
+    <string name="x_habit_input_title">请输入打卡标题</string>
+    <string name="x_habit_introduce">请输入打卡活动说明...</string>
+    <string name="x_habit_send_to">发送至</string>
+    <string name="x_habit_period">打卡周期</string>
+    <string name="x_habit_frequency">打卡频次</string>
+    <string name="x_habit_more_set">更多设置</string>
+    <string name="x_habit_remind_habit">提醒打卡</string>
+    <string name="x_habit_self_join">我要参与打卡</string>
+    <string name="x_habit_start_time">开始时间</string>
+    <string name="x_habit_end_time">结束时间</string>
+    <string name="x_habit_publish">发布</string>
+    <string name="x_habit_publish_activity">发布打卡活动</string>
+
+    <string name="x_habit_notice_search_empty_tip">没找到相关结果</string>
+    <string name="x_habit_search_edit_hint">搜索</string>
+    <string name="x_habit_search_keyword_history">搜索历史</string>
+
+    <string name="x_habit_cancel_btn">取消</string>
+    <string name="x_habit_search_simple_clear_all">清空</string>
+    <string name="x_habit_hint_recommend_template">推荐模板</string>
+    <string name="x_habit_hint_habit_custom">自定义打卡活动</string>
+
+    <string name="x_habit_save">保存</string>
+    <string name="x_habit_success_dialog_text1">在【%1$s】打卡活动中</string>
+    <string name="x_habit_success_dialog_text2">共坚持打卡:</string>
+    <string name="x_habit_success_dialog_text3">最高连续</string>
+    <string name="x_habit_success_dialog_text4">X学习云-学习打卡</string>
+    <string name="x_habit_success_dialog_text5">一起打卡养成好习惯</string>
+    <string name="x_habit_success_dialog_text6">打卡成果</string>
+    <string name="x_habit_strip">条</string>
+    <string name="x_habit_save_success">保存成功</string>
+    <string name="x_habit_share_habit_dialog_text1">已打卡天数</string>
+    <string name="x_habit_share_habit_dialog_text2">总参与人数</string>
+    <string name="x_habit_share_habit_dialog_text3">总打卡成果</string>
+    <string name="x_habit_share_habit_dialog_text4">%1$s打卡完成情况</string>
+    <string name="x_habit_share_habit_dialog_text5">打卡率:</string>
+    <string name="x_habit_share_habit_dialog_text6">已打卡</string>
+    <string name="x_habit_share_habit_dialog_text7">未打卡</string>
+    <string name="x_habit_unit_people">人</string>
+    <string name="x_habit_challenge_success_dialog_text1">在【%1$s】打卡活动中表现优异，圆满完成挑战！</string>
+    <string name="x_habit_challenge_failure_dialog_text1">打卡率%1$d%%</string>
+    <string name="x_habit_challenge_failure_dialog_text2">在【%1$s】打卡活动中积极参与，向成功迈出了一大步，愿再接再厉！</string>
+    <string name="x_habit_publish_habit">发布打卡活动</string>
+    <string name="x_habit_back_habit_list">返回打卡列表</string>
+    <string name="x_habit_publish_success">发布成功</string>
+    <string name="x_habit_auto_share_to_group">已为您自动分享至群</string>
+    <string name="x_habit_publish_range">发布范围</string>
+    <string name="x_habit_habit_name">打卡名称</string>
+    <string name="x_habit_habit_cycle">打卡周期</string>
+    <string name="x_habit_habit_frequency">打卡频次</string>
+    <string name="x_habit_cancel">取消</string>
+    <string name="x_habit_delete">删除</string>
+    <string name="x_habit_one_remind">一键提醒</string>
+    <string name="x_habit_delete_tip">删除后无法恢复，确认删除？</string>
+    <string name="x_habit_remind_success">提醒成功</string>
+    <string name="x_habit_please_choose">请选择</string>
+    <string name="x_habit_please_select_class">请选择班级</string>
+    <string name="x_habit_ensure">确定</string>
+    <string name="x_habit_remind_time">提醒时间</string>
+    <string name="x_habit_hour">时</string>
+    <string name="x_habit_minute">分</string>
+
+    <string name="x_habit_select_habit_frequency">请选择打卡频次</string>
+    <string name="x_habit_ok">确定</string>
+    <string name="x_habit_delete_success">删除成功</string>
+
+
+    <string name="x_habit_state_in_progress">进行中的打卡</string>
+    <string name="x_habit_state_not_started">未开始的打卡</string>
+    <string name="x_habit_state_end">已结束的打卡</string>
+    <string name="x_habit_today_count">今日已打卡 %d </string>
+
+    <string name="x_habit_start_on_time"><Data><![CDATA[打卡即将于 <font color="#1E62EC">%1$s</font> 开始]]></Data></string>
+
+    <string name="x_habit_remain_day">剩%d天</string>
+    <string name="x_habit_total_day">共%d天</string>
+    <string name="x_habit_rest_today">今日休息</string>
+    <string name="x_habit_the_day_to_rest">休息日</string>
+    <string name="x_habit_day_have_insist">已坚持打卡%d天</string>
+    <string name="x_habit_day_insist">坚持打卡%d天</string>
+    <string name="x_habit_habit_rate">打卡率%1$d</string>
+    <string name="x_habit_total_count_by_all_user">全员打卡 %s 条</string>
+    <string name="x_habit_unit_ten_thousand">万</string>
+
+    <string name="x_habit_notice_post_empty_tip">你还没发布任何打卡哦</string>
+
+    <string name="x_habit_filter_status">活动状态</string>
+    <string name="x_habit_filter_status_in_progress">进行中</string>
+    <string name="x_habit_filter_status_not_start">未开始</string>
+    <string name="x_habit_filter_status_finish">已结束</string>
+
+    <string name="x_habit_publish_date">发布时间</string>
+    <string name="x_habit_select_date_hint">请选择日期</string>
+
+    <string name="x_habit_filter_class_range">发送范围</string>
+    <string name="x_habit_reset">重置</string>
+    <string name="x_habit_confirm">确认</string>
+    <string name="x_habit_expand_more">展开更多</string>
+
+    <string name="x_habit_day_count">%1$d天</string>
+    <string name="x_habit_i_joined_title">我参与的打卡</string>
+    <string name="x_habit_remain_current_content">保留本次编辑的内容？</string>
+    <string name="x_habit_has_remain_content">已保留上次编辑内容，是否继续编辑？</string>
+    <string name="x_habit_no_remain">不保留</string>
+    <string name="x_habit_remain">保留</string>
+    <string name="x_habit_go_on">继续</string>
+
+    <string name="x_habit_upload_file_number_over">文件个数不得超过%d个</string>
+    <string name="x_habit_upload_file_oversize">文件大小不得超过10MB</string>
+    <string name="x_habit_upload_file_zero_size">文件大小不可为0KB</string>
+    <string name="x_habit_no_more_data">没有更多数据啦</string>
+    <string name="x_habit_no_data">没有数据</string>
+
+    <string name="x_habit_common_err_tip">哎呀，出错了，刷新试试看~</string>
+    <string name="x_habit_refresh">刷新</string>
+    <string name="x_habit_list_empty_tip">暂无打卡</string>
+    <string name="x_habit_list_empty_desc_tip">开启你的打卡之旅吧，让生活更加充实</string>
+    <string name="x_habit_list_no_more_data">-没有更多内容了-</string>
+
+    <string name="x_habit_count_people">%1$d人</string>
+    <string name="x_habit_my_habit_result">我的打卡成果</string>
+
+    <string name="x_habit_image_share_title1">我的打卡成就</string>
+    <string name="x_habit_image_share_title2">班级打卡成就</string>
+    <string name="x_habit_no_person_complete">暂无人员完成打卡</string>
+    <string name="x_habit_be_first_person_complete">快来成为首位打卡者吧！</string>
+    <string name="x_habit_be_quick_complete">快来打卡记录一下吧！</string>
+    <string name="x_habit_retry">重试</string>
+    <string name="x_habit_failure_retry">打卡状态更新失败，重新试试？</string>
+
+    <string name="x_habit_tip_uri_to_file_error">URI转换文件路径失败</string>
+    <string name="x_habit_no_join">你未参与打卡哦</string>
+    <string name="x_habit_participate_success">报名成功</string>
+    <string name="x_habit_no_permission">无权限</string>
+
+    <string name="x_habit_say_something">请输入打卡成果内容&#8230;</string>
+    <string name="x_habit_compose_title">提交打卡成果</string>
+    <string name="x_habit_compose_submit">提交</string>
+    <string name="x_habit_compose_ing">正在发送打卡结果</string>
+    <string name="x_habit_compose_success">发布打卡结果成功</string>
+    <string name="x_habit_compose_fail">发布打卡结果失败</string>
+    <string name="x_habit_save_dialog_message">保留本次编辑的内容</string>
+    <string name="x_habit_save_dialog_save">保留</string>
+    <string name="x_habit_save_dialog_not_save">不保留</string>
+    <string name="x_habit_compose_default_content">分享~</string>
+    <string name="x_habit_content_not_null">不能发送空的内容，请输入内容</string>
+    <string name="x_habit_content_max">超过%d个字的限制了哦，整理后再发吧</string>
+    <string name="x_habit_censor_toast">信息中包含敏感内容，请修改后再发送</string>
+    <string name="x_habit_video_not_support_tips">只支持mp4格式的视频</string>
+    <string name="x_habit_attachfile_max_size">文件限制最大为：10 MB</string>
+    <string name="x_habit_video_not_analysis_tips">无法解析该视频</string>
+    <string name="x_habit_getdraft_dialog_message">已保留上次编辑内容，\n是否继续编辑？</string>
+    <string name="x_habit_getdraft_dialog_cancel">取消</string>
+    <string name="x_habit_getdraft_dialog_goon">继续</string>
+    <string name="x_habit_netword_is_not_available">您当前无网络连接，请连接网络</string>
+    <string name="x_habit_not_wifi">您目前使用的是非WIFI的网络，是否继续？</string>
+    <string name="x_habit_record_detail">打卡成果</string>
+    <string name="x_habit_record_list_title">打卡成果列表</string>
+    <string name="x_habit_list_audio_duration">00:00</string>
+    <string name="x_habit_list_file_download_error">下载失败</string>
+    <string name="x_habit_list_file_size_K">%1d KB</string>
+    <string name="x_habit_list_file_size_M">%.1f M</string>
+    <string name="x_habit_file_not_support_type">对不起，文件所在位置不合法!</string>
+    <string name="x_habit_file_not_exist">对不起，选择的文件不存在!</string>
+    <string name="x_habit_is_not_found">对不起，找不到该微博</string>
+    <string name="x_habit_is_empty">没有发现更多微博</string>
+    <string name="x_habit_minutes_before">%1$d 分钟前</string>
+    <string name="x_habit_today_hm">今天HH:mm</string>
+    <string name="x_habit_yesterday_hm">昨天HH:mm</string>
+    <string name="x_habit_just_now">刚刚</string>
+    <string name="x_habit_goon_reading">继续阅读</string>
+    <string name="x_habit_share_title">%1$s的打卡成果</string>
+    <string name="x_habit_max_image_tip">最多上传%1$d张图片和%2$d个视频</string>
+    <string name="x_habit_max_video_tip">最多上传%1$d个视频</string>
+    <string name="x_habit_max_audio_tip">最多上传1个音频</string>
+    <string name="x_habit_max_attach_file_tip">最多上传一个文件</string>
+    <string name="x_habit_attachment_activity_not_found">您未安装支持操作附件的应用</string>
+    <string name="x_habit_empty"></string>
+</resources>

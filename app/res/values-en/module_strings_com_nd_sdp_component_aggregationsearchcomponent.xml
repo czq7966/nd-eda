@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="search_widget_name">Aggregated Search</string>
+    <string name="search_widget_search">Search</string>
+    <string name="search_widget_recommend">Featured</string>
+    <string name="search_widget_search_history">Search History</string>
+    <string name="search_widget_clear_history">Clear Search History</string>
+    <string name="search_widget_net_search">Cloud Search</string>
+    <string name="search_widget_net_search_keyword_prefix">Search</string>
+    <string name="search_widget_dot">etc.</string>
+    <string name="search_widget_and">,</string>
+    <string name="search_widget_left_quote">\"</string>
+    <string name="search_widget_right_quote">\"</string>
+    <string name="search_widget_search_hint_prefix">Search Trending:</string>
+    <string name="search_widget_no_result">No \"%1$s\" related results found.</string>
+    <string name="search_widget_3dot">...</string>
+    <string name="search_widget_no_providers">No valid sources found. Failed to initialize the aggregated search.</string>
+    <string name="search_widget_fragment_search_desc_1"/><!--搜索-->
+    <string name="search_widget_item_section_net_desc_1"/><!--搜索-->
+    <string name="search_widget_item_section_net_desc_2"/><!--搜索-->
+    <string name="search_widget_footer_section_desc_1"/><!--查看更多联系人-->
+    <string name="search_widget_footer_section_desc_2"/><!--查看更多联系人-->
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="file_explorer_app_name">File Browser</string>
+    <string name="file_explorer_action_bar_title_file_pick">Select File</string>
+    <string name="file_explorer_no_file">You can add image/audio/video/text here, and share with others.</string>
+    <string name="file_explorer_no_sd">No SD card</string>
+    <string name="file_explorer_curr_select_size">Selected %s</string>
+    <string name="file_explorer_send_files">Send</string>
+    <string name="file_explorer_upload_warning">Failed to upload. Dangerous file.</string>
+    <string name="file_explorer_file_without_ext">File needs suffix name</string>
+    <string name="file_explorer_upload_max">Upload up to 10 files.</string>
+    <string name="file_explorer_file_zero">The file is empty.</string>
+    <string name="file_explorer_file_max">File to upload should be less than 200MB.</string>
+    <string name="file_explorer_no_file_dir">No available file content found. Sending file is unavailable.</string>
+    <string name="file_explorer_phone_memory">Phone Memory</string>
+    <string name="file_explorer_sd_memory">SD Card Memory</string>
+    <string name="file_explorer_exsd_memory">SD Memory %1$d</string>
+    <string name="file_explorer_local_file">Local File</string>
+    <string name="file_explorer_get_sd_root_path_failed">Failed to get Storage Path</string>
+    <string name="file_explorer_file_info_error">Read File Info Error</string>
+    <string name="file_explorer_can_not_open_file">No Application to Open</string>
+    <string name="file_explorer_file_ext_error">Cannot recognize file Ext</string>
+
+    <string name="file_explorer_storage_options">Storage Options</string>
+    <string name="file_explorer_need_install_file_explorer">Need Default File Explorer</string>
+    <string name="file_explorer_local_file_explorer">Local File Explorer</string>
+
+
+    <string name="file_explorer_no_permission">No Permission!</string>
+
+
+
+    <string name="file_explorer_prompt">Prompt</string>
+    <string name="file_explorer_loading">Loading, please wait…</string>
+</resources>

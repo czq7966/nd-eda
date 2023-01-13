@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- 用户相关-->
+    <string name="ndvote_waf_guest_access_denied">Please log in</string>
+    <!-- 投票相关-->
+    <string name="ndvote_network_error">The network connection is abnormal. Please check the network.</string>
+    <string name="ndvote_common_error">Unknown Error</string>
+    <string name="ndvote_vote_invalid_argument">Parameter error</string>
+    <string name="ndvote_vote_invalid_resshow">Error: Invalid Parameter for \"Show Results\"</string>
+    <string name="ndvote_vote_invalid_oncevote">Error: Invalid number of user vote</string>
+    <string name="ndvote_vote_invalid_status">Error: Invalid setting of voting status</string>
+    <string name="ndvote_vote_invalid_voteitem">Error: Invalid voting options</string>
+    <string name="ndvote_vote_invalid_itemattr">Error: Invalid voting option attribute</string>
+    <string name="ndvote_vote_invalid_itemattr_num">Error: Invalid entry attribute of voting options</string>
+    <string name="ndvote_vote_user_not_login">The user hasn`t signed in</string>
+    <string name="ndvote_vote_auth_invalid_token">Invalid authorization</string>
+    <string name="ndvote_vote_vi_status_deny">You are not allowed to vote in the current status.</string>
+    <string name="ndvote_vote_vi_not_start">Voting has not started. You are not allowed to vote.</string>
+    <string name="ndvote_vote_vi_finished">Voting ended. You are not allowed to vote.</string>
+    <string name="ndvote_vote_vi_votenum_limit">You can not vote again</string>
+    <string name="ndvote_vote_user_access_denied">Access denied</string>
+    <string name="ndvote_vote_voteinfo_not_found">Voting information doesn`t exist</string>
+    <string name="ndvote_vote_voteietm_not_found">Voting options doesn`t exist</string>
+    <string name="ndvote_vote_item_attr_not_found">Voting options doesn\'t exist</string>
+    <string name="ndvote_vote_service_not_found">Service Unavailable</string>
+    <string name="ndvote_vote_vi_vote_deny">User restricted to vote</string>
+    <string name="ndvote_vote_vi_not_allowrevote">You can only vote once in each period.</string>
+    <string name="ndvote_vote_invalid_circle">Voting period error</string>
+    <string name="ndvote_vote_invalid_deadline">Ending time cannot be earlier than current time and starting time.</string>
+    <string name="ndvote_vote_no_grant">You have no permission to initiate a vote</string>
+    <string name="ndvote_vote_voteinfo_deleted">The content has been deleted</string>
+    <string name="ndvote_vote_create_vote_limit">@string/ndvote_publish_limit_1</string>
+    <string name="ndvote_vote_draft_id_not_exist">Draft id does not exist</string>
+    <string name="ndvote_vote_deadline_time_invalid">截止时间不能小于开始时间</string>
+    <string name="ndvote_vote_once_max_invalid">一次投票最多允许投选项个数错误</string>
+    <string name="ndvote_group_statistics_item_name_length_invalid">选项长度限制50个字符</string>
+    <string name="ndvote_vote_item_size_invalid">群PK必须两个选项</string>
+    <string name="ndvote_title_length_invalid">标题长度限制50字符</string>
+    <string name="ndvote_button_label_length_limit">按钮文本长度限制50个字符</string>
+    <string name="ndvote_instro_content_length_limit">投票说明长度限制300字符</string>
+    <string name="ndvote_effective_number_greater_than_vote_limit">生效人数不能大于投票上限人数</string>
+    <string name="ndvote_dead_line_empty">Please enter deadline</string>
+    <string name="ndvote_no_group_create_permission">您没有创建的权限</string>
+    <string name="ndvote_no_group_member">您不是群成员，不能参与</string>
+    <string name="ndvote_no_group_member_create">您不是群成员，不能创建</string>
+    <string name="ndvote_range_role_type_empty">角色范围类型不能为空</string>
+    <string name="ndvote_range_role_type_invalid">角色范围类型无效</string>
+    <string name="ndvote_creator_vote_disabled">创建者不允许参与</string>
+    <string name="ndvote_no_creator">您不是创建者</string>
+    <string name="ndvote_permission_denied_code">您没有权限参与该投票</string>
+    <string name="ndvote_gs_vi_finished">群统计已结束，不允许参与</string>
+    <string name="ndvote_vote_out_of_service">Unknown Error</string>
+</resources>

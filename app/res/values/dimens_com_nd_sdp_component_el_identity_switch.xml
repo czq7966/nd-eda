@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="el_identity_switch_recycler_margin_top">45dp</dimen>
+    <dimen name="el_identity_switch_margin_middle">15dp</dimen>
+    <dimen name="el_identity_switch_choose_role_margin_12dp">12dp</dimen>
+
+    <dimen name="el_identity_switch_image_width">62dp</dimen>
+    <dimen name="el_identity_switch_image_height">70dp</dimen>
+
+
+    <dimen name="el_identity_switch_font_9">24sp</dimen>
+    <dimen name="el_identity_switch_font_13">16sp</dimen>
+    <dimen name="el_identity_switch_font_15">20sp</dimen>
+    <dimen name="el_identity_switch_font_6">12sp</dimen>
+
+    <dimen name="el_identity_switch_title_1">24sp</dimen>
+    <dimen name="el_identity_switch_title_2">18sp</dimen>
+    <dimen name="el_identity_switch_title_3">13sp</dimen>
+
+    <dimen name="el_identity_switch_top_margin">22dp</dimen>
+
+
+    <dimen name="el_identity_switch_heightwidth_multi_tab">25dp</dimen>
+
+    <dimen name="el_identity_switch_marginBottom_role_selection">5dp</dimen>
+
+    <dimen name="el_identity_switch_cui_radius_role_selection">12dp</dimen>
+    <dimen name="el_identity_switch_cui_ring_width_role_selection">3dp</dimen>
+    <dimen name="el_identity_switch_hw_role_selection">24dp</dimen>
+    <dimen name="el_identity_switch_height_role_selection">0.5dp</dimen>
+
+    <dimen name="el_identity_switch_height_select_item">88dp</dimen>
+
+</resources>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hkc_report_picker_time">
+        <item>今日</item>
+        <item>本周</item>
+        <item>上周</item>
+        <item>本月</item>
+        <item>上月</item>
+        <item>全部</item>
+    </string-array>
+
+    <string-array name="hkc_report_picker_time_no_today">
+        <item>本周</item>
+        <item>上周</item>
+        <item>本月</item>
+        <item>上月</item>
+        <item>全部</item>
+    </string-array>
+
+    <string-array name="hkc_stat_time_type">
+        <item>today</item>
+        <item>this_week</item>
+        <item>last_week</item>
+        <item>this_month</item>
+        <item>last_month</item>
+        <item>all</item>
+    </string-array>
+
+    <string-array name="hkc_level_evaluate_items">
+        <item>优秀</item>
+        <item>良好</item>
+        <item>中等</item>
+        <item>及格</item>
+        <item>不及格</item>
+    </string-array>
+
+    <string-array name="hkc_homework_state_teacher">
+        <item>全部</item>
+        <item>待批改</item>
+        <item>待提交</item>
+        <item>待查看</item>
+    </string-array>
+
+    <string-array name="hkc_homework_state_student">
+        <item>待完成</item>
+        <item>已完成</item>
+    </string-array>
+
+    <string-array name="hkc_homework_state_parent">
+        <item>待完成</item>
+        <item>历史学习活动</item>
+    </string-array>
+
+    <string-array name="hkc_week">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+
+    <string-array name="hkc_week_2">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+
+    <!-- 学习活动类型（根据服务端返回的数值取到对应位置的类型） -->
+    <string-array name="hkc_homework_type">
+        <item>0</item>//没有该类型
+        <item>基础学习活动</item>//1-普通学习活动
+        <item>自定义学习活动</item>//2-指令学习活动
+        <item>达标学习活动</item>//3
+        <item>专项学习活动</item>//4
+        <item>基础学习活动</item>//5-智能组卷
+        <item>基础学习活动</item>//6-成套学习活动
+        <item>学习任务单学习活动</item>//7
+        <item>假期学习活动</item>//8
+        <item>达标学习活动</item>//9-新达标学习活动
+    </string-array>
+
+    <string-array name="hkc_base_consolidation_question_type">
+        <item>全部</item>
+        <item>单选题</item>
+        <item>多选题</item>
+        <item>填空题</item>
+        <item>判断题</item>
+        <item>问答题</item>
+    </string-array>
+    <string-array name="hkc_base_listen_question_type">
+        <item>全部</item>
+        <item>听力</item>
+        <item>听写</item>
+    </string-array>
+    <!--巩固训练难度-->
+    <string-array name="hkc_base_consolidation_difficulty">
+        <item>全部</item>
+        <item>非常简单</item>
+        <item>简单</item>
+        <item>中等</item>
+    </string-array>
+    <string-array name="hkc_base_consolidation_publish">
+        <item>全部</item>
+        <item>已布置</item>
+        <item>未布置</item>
+    </string-array>
+
+    <!--英语单选难度-->
+    <string-array name="hkc_base_english_single_choice_difficulty">
+        <item>全部</item>
+        <item>非常简单</item>
+        <item>简单</item>
+        <item>中等</item>
+        <item>困难</item>
+        <item>非常困难</item>
+    </string-array>
+
+    <!--拔高难度-->
+    <string-array name="hkc_base_medium_difficulty">
+        <item>全部</item>
+        <item>困难</item>
+        <item>非常困难</item>
+    </string-array>
+
+    <string-array name="hkc_limit">
+        <item>不限制</item>
+        <item>限制</item>
+    </string-array>
+    <string-array name="hkc_limit_time">
+        <item>不限时</item>
+        <item>限时</item>
+    </string-array>
+
+    <!--基础训练来源-->
+    <string-array name="hkc_base_basic_from">
+        <item>题库</item>
+        <item>教辅</item>
+        <item>课后习题</item>
+    </string-array>
+
+    <string-array name="hkc_level_evaluate_new_items">
+        <item>不及格</item>
+        <item>及格</item>
+        <item>中等</item>
+        <item>良好</item>
+        <item>优秀</item>
+    </string-array>
+
+    <string-array name="hkc_right_wrong_evaluate_items">
+        <item>对</item>
+        <item>半对</item>
+        <item>错</item>
+    </string-array>
+
+    <string-array name="hkc_month_array">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+
+    <!--口语筛选的code-->
+    <string-array name="hkc_oral_filter_code">
+        <item></item>
+        <item>oral_read</item>
+        <item>oral_repeat</item>
+        <item>oral_recite</item>
+        <item>oral_dialog</item>
+    </string-array>
+
+    <!--口语筛选的code-->
+    <string-array name="hkc_oral_filter_name">
+        <item>全部</item>
+        <item>朗读</item>
+        <item>跟读</item>
+        <item>背诵</item>
+        <item>对话</item>
+    </string-array>
+
+    <string-array name="hkc_direct_question_type">
+        <item>choice</item>
+        <item>multiplechoice</item>
+        <item>textentry</item>
+        <item>judge</item>
+        <item>handwrite</item>
+    </string-array>
+
+    <!--首页筛选名称-->
+    <string-array name="hkc_main_page_filter_name">
+        <item>全部</item>
+        <item>当天</item>
+        <item>本周</item>
+        <item>本月</item>
+        <!--<item>本学期</item>-->
+    </string-array>
+
+    <!--首页筛选code-->
+    <string-array name="hkc_main_page_filter_code">
+        <item>all</item>
+        <item>current_day</item>
+        <item>current_week</item>
+        <item>current_month</item>
+        <!--<item>current_term</item>-->
+    </string-array>
+
+    <string-array name="hkc_v2_subject1">
+        <item>语文</item>
+        <item>物理</item>
+        <item>政治</item>
+    </string-array>
+
+    <string-array name="hkc_v2_subject2">
+        <item>数学</item>
+        <item>生物</item>
+        <item>体育</item>
+    </string-array>
+
+    <string-array name="hkc_v2_subject3">
+        <item>英语</item>
+        <item>化学</item>
+    </string-array>
+
+    <string-array name="hkc_v2_subject4">
+        <item>历史</item>
+        <item>音乐</item>
+    </string-array>
+
+    <string-array name="hkc_v2_subject5">
+        <item>地理</item>
+        <item>美术</item>
+    </string-array>
+</resources>

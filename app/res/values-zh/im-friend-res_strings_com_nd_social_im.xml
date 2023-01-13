@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="im_chat_no_friend_text">暂无好友</string>
+    <string name="im_chat_friend">好友</string>
+    <string name="im_chat_friend_canot_add_self">不能添加自己为好友</string>
+
+    <string name="im_chat_add_friend">添加好友</string>
+    <string name="im_chat_add_friend_wait">正在添加好友，请稍候...</string>
+    <string name="im_chat_sure_add_friend">确认添加“%s”为好友</string>
+    <string name="im_chat_adding_friend">正在添加好友</string>
+    <string name="im_chat_add_friend_success">发送添加好友请求成功</string>
+    <string name="im_chat_add_friend_sucs_wait_for_confirm">请求发送成功</string>
+    <string name="im_chat_add_friend_sucs">添加好友成功</string>
+    <string name="im_chat_add_friend_faild">添加好友失败，请稍后重试</string>
+
+    <string name="im_chat_delete_friend">删除好友</string>
+    <string name="im_chat_sure_delete_friend">确认删除好友“%s”</string>
+    <string name="im_chat_delete_friend_sucs">删除好友成功</string>
+    <string name="im_chat_deleting_friend">正在删除好友</string>
+    <string name="im_chat_delete_friend_faild">删除好友失败</string>
+    <string name="im_chat_delete_friend_success">删除好友成功</string>
+
+    <string name="im_chat_agent_friend">好友消息助手</string>
+    <string name="im_chat_friend_accepted">你已添加“%1$s”为好友，开始聊天吧！</string>
+
+    <string name="im_chat_friend_be_friends">你们已互相添加为好友，开始聊天吧！</string>
+</resources>

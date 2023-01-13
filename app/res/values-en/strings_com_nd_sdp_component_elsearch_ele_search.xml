@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="ele_mysearch_net_error_tips">Network connection error. Please try again.</string>
+    <string name="ele_mysearch_data_error_tips">Data error. Please try again.</string>
+    <string name="ele_mysearch_load_fail">Failed to load. Please pull down to try again.</string>
+    <string name="ele_mysearch_loading_wait">Loading...Please wait.</string>
+    <string name="ele_mysearch_no_data">No data</string>
+    <string name="ele_mysearch_listview_loadfail">Failed to load. Try again</string>
+    <string name="ele_mysearch_listview_loading">Loading...</string>
+    <string name="ele_mysearch_listview_no_more_data">No more data</string>
+    <string name="ele_mysearch_confirm_cancel">Cancel</string>
+    <string name="ele_mysearch_search">Search</string>
+    <string name="ele_mysearch_recently_search">Recent Searches</string>
+    <string name="ele_mysearch_exam_participated_people">Persons</string>
+    <string name="ele_mysearch_search_more">More</string>
+    <string name="ele_mysearch_clean_search_history">Clear history</string>
+    <string name="ele_mysearch_delet">Delete</string>
+    <string name="ele_mysearch_rank_minutes">%s min</string>
+    <string name="ele_mysearch_rank_hour_minutes">%1$s hours  %2$s min</string>
+    <string name="ele_mysearch_empty_data">No data</string>
+    <string name="ele_mysearch_task_num">%s tasks</string>
+    <string name="ele_mysearch_total_hour">%s hours</string>
+    <string name="ele_mysearch_total_point">%s credit(s)</string>
+    <string name="ele_mysearch_user_count">%s learners</string>
+    <string name="ele_mysearch_exam_list_status_be_about_to_begin">Begin Soon</string>
+    <string name="ele_mysearch_exam_list_status_doing">Ongoing</string>
+    <string name="ele_mysearch_exam_list_status_has_completed">Ended</string>
+    <string name="ele_mysearch_search_result_title">%d courses</string>
+    <string name="ele_mysearch_public_course">Public Courses</string>
+    <string name="ele_mysearch_train_auth">Training Certification</string>
+    <string name="ele_mysearch_exam_auth">Exams</string>
+    <string name="ele_mysearch_exam_end_time_prefix">End at: %s</string>
+    <string name="ele_mysearch_exam_begin_time_prefix">Start at: %s</string>
+    <string name="ele_mysearch_course_num">%s courses</string>
+    <string name="ele_mysearch_cannot_show">Unsupported Resource</string>
+    <string name="ele_mysearch_periodic">Periodic</string>
+    <string name="ele_mysearch_unsupport_resource_type">Not supported resources</string>
+
+    <string name="ele_mysearch_unit_type_all">All</string>
+    <string name="ele_mysearch_unit_type_open_course">Courses</string>
+    <string name="ele_mysearch_unit_type_opencourse_2">New course</string>
+    <string name="ele_mysearch_unit_type_train">Training Certification</string>
+    <string name="ele_mysearch_unit_type_certificate">Certificate</string>
+    <string name="ele_mysearch_unit_type_lecturer">Lecturer</string>
+    <string name="ele_mysearch_unit_type_lecturer_2">New lecturer</string>
+    <string name="ele_mysearch_unit_type_famous_teacher">famous teacher</string>
+    <string name="ele_mysearch_unit_type_famous_school">famous school</string>
+    <string name="ele_mysearch_unit_type_plan">Study plan</string>
+    <string name="ele_mysearch_unit_type_note">Notes</string>
+    <string name="ele_mysearch_unit_type_qa">Answer</string>
+    <string name="ele_mysearch_unit_type_exam_standard">Standard exam</string>
+    <string name="ele_mysearch_unit_type_exam_competition">Race</string>
+    <string name="ele_mysearch_unit_type_exam_custom">Custom exam</string>
+    <string name="ele_mysearch_unit_type_exam_design_methodlogy">Design methodology exam</string>
+    <string name="ele_mysearch_unit_type_exam_design_methodlogy_exercise">Design methodology exercise</string>
+    <string name="ele_mysearch_unit_type_exam_pk">PK</string>
+    <string name="ele_mysearch_unit_type_exam_barrier">Stage</string>
+    <string name="ele_mysearch_unit_type_exam_online_exam">Online Exam</string>
+    <string name="ele_mysearch_unit_type_exam_ability">Ability test</string>
+    <string name="ele_mysearch_unit_type_exam_offline">Offline Exams</string>
+    <string name="ele_mysearch_unit_type_exam">Exam</string>
+    <string name="ele_mysearch_unit_type_app_new">APP New</string>
+    <string name="ele_mysearch_unit_type_business_course">Courses</string>
+    <string name="ele_mysearch_unit_type_exercise_course">Exercise Course</string>
+    <string name="ele_mysearch_unit_type_live_course">Live class</string>
+    <string name="ele_mysearch_unit_type_offline_course">Offline Course</string>
+    <string name="ele_mysearch_unit_type_questionnaire">Questionnaire</string>
+    <string name="ele_mysearch_unit_type_teaching_course">Teaching Course</string>
+
+    <string name="ele_mysearch_unit_type_exam_level_game">Stage</string>
+    <string name="ele_mysearch_qa_from">From:</string>
+
+    <!--<string name="ele_mysearch_qa_follow_question">关注问题</string>-->
+    <!--<string name="ele_mysearch_qa_follow_question_already">已关注</string>-->
+    <string name="ele_mysearch_belong_to">Belong to %1$s:%2$s</string>
+
+    <!--无障碍支持-->
+    <string name="ele_mysearch_barrier_help_down">Unfold</string>
+    <string name="ele_mysearch_barrier_help_up">Collapse</string>
+    <string name="ele_mysearch_recommend">Recommend</string>
+
+    <string name="ele_mysearch_simple_clear_all">Clear All</string>
+    <string name="ele_mysearch_simple_empty_hint1">Oops! No Result Found. </string>
+    <string name="ele_mysearch_simple_empty_hint2">Try rewording your search or entering new keywords.</string>
+    <string name="ele_mysearch_simple_return">Back</string>
+    <string name="ele_mysearch_simple_search_for_course">Search</string>
+	<string name="ele_mysearch_total_related_resources">共%d个相关资源</string>
+
+
+    <string name="ele_mysearch_x_empty_hint">没有找到\"%s\"的相关内容</string>
+
+    <string name="ele_mysearch_x_empty_hint1">No result</string>
+    <string name="ele_mysearch_x_empty_hint2">Try searching for other content</string>
+
+    <string name="ele_mysearch_x_search_hint">搜索%1$s信息</string>
+    <string name="ele_mysearch_x_empty_hint3">搜索结果为空</string>
+    <string name="ele_mysearch_x_empty_hint4">请重新输入，支持搜索%1$s内容</string>
+    <string name="ele_mysearch_x_and"> and </string>
+    <string name="ele_mysearch_x_or"> or </string>
+    <string name="ele_mysearch_course"><![CDATA[<font color="#333333">“课程”</font>]]></string>
+    <string name="ele_mysearch_lecturer"><![CDATA[<font color="#333333">“讲师”</font>]]></string>
+    <string name="ele_mysearch_x_guide_text">支持搜索以下内容</string>
+
+    <string name="ele_mysearch_x_empty_hint5">哎呀，没有找到相关内容</string>
+    <string name="ele_mysearch_x_empty_hint6">1. 请检查您输入的关键词是否有错误\n2. 换另一个相似的词，或常见的词试试</string>
+    <string name="ele_mysearch_x_search_tip">输入搜索关键词</string>
+    <string name="ele_mysearch_x_search_history">Search history</string>
+    <string name="ele_mysearch_x_searching">搜索中……</string>
+	<string name="ele_mysearch_x_net_error">Network error.</string>
+    <string name="ele_mysearch_x_net_check">检查看看手机是否开启移动网络或WIFI</string>
+    <string name="ele_mysearch_x_to_check_setting">Check the settings</string>
+    <string name="ele_mysearch_x_loading_fail">哎呀,出错了</string>
+    <string name="ele_mysearch_x_loading_fail_net">哎呀,网络丢了</string>
+    <string name="ele_mysearch_x_to_refresh">Try refresh</string>
+
+    <!-- 以下为测试页资源 -->
+    <string name="ele_mysearch_test_btn_x_study_plan">XPAGE 学习计划</string>
+</resources>

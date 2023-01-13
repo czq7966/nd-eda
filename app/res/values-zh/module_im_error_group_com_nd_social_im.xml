@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="IMG_GROUP_NOT_FOUND">您请求的群组不存在</string>
+    <string name="IMG_REQUEST_NOT_FOUND">您的请求已失效或请求不存在</string>
+</resources>

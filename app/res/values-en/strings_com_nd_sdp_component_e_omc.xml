@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="e_om_loading">Loading…</string>
+    <string name="e_om_no_more_data">No more data</string>
+    <string name="e_om_net_error_tips">Network connection error, please try again</string>
+    <string name="e_om_data_error_tips">Data parsing error, please try again</string>
+    <string name="e_om_net_bad_tips">Network connection error. Please try again.</string>
+    <string name="e_om_org_add">Join</string>
+    <string name="e_om_org_mys">Organization</string>
+    <string name="e_om_org_state_audit">Proposer</string>
+    <string name="e_om_org_list_add_tip">Join the school organization to get more exclusive recommendations</string>
+    <string name="e_om_org_choose_org">Select</string>
+    <string name="e_om_cancel">Cancel</string>
+    <string name="e_om_complete">Finish</string>
+    <string name="e_om_org_state_already_joined">Joined</string>
+    <string name="e_om_org_state_join">Join</string>
+    <string name="e_om_org_search_result_total">Total</string>
+    <string name="e_om_org_search_result_total_record"> record(s)</string>
+    <string name="e_om_org_search_empty_hint">Enter a keyword</string>
+    <string name="e_om_loading_fail">Fail to load, drop down to try again</string>
+    <string name="e_om_org_search_hint">Enter key word</string>
+</resources>

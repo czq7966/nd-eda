@@ -1,0 +1,21 @@
+﻿<resources>
+    <string name="e_om_loading">加载中..</string>
+    <string name="e_om_no_more_data">没有更多数据啦</string>
+    <string name="e_om_net_error_tips">网络连接错误，请重试</string>
+    <string name="e_om_data_error_tips">数据解析错误，请重试</string>
+    <string name="e_om_net_bad_tips">网络状态不佳，请稍后重试</string>
+    <string name="e_om_org_add">加入组织</string>
+    <string name="e_om_org_mys">所在组织</string>
+    <string name="e_om_org_state_audit">审核中</string>
+    <string name="e_om_org_list_add_tip">加入校级组织，获取更多专属推荐</string>
+    <string name="e_om_org_choose_org">选择加入组织</string>
+    <string name="e_om_cancel">取消</string>
+    <string name="e_om_complete">完成</string>
+    <string name="e_om_org_state_already_joined">已加入</string>
+    <string name="e_om_org_state_join">申请加入</string>
+    <string name="e_om_org_search_result_total">共</string>
+    <string name="e_om_org_search_result_total_record">条记录</string>
+    <string name="e_om_org_search_empty_hint">请输入关键字</string>
+    <string name="e_om_loading_fail">加载失败,下拉重试</string>
+    <string name="e_om_org_search_hint">请输入组织关键字</string>
+</resources>

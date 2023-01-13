@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--通用tab色值-普通态-->
+    <color name="ele_mysearch_color_1">#ff333333</color>
+
+    <!--通用分割线色值-->
+    <color name="ele_mysearch_color_8">#dddddd</color>
+
+    <color name="ele_mysearch_color_14">#38adff</color>
+
+    <color name="ele_mysearch_color_13">#f43531</color>
+
+    <color name="ele_mysearch_color_5">#CCCCCC</color>
+
+    <!--公开课选择选中态色值(筛选背景色)-->
+    <color name="ele_mysearch_color_7">#ffffff</color>
+    <!--筛选选中态背景色-->
+    <color name="ele_mysearch_color_9">#eeeeee</color>
+
+    <color name="ele_mysearch_color_10">#f5f5f5</color>
+
+    <!--&lt;!&ndash;公开课列表内容色值&ndash;&gt;-->
+    <color name="ele_mysearch_color_2">#666666</color>
+    <!--&lt;!&ndash;公开课列表数量色值&ndash;&gt;-->
+    <color name="ele_mysearch_color_4">#999999</color>
+
+    <color name="ele_mysearch_TextColorPrimary">#666</color>
+
+    <!-- “精品推荐” 和 “公开课” 页面下课程项背景闲置态的色值-->
+    <color name="ele_mysearch_color_program_category_course_item_background_normal">#00000000</color>
+    <!-- “精品推荐” 和 “公开课” 页面下课程项背景点击态的色值-->
+    <color name="ele_mysearch_color_program_category_course_item_background_pressed">#e4e4e4</color>
+
+    <!--通用 View 分割线的色值-->
+    <color name="ele_mysearch_color_common_view_divider">@color/ele_mysearch_color_8</color>
+
+    <!--筛选选中态背景色-->
+    <color name="ele_mysearch_drop_down_selected">#38adff</color>
+
+    <color name="ele_mysearch_simple_text_common_blue">#3478f6</color>
+
+    <color name="ele_mysearch_simple_color_common_view_divider">#e5e5e5</color>
+
+    <color name="ele_mysearch_x_search_main_color">#1E62EC</color>
+	<color name="ele_mysearch_x_search_main_color_light">#ffe8effd</color>
+    <color name="ele_mysearch_x_divider_color">#ebebeb</color>
+
+</resources>

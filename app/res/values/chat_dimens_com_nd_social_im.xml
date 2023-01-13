@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="im_chat_time_name_ui_split_divider_width">60dp</dimen>
+    <dimen name="im_chat_time_name_ui_split_divider_horizontal_margin">10dp</dimen>
+
+    <!-- 本地box消息字体大小 -->
+    <dimen name="im_chat_box_sys_icon_size">24dp</dimen>
+    <dimen name="im_chat_box_sys_title_size">16dp</dimen>
+    <dimen name="im_chat_box_sys_date_size">14dp</dimen>
+    <dimen name="im_chat_box_sys_content_size">18dp</dimen>
+    <dimen name="im_chat_box_card_radius">5dp</dimen>
+
+    <!-- 毛玻璃的radius -->
+    <dimen name="xstudy_gluein_chat_real_time_blur_radius">20dp</dimen>
+    <dimen name="im_recent_contact_list_paddingTop">17dp</dimen>
+</resources>

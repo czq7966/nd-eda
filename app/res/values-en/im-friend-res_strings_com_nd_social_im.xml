@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="im_chat_no_friend_text">No friends</string>
+    <string name="im_chat_friend">Friend</string>
+    <string name="im_chat_friend_canot_add_self">You can\'t add yourself as friends.</string>
+
+    <string name="im_chat_add_friend">Add Friend</string>
+    <string name="im_chat_add_friend_wait">Adding friends. Please wait.</string>
+    <string name="im_chat_sure_add_friend">Add \"%s\" to friend list?</string>
+    <string name="im_chat_adding_friend">Adding friends.</string>
+    <string name="im_chat_add_friend_success">Your friend request was sent successfully.</string>
+    <string name="im_chat_add_friend_sucs_wait_for_confirm">Request sent</string>
+    <string name="im_chat_add_friend_sucs">Successfully added!</string>
+    <string name="im_chat_add_friend_faild">Failed to add. Please try again later.</string>
+
+    <string name="im_chat_delete_friend">Delete Friend</string>
+    <string name="im_chat_sure_delete_friend">Delete \"%s\"</string>
+    <string name="im_chat_delete_friend_sucs">Successfully deleted!</string>
+    <string name="im_chat_deleting_friend">Deleting friend...</string>
+    <string name="im_chat_delete_friend_faild">Failed to delete.</string>
+    <string name="im_chat_delete_friend_success">Successfully deleted!</string>
+
+    <string name="im_chat_agent_friend">Friend Management</string>
+    <string name="im_chat_friend_accepted">You have added \"%1$s\" as your friend. Start chatting now.</string>
+
+    <string name="im_chat_friend_be_friends">You are already friends. Start chatting now.</string>
+</resources>

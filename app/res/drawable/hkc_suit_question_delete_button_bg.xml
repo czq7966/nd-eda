@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/hkc_question_sort_delete_color" />
+    <corners android:radius="@dimen/spacing_tiny" />
+</shape>

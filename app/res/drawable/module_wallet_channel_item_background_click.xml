@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- This is the line -->
+    <item android:left="10dp">
+        <shape>
+            <solid android:color="@color/module_wallet_line_color8" />
+        </shape>
+    </item>
+    <item android:bottom="0.5dp">
+        <shape>
+            <solid android:color="@color/module_wallet_bg_color7" />
+        </shape>
+    </item>
+</layer-list>

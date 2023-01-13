@@ -1,0 +1,22 @@
+<resources>
+    <string name="search_widget_name">聚合搜索</string>
+    <string name="search_widget_search">搜索</string>
+    <string name="search_widget_recommend">推荐</string>
+    <string name="search_widget_search_history">搜索历史</string>
+    <string name="search_widget_clear_history">清空搜索历史</string>
+    <string name="search_widget_net_search">云端搜索</string>
+    <string name="search_widget_net_search_keyword_prefix">搜索&#160;&#160;</string>
+    <string name="search_widget_dot">等</string>
+    <string name="search_widget_and">、</string>
+    <string name="search_widget_left_quote">“</string>
+    <string name="search_widget_right_quote">”</string>
+    <string name="search_widget_search_hint_prefix">大家都在搜：</string>
+    <string name="search_widget_no_result">没有找到与 “%1$s” 的相关结果</string>
+    <string name="search_widget_3dot">...</string>
+    <string name="search_widget_no_providers">没有配置任何有效内容源，聚合搜索组件初始化失败。</string>
+    <string name="search_widget_fragment_search_desc_1"></string><!--搜索-->
+    <string name="search_widget_item_section_net_desc_1"></string><!--搜索-->
+    <string name="search_widget_item_section_net_desc_2"></string><!--搜索-->
+    <string name="search_widget_footer_section_desc_1"></string><!--查看更多联系人-->
+    <string name="search_widget_footer_section_desc_2"></string><!--查看更多联系人-->
+</resources>

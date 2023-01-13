@@ -1,0 +1,1240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="str_hkc_take_photo">Camera</string>
+    <string name="str_hkc_publish_homework">Assign</string>
+    <string name="str_hkc_published_homework">Assigned</string>
+    <string name="str_hkc_detail_homework">Details</string>
+    <string name="str_hkc_cloud_file">NetDisk</string>
+    <string name="str_hkc_record">Record</string>
+    <string name="str_hkc_back">Back</string>
+    <string name="str_hkc_func">Tap</string>
+    <string name="str_hkc_title">Title</string>
+    <string name="str_hkc_complete">Finish</string>
+    <string name="str_hkc_upload_preparing">Preparing to upload …</string>
+    <string name="str_hkc_uploading">Uploading …</string>
+    <string name="str_hkc_upload_success">Uploaded</string>
+    <string name="str_hkc_upload_failed">Fail to upload</string>
+    <string name="str_hkc_downloading">Downloading …</string>
+    <string name="str_hkc_download_success">Downloaded</string>
+    <string name="str_hkc_download_failed">Fail to download</string>
+    <string name="str_hkc_click_record">Tap to Record</string>
+    <string name="str_hkc_no_audio_record_permission">Record access denied. Please enable it in the setting.</string>
+    <string name="str_hkc_no_executable_app">No app to open this file</string>
+    <string name="str_hkc_empty_data">No data</string>
+    <string name="str_hkc_recording_time_too_short">Recording too short</string>
+    <string name="str_hkc_network_error">Network error, please try again</string>
+    <string name="str_hkc_offline_update_success">Updated</string>
+    <string name="str_hkc_offline_update_failed">Failed to update</string>
+
+    <string name="hkc_choose_date_and_time">Select time</string>
+    <string name="hkc_time_format_error">Invalid time format</string>
+    <string name="hkc_text_long">This string of fields is only used to test the display effect of overlong text on the TextView. It can be ignored in internationalization!</string>
+
+    <string name="str_hkc_cancel">Cancel</string>
+    <string name="str_hkc_image_source">Photo Source</string>
+    <string name="str_hkc_albums">Album</string>
+    <string name="hkc_title">Title</string>
+    <string name="str_hkc_splice_audio_record_file_saves">Recording saved in %1$s</string>
+    <string name="str_hkc_splice_record_time_countdown">%1$d″</string>
+    <string name="str_hkc_splice_check_format_failed">上传失败，存在不支持的文件类型</string>
+    <string name="str_hkc_splice_compress_progress"><![CDATA[文件处理:  <b><font color="#1095fb">%1$d%% </font></b> ]]></string>
+    <string name="str_hkc_splice_compress_file_progress"><![CDATA[文件处理:  <b><font color="#1095fb">%1$d&#47;%2$d </font></b> ]]></string>
+    <string name="str_hkc_splice_upload_progress"><![CDATA[Uploading:  %1$d%%]]></string>
+    <string name="str_hkc_splice_download_progress"><![CDATA[Downloading: %1$d%% ]]></string>
+    <string name="str_hkc_login_forbidden">You don\'t have access rights</string>
+    <string name="str_hkc_login_check_failed">Verification failed</string>
+    <string name="str_hkc_save_image_or_not">Save photo?</string>
+    <string name="str_hkc_save_image_success">Saved</string>
+    <string name="str_hkc_confirm">Confirm</string>
+    <string name="str_hkc_jssdk">JSSDK</string>
+    <string name="str_hkc_server">Set the IP port</string>
+    <string name="str_hkc_debug_remote_server">Remote server debugging</string>
+    <string name="str_hkc_debug_dev_server">Development server debugging</string>
+    <string name="str_hkc_dialog_tips">Prompt</string>
+    <string name="str_hkc_dialog_homework_message">Coming soon</string>
+    <string name="str_hkc_dialog_new_offline">New version available for update</string>
+    <string name="str_hkc_dialog_new_offline_confirm">Confirm</string>
+    <string name="str_hkc_dialog_new_offline_cancel">Cancel</string>
+    <string name="str_hkc_menu_title">Homework system</string>
+    <string name="hkc_correct_question_answer">Q&amp;A</string>
+    <string name="hkc_correct_postil">Annotation</string>
+    <string name="hkc_download_str">Downloading …</string>
+    <string name="hkc_correct_prev_student">Previous</string>
+    <string name="hkc_correct_next_student">Next</string>
+    <string name="hkc_correct_prev_question">Previous</string>
+    <string name="hkc_correct_next_question">Next</string>
+    <string name="hkc_correct_prev_answer">Previous</string>
+    <string name="hkc_correct_next_answer">Next</string>
+    <string name="hkc_correct_failed">Failed to submit</string>
+    <string name="hkc_correct_already"> Graded</string>
+    <string name="hkc_correct_answer_index">This is the NO. %1$d assignment, %2$d assignments in total</string>
+    <string name="hkc_write_comment">Write comments</string>
+    <string name="hkc_publish_correct">Assign corrections</string>
+
+    <string name="hkc_check_report">View report</string>
+    <string name="hkc_correct_finish_tips">Good job! All the assignments have been graded.</string>
+    <string name="hkc_correct_finish_publish">There are %1$d assignments that need corrections. Assign now?</string>
+    <string name="hkc_correct_finish_publish_show_answer">Release grades and answers</string>
+    <string name="hkc_someday_report">Not today\'s report</string>
+    <string name="str_hkc_correct_tag">Correct</string>
+    <string name="str_hkc_wrong_tag">Incorrect</string>
+    <string name="str_hkc_not_all_right_tag">Partially correct</string>
+    <string name="str_hkc_excellent_tag">Excellent</string>
+    <string name="str_hkc_good_tag">Good</string>
+    <string name="str_hkc_pass_tag">Passed</string>
+    <string name="str_hkc_failed_tag">Failed</string>
+    <string name="str_hkc_not_correct">Not graded</string>
+    <string name="str_hkc_not_commit">Not submitted</string>
+    <string name="str_hkc_num_tag">No.</string>
+    <string name="str_hkc_question_tag">Question</string>
+    <string name="hkc_answer_detail">Details</string>
+    <string name="hkc_question_answer">Q&amp;A</string>
+    <string name="hkc_can_not_publish_revise">Cannot assign corrections</string>
+    <string name="hkc_cannot_write_comment">Student\'s assignment not graded yet</string>
+    <string name="hkc_today_report">Today\'s report</string>
+    <string name="hkc_today_homework_finish_percent">Today\'s completion rate</string>
+    <string name="hkc_finish_questions">Completed:</string>
+    <string name="hkc_questions_num">Total no. of questions:</string>
+    <string name="hkc_questions_time">Time taken:</string>
+    <string name="hkc_finish_tag">Finished</string>
+    <string name="hkc_hour_tag">hour(s)</string>
+    <string name="hkc_minute_tag">Score</string>
+    <string name="hkc_so_on">etc</string>
+
+    <string name="hkc_scrawl_prev_page">Previous</string>
+    <string name="hkc_scrawl_next_page">Next</string>
+    <string name="hkc_scrawl_page_count">%1$d/%2$d</string>
+    <string name="hkc_scrawl_delete_this_page">Delete this page</string>
+    <string name="hkc_scrawl_delete_all">Delete all</string>
+    <string name="hkc_scrawl">Scrawl</string>
+    <string name="hkc_scrawl_mode">Annotation</string>
+    <string name="hkc_evaluate_mode">Grading</string>
+    <string name="hkc_scrawl_not_exists">Annotation does not exist. It cannot be deleted</string>
+    <string name="hkc_scrawl_delete_success">Deleted</string>
+    <string name="hkc_scrawl_delete_failed">Failed to delete</string>
+    <string name="hkc_scrawl_upload_failed">Failed to upload</string>
+
+    <string name="hkc_download_failed">Failed to download</string>
+
+    <string name="hkc_correct_rate_tag">Accuracy rate</string>
+    <string name="hkc_today">Today</string>
+    <string name="hkc_yesterday">Yesterday</string>
+    <string name="hkc_study">Study module</string>
+    <string name="hkc_study_classwork">Class exercise</string>
+    <string name="hkc_study_classwork_date">%1$s class exercise</string>
+    <string name="hkc_study_classwork_accuracy">%1$s%2$s exercise accuracy</string>
+    <string name="hkc_study_homework">Homework</string>
+    <string name="hkc_study_homework_accuracy">%1$s%2$s homework accuracy</string>
+    <string name="hkc_study_homework_completion">%1$s%2$s Completion</string>
+    <string name="hkc_study_homework_item_title">%1$sassignment [ %2$s ]</string>
+    <string name="hkc_study_homework_item_deadline">Deadline: %1$s</string>
+    <string name="hkc_study_homework_item_nocorrect">Not graded yet</string>
+    <string name="hkc_accuracy">Accuracy rate</string>
+    <string name="hkc_accuracy_templete">Accuracy rate %1$d％</string>
+    <string name="hkc_completion">Completion</string>
+    <string name="hkc_completion_template1"><![CDATA[Completed questions: <b>%1$d</b> ]]></string>
+    <string name="hkc_completion_template2"><![CDATA[Wrong questions: <b>%1$d</b>]]></string>
+    <string name="hkc_completion_template3"><![CDATA[Total no. of questions: <b>%1$s</b>]]></string>
+    <string name="hkc_completion_template4"><![CDATA[Time taken: <b>%1$s</b>]]></string>
+    <string name="hkc_completion_template5"><![CDATA[Timeliness: <b>%1$d</b>％]]></string>
+    <string name="hkc_topic_count">%1$d question(s) in total</string>
+    <string name="hkc_percentage">%1$d％</string>
+    <string name="hkc_surpass_rate">Exceed %1$d％ students</string>
+
+    <!-- 平均正确率在0%-60%，且出现正确率低于60%的学科xx -->
+    <string name="hkc_classwork_evaluate_1">%1$s The accuracy of overall exercises is low, while subject %2$s\'s accuracy is low</string>
+    <!-- 平均正确率在60%-75%，且出现正确率低于60%的学科xx -->
+    <string name="hkc_classwork_evaluate_2">%1$s The accuracy of overall exercises is general, while subject %2$s\'s accuracy is low</string>
+    <!-- 平均正确率在60%-75%，没有出现正确率低于60%的学科xx -->
+    <string name="hkc_classwork_evaluate_3">%1$s The accuracy of overall exercises is general, each subject\'s new knowledge is almost mastered</string>
+    <!-- 平均正确率在75%-90%，且出现正确率低于60%的学科xx -->
+    <string name="hkc_classwork_evaluate_4">%1$s The accuracy of overall exercises is good, while subject %2$s\'s accuracy is low</string>
+    <!-- 平均正确率在75%-90%，没有出现正确率低于60%的学科xx -->
+    <string name="hkc_classwork_evaluate_5">%1$s The accuracy of overall exercises is good, each subject\'s new knowledge is well mastered</string>
+    <!-- 平均正确率在90%-100%，且出现正确率低于60%的学科xx -->
+    <string name="hkc_classwork_evaluate_6">%1$s The accuracy of overall exercises is excellent, while subject %2$s\'s accuracy is low</string>
+    <!-- 平均正确率在90%-100%，没有出现正确率低于60%的学科xx -->
+    <string name="hkc_classwork_evaluate_7">%1$s The accuracy of overall exercises is excellent, each subject\'s new knowledge is perfectly mastered</string>
+
+    <!-- 平均正确率在0%-60%，且出现正确率低于60%的学科xx -->
+    <string name="hkc_homework_evaluate_1">%1$s The accuracy of the homework is unsatisfactory, subject %2$s\'s accuracy is low</string>
+    <!-- 平均正确率在60%-75%，且出现正确率低于60%的学科xx -->
+    <string name="hkc_homework_evaluate_2">%1$s The accuracy of the homework is general, while subject %2$s\'s accuracy is low</string>
+    <!-- 平均正确率在60%-75%，没有出现正确率低于60%的学科xx -->
+    <string name="hkc_homework_evaluate_3">%1$s The accuracy of the homework is general, each subject\'s new knowledge is almost mastered</string>
+    <!-- 平均正确率在75%-90%，且出现正确率低于60%的学科xx -->
+    <string name="hkc_homework_evaluate_4">%1$s The accuracy of the homework is good, while subject %2$s\'s accuracy is low</string>
+    <!-- 平均正确率在75%-90%，没有出现正确率低于60%的学科xx -->
+    <string name="hkc_homework_evaluate_5">%1$s The accuracy of the homework is good, each subject\'s new knowledge is well mastered</string>
+    <!-- 平均正确率在90%-100%，且出现正确率低于60%的学科xx -->
+    <string name="hkc_homework_evaluate_6">%1$s The accuracy of the homework is excellent, while subject %2$s\'s accuracy is low</string>
+    <!-- 平均正确率在90%-100%，没有出现正确率低于60%的学科xx -->
+    <string name="hkc_homework_evaluate_7">%1$s The accuracy of the homework is excellent, each subject\'s new knowledge is perfectly mastered</string>
+
+    <!-- 正确率60%以下提示：今日XX（学科）练习正确率较差，要加油啦 -->
+    <string name="hkc_subject_evaluate_1">You didn\'t do well in %1$s%2$s. Try harder.</string>
+    <!-- 正确率在60%-75%提示：今日XX（学科）练习正确率一般，再努力一点 -->
+    <string name="hkc_subject_evaluate_2">You did OK in %1$s%2$s. You can do better.</string>
+    <!-- 正确率在75%-90%提示：今日XX（学科）练习正确率良好，再接再厉 -->
+    <string name="hkc_subject_evaluate_3">You did well in %1$s%2$s. Keep it up!</string>
+    <!-- 正确率60%以下提示：正确率在90%以上提示：今日XX（学科）练习正确率优异，你真棒 -->
+    <string name="hkc_subject_evaluate_4">You did great in %1$s%2$s. Well done!</string>
+
+    <string name="hkc_homework_had_sure">Confirmed</string>
+    <string name="hkc_homework_not_sure">To be confirmed</string>
+    <string name="hkc_homework_status_0">Not submitted</string>
+    <string name="hkc_homework_status_1">Not graded</string>
+    <string name="hkc_homework_status_2"> Graded</string>
+
+    <string name="hkc_homework_deadline_tip1">The deadline is %1$s away. Please remind your child to finish their assignment.</string>
+    <string name="hkc_homework_deadline_tip2">The nearest deadline is %1$s away. Please remind your child to finish their assignment.</string>
+    <string name="hkc_homework_deadline_tip3">Your child has finished their assignment. Well done!</string>
+
+    <string name="hkc_no_data_tag">No data</string>
+
+    <string name="hkc_homework_not_good_tag">Result is not satisfactory</string>
+    <string name="hkc_homework_so_so_tag">Result is OK</string>
+    <string name="hkc_homework_good_tag">Result is good</string>
+    <string name="hkc_homework_excellent_tag">Result is excellent</string>
+
+
+    <string name="hkc_homework_many_mistake_happen">A lot of mistakes</string>
+    <string name="hkc_homework_mistake_too_much">Quite a number of mistakes</string>
+    <string name="hkc_homework_mistake_some">Some mistakes</string>
+    <string name="hkc_homework_mistake_little">A few mistakes</string>
+    <string name="hkc_homework_no_mistake">No mistakes</string>
+
+    <string name="hkc_homework_status_tag">\'s homework</string>
+
+    <string name="hkc_check_yesterday_learning">View yesterday\'s assignments</string>
+
+    <string name="hkc_subject_tag">Subject</string>
+    <string name="hkc_question_num_tag">Total no. of questions</string>
+    <string name="hkc_question_finish_num_tag">Completed questions:</string>
+
+    <string name="hkc_question_answer_num_tag">Answered questions</string>
+    <string name="hkc_wrong_question_num_tag">Wrong questions:</string>
+
+    <string name="hkc_student_id_hint">Please enter the student ID</string>
+
+    <string name="hkc_yesterday_tag">Yesterday</string>
+    <string name="str_hkc_study">Study module</string>
+    <string name="str_hkc_speech">Reading aloud</string>
+    <string name="str_hkc_chivox">Chivox module</string>
+    <string name="str_hkc_homework_student">Assignments -- Student</string>
+    <string name="str_hkc_homework_student_report">Report -- Student</string>
+    <string name="str_hkc_homework_parent">Assignments -- Parent</string>
+    <string name="str_hkc_homework_teacher">Assignments -- Teacher</string>
+
+    <string name="str_hkc_zip">Unzip file</string>
+
+    <string name="hkc_request_failed">Request failed</string>
+
+    <string name="hkc_classwork_tag">Class exercise</string>
+
+    <string name="hkc_homework_tag">Assignment</string>
+
+    <string name="hkc_wrong_question_note">Common Mistakes Bank</string>
+
+    <!--云图统计相关的字段-->
+    <string name="hkc_cloud_user_id_tag">User ID</string>
+    <string name="hkc_cloud_time_tag">Point-in-time</string>
+    <string name="hkc_cloud_system_model_tag">System version and phone model</string>
+
+    <string name="hkc_cloud_main_page_tag">Homepage</string>
+    <string name="hkc_cloud_publish_tag">Assign</string>
+    <string name="hkc_cloud_homework_list_tag">My Assignments</string>
+    <string name="hkc_cloud_revise_tag">Grade</string>
+    <string name="hkc_cloud_scan_report">View report</string>
+    <string name="hkc_user_action">User behavior</string>
+    <string name="hkc_teaching_info_choose">Teaching information choice</string>
+    <string name="hkc_directive_question">Self-defined assignments</string>
+    <string name="hkc_smart_question">Smart group title</string>
+    <string name="hkc_smart_question_des">The system auto organizes homework based on the number of questions you entered</string>
+    <string name="hkc_directive_question_des">Assignment content defined by teachers, can be used as supplementary exercises</string>
+    <string name="hkc_choose_question_type">Select type</string>
+    <string name="hkc_textbook_chapter">Chapter</string>
+    <string name="hkc_smart_choose_question_num">%1$s question(s) selected</string>
+    <string name="hkc_smart_question_no_question_tips">You haven\'t chosen the no. of questions</string>
+    <string name="hkc_choose_grade">Please select the level</string>
+    <string name="hkc_choose_subject">Please select the subject</string>
+    <string name="hkc_choose_textbook">Please select textbook series</string>
+    <string name="hkc_to_choose_textbook">Select book</string>
+    <string name="hkc_no_this_textbook">No textbook found</string>
+    <string name="hkc_smart_question_num_max">Maximum no. of questions reached for this section</string>
+    <string name="hkc_str_no_need_to_save_svrawl">No annotation to be saved</string>
+    <string name="hkc_load_image_failed">Failed to load image</string>
+    <string name="hkc_revise_record">Corrections</string>
+    <string name="hkc_str_correct_guide_tips_1">You can modify grading mode</string>
+
+    <string name="ref_word">Past</string>
+    <string name="ref_sentence">I want to know the past and present of hong kong.</string>
+    <string name="sentence_record">Reading aloud -- sentences</string>
+    <string name="stop">Stop</string>
+    <string name="playback">Playback</string>
+    <string name="word_record">Reading aloud -- vocabulary</string>
+    <string name="ref_paragraph">I love you.Just like mouse love rice</string>
+    <string name="paragraph_record">Reading aloud -- paragraph</string>
+
+    <string name="submit_success">Submitted</string>
+    <string name="submit_failed">Failed to submit</string>
+    <string name="hkc_submit">Submit</string>
+    <string name="hkc_speech_english">English reading aloud practice</string>
+    <string name="hkc_speech_commit_unavailable">Please finish all the items before you submit.</string>
+    <string name="hkc_str_correct_guide_tips_2">Three modes: rating, score, right or wrong</string>
+    <string name="hkc_point_tag">Score</string>
+    <string name="hkc_str_multi_evaluate_unable">Cannot modify grading mode</string>
+    <string name="hkc_str_level_evaluate">Rating</string>
+    <string name="hkc_str_points_evaluate">Scoring</string>
+    <string name="hkc_str_wrong_right_evaluate">Right/Wrong</string>
+    <string name="hkc_str_difficulty">Difficulty:</string>
+    <string name="hkc_question_sort">Reorder questions</string>
+    <string name="hkc_suit_question_des">You can publish selected questions and  questions from famous teachers or other teachers to your assignments and shorten the time of choosing questions.</string>
+    <string name="hkc_str_suit_question_num">%1$s question(s) selected</string>
+    <string name="hkc_str_get_failed">Failed</string>
+    <string name="hkc_str_commit">Finish</string>
+    <string name="hkc_str_long_click_sort_tips">Press and drag up and down to reorder questions</string>
+    <string name="hkc_str_suit_question">Synchronization question set</string>
+    <string name="hkc_str_suit_question_change_failed">Failed to change questions</string>
+    <string name="hkc_str_reach_standard">Qulified homework</string>
+    <string name="hkc_str_reach_standard_des">Set a standard value. Student should finish the homework to reach the standard</string>
+    <string name="hkc_str_commit_failed">Failed to submit</string>
+    <string name="hkc_str_reach_standard_choose_text">%1$d selected, preview</string>
+    <string name="hkc_str_reach_standard_no_choose_text">0 selected. You should select an entry first</string>
+    <string name="hkc_str_choose_all_question">Select all</string>
+    <string name="hkc_string_preview">Preview</string>
+    <string name="hkc_string_reach_standard_delete_failed">Failed to delete</string>
+    <string name="hkc_str_reach_standard_preview_delete">Remove</string>
+    <string name="hkc_string_setting">Setting</string>
+    <string name="hkc_string_correct_rate">Accuracy rate</string>
+    <string name="hkc_string_reach_standard_condition_set"><![CDATA[Criteria settings>]]></string>
+    <string name="hkc_string_reach_standard_to_publish">%1$d question(s) in total, assign now</string>
+    <string name="hkc_string_reach_standard_preview">Preview</string>
+    <string name="hkc_string_reach_standard_tag">Qulified homework</string>
+    <string name="hkc_string_reach_standard_failed">Failed to get the qualified data</string>
+    <string name="hkc_string_reach_standard_choose_question_tips">Please select an entry first</string>
+    <string name="hkc_str_reach_standard_add_failed">Failed to add</string>
+    <string name="hkc_string_no_standard_tips">Please select a standard first</string>
+    <string name="hkc_str_record_no_permission">Unauthorized recording permission, unable to record</string>
+    <string name="hkc_string_reach_standard_no_homework">No related entries</string>
+    <string name="hkc_string_no_choose_object">No selectable object</string>
+    <string name="hkc_str_std_condition">Criteria</string>
+    <string name="hkc_str_std_guide_tips_1">Student, this is a copy of qualified homework, it should be finished before you meet the requirements.</string>
+    <string name="hkc_str_std_guide_tips_2">If it is disqualified, the system will generate the specific homework based on the performance</string>
+    <string name="hkc_str_std_not_reach">Disqualified</string>
+    <string name="hkc_str_index">Index</string>
+    <string name="hkc_str_tips_pop">Tap here to view the standard</string>
+    <string name="hkc_get_role_failed">Failed to select role</string>
+    <string name="hkc_parent_role_report_tag">Please login to view</string>
+
+
+    <string name="hkc_homework_state_expire">(Ended)</string>
+    <string name="hkc_homework_question_num">%1$d question(s) in total</string>
+    <string name="hkc_homework_name_1">Title: 【%1$s】%2$s</string>
+    <string name="hkc_homework_name_2">【%1$s】%2$s</string>
+    <string name="hkc_homework_complete_time">Deadline: %1$s</string>
+    <string name="hkc_homework_complete_time_student">Deadline: %1$s</string>
+    <string name="hkc_homework_start_time">Start time:%1$s</string>
+    <string name="hkc_homework_publish_answer">Rel ans</string>
+    <string name="hkc_homework_hide_answer">Hide ans</string>
+    <string name="hkc_class">Class</string>
+    <string name="hkc_homework_priority_0">Ordinary</string>
+    <string name="hkc_homework_priority_3">Recommend</string>
+    <string name="hkc_homework_priority_6">Must</string>
+    <string name="hkc_homework_new">New</string>
+    <string name="hkc_homework_urge">Remind</string>
+    <string name="hkc_homework_standard_1">Qualified</string>
+    <string name="hkc_homework_standard_2">Disqualified</string>
+    <string name="hkc_homework_expire_1">Overdue</string>
+    <string name="hkc_homework_expire_2">Overdue and disqualified</string>
+    <string name="hkc_homework_complete_state_0">Unanswered</string>
+    <string name="hkc_homework_complete_state_1">Finished</string>
+    <string name="hkc_homework_correct_count"><![CDATA[<font color="#1095fb">%1$d</font><font color="#999999">/%2$d Corrected</font>]]></string>
+    <string name="hkc_homework_submit_count"><![CDATA[<font color="#1095fb">%1$d</font><font color="#999999">/%2$d Submitted</font>]]></string>
+
+
+    <string name="hkc_cancel_select_all">Unselect all</string>
+    <string name="hkc_cancel_select_all_failed">Failed to cancel all</string>
+    <string name="hkc_all">All</string>
+    <string name="hkc_state">Status</string>
+    <!-- 2017-12-06 新增 -->
+    <string name="hkc_base_homework_hfrq">Common Mistakes Bank</string>
+    <string name="hkc_select_all">Select all</string>
+    <string name="hkc_wrong_rate">Error rate: %1$d％</string>
+    <string name="hkc_wrong_rate_range">Error rate: %1$d％ - %2$d％</string>
+    <string name="hkc_question_num_with_timelimit">%1$d question(s) in total, estimated time: %2$d minute(s)</string>
+    <string name="hkc_publish">Publish</string>
+    <string name="hkc_publish_homework">Assig Prac</string>
+    <string name="hkc_publish_success">Assigned</string>
+    <string name="hkc_publish_fail">Failed to release.</string>
+    <string name="hkc_publish_class">Class</string>
+    <string name="hkc_publish_homework_name">Title</string>
+    <string name="hkc_publish_homework_name_hint">Please enter assignment title</string>
+    <string name="hkc_publish_deadline">Deadline:</string>
+    <string name="hkc_error_publish_homeworkname">Please enter title</string>
+    <string name="hkc_error_publish_deadline_empty">Please enter deadline</string>
+    <string name="hkc_error_publish_deadline_small">Deadline should not be earlier than current time</string>
+    <string name="hkc_preview_homework">%1$d question selected, preview</string>
+    <string name="hkc_preview_homework_with_minute">%1$d question(s) selected, preview now(estimated time: %2$d minutes)</string>
+    <string name="hkc_preview_homework_with_minute2">%1$d question(s) selected, estimated time: %2$d 
+ minute(s)</string>
+    <string name="hkc_base_homework_des">Select questions from Question Bank, Past Assignments and School Assignments</string>
+    <string name="hkc_base_homework">Ready-made assignments</string>
+    <string name="hkc_error_no_question_to_publish">Please select questions first</string>
+    <string name="hkc_error_select_class_first">Please select class</string>
+    <string name="hkc_error_get_prequestion">Failed to view pre-set questions</string>
+    <string name="hkc_error_get_high_frequency_package">Failed to view Common Mistakes Bank</string>
+    <string name="hkc_error_select_all">Failed to select all</string>
+    <string name="hkc_tip_already_select_all">Selected all</string>
+    <string name="hkc_tip_please_select_question">Select question</string>
+    <string name="hkc_homework">Assignment</string>
+    <string name="hkc_base_to_preview">%1$d question(s) selected, preview now(estimated time: %2$d minutes)</string>
+    <string name="hkc_base_question_num">%1$d question(s) in total</string>
+    <string name="hkc_base_publish_num">Assigned: %1$d time</string>
+    <string name="hkc_base_math_pro">Calculate ability</string>
+    <string name="hkc_base_choose_publish_range">Select</string>
+    <string name="hkc_base_choose_textbook">Please select the textbook first</string>
+    <string name="hkc_base_no_choose_homework_type">No assignment type available</string>
+    <string name="hkc_base_homework_type_failed">Failed to view assignment type</string>
+    <string name="hkc_base_school_homework">School assignments</string>
+    <string name="hkc_base_school_failed">Failed to view School assignments</string>
+    <string name="hkc_base_school_choose_failed">Failed to select</string>
+    <string name="hkc_base_class_choose">Select class</string>
+    <string name="hkc_base_no_class_info">No class information</string>
+    <string name="hkc_base_choose_all">Select All</string>
+    <string name="hkc_base_cancel_choose_all">Unselect all</string>
+    <string name="hkc_base_no_can_choose_class">No class available</string>
+    <string name="hkc_base_no_class">No class selected</string>
+    <string name="hkc_base_duplicate_tips">%1$s has %2$d repeats with the selected questions, and %3$d questions added in total</string>
+    <string name="hkc_base_add_question_failed">Failed to add</string>
+    <string name="hkc_base_minus_question_failed">Failed to reduce</string>
+    <string name="hkc_base_english_single_choice">Single choice practice</string>
+    <string name="hkc_base_consolidation">Consolidation training</string>
+    <string name="hkc_base_basic_training">Ready-made assignments</string>
+    <string name="hkc_base_medium">Stretching practice</string>
+    <string name="hkc_base_difficult">Key points practice</string>
+    <string name="hkc_base_question_type">Qu. type</string>
+    <string name="hkc_base_difficulty">Difficulty</string>
+    <string name="hkc_base_publish">Assign</string>
+    <string name="hkc_error_no_role">No role information, cannot access</string>
+    <string name="hkc_error_deprecated">This page is obsolete, please use the new cmp</string>
+    <string name="hkc_error_unsupport_role">Role not supported</string>
+    <string name="hkc_role_student">Student</string>
+    <string name="hkc_role_teacher">Teacher</string>
+    <string name="hkc_role_guardian">Parents</string>
+    <string name="hkc_homework_detail_dead_line">Deadline:</string>
+    <string name="hkc_publish_time">Assigned on:</string>
+    <string name="hkc_homework_detail_count_down_min">%1$d minute(s) to Start time</string>
+    <string name="hkc_homework_detail_count_down_sec">%1$d second(s) to Start time</string>
+    <string name="hkc_do_homework">Do assignment</string>
+    <string name="hkc_check_homework">Check</string>
+    <string name="hkc_homework_type">Assignment type:</string>
+    <string name="hkc_homework_content">Content:</string>
+    <string name="hkc_homework_detail_question_num">Total:</string>
+    <string name="hkc_predict_use_time">Est. time:</string>
+    <string name="hkc_homework_question_time">TIME</string>
+    <string name="hkc_type_normal">R-assig</string>
+    <string name="hkc_type_direct">Custom</string>
+    <string name="hkc_type_standard">Qualified</string>
+    <string name="hkc_type_auto">Subject-specific assignments</string>
+    <string name="hkc_question_num">%1$d questions</string>
+    <string name="hkc_preview_homework_tips">You can preview the assignments</string>
+    <string name="hkc_commit_deadline">Deadline</string>
+    <string name="hkc_homework_publish_time">Release time</string>
+    <string name="hkc_publish_immediately">Release</string>
+    <string name="hkc_homework_publish_class">Class</string>
+    <string name="hkc_homework_use_time">Duration</string>
+    <string name="hkc_unlimited">No</string>
+    <string name="hkc_to_correct">Grade</string>
+    <string name="hkc_answer_time">Duration:</string>
+    <string name="hkc_use_time">Time taken:</string>
+    <string name="hkc_left_time">Remaining time:</string>
+    <string name="hkc_homework_answer_color_countdown"><![CDATA[<font color="#0090ff">Answer time only </font><font color="#ffb822">%1$d minute(s) left</font>]]></string>
+    <string name="hkc_homework_answer_color_sec_countdown"><![CDATA[<font color="#0090ff">Answer time only </font><font color="#ffb822">%1$d second(s) left</font>]]></string>
+    <string name="hkc_homework_start_color_countdown_10_min"><![CDATA[<font color="#0090ff">Start time:</font><font color="#ffb822">%1$s</font>]]></string>
+    <string name="hkc_homework_start_color_countdown"><![CDATA[<font color="#ffb822">%1$d minute(s)</font><font color="#0090ff"> to Start time</font>]]></string>
+    <string name="hkc_homework_start_color_countdown_min"><![CDATA[<font color="#ffb822">%1$d second(s)</font><font color="#0090ff"> to Start time</font>]]></string>
+    <string name="hkc_time_tips">Please finish within the time limit.</string>
+    <string name="hkc_countdown_minute">%1$d minute(s)</string>
+    <string name="hkc_edit_homework_time">Modify duration</string>
+    <string name="hkc_commit_status">Submission:</string>
+    <string name="hkc_homework_report">Assignment report</string>
+    <string name="hkc_homework_correct_status">Grading Status</string>
+    <string name="hkc_homework_commit_num">%1$d/%2$d submitted</string>
+    <string name="hkc_homework_correct_num">%1$d/%2$d graded</string>
+    <string name="hkc_left_do_homework_tips">TCountdown will not stop even if you quit now. Continue to answer?</string>
+    <string name="hkc_homework_time_tips">Remaining time</string>
+    <string name="hkc_over_time">Overdue</string>
+    <string name="hkc_no_limit_time">No time limit </string>
+    <string name="hkc_modify_start_time">Modify start time </string>
+    <string name="hkc_start_time_early_dealine_tips">Start time should not be later than deadline</string>
+    <string name="hkc_publish_time_early_dealine_tips">Release time should not be later than deadline</string>
+    <string name="hkc_start_time_error">Invalid start time</string>
+    <string name="hkc_start_time_early_current_time">Start time should not be earlier than the current time</string>
+    <string name="hkc_publish_time_early_current_time">Release time should not be earlier than the current time</string>
+    <string name="hkc_publish_time_later_start_time">Release time should be earlier than the stat time</string>
+    <string name="hkc_modify_homework_time_length">Modify duration</string>
+    <string name="hkc_keep_answer">Continue</string>
+    <string name="hkc_left">Quit</string>
+    <string name="hkc_more">More</string>
+    <string name="hkc_reach_standard">Up to standard</string>
+    <string name="hkc_not_reach_standard">Disqualified</string>
+    <string name="hkc_over_time_label">Ended</string>
+    <string name="hkc_confirm_status">Confirm</string>
+    <string name="hkc_not_complete">Unfinished</string>
+    <string name="hkc_homework_detail_start_color_countdown"><![CDATA[<font color="#ffb822">%1$d minute(s)</font><font color="#333333"> to Start time</font>]]></string>
+    <string name="hkc_homework_detail_start_color_sec_countdown"><![CDATA[<font color="#ffb822">%1$d second(s)</font><font color="#333333"> to Start time</font>]]></string>
+    <string name="hkc_confirm_homework_failed">Failed to confirm</string>
+    <string name="hkc_time_end_tips">Time is up. Please submit now!</string>
+    <string name="hkc_force_commit_tips">Submit assignment (%1$d second(s))</string>
+    <string name="hkc_start_homework_date_format">MM-dd HH:mm</string>
+    <string name="hkc_direct_no_answer_tips">This student hasn\'t answered the question</string>
+
+    <string name="hkc_suit">A set of homework</string>
+    <string name="hkc_order">Learning task</string>
+    <string name="hkc_holiday">Holiday assignments</string>
+    <string name="hkc_english_standard">New standard homework (English)</string>
+    <string name="hkc_smart_question_page">Smart group paper</string>
+    <string name="hkc_other_homework">Other</string>
+    <string name="hkc_end_time">End time:</string>
+    <string name="hkc_start_answer_time">Start time</string>
+
+    <string name="hkc_other_subject_label">It</string>
+    <string name="hkc_homework_question_num_2">%1$d question(s) in total</string>
+    <string name="hkc_correct_rate">Accuracy rate</string>
+    <string name="hkc_std_rate">Achievement Rate</string>
+    <string name="hkc_excellent_rate">Excellent</string>
+    <string name="hkc_finish_num">%1$d question(s) completed</string>
+    <string name="hkc_homework_correct_count_2">&lt;font color="#999999"&gt;/%1$d Graded&lt;/font&gt;</string>
+    <string name="hkc_homework_submit_count_2">%1$d/%2$d submitted</string>
+    <string name="hkc_day_tag">day(s)</string>
+    <string name="hkc_share_school">Share</string>
+    <string name="hkc_publish_homework_success">Assigned</string>
+    <string name="hkc_publish_again">Continue to assign</string>
+    <string name="hkc_to_homework_list">My Assignments</string>
+    <string name="hkc_publish_success_title">Assigned</string>
+    <string name="hkc_homework_list_failed">Failed to view assignments </string>
+    <string name="hkc_start_time">Start time</string>
+    <string name="hkc_choose_publish_time">Select release time</string>
+    <string name="hkc_no_serach_teacher_tips">No teacher found, please enter again</string>
+    <string name="hkc_publish_time_title">Assigned on</string>
+    <string name="hkc_choose_time">Select time</string>
+    <string name="hkc_start_time_title">Start time</string>
+    <string name="hkc_end_time_title">End Time</string>
+    <string name="hkc_reset">Reset</string>
+    <string name="hkc_check">Search</string>
+    <string name="hkc_teacher">Teacher</string>
+    <string name="hkc_publish_tag">Assign</string>
+    <string name="hkc_enter_teacher_name_tips">Please enter Teacher\'s name</string>
+    <string name="hkc_no_homework_list_tips">No assignment found</string>
+    <string name="hkc_class_title">Class:</string>
+    <string name="hkc_standard_can_not_scan_content">Checking the details of standard homework is unavailable</string>
+    <string name="hkc_homework_time_length">Duration</string>
+    <string name="hkc_start_answer_time_title">Start time</string>
+    <string name="hkc_commit_deadline_title">Deadline</string>
+    <string name="hkc_homework_type_title">Assignment type</string>
+    <string name="hkc_homework_content_title">Content</string>
+    <string name="hkc_homework_detail_question_num_title">Total</string>
+    <string name="hkc_predict_use_time_title">Est. time</string>
+    <string name="hkc_commit_status_title">Submission</string>
+    <string name="hkc_homework_correct_status_title">Grading Status</string>
+    <string name="hkc_question_detail">Details</string>
+    <string name="hkc_to_finish">Go</string>
+    <string name="hkc_base_next">Next</string>
+    <string name="hkc_no_class">No class available</string>
+    <string name="hkc_reach_standard_condition">Achievement Requirements:</string>
+    <string name="hkc_correct_rate_title">Accuracy rate</string>
+    <string name="hkc_basic_origin">Source</string>
+    <string name="hkc_month_tag">Month</string>
+    <string name="hkc_basic_choose_chapter">Select chapter</string>
+    <string name="hkc_basic_chapter_tag">Chapter</string>
+    <string name="hkc_bacis_choose_tips">Please select the textbook and chapter first</string>
+    <string name="hkc_filter">Filter</string>
+    <string name="hkc_basic_filter_origin">Source</string>
+    <string name="hkc_previous_answer">Previous answer</string>
+    <string name="hkc_std_report">Standard report</string>
+    <string name="hkc_detail_question_type">Assignment type</string>
+    <string name="hkc_feedback">Feedback</string>
+    <string name="hkc_hand_write_question">Handwriting</string>
+    <string name="hkc_i_konow">Got it!</string>
+    <string name="hkc_second_tag">second(s)</string>
+    <string name="hkc_hour_detail_tag">hour(s)</string>
+    <string name="hkc_minute_detail_tag">min</string>
+    <string name="hkc_second_detail_tag">second(s)</string>
+    <string name="hkc_training">Practice</string>
+    <string name="hkc_unskilled">Unskilled</string>
+    <string name="hkc_unskilled_tips">Note: Reassign questions to students with slow response.</string>
+    <string name="hkc_time_limit">With time limit</string>
+    <string name="hkc_limited">Yes</string>
+
+    <string name="hkc_homework_title">Assignment</string>
+    <string name="hkc_homework_title_with_student_name">%1$s \'s homework</string>
+    <string name="hkc_teacher_evaluate">Teacher\'s comments</string>
+    <string name="hkc_finish_correct"> Graded</string>
+    <string name="hkc_correct_level_mode">Rating</string>
+    <string name="hkc_correct_point_mode">Scoring</string>
+    <string name="hkc_right_wrong_mode">Right/Wrong</string>
+    <string name="hkc_record_comment">Comments</string>
+    <string name="hkc_commit_delete">Confirm to delete?</string>
+    <string name="hkc_student_no_answer">No student answer</string>
+    <string name="hkc_can_not_annatation">Annotation not supported</string>
+    <string name="hkc_commit_point">Submit grading</string>
+    <string name="hkc_basic_history_homework">Past assignments</string>
+    <string name="str_choose_date_and_time">Select time</string>
+    <string name="hkc_unread">Unread</string>
+    <string name="hkc_current">Current</string>
+    <string name="hkc_has_read">Read</string>
+    <string name="hkc_enter_teacher_name">Please enter Teacher\'s name</string>
+    <string name="hkc_oral">Oral exercises</string>
+    <string name="hkc_oral_des">Applied to English oral exercise and etc.</string>
+    <string name="hkc_oral_exercise">Oral exercises</string>
+    <string name="hkc_oral_prev">Previous</string>
+    <string name="hkc_oral_next">Next</string>
+    <string name="hkc_oral_index">Index</string>
+    <string name="hkc_do_homework_index">%1$d/%2$d</string>
+    <string name="hkc_right_rate">Accuracy</string>
+    <string name="hkc_correct_effect">Correct rate</string>
+    <string name="hkc_no_minus">Can not minus</string>
+    <string name="hkc_no_more">Can not plus</string>
+    <string name="hkc_choose_in">Choose</string>
+    <string name="hkc_start_time_late_tips">Start time should not be later than deadline</string>
+    <string name="hkc_minute_detail_sum_tag">min</string>
+    <string name="hkc_share_title">Assignment sent!</string>
+    <string name="hkc_share_tips">Click the button and share to a third-party group</string>
+    <string name="hkc_share_content_hint">Type a notification here and share to parents. (200 words max.)</string>
+    <string name="hkc_share_homework">Share assignments</string>
+    <string name="hkc_no_role">Unable to fetch the role.</string>
+    <string name="hkc_homework_notification">Notification</string>
+    <string name="hkc_no_permission">Sorry! You do not have access to this assignment. Please contact admin to add you to this class.</string>
+    <string name="hkc_homework_detail">Details</string>
+    <string name="hkc_share_content_title">Today\'s assignment as below:
+Please check.</string>
+    <string name="hkc_note_tips">(optional)</string>
+    <string name="hkc_text_to_long">Text over size</string>
+    <string name="hkc_publish_teacher">Assigned by</string>
+    <string name="hkc_notification_deadline">Deadline</string>
+    <string name="hkc_notification_homework_type">Type</string>
+    <string name="hkc_notification_question_num">Amount</string>
+    <string name="hkc_notification_note">Remark</string>
+    <string name="hkc_content_not_null">Please enter assignment content!</string>
+    <string name="hkc_subject_can_not_null">Subject data error</string>
+    <string name="hkc_choose_class">Class data error</string>
+    <string name="hkc_publish_failed">Failed to release.</string>
+    <!-- 2018-12-18 新增 -->
+    <string name="hkc_time_remaining_format">%1$d : %2$d : %3$d</string>
+    <string name="hkc_day">days</string>
+    <string name="hkc_answer_time_format">Answer time: %d minute(s)</string>
+    <string name="hkc_use_time_format">Time taken: %d minute(s)</string>
+    <string name="hkc_left_time_format">Remaining time: %d minute(s)</string>
+    <string name="hkc_time_start">Start time</string>
+    <string name="hkc_time_remaining">Remaining time</string>
+    <string name="hkc_no_subject">Subject data error.</string>
+    <string name="hkc_publish_tip">Confirm to publish?</string>
+    <string name="hkc_share_content_tail">List of assignments. Please make sure your children to finish the assignment on time.</string>
+    <string name="hkc_photo_over_size">9 pic limits.</string>
+    <string name="hkc_homework_content_tips">Maximum 200 words</string>
+    <string name="hkc_modify_homework_name">Modify title</string>
+    <string name="hkc_no_homework_content_tips">Please enter assignment content!</string>
+    <string name="hkc_direct_content_tips">Please enter assignment content…</string>
+    <string name="hkc_net_disk">NetDisk</string>
+    <string name="hkc_direct_question_card_name_hint">e.g. Grammar Bk 1A p.5</string>
+    <string name="hkc_direct_delete_question_card">Delete answer sheet</string>
+    <string name="hkc_direct_question_card_add_question">Add questions</string>
+    <string name="hkc_audio_over_size">Audio num over size</string>
+    <string name="hkc_im_direct">Send as assignment</string>
+    <string name="hkc_im_tips_prexfix_1">You have selected %1$d images (max. 9 images only) and %2$d audio files (max. 1 audio file only). Please try agin.</string>
+    <string name="hkc_im_tips_prexfix_2">You have selected %1$d images (max. 9 images only). Please try agin.</string>
+    <string name="hkc_im_tips_prexfix_3">You have selected %1$d audio files (max. 1 audio file only). Please try agin.</string>
+    <string name="hkc_im_tips_middle_1">无用翻译</string>
+    <string name="hkc_im_tips_tail_1">无用翻译</string>
+    <string name="hkc_im_tips_tail_2">无用翻译</string>
+    <string name="hkc_im_tips_tail_3">无用翻译</string>
+    <string name="hkc_im_dialog_title">Confirm</string>
+    <string name="hkc_im_dialog_content">Your selected messages contain special formats which can\'t be assigned. Continue?</string>
+    <string name="hkc_question_card_homework_tips">Page and question number format: P60-5, or P60-5-1, P60-5.1.1</string>
+    <string name="hkc_direct_commit_delete">Confirm to delete?</string>
+    <string name="hkc_direct_question_card_check_tips">Please set answers for all questions</string>
+    <string name="hkc_direct_question_card">Answer Sheet</string>
+    <string name="hkc_direct_save">Save</string>
+    <string name="hkc_direct_keyboard">Keyboard</string>
+    <string name="hkc_direct_single_choice">MC（1 answer）</string>
+    <string name="hkc_direct_multi_choice">MC (&gt;1 answer)</string>
+    <string name="hkc_direct_text_entry">Blank-filling</string>
+    <string name="hkc_direct_judgement">T or F</string>
+    <string name="hkc_direct_hand_write">Handwriting</string>
+    <string name="hkc_direct_no_history">No history</string>
+    <string name="hkc_direct_im_role_tips">Sorry, you can\'t access Assignments. Please log in as a teacher first.</string>
+    <string name="hkc_direct_title_tips">Please enter assignment title and question title</string>
+    <string name="hkc_direct_hand_write_tag">Students upload images to answer. Manual grading required</string>
+    <string name="hkc_direct_history">History</string>
+    <!-- 2019-02-27 新增 -->
+    <string name="hkc_simulation_training">Mock Exercises</string>
+    <string name="hkc_simulation_training_des">Provide a variety of exam papers, such as past exam papers, pre-exam mocks for all kinds of examinations</string>
+    <string name="hkc_simulation_sync_exam">Sync Test Paper</string>
+    <string name="hkc_simulation_sync_exam_des">(Including unit paper, mid-term paper and final-term paper)
+</string>
+    <string name="hkc_simulation_real_exam">Past Exam Papers</string>
+    <string name="hkc_simulation_real_exam_des">(Including: Junior high school entrance examination, Senior High School Entrance Examination, National College Entrance Examination)
+</string>
+    <string name="hkc_choose_exam_type">Select Type</string>
+    <string name="hkc_phase_textbook">Educational Stage / Textbook</string>
+    <string name="hkc_unit_choose">Select Unit
+</string>
+    <string name="hkc_page_list">List</string>
+    <string name="hkc_share_tag">Share</string>
+    <string name="hkc_choose_phase_textbook">Select textbook
+</string>
+    <string name="hkc_all_area">All Regions</string>
+    <string name="hkc_all_year">All Years</string>
+    <string name="hkc_exam_paper">Test</string>
+    <string name="hkc_exam_answer">Answer</string>
+    <string name="hkc_sim_exam_paper">Mock Exam Papers</string>
+    <string name="hkc_get_year_failed">Failed</string>
+    <string name="hkc_get_area_failed">Failed</string>
+    <string name="hkc_no_exam_paper">No exam papers available</string>
+    <string name="hkc_no_paper_location_tips">The exam papers are not found and can\'t be shared</string>
+    <string name="hkc_no_paper_answer_location_tips">The answers are not found and can\'t be shared</string>
+    <string name="hkc_sim_paper">Mock Exam Papers</string>
+    <string name="hkc_direct_add_other_homework">Add assignment</string>
+    <string name="hkc_direct_add_blank">Add</string>
+    <string name="hkc_answer_card">Answer Sheet</string>
+
+    <!--作答流程新增-->
+    <string name="hkc_to_do_homework">Go</string>
+    <string name="hkc_action_check">View</string>
+    <string name="hkc_sign_unknown">Mark</string>
+    <string name="hkc_commit_answer">Submit</string>
+    <string name="hkc_no_commit_tips">You still have %1$d question(s) to be answered, so you can\'t submit it.</string>
+    <string name="hkc_all_subject">All Subjects</string>
+    <string name="hkc_undone_homework">To do</string>
+    <string name="hkc_holiday_homework_unfinish_tips">You can\'t do the homework because the previous one is not finished</string>
+    <string name="hkc_holiday_homework_error_tips">Failed to get holiday homework details</string>
+    <string name="hkc_question_num_title">Number of Questions:</string>
+    <string name="hkc_answered">Answered</string>
+    <string name="hkc_no_answer">Unanswered</string>
+
+    <!--批改修改新增-->
+    <string name="hkc_correct_progress">Progress of marking</string>
+    <string name="hkc_correct_progress_tag">Progress of marking</string>
+    <string name="hkc_correct_exit_tips">You haven\'t finished marking. Do you still want to quit?</string>
+    <string name="hkc_finish_correct_failed">Failed, please try again.</string>
+    <string name="hkc_correct_info_failed_tips">Fail to fetch marking info.</string>
+    <string name="hkc_end_correct">Quit</string>
+    <string name="hkc_continue_correct">Continue</string>
+    <string name="hkc_revise_failded_tips">hkc_revise_failded_tips</string>
+    <string name="hkc_revise_tag">Do corrections</string>
+    <string name="hkc_remind_success">Reminded successfully</string>
+    <string name="hkc_remind_title">No need to assign revision exercise.</string>
+    <string name="hkc_remind_des">The submitted homework of your students is all up to standard. Go and remind the students who haven\'t finished their homework.</string>
+    <string name="hkc_remind_now">Remind</string>
+    <string name="hkc_revise_homework_tag">Do corrections</string>
+    <string name="hkc_revise_publish">Assign to do corrections</string>
+    <string name="hkc_point_correct_tips">Tips: drag or input the numbers for rating</string>
+    <string name="hkc_record_over_limit_tips">3 recordings max.</string>
+    <string name="hkc_not_support_emoji_tips">Unsupported emoji contained in the homework</string>
+    <string name="hkc_save_this_edit_tips">保留本次编辑的内容？</string>
+    <string name="hkc_save">No Pass</string>
+    <string name="hkc_key_to_remind">一键提醒</string>
+
+    <!--首页新增-->
+    <string name="hkc_to_scan">Check</string>
+    <string name="hkc_deadline_prefix">Deadline:</string>
+    <string name="hkc_all_class">All Classes</string>
+    <string name="hkc_revocation_tip_to_web">Please modify in web terminal</string>
+    <string name="hkc_not_support_draft_tips">Please modify in web terminal</string>
+    <string name="hkc_homework_cancel_tips">The homework has been recalled to the Drafts.</string>
+    <string name="hkc_homework_been_deleted">Deleted successfully</string>
+    <string name="hkc_draft">Drafts</string>
+    <string name="hkc_teacher_empty_tips1">No homework assigned by you</string>
+    <string name="hkc_teacher_empty_tips2">Please assign homework for your students now</string>
+    <string name="hkc_year_tag">Year</string>
+    <string name="hkc_teacher_tag">teacher</string>
+    <string name="hkc_question_tag">Question</string>
+    <string name="hkc_self_school">Homework Library</string>
+    <string name="hkc_urge_success_tips">Remind successfully</string>
+    <string name="hkc_student_empty_tips">No homework assigned by your teacher</string>
+    <string name="hkc_my_homework">My Homework</string>
+    <string name="hkc_delete_success">Deleted</string>
+    <string name="hkc_no_more_data">No more data</string>
+    <string name="hkc_today_tag">Today</string>
+    <string name="hkc_teacher_urge">Reminded by Teacher</string>
+    <string name="hkc_overdue">Overdue</string>
+    <string name="hkc_almost_start">Begin Soon</string>
+    <string name="hkc_day_after">day(s) available</string>
+    <string name="hkc_to_correct_tag">Correct</string>
+    <string name="hkc_child_homeowrk_latter">\'s homeworks</string>
+    <string name="hkc_parent_all_finish_tips_2">Go and praise your child</string>
+    <string name="hkc_your_child">Your child</string>
+    <string name="hkc_parent_all_finish_tips_1">has finished all the homework.</string>
+    <string name="hkc_teacher_not_publish_tips">No assignments.</string>
+    <string name="hkc_parent_no_report_tips">No available homework report</string>
+    <string name="hkc_parent_no_report_tips2">Remind your child to finish the homework</string>
+    <string name="hkc_no_more_data_tips">No more data</string>
+    <string name="hkc_confirm_homework_failed_tips">Failed to confirm</string>
+    <string name="hkc_not_correct_homework">Homework Correction</string>
+    <string name="hkc_urge_bubble_tips">new piece(s) of homework reminded by the teacher.</string>
+    <string name="hkc_todo_bubble_tips">new piece(s) of homework for you to finish.</string>
+    <string name="hkc_overdue_bubble_tips">new piece(s) of overdue homework.</string>
+    <string name="hkc_almost_start_bubble_tips">new piece(s) of upcoming homework.</string>
+    <string name="hkc_common_finish_all_tips1">You have finished all of your homework.</string>
+    <string name="hkc_common_finish_all_tips2">There is no royal road to learning.</string>
+    <string name="hkc_fighting_tag">Come on!</string>
+    <string name="hkc_you_have_not_finish_homework_tag">There are still</string>
+    <string name="hkc_homework_unit">piece(s) of homework for you to finish.</string>
+    <string name="hkc_urge_homework_title">Remind Homework</string>
+    <string name="hkc_todo_homework_title">Unfinished</string>
+    <string name="hkc_homework_finish">完成学习活动</string>
+    <string name="hkc_overdue_homework">Overdue Homework</string>
+    <string name="hkc_almost_start_homework_title">new piece(s) of upcoming homework.</string>
+    <string name="hkc_publish_in_time_tag">Time Assignment</string>
+    <string name="hkc_normal_draft_tag">Draft</string>
+    <string name="hkc_withdraw_homework_tips">Recall Homework</string>
+    <string name="hkc_oral_tag">Oral</string>
+    <string name="hkc_homework_list_title">My Assignments</string>
+    <string name="hkc_list_right_rate">%Accuracy</string>
+    <string name="hkc_list_correct_rate">%Accuracy rate</string>
+    <string name="hkc_list_std_rate">%Achievement Rate</string>
+    <string name="hkc_list_good_rate">%Excellent</string>
+    <string name="hkc_waiting_teacher_correct">To be corrected</string>
+    <string name="hkc_new_add">New</string>
+    <string name="hkc_have_tag">There are</string>
+    <string name="hkc_people_unit_tag">Persons</string>
+    <string name="hkc_urge_title">Remind</string>
+    <string name="hkc_urged_title">Reminded</string>
+    <string name="hkc_homework_title_tag">Assignment</string>
+    <string name="hkc_recall_to_draft_tips">You can re-assign the homework in the Drafts.</string>
+    <string name="hkc_delete_title_tag">Delete</string>
+    <string name="hkc_recall_tag">Recall</string>
+    <string name="hkc_question_review">Review</string>
+    <string name="hkc_qa_title_tag">Answer</string>
+    <string name="hkc_publish_inm_title">Assign Now</string>
+    <string name="hkc_modify_title_tag">Modify</string>
+    <string name="hkc_teacher_correcting_tips">new piece(s) of homework for you to correct.</string>
+    <string name="hkc_modify_time">Edited:</string>
+    <string name="hkc_homework_unit_single">piece(s) of homework for you to finish.</string>
+    <string name="hkc_time_title_tag">Time</string>
+
+    <!--布置流程优化-->
+    <string name="hkc_homework_advanced_setting">Advanced Settings</string>
+    <string name="hkc_homework_choose_exercises">Add Questions</string>
+    <string name="hkc_homework_go_to_set">Setting</string>
+    <string name="hkc_homework_type1">Types</string>
+    <string name="hkc_homework_empty_subject">No subject information has been set</string>
+    <string name="hkc_homework_choose_class_confirm">Confirm</string>
+    <string name="hkc_please_choose_class">Select Class</string>
+    <string name="hkc_advanced_setting_yes">Yes</string>
+    <string name="hkc_homework_no">No</string>
+    <string name="hkc_homework_choose_book_hint">Select textbook and chapter</string>
+    <string name="hkc_homework_chinese">Chinese</string>
+    <string name="hkc_homework_math">Maths</string>
+    <string name="hkc_homework_english">English</string>
+    <string name="hkc_homework_other">Other</string>
+    <string name="hkc_homework_daily">Daily</string>
+    <string name="hkc_homework_exam">Tests</string>
+    <string name="hkc_publish_subject_empty_tips">Please complete the teaching information in the back end</string>
+    <string name="hkc_continue_choose_question">Add more</string>
+    <string name="hkc_daily_homework">Daily</string>
+    <string name="hkc_no_homework_type_choose">Please select type</string>
+    <string name="hkc_no_chapter_tips">Please select chapter</string>
+    <string name="hkc_limit_time_length">Limit on duration</string>
+    <string name="hkc_limit_homework_start_time">Limit on start time</string>
+    <string name="hkc_limit_publish_time">Limit on release time</string>
+    <string name="hkc_preview_homework_title">Preview Homework</string>
+    <string name="hkc_daily_homework_full">Daily</string>
+    <string name="hkc_question_unit">question(s)</string>
+    <string name="hkc_holiday_homework_full">Holiday assignments</string>
+    <string name="hkc_choose_class_tips">Select class</string>
+    <string name="hkc_draft_modify_not_support">Modification denied</string>
+
+    <!--語音作業-->
+    <string name="hkc_audio_homework_tag">Voice Question</string>
+    <string name="hkc_share_ps">Type a notification here and share to parents. (200 words max.)</string>
+    <string name="hkc_audio_homework_short">Audio</string>
+    <string name="hkc_skip">Skip</string>
+    <string name="hkc_share_publish_success">Assigned</string>
+    <string name="hkc_share_imm">Share</string>
+    <string name="hkc_today_homework_title">Today\'s Homework</string>
+    <string name="hkc_re_record">点击重录</string>
+    <string name="hkc_deadline_date">Best by</string>
+    <string name="hkc_upload_title">Uploading: %1$s %2$s/%3$s</string>
+    <string name="hkc_upload_failed_tag">Failed to upload</string>
+    <string name="hkc_re_upload">Re-upload</string>
+    <string name="hkc_media_type_pic">Image</string>
+    <string name="hkc_media_type_audio">Audio</string>
+    <string name="hkc_media_type_video">Video</string>
+    <string name="hkc_error_role_different">Permission denied. Please change to a %1$s account.</string>
+    <string name="hkc_audio_homework_tips">点击这里可以快捷布置语音学习活动哦~</string>
+    <string name="hkc_no_audio_tips">No record.</string>
+    <string name="hkc_check_detail">Check details</string>
+    <string name="hkc_read_report">View report</string>
+    <string name="hkc_basic_question_state"><![CDATA[<font color="#38adff">%1$d</font><font color="#333333"> question(s) have been auto-marked and </font><font color="#38adff">%2$d</font><font color="#333333"> question(s) left for you to mark.</font>]]></string>
+    <string name="hkc_add_other_content">Add More</string>
+
+    <!-- 2.59-->
+    <string name="hkc_modify_comment">Modify</string>
+
+    <!--  学习活动系统降级  -->
+    <string name="hkc_homework_create_failed">学习活动生成失败</string>
+    <string name="hkc_homework_cancel_successful">Withdrawn</string>
+    <string name="hkc_homework_cancel_change_publish_again">学习活动已被撤回至草稿箱，您可以在草稿箱内修改并重新布置改学习活动</string>
+    <string name="hkc_homework_go_to_change">Change</string>
+    <string name="hkc_homework_cancel_cancel">Cancel</string>
+    <string name="hkc_homework_recall">Recall</string>
+    <string name="hkc_homework_please_move_to_web">Please modify in web terminal</string>
+    <string name="hkc_homework_class_choose">Select class</string>
+    <string name="hkc_homework_add_classes">添加班级</string>
+
+    <string name="hkc_homework_tip_correct_exit_with_unsave">你有批注尚未保存，是否退出</string>
+
+    <string name="hkc_attachment">Attachment</string>
+    <string name="hkc_download">Download</string>
+    <string name="hkc_download_continue">Continue</string>
+    <string name="hkc_download_pause">Pause</string>
+    <string name="hkc_download_progress">正在下载（%1$s）</string>
+    <string name="hkc_open">Open </string>
+
+    <!--敏感词-->
+    <string name="hkc_homework_censor_tip">信息中包含敏感内容:%s,请修改后再提交!</string>
+
+    <string name="hkc_student_new_homework_tip1">正在获取</string>
+    <string name="hkc_student_new_homework_tip2">您有新的学习活动</string>
+
+    <string name="hkc_upload_file_128m_tip">Exceeded the limit (180M)</string>
+    <string name="hkc_general_report">Comprehensive Report</string>
+    <string name="hkc_record_details">Score Details</string>
+    <string name="hkc_title_details">Question Details</string>
+    <string name="hkc_complete_the_number">Passed</string>
+    <string name="hkc_overall_performance">整体表现</string>
+    <string name="hkc_percentage_complete">Completion Rate</string>
+    <string name="hkc_excellent_rates">Excellent Rate</string>
+    <string name="hkc_pass_rate">Pass Rate</string>
+    <string name="hkc_percentage_complete_content">完成率指的是完成学习活动的人数，占班级总人数的百分比</string>
+    <string name="hkc_excellent_rates_content">优秀率指的是获得优秀成绩的人数，占完成学习活动总人数的百分比</string>
+    <string name="hkc_pass_rate_content">及格率指的是获得优秀、良、及格成绩的人数之和，占完成学习活动总人数的百分比</string>
+    <string name="hkc_proportion"><![CDATA[<b>%1$d</b>]]></string>
+
+
+    <!-- v2新增 -->
+    <string name="hkc_v2_in_progress">Ongoing</string>
+    <string name="hkc_v2_not_correct">To be corrected</string>
+    <string name="hkc_rank_mode">Rating</string>
+    <string name="hkc_score_mode">Scoring</string>
+    <string name="hkc_quick_comment">快捷评语</string>
+    <string name="hkc_voice">Audio</string>
+    <string name="hkc_correct_result">Correction results</string>
+    <string name="hkc_previous">上一份</string>
+    <string name="hkc_v2_time_format">MM-dd</string>
+    <string name="hkc_v2_end"> Due</string>
+    <string name="hkc_v2_end2">Ended</string>
+    <string name="hkc_v2_end3">即将截止</string>
+    <string name="hkc_v2_finish_count">已完成 %1$d / %2$d</string>
+    <string name="hkc_v2_correct_count">已批改 %1$d / %2$d</string>
+    <string name="hkc_v2_finish_correct">完成批改</string>
+    <string name="hkc_v2_publish_time_text">将在 %s 发布</string>
+    <string name="hkc_v2_remind">一键提醒</string>
+    <string name="hkc_v2_update_end_time">Change</string>
+    <string name="hkc_v2_publish_to">Send to </string>
+    <string name="hkc_v2_timing_publish">Timing transmission</string>
+    <string name="hkc_v2_publish_now">Send</string>
+    <string name="hkc_v2_wait_complete">To be completed</string>
+    <string name="hkc_v2_tomorrow">Tomorrow</string>
+    <string name="hkc_v2_no_staff">No data</string>
+    <string name="hkc_v2_yes_staff">全部人员已完成学习活动</string>
+    <string name="hkc_v2_roger">Got it</string>
+    <string name="hkc_v2_general_report">Comprehensive Report</string>
+    <string name="hkc_v2_record_details">Score Details</string>
+    <string name="hkc_v2_title_details">Question Details</string>
+
+
+    <string name="hkc_v2_remind_text">请在 %s 前完成学习活动</string>
+    <string name="hkc_v2_text_length_limit"><![CDATA[<font color="#666666">%d</font></b>/1000]]></string>
+    <string name="hkc_v2_remind_tip">Reminded successfully</string>
+    <string name="hkc_v2_update_end_time_tip"><![CDATA[学习活动的截止时间改为<br><font color="#0090ff">%1$s %2$s %3$s</font>，确认调整？]]></string>
+    <string name="hkc_v2_update_end_time_tip2">Succeeded</string>
+    <string name="hkc_v2_publish_draft_tip">保留本次编辑的学习活动内容？</string>
+    <string name="hkc_v2_publish_draft_tip2">已保留上次编辑内容，是否继续编辑？</string>
+    <string name="hkc_v2_keep">No Pass</string>
+    <string name="hkc_v2_continue">Continue</string>
+    <string name="hkc_v2_return_homework_list">返回学习活动列表</string>
+    <string name="hkc_v2_publish_success_tip">可以立即分享，督促学生完成学业</string>
+    <string name="hkc_v2_publish_range">布置范围</string>
+    <string name="hkc_good">Good</string>
+    <string name="hkc_excellent">Excellent</string>
+    <string name="hkc_middle">Medium</string>
+    <string name="hkc_pass">Passed</string>
+    <string name="hkc_no_pass">Failed</string>
+    <string name="hkc_second">Score</string>
+    <string name="hkc_correct_tip">批改学习活动 (%1$d/%2$d)</string>
+    <string name="hkc_goon_correct">Continue</string>
+    <string name="hkc_goon_correct_tip">还有%1$d份学习活动未批改，是否继续批改？</string>
+    <string name="hkc_tip">Prompt</string>
+    <string name="hkc_submit_result">Submit correction</string>
+    <string name="hkc_submit_success">Submitted</string>
+    <string name="hkc_has_correct_count">已批改(%1$d)</string>
+    <string name="hkc_no_correct_count">未批改(%1$d)</string>
+
+    <string name="hkc_v2_please_input_content">Please Enter</string>
+    <string name="hkc_v2_content_not_null">Please enter the content.</string>
+    <string name="hkc_v2_teacher_class_tip">%1$s老师 %2$s</string>
+    <string name="hkc_no_correct_record">暂无批改记录</string>
+    <string name="hkc_has_correct_all">已完成全部批改</string>
+    <string name="hkc_v2_multimedia_attachment_present_no">暂无多媒体附件</string>
+    <string name="hkc_v2_share_to">转发至%s</string>
+    <string name="hkc_v2_publish_dialog_tip"><![CDATA[该学习活动将%1$s，截止时间为：<font color="#0090ff">%2$s</font>]]></string>
+    <string name="hkc_v2_send"><![CDATA[于<font color="#0090ff">%1$s</font>发送]]></string>
+    <string name="hkc_v2_compile">Edit</string>
+    <string name="hkc_v2_correct_result_dialog_tip1">提交批改结果后不可修改，且会结束该作业活动，是否提交？</string>
+    <string name="hkc_v2_correct_result_dialog_tip2"><![CDATA[已完成：<font color="#666666">%1$d</font>/%2$d人]]></string>
+    <string name="hkc_v2_correct_result_dialog_tip3"><![CDATA[已批改：<font color="#666666">%1$d</font>/%2$d人]]></string>
+    <string name="hkc_v2_correct_result_dialog_tip4"><![CDATA[已评价：<font color="#666666">%1$d</font>/%2$d人]]></string>
+    <string name="hkc_v2_correct_result_dialog_tip5"><![CDATA[完成率：<font color="#0090ff">%1$d%%</font>（%2$d人）]]></string>
+    <string name="hkc_v2_correct_result_dialog_tip6"><![CDATA[优秀率：<font color="#0090ff">%1$d%%</font>（%2$d人）]]></string>
+    <string name="hkc_v2_correct_result_dialog_tip7"><![CDATA[及格率：<font color="#0090ff">%1$d%%</font>（%2$d人）]]></string>
+
+    <string name="hkc_v2_change_mode_tip">更换批改方式将清空已批改的内容，是否更换为%1$s？</string>
+    <string name="hkc_v2_change">Change</string>
+    <string name="hkc_v2_do_homework_tip">当前编辑内容将不会保存,确认退出吗?</string>
+    <string name="hkc_v2_all">All</string>
+    <string name="hkc_v2_overtime">Expired</string>
+    <string name="hkc_v2_all2">全部（%d）</string>
+    <string name="hkc_v2_overtime2">已超期（%d）</string>
+    <string name="hkc_v2_remind_text2">截止时间改为 %s</string>
+    <string name="hkc_input_comment_tip">请输入评语内容...</string>
+    <string name="hkc_batch_comment">批量点评</string>
+    <string name="hkc_has_comment_count">已点评(%1$d)</string>
+    <string name="hkc_no_comment_count">未点评(%1$d)</string>
+    <string name="hkc_sel_all">Select All</string>
+    <string name="hkc_publish_comment">发表点评</string>
+    <string name="hkc_publish_comment_success">Posted successfully</string>
+    <string name="hkc_has_comment_status">已点评</string>
+    <string name="hkc_no_comment_status">未点评</string>
+    <string name="hkc_comment_status_all">All</string>
+    <string name="hkc_no_comment_record">暂无点评记录</string>
+    <string name="hkc_has_comment_all">已完成全部点评</string>
+    <string name="hkc_please_choose_person">Please select person</string>
+    <string name="hkc_cancel_upload_failed">取消上传失败</string>
+
+
+    <string name="hkc_v2_not_complete_num">未完成(%d)</string>
+    <string name="hkc_v2_complete_num">已完成(%d)</string>
+    <string name="hkc_v2_answer_content">作答内容</string>
+    <string name="hkc_v2_correct_result">Correction results</string>
+    <string name="hkc_v2_homework_summary">学习活动概述</string>
+    <string name="hkc_v2_subject_colon">Subject:</string>
+    <string name="hkc_v2_complete">已完成（%d）</string>
+    <string name="hkc_v2_not_complete">未完成（%d）</string>
+    <string name="hkc_v2_excellent">优(%d)</string>
+    <string name="hkc_v2_good">良好(%d)</string>
+    <string name="hkc_v2_middle">中等(%d)</string>
+    <string name="hkc_v2_pass">及格(%d)</string>
+    <string name="hkc_v2_no_pass">不及格(%d)</string>
+    <string name="hkc_v2_teacher">%s老师</string>
+    <string name="hkc_v2_class_perform">班级表现</string>
+    <string name="hkc_v2_people_number">Stud</string>
+    <string name="hkc_v2_level">Level</string>
+    <string name="hkc_v2_excellent_brackets">优秀(%d)</string>
+    <string name="hkc_v2_end4">今天截止</string>
+    <string name="hkc_v2_subject_empty">Subject</string>
+    <string name="hkc_v2_subject_empty2">学　　科：</string>
+    <string name="hkc_v2_delete_homework_tip">是否确定删除学习活动？</string>
+    <string name="hkc_v2_please_select_publish_range">请选择布置范围</string>
+    <string name="hkc_v2_please_input_homework_title">请输入学习活动标题</string>
+    <string name="hkc_v2_please_input_homework_content">请输入学习活动内容</string>
+    <string name="hkc_v2_teacher_end_time_text">%1$s老师　%2$s　%3$s 截止</string>
+    <string name="hkc_v2_no_staff_complete_homework">暂无人员完成学习活动</string>
+    <string name="hkc_v2_no_permission_read_homework">暂无权限查看学习活动</string>
+    <string name="hkc_v2_complete_description">完成率指的是完成学习活动的人数，占班级总人数的百分比</string>
+    <string name="hkc_v2_excellent_description">优秀率指的是获得优秀成绩的人数，占完成学习活动总人数的百分比</string>
+    <string name="hkc_v2_pass_description">及格率指的是获得优秀、良、及格成绩的人数之和，占完成学习活动总人数的百分比</string>
+    <string name="hkc_v2_teacher_list_empty1">暂未发布学习活动</string>
+    <string name="hkc_v2_teacher_list_empty2">暂无待批改学习活动</string>
+    <string name="hkc_v2_teacher_list_empty3">暂无学习活动</string>
+    <string name="hkc_v2_student_list_empty1">你真棒，已完成全部学习活动</string>
+    <string name="hkc_v2_correct_empty">无可批改学习活动</string>
+    <string name="hek_v2_upload_file_number_limit_tip">最多支持上传%d个附件</string>
+    <string name="hkc_v2_teacher_end_time_text2">%1$s老师　%2$s　%3$s 已截止</string>
+    <string name="hkc_v2_all_complete">全部人员已完成</string>
+
+    <string name="edu_homework_permission_request_cancel">权限申请已取消</string>
+    <string name="edu_homework_permission_forbid">权限已被产品禁用，请检查配置是否正确</string>
+    <string name="edu_homework_permission_not_all_allowed">部分权限未申请成功</string>
+    <string name="edu_homework_record">Record</string>
+    <string name="edu_homework_camera">Camera</string>
+    <string name="edu_homework_record_permission_invalid">录音被占用或不可用</string>
+    <string name="edu_homework_data_error">Data error.</string>
+    <string name="hkc_homework_unsupported_role_to_detail">旧学习活动不支持user_status为3-其他人员查看学习活动详情</string>
+    <string name="hkc_network_error">网络连接异常，请检查网络设置</string>
+    <string name="hkc_unknown_error">Unknown Error</string>
+
+    <!--  x学习新增  -->
+    <string name="hkc_xstudy_end">Ended</string>
+    <string name="hkc_xstudy_study_task">Task</string>
+    <string name="hkc_xstudy_submit_count"><![CDATA[已提交 %1$d/<font color="#333333">%2$d</font>]]></string>
+    <string name="hkc_xstudy_correct_count">已批改 %1$d</string>
+    <string name="hkc_xstudy_str1_dot_str2">%1$s·%2$s</string>
+    <string name="hkc_xstudy_reminder">Reminder</string>
+    <string name="hkc_xstudy_to_submit">去提交</string>
+    <string name="hkc_xstudy_to_sure">去确认</string>
+    <string name="hkc_xstudy_mdhm_time1">MM-dd HH:mm 截止</string>
+    <string name="hkc_xstudy_mdhm_time2">MM-dd HH:mm 已截止</string>
+    <string name="hkc_xstudy_mdhm_time3">MM-dd HH:mm 即将截止</string>
+    <string name="hkc_xstudy_mdhm_time4">MM-dd HH:mm 今天截止</string>
+    <string name="hkc_xstudy_mdhm_time5">MM-dd HH:mm 已结束</string>
+    <string name="hkc_xstudy_task">Task</string>
+    <string name="hkc_xstudy_new_task_tip">您有新的任务</string>
+    <string name="hkc_xstudy_no_permission_read_task">暂无权限查看学习活动</string>
+    <string name="hkc_xstudy_teacher_list_empty1">暂未发布任务</string>
+    <string name="hkc_xstudy_teacher_list_empty2">暂无待批改任务</string>
+    <string name="hkc_xstudy_teacher_list_empty3">No task</string>
+    <string name="hkc_xstudy_student_list_empty1">你真棒，已完成全部任务</string>
+    <string name="hkc_xstudy_task_type">Task type</string>
+    <string name="hkc_xstudy_send_range">发送范围</string>
+    <string name="hkc_xstudy_select_date">Select a date</string>
+    <string name="hkc_xstudy_completion_time">Finish time</string>
+    <string name="hkc_xstudy_input_task_name">Please enter the name of the task</string>
+    <string name="hkc_xstudy_search_history">Search history</string>
+    <string name="hkc_xstudy_clear">Clear</string>
+    <string name="hkc_xstudy_finish_task">结束作业</string>
+    <string name="hkc_xstudy_search_empty_data">No results found</string>
+    <string name="hkc_xstudy_highlight_text"><![CDATA[<font color="#1e62ec">%1$s</font>]]></string>
+    <string name="hkc_xstudy_complete_this_task">结束该任务</string>
+    <string name="hkc_xstudy_complete_task_tip">点击确定即结束该任务，不可修改，是否确定？</string>
+    <string name="hkc_xstudy_submitted">Submitted</string>
+    <string name="hkc_xstudy_commented">Commented</string>
+    <string name="hkc_xstudy_people_count1">%1$d person(s)</string>
+    <string name="hkc_xstudy_people_count2">%1$d/%2$d</string>
+    <string name="hkc_xstudy_people_count3">%1$d%%（%2$d人）</string>
+    <string name="hkc_xstudy_complte_task_success">结束任务成功</string>
+    <string name="hkc_xstudy_update_end_time_tip"><![CDATA[任务的截止时间改为<br><font color="#0090ff">%1$s %2$s %3$s</font>，确认调整？]]></string>
+    <string name="hkc_xstudy_back_to_task_list">Back to Task List</string>
+    <string name="hkc_xstudy_publish_success_tip">可以立即分享，督促学生完成任务</string>
+    <string name="hkc_xstudy_online_submit">线上提交</string>
+    <string name="hkc_xstudy_none_online_submit">非线上提交</string>
+    <string name="hkc_xstudy_need_online_submit">需要线上提交</string>
+    <string name="hkc_xstudy_publish_range">布置范围</string>
+    <string name="hkc_xstudy_publish_task">布置任务</string>
+    <string name="hkc_xstudy_select_task_type">Please select task type</string>
+    <string name="hkc_xstudy_input_task_content">请输入任务内容…</string>
+    <string name="hkc_xstudy_link">Link</string>
+    <string name="hkc_xstudy_file">File</string>
+    <string name="hkc_xstudy_select_completion_time">Please select deadline</string>
+    <string name="hkc_xstudy_correct_mode">评分方式</string>
+    <string name="hkc_xstudy_correct_mode_level">评级</string>
+    <string name="hkc_xstudy_correct_mode_score">Scoring</string>
+    <string name="hkc_xstudy_need_student_online_submit_task">需要学生在线提交任务</string>
+    <string name="hkc_xstudy_correct_mode_tip">评级：优、良、中等、及格、不及格\n打分：100、90、85、80…</string>
+    <string name="hkc_xstudy_select_send_time">选择发送时间</string>
+    <string name="hkc_xstudy_caesura_sign">,</string>
+    <string name="hkc_xstudy_select_task_type2">选择任务类型</string>
+    <string name="hkc_xstudy_default_task_name">M月d日%1$s%2$s</string>
+    <string name="hkc_xstudy_str_to_str">%1$s-%2$s</string>
+    <string name="hkc_xstudy_number_number"><![CDATA[<font color="#333333">%1$d</font>/%2$d]]></string>
+    <string name="hkc_xstudy_input_link">请输入链接</string>
+    <string name="hkc_xstudy_input_link2">输入链接</string>
+    <string name="hkc_xstudy_rich_link"><![CDATA[<a href="%1$s">网页链接</a>]]></string>
+    <string name="hkc_xstudy_permision_write">Storage</string>
+    <string name="hkc_xstudy_file_length_0kb">文件大小不可为0KB</string>
+    <string name="hkc_xstudy_input_task_title">请输入任务标题</string>
+    <string name="hkc_xstudy_input_task_content2">请输入任务内容</string>
+    <string name="hkc_xstudy_splice_upload_progress"><![CDATA[正在上传:  <b><font color="#1e62ec">%1$d%% </font></b> ]]></string>
+    <string name="hkc_xstudy_publish_dialog_tip"><![CDATA[该任务将%1$s，截止时间为：<font color="#1e62ec">%2$s</font>]]></string>
+    <string name="hkc_xstudy_send"><![CDATA[于<font color="#1e62ec">%1$s</font>布置]]></string>
+    <string name="hkc_xstudy_link_error">请输入正确的链接</string>
+    <string name="hkc_xstudy_publish_draft_tip">保留本次编辑的任务内容？</string>
+    <string name="hkc_xstudy_open_file_by_other_app">用其他应用打开</string>
+    <string name="hkc_xstudy_open_file_tip">暂不可以打开此类文件，你可以\n使用其他应用打开并预览</string>
+    <string name="hkc_xstudy_task_detail">Details</string>
+    <string name="hkc_xstudy_statistics">data statistics</string>
+    <string name="hkc_xstudy_not_sure_point">未确认·%1$d</string>
+    <string name="hkc_xstudy_sure_point">已确认·%1$d</string>
+    <string name="hkc_xstudy_not_correct_point">待批改·%1$d</string>
+    <string name="hkc_xstudy_corrected_point">已批改·%1$d</string>
+    <string name="hkc_xstudy_not_subimt_point">未提交·%1$d</string>
+    <string name="hkc_xstudy_yes_staff">全部人员已提交任务</string>
+    <string name="hkc_xstudy_student_corrected_empty_text">你还未批改，快去批改吧</string>
+    <string name="hkc_xstudy_student_int_empty_text">全部人员都提交了~</string>
+    <string name="hkc_xstudy_student_not_sure_empty_text">全部人员已确认任务</string>
+    <string name="hkc_xstudy_student_sure_empty_text">还没人确认，快去提醒下吧</string>
+    <string name="hkc_xstudy_excellent_point">优·%1$d</string>
+    <string name="hkc_xstudy_good_point">良好·%1$d</string>
+    <string name="hkc_xstudy_middle_point">中等·%1$d</string>
+    <string name="hkc_xstudy_pass_point">及格·%1$d</string>
+    <string name="hkc_xstudy_no_pass_point">不及格·%1$d</string>
+    <string name="hkc_xstudy_percentage_complete_content">完成率指的是完成任务的人数，占班级总人数的百分比</string>
+    <string name="hkc_xstudy_correct_task_num">批改任务（%1$d/%2$d）</string>
+    <string name="hkc_xstudy_next">Next</string>
+    <string name="hkc_xstudy_submit_correct">Submit correction</string>
+    <string name="hkc_xstudy_save_and_submit">Save and submit</string>
+    <string name="hkc_xstudy_teacher_comment">Teacher\'s comments</string>
+    <string name="hkc_xstudy_select_score">请选择分数</string>
+    <string name="hkc_xstudy_score">Score</string>
+    <string name="hkc_xstudy_task_has_finished">该任务已结束</string>
+    <string name="hkc_xstudy_not_publish">Unpublished</string>
+    <string name="hkc_xstudy_search">Search</string>
+    <string name="hkc_xstudy_not_publish_study_task">还未布置学习活动</string>
+    <string name="hkc_xstudy_click_to_publish_study_task">点击“+”可以发布学习活动</string>
+    <string name="hkc_xstudy_not_student_submit_study_task">还没有学生提交学习活动</string>
+    <string name="hkc_xstudy_to_ing_study_task_remind">去进行中的学习活动中催一催吧</string>
+    <string name="hkc_xstudy_data_empty">哎呀，空空如也～</string>
+    <string name="hkc_xstudy_to_look_ing_study_task">去看看进行中的学习活动吧</string>
+    <string name="hkc_xstudy_teacher_not_publish_study_task">老师还没有布置学习活动哦~</string>
+    <string name="hkc_xstudy_to_not_complete_study_task_list">去待完成看看老师布置的学习活动吧</string>
+    <string name="hkc_xstudy_sure_count"><![CDATA[已确认 %1$d/<font color="#333333">%2$d</font>]]></string>
+    <string name="hkc_xstudy_sure">Confirmed</string>
+    <string name="hkc_xstudy_not_correcting">暂无待批改</string>
+    <string name="hkc_xstudy_not_corrected">暂无已批改</string>
+    <string name="hkc_xstudy_remind_text">请在 %s 前完成任务</string>
+    <string name="hkc_xstudy_study_activity">学习活动</string>
+    <string name="hkc_xstudy_link_not_http">请输入http://或https://开头的链接</string>
+    <string name="hkc_xstudy_publish_dialog_tip1"><![CDATA[该活动将立即发布，截止时间为<br><font color="#1e62ec">%1$s</font>]]></string>
+    <string name="hkc_xstudy_publish_dialog_tip2"><![CDATA[该活动将在 <font color="#1e62ec">%1$s</font> 发布<br>截止时间为 <font color="#1e62ec">%2$s</font>]]></string>
+    <string name="hkc_xstudy_timed_publish">定时发布</string>
+    <string name="hkc_xstudy_correct_page">批改页面</string>
+
+    <string name="hkc_xstudy_bold_content"><![CDATA[<b>%1$s</b>]]></string>
+    <string name="hkc_xstudy_choose_duration">请选择时长</string>
+    <string name="hkc_xstudy_choose_actual_complete_duration">选择实际完成时长</string>
+    <string name="hkc_xstudy_choose_predict_complete_duration">选择预计完成时长</string>
+    <string name="hkc_xstudy_average_complete_duration">平均完成时长</string>
+    <string name="hkc_xstudy_exceeded_expected_completion_duration">超出预计完成时长</string>
+    <string name="hkc_xstudy_predict_complete_duration_colon">预计完成时长：</string>
+    <string name="hkc_xstudy_predict_complete_duration">预计完成时长</string>
+    <string name="hkc_xstudy_actual_complete_duration">实际完成时长</string>
+    <string name="hkc_xstudy_no_other_homework">无其他作业</string>
+    <string name="hkc_xstudy_completion_place">完成地点</string>
+    <string name="hkc_xstudy_completion_place_school_inside">校内</string>
+    <string name="hkc_xstudy_completion_place_school_outside">校外</string>
+    <string name="hkc_xstudy_average_complete_duration_description">实际完成时长的平均值</string>
+    <string name="hkc_xstudy_exceeded_expected_completion_duration_description">超出预计完成时长：实际完成时长/预计完成时长-1</string>
+    <string name="hkc_xstudy_completion_place_description">统计校内完成与校外完成的人数比例</string>
+    <string name="hkc_xstudy_tips_data_empty">No data</string>
+    <string name="hkc_xstudy_tips_submit_homework">无作业提交无法查看该统计</string>
+    <string name="hkc_xstudy_tips_homework_update_version">请活动参与者升级到最新版本</string>
+    <string name="hkc_xstudy_tips_choose_actual_complete_duration">请选择实际完成时间</string>
+
+    <string name="hkc_v2_save_success_tips">Saved</string>
+    <string name="hkc_v2_correct_homework_tips">温馨提示：需提交后，学生才会收到评语哦~</string>
+    <string name="hkc_v2_correct_result_tips">提交批改结果后不可修改，且会结束该作业活动~</string>
+
+    <string name="hkc_xstudy_modify_button">Modify</string>
+    <string name="hkc_xstudy_publish_send_time_earlier_than_now">发送时间不能早于当前时间</string>
+    <string name="hkc_xstudy_tips_publish_dead_earlier_than_send_time">截止时间不能早于发布时间</string>
+    <string name="hkc_xstudy_tips_publish_dead_earlier_than_now">The deadline should not be earlier than the current time</string>
+    <string name="hkc_xstudy_tips_homework_modify_expired">作业已截止，不允许修改。</string>
+    <string name="hkc_xstudy_tips_homework_modify_published">作业已发布，允许修改的内容变更，请重新编辑。</string>
+    <string name="hkc_xstudy_tips_homework_modify_no_change">内容未修改，无需重新发布。</string>
+    <string name="hkc_xstudy_tips_homework_correct_no_change">内容未修改，无需提交批改。</string>
+    <string name="hkc_xstudy_tips_homework_correct_level_is_empty">请填写评级后再提交。</string>
+    <string name="hkc_xstudy_tips_homework_correct_has_cache"><![CDATA[<b>存在批改尚未提交，是否退出批改？</b><br>退出后，未提交的批改结果将被清空。]]></string>
+    <string name="hkc_xstudy_exit_correct">退出批改</string>
+    <string name="hkc_xstudy_save_and_submit_success">Saved and submitted successfully</string>
+    <string name="hkc_xstudy_submit_success">Submitted</string>
+    <string name="hkc_xstudy_confirm_success">确认成功</string>
+    <string name="hkc_xstudy_tips_correct_mode">支持评级/打分切换；选择后，在批改页面只会显示这种方式</string>
+    <string name="hkc_v2_tips_student_homework_detail_changed">检测到该学生重新修改了作业，是否重新批改?</string>
+    <string name="hkc_v2_recorrect">Revise again</string>
+    <string name="hkc_v2_correct_again">再次批改</string>
+    <string name="hkc_xstudy_homework_all">All</string>
+    <string name="hkc_xstudy_more_item_remind">一键提醒</string>
+    <string name="hkc_xstudy_more_item_modify">修改作业内容</string>
+</resources>

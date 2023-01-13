@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="im_customer_service_top_menu_record">聊天纪录</string>
+    <string name="im_customer_service_top_menu_image">Image</string>
+    <string name="im_customer_service_top_menu_file">File</string>
+    <string name="im_customer_service_top_menu_setting">Setting</string>
+
+    <string name="im_customer_service_fun_not_support_check_version">This operation is not supported, please check app version!</string>
+
+    <string name="im_customer_service_link_prefix">If it didn\'t solve your problem, please select</string>
+    <string name="im_customer_service_link_desc">Manual appeal</string>
+
+    <string name="im_customer_service_init_conversation_failed">初始化会话失败</string>
+
+    <string name="im_customer_service_loading">Loading... Please wait.</string>
+    <string name="im_customer_service_loading_failed">Loading failed, please try again later</string>
+
+    <string name="im_customer_service_switching_failed">切换失败，请稍后重试</string>
+
+
+    <string name="im_customer_service_created">进入 “%1$s”</string>
+
+    <string name="im_customer_service_member_added_invite">“%1$s” 为您服务</string>
+    <string name="im_customer_service_member_removed">“%1$s” 已结束服务</string>
+    <string name="im_customer_service_edit_hint">我想问……</string>
+
+    <string name="im_customer_conv_timeout">对话长时间未发言，稍后将自动结束本次会话。</string>
+    <string name="im_customer_service_select_service">Please select business</string>
+    <string name="im_customer_service_business_list_error_refresh">Reload</string>
+    <string name="im_customer_service_business_list_tip_null">暂无业务哦~</string>
+    <string name="im_customer_service_business_list_tip_error">业务加载失败~</string>
+    <string name="im_customer_service_business_error_user_customer">您的账号已被用于人工客服，接入失败</string>
+    <string name="im_customer_service_business_error_customer_offline">当前人工客服不在线</string>
+    <string name="im_customer_service_business_error_customer_disable">人工客服已关闭</string>
+</resources>

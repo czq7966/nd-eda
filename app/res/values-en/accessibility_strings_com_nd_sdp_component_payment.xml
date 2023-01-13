@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ndpayment_ab_commmodity_img">Item image</string>
+    <string name="ndpayment_ab_user_portrait">Avatar image</string>
+    <string name="ndpayment_ab_friend_pay_qrcode">QR code</string>
+    <string name="ndpayment_ab_friend_pay_confirm_dlg">Confirm unpaid order</string>
+</resources>

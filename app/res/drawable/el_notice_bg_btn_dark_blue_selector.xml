@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:state_enabled="false"  android:drawable="@drawable/el_notice_bg_btn_dark_blue_dis_enable">
+
+</item>
+
+<item android:drawable="@drawable/el_notice_bg_btn_dark_blue">
+
+</item>
+</selector>

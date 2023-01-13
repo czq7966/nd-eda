@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="nvweibo_activity_edit_input_text_color">@color/color1</color>
+    <color name="nvweibo_activity_edit_max_hint_text_color">@color/color4</color>
+    <color name="nvweibo_activity_edit_input_length_text_color">@color/color1</color>
+    <color name="nvweibo_activity_edit_overseed_max_hint_text_color">@color/color16</color>
+    <color name="nvweibo_save_dialog_left_text_color">@color/color16</color>
+    <color name="nvweibo_getdraft_dialog_left_text_color">@color/color1</color>
+    <color name="nvweibo_save_dialog_right_text_color">#1e62ec</color>
+    <color name="nvweibo_activity_edit_content_shadow">#0f000000</color>
+    <color name="nvweibo_audio_sb_progress_second_color">#919090</color>
+    <color name="nvweibo_audio_sb_progress_color">#1E62EC</color>
+    <color name="nvweibo_audio_sb_bg_color">#F8F9FA</color>
+    <color name="nvweibo_text_color_666666">#666666</color>
+    <color name="nvweibo_text_color_333333">#333333</color>
+    <color name="nvweibo_audio_mask_color">#25000000</color>
+    <color name="nvweibo_no_line_click">#FF6E99B6</color>
+    <color name="nvweibo_detail_page_bg">#FFFFFF</color>
+    <color name="nvweibo_list_page_bg">#FFFFFF</color>
+    <color name="nvweibo_list_item_file_title">@color/color2</color>
+    <color name="nvweibo_list_item_file_size">@color/color4</color>
+</resources>

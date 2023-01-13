@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 通用activity背景 -->
+    <drawable name="search_widget_activity_bg_2">#f5f5f5</drawable>
+
+    <color name="search_widget_background">#f5f5f5</color>
+    <color name="search_widget_item_background">#ffffff</color>
+    <color name="search_widget_background_over">#66000000</color>
+
+    <color name="search_widget_footer_section_color">#666666</color>
+    <color name="search_widget_footer_divider_color">#f5f5f5</color>
+    <color name="search_widget_header_text_color">#999999</color>
+    <color name="search_widget_tag_corner_color">#cccccc</color>
+    <color name="search_widget_item_history_color">#333333</color>
+    <color name="search_widget_clear_history_text_color">#666666</color>
+    <color name="search_widget_item_title_text_color">#333333</color>
+    <color name="search_widget_item_sub_title_text_color">#999999</color>
+    <color name="search_widget_item_footer_text_color">#666666</color>
+    <color name="search_widget_item_header_text_color">#999999</color>
+    <color name="search_widget_tag_selected_color">#38adff</color>
+    <color name="search_widget_tag_text_normal_color">#38adff</color>
+    <color name="search_widget_tag_text_pressed_color">#ffffff</color>
+
+    <!--<color name="color1">#333333</color>-->
+    <!--<color name="color10">#f5f5f5</color>-->
+    <!--<color name="color11">#ebeced</color>-->
+    <!--<color name="color12">#7fedff</color>-->
+    <!--<color name="color13">#f43531</color>-->
+    <!--<color name="color14">#38adff</color>-->
+    <!--<color name="color15">#d4eeff</color>-->
+    <!--<color name="color16">#ff6f6f</color>-->
+    <!--<color name="color17">#ffb822</color>-->
+    <!--<color name="color18">#2dd2d0</color>-->
+    <!--<color name="color19">#ff9518</color>-->
+    <!--<color name="color2">#666666</color>-->
+    <!--<color name="color20">#7ed728</color>-->
+    <!--<color name="color21">#c166d8</color>-->
+    <!--<color name="color22">#2a82bf</color>-->
+    <!--<color name="color23">#f0f0f0</color>-->
+    <!--<color name="color24">#fefbd5</color>-->
+    <!--<color name="color25">#e5e1bf</color>-->
+    <!--<color name="color26">#b54342</color>-->
+    <!--<color name="color27">#8fbfdf</color>-->
+    <!--<color name="color28">#f1a09f</color>-->
+    <!--<color name="color3">#0090ff</color>-->
+    <!--<color name="color4">#999999</color>-->
+    <!--<color name="color5">#cccccc</color>-->
+    <!--<color name="color6">#9bd6ff</color>-->
+    <!--<color name="color7">#ffffff</color>-->
+    <!--<color name="color8">#dddddd</color>-->
+    <!--<color name="color9">#eeeeee</color>-->
+</resources>

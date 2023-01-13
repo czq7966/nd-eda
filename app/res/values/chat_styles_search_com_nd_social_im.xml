@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="im_chat_IMModuleTheme.Search">
+    </style>
+
+    <style name="im_chat_IMModuleTheme.Search.TextView"></style>
+
+    <style name="im_chat_IMModuleTheme.Search.TextView.SubType">
+        <item name="android:textColor">@color/chat_style_search_title</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+</resources>

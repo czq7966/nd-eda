@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="upload_intercept_dialog_ok">继续上传</string>
+    <string name="upload_intercept_dialog_cancel">取消上传</string>
+    <string name="upload_intercept_dialog_title">您正在使用非 WiFi 网络</string>
+    <string name="upload_intercept_dialog_content">继续上传将产生流量费用，建议您在 WiFi 环境上传。</string>
+
+    <string name="download_intercept_dialog_ok">继续下载</string>
+    <string name="download_intercept_dialog_cancel">取消下载</string>
+    <string name="download_intercept_dialog_title">您正在使用非 WiFi 网络</string>
+    <string name="download_intercept_dialog_content">继续下载将产生流量费用，建议您在 WiFi 环境下载。</string>
+</resources>

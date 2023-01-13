@@ -1,0 +1,7 @@
+<resources>
+    <string name="edu_usf_loading">Loading...</string>
+    <string name="edu_user_select_net_error_tips">Network connection error, please try again</string>
+    <string name="edu_user_select_data_error_tips">Data parsing error, please try again</string>
+    <string name="usf_select_type">选择方式</string>
+    <string name="usf_cancel">取消</string>
+</resources>

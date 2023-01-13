@@ -1,0 +1,101 @@
+<resources>
+    <string name="module_ndpayment_pay_success">支付成功</string>
+    <string name="module_ndpayment_pay_fail">支付失败</string>
+    <string name="module_ndpayment_pay_waiting">支付等待</string>
+    <string name="module_ndpayment_pay_cancel">支付取消</string>
+    <string name="module_ndpayment_net_work_err">哎呀，网络出问题了</string>
+    <string name="module_ndpayment_order_detail">付款详情</string>
+
+    <!--这个字符串给支付渠道列表sdk所引用，千万不可删除-->
+    <string name="module_ndpayment_method">支付方式</string>
+
+    <string name="module_ndpayment_balance_not_enough">(余额不足)</string>
+    <string name="module_ndpayment_alipay">支付宝支付</string>
+    <string name="module_ndpayment_wechatpay">微信支付</string>
+    <string name="module_ndpayment_confirm_pay">确认购买</string>
+    <string name="module_ndpayment_my_point">我的金币</string>
+    <string name="module_ndpayment_my_ndcoin">我的网龙币</string>
+    <string name="module_ndpayment_bill_no">账单详情</string>
+    <string name="module_ndpayment_total_tip">总计:</string>
+    <string name="module_ndpayment_emoney_pay">网龙币支付</string>
+    <string name="module_ndpayment_emoneyrmb_pay">人民币支付</string>
+    <string name="module_ndpayment_balance">余额</string>
+    <string name="module_ndpayment_please_select_pay_way">请选择一种支付方式</string>
+    <string name="module_ndpayment_please_installed_wechat_app">未安装微信应用，无法完成支付</string>
+    <string name="module_ndpayment_pay_apply_not_surpport">暂不支持此支付方式，请尝试升级</string>
+    <string name="module_ndpayment_congratulations_success">恭喜，支付成功</string>
+    <string name="module_ndpayment_order_paysuccess">您的订单已付款成功</string>
+    <string name="module_ndpayment_order_closed">订单已关闭</string>
+    <string name="module_ndpayment_order_expired">订单已过期</string>
+    <string name="module_ndpayment_pay_money">付款金额</string>
+    <string name="module_ndpayment_complete">完成</string>
+    <string name="module_ndpayment_payment_state">支付状态</string>
+    <string name="module_ndpayment_paypal_payment">Paypal支付</string>
+
+
+    <string name="payment_choose_friend_pay_passage">选择代付方式</string>
+    <string name="payment_send_to_im_friend">发送给IM朋友</string>
+    <string name="payment_choose_a_friend_to_pay">指定一位好友，让TA帮你付款吧</string>
+    <string name="payment_scan_2d_code">当面扫码</string>
+    <string name="payment_let_him_scan">朋友就在身边，快让TA扫一扫吧</string>
+    <string name="payment_cancel_friend_pay">取消</string>
+    <string name="module_ndpayment_friend_pay_arrived">代付请求已送达</string>
+    <string name="module_ndpayment_friend_pay_failed">噢噢，发送失败了，再试试看吧</string>
+    <string name="module_ndpayment_friend_pay_payed">支付已完成</string>
+    <string name="module_ndpayment_qrcode_title">帮Ta付款</string>
+    <string name="module_ndpayment_qrcode_bottom_description">快打开扫一扫，帮我付款吧</string>
+    <string name="module_ndpayment_qrcode_pay_account">代付金额</string>
+    <string name="module_ndpayment_qrcode_pay_button">♡  慷慨付款</string>
+    <string name="module_ndpayment_qrcode_pay_description">代付说明：\n1、付款前请您务必和好友再次确认，避免遇到诈骗行为；\n2、如果发生退款，已支付金额将原路退回付款人；\n3、付款金额以当前页面展示为准。</string>
+    <string name="module_ndpayment_qrcode_pay_order_title">代付订单信息</string>
+    <string name="module_ndpayment_sb_has_payed">已为你付款</string>
+    <string name="module_ndpayment_sb_has_just_payed">刚刚已悄悄地为你付过款了</string>
+    <string name="module_ndpayment_nobody_has_payed">还没有人为你付款</string>
+    <string name="module_ndpayment_somebody">已经有人</string>
+    <string name="module_ndpayment_pay_frend_cannot_be_self">不能给自己发送代付消息</string>
+    <string name="payment_loading_order_info">正在请求订单信息~</string>
+    <string name="payment_sending_friend_pay_msg">正在发送代付消息...</string>
+    <string name="payment_order_info_loaded">已获取订单信息</string>
+    <string name="payment_load_order_info_failed">订单信息请求失败</string>
+    <string name="payment_commodity_default_price_value">￥__</string>
+    <string name="payment_commodity_default_desc">--</string>
+    <string name="payment_pay_for_me">帮我付个款吧，我会感谢你的~</string>
+    <string name="payment_get_pay_msg_failed">获取代付留言失败</string>
+    <string name="payment_confirm_send_to_this_friend">确定</string>
+    <string name="payment_surprising">惊喜</string>
+    <string name="payment_hurry_to_thank_him">快去感谢Ta吧</string>
+    <string name="payment_goto_thank_him">go，感谢Ta</string>
+    <string name="payment_friend_pay_result">支付结果</string>
+    <string name="payment_friend_pay_result_success">代付请求已送达，请耐心等待哦</string>
+    <string name="payment_friend_pay_result_failed">噢噢，发送失败了，再试试看吧</string>
+    <string name="payment_friend_pay_goto_chat_page">跳转聊天页</string>
+    <string name="payment_friend_pay_resend">重新发送</string>
+    <string name="payment_friend_pay_go_back">返回</string>
+
+    <string name="payment_please_wait">请稍候...</string>
+
+    <string name="nd_pay_test_dialog_content">当前钱包管理后台配置的APPID%1$s是测试ID，仅限测试使用，概不退款</string>
+
+    <string name="payment_protocol_name_payment">支付协议</string>
+    <string name="payment_protocol_left_tip">我已阅读并同意</string>
+    <string name="payment_protocol_guillemets">《%1$s》</string>
+    <string name="payment_protocol_connective_and">和</string>
+    <string name="payment_protocol_dialog_content">尊敬的用户，在支付之前请认真阅读《支付协议》的内容</string>
+
+
+    
+    <!--收银台界面-->
+    <string name="payment_checkout_counter_title">钱包</string>
+    <string name="payment_checkout_counter_amount">商品总额</string>
+    <string name="payment_checkout_counter_order_id">订单编号：</string>
+    <string name="payment_checkout_counter_order_description">订单详情：</string>
+    <string name="payment_checkout_counter_confirm">立即支付</string>
+    <string name="payment_checkout_pay_result_auto_close">页面将在%1$s秒后关闭</string>
+    <string name="payment_checkout_pay_result_back">返回上一页</string>
+
+    <!--给支付渠道列表sdk所引用，千万不可删除-->
+    <string name="module_ndpayment_channel_view_method">选择支付方式</string>
+    <string name="module_ndpayment_channel_view_insufficient_balance">余额不足，立即充值</string>
+    <string name="module_ndpayment_channel_view_insufficient">余额不足</string>
+    <string name="module_ndpayment_channel_view_total_payable">应付总额：</string>
+</resources>

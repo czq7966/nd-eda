@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="im_chat_IMModuleTheme.HistoryMsgSearch">
+    </style>
+
+    <style name="im_chat_IMModuleTheme.HistoryMsgSearch.TextView"></style>
+
+    <style name="im_chat_IMModuleTheme.HistoryMsgSearch.TextView.Title">
+        <item name="android:textColor">@color/chat_history_msg_search_title_color</item>
+        <item name="android:textSize">?font_medium</item>
+    </style>
+
+    <style name="im_chat_IMModuleTheme.HistoryMsgSearch.TextView.SubTitle">
+        <item name="android:textColor">@color/chat_history_msg_search_subtitle_color</item>
+        <item name="android:textSize">?font_small</item>
+    </style>
+
+</resources>

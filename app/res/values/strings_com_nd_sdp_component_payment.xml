@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="module_ndpayment_pay_success">Payment Succeeded</string>
+    <string name="module_ndpayment_pay_fail">Payment Failed</string>
+    <string name="module_ndpayment_pay_waiting">Waiting</string>
+    <string name="module_ndpayment_pay_cancel">Cancelled</string>
+    <string name="module_ndpayment_net_work_err">Oops, network error</string>
+    <string name="module_ndpayment_order_detail">Detail</string>
+
+    <!--这个字符串给支付渠道列表sdk所引用，千万不可删除-->
+    <string name="module_ndpayment_method">Payment Method</string>
+
+    <string name="module_ndpayment_balance_not_enough">(Insufficient balance)</string>
+    <string name="module_ndpayment_alipay">Alipay</string>
+    <string name="module_ndpayment_wechatpay">Wechat</string>
+    <string name="module_ndpayment_confirm_pay">Confirm</string>
+    <string name="module_ndpayment_my_point">My gold</string>
+    <string name="module_ndpayment_my_ndcoin">My Network coin</string>
+    <string name="module_ndpayment_bill_no">Bill details</string>
+    <string name="module_ndpayment_total_tip">Total:</string>
+    <string name="module_ndpayment_emoney_pay">ND Coin</string>
+    <string name="module_ndpayment_emoneyrmb_pay">RMB</string>
+    <string name="module_ndpayment_balance">Balance</string>
+    <string name="module_ndpayment_please_select_pay_way">Please choose a payment method</string>
+    <string name="module_ndpayment_please_installed_wechat_app">You have not installed WeChat, unable to complete the payment</string>
+    <string name="module_ndpayment_pay_apply_not_surpport">Do not support this payment method temporarily </string>
+    <string name="module_ndpayment_congratulations_success">Congratulations, succeeded</string>
+    <string name="module_ndpayment_order_paysuccess">Your order has been paid</string>
+    <string name="module_ndpayment_order_closed">Closed</string>
+    <string name="module_ndpayment_order_expired">Expired</string>
+    <string name="module_ndpayment_pay_money">Amount</string>
+    <string name="module_ndpayment_complete">Finish</string>
+    <string name="module_ndpayment_payment_state">Payment Status</string>
+    <string name="module_ndpayment_paypal_payment">Paypal</string>
+
+
+    <string name="payment_choose_friend_pay_passage">Select pay mode</string>
+    <string name="payment_send_to_im_friend">Send to friend in IM</string>
+    <string name="payment_choose_a_friend_to_pay">Select a friend, and ask him/her to pay</string>
+    <string name="payment_scan_2d_code">Scan the code</string>
+    <string name="payment_let_him_scan">Ask your friend to scan the code and pay for you.</string>
+    <string name="payment_cancel_friend_pay">Cancel</string>
+    <string name="module_ndpayment_friend_pay_arrived">Payment request has been delivered</string>
+    <string name="module_ndpayment_friend_pay_failed">Failed to send, please try again.</string>
+    <string name="module_ndpayment_friend_pay_payed">Completed</string>
+    <string name="module_ndpayment_qrcode_title">Pay for her/him</string>
+    <string name="module_ndpayment_qrcode_bottom_description">Scan the code and pay for me</string>
+    <string name="module_ndpayment_qrcode_pay_account">Amount</string>
+    <string name="module_ndpayment_qrcode_pay_button">♡  Pay generously</string>
+    <string name="module_ndpayment_qrcode_pay_description">payment note:\n1. please confirm the payment with your friend before you pay in order to avoided sharper;\n2.In refund, the paid amount will be returned to the original payer. \n3. The payment amount is subject to the current page.</string>
+    <string name="module_ndpayment_qrcode_pay_order_title">Order details:</string>
+    <string name="module_ndpayment_sb_has_payed">Paid</string>
+    <string name="module_ndpayment_sb_has_just_payed">paid for you quietly</string>
+    <string name="module_ndpayment_nobody_has_payed">No one has paid for you yet.</string>
+    <string name="module_ndpayment_somebody">Someone has</string>
+    <string name="module_ndpayment_pay_frend_cannot_be_self">You cannot send payment request to yourself</string>
+    <string name="payment_loading_order_info">Requesting order information</string>
+    <string name="payment_sending_friend_pay_msg">Sending payment message…</string>
+    <string name="payment_order_info_loaded">Got order details.</string>
+    <string name="payment_load_order_info_failed">Failed to get order details.</string>
+    <string name="payment_commodity_default_price_value">￥__</string>
+    <string name="payment_commodity_default_desc">--</string>
+    <string name="payment_pay_for_me">Help me pay for it, thank you</string>
+    <string name="payment_get_pay_msg_failed">Failed to get payment message</string>
+    <string name="payment_confirm_send_to_this_friend">Confirm</string>
+    <string name="payment_surprising">Surprise</string>
+    <string name="payment_hurry_to_thank_him">Go and thank him/her</string>
+    <string name="payment_goto_thank_him">Go now</string>
+    <string name="payment_friend_pay_result">Payment result</string>
+    <string name="payment_friend_pay_result_success">Requirement sent, please wait some minutes.</string>
+    <string name="payment_friend_pay_result_failed">Failed to send, please try again.</string>
+    <string name="payment_friend_pay_goto_chat_page">Go to IM</string>
+    <string name="payment_friend_pay_resend">Retry</string>
+    <string name="payment_friend_pay_go_back">Back</string>
+
+    <string name="payment_please_wait">Please wait...</string>
+
+    <string name="nd_pay_test_dialog_content">Current APP ID %1$s configured in wallet management background is a test ID, for test only, no refund</string>
+
+    <string name="payment_protocol_name_payment">Payment Agreement</string>
+    <string name="payment_protocol_left_tip">I have read and agree to </string>
+    <string name="payment_protocol_guillemets">《%1$s》</string>
+    <string name="payment_protocol_connective_and">And</string>
+    <string name="payment_protocol_dialog_content">Dear user, please read the Payment Agreement carefully before making the payment.</string>
+
+
+    
+    <!--收银台界面-->
+    <string name="payment_checkout_counter_title">Wallet</string>
+    <string name="payment_checkout_counter_amount">Total Amount</string>
+    <string name="payment_checkout_counter_order_id">Order Number:</string>
+    <string name="payment_checkout_counter_order_description">Details:</string>
+    <string name="payment_checkout_counter_confirm">Pay Now</string>
+    <string name="payment_checkout_pay_result_auto_close">The page will be closed in %1$s second(s).</string>
+    <string name="payment_checkout_pay_result_back">Back</string>
+
+    <!--给支付渠道列表sdk所引用，千万不可删除-->
+    <string name="module_ndpayment_channel_view_method">Select Payment Method</string>
+    <string name="module_ndpayment_channel_view_insufficient_balance">Insufficient balance. Top up now.</string>
+    <string name="module_ndpayment_channel_view_insufficient">Insufficient balance</string>
+    <string name="module_ndpayment_channel_view_total_payable">Total:</string>
+</resources>

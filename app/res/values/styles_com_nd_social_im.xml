@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ShotHorizantal">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">2px</item>
+        <item name="android:background">@color/color7</item>
+        <!--<item name="android:background">@color/black</item>-->
+    </style>
+
+     <style name="CommonBase.Style.Toolbar.RecentContact" parent="CommonBase.Style.Toolbar">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="popupTheme">@style/CommonBase.Theme.Popup.RecentContact</item>
+    </style>
+
+    <style name="CommonBase.Theme.Popup.RecentContact" parent="CommonBase.Theme.Popup">
+        <item name="overlapAnchor">false</item>
+        <item name="android:paddingLeft">4dp</item>
+    </style>
+
+
+</resources>

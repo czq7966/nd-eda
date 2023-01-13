@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="el_identity_switch_load_fail">Failed to load. Try again</string>
+    <string name="el_identity_switch_identity_student">Student</string>
+    <string name="el_identity_switch_identity_teacher">Teacher</string>
+    <string name="el_identity_switch_identity_guardian">Parents</string>
+    <string name="el_identity_switch_identity_academic_staff">Faculty</string>
+    <string name="el_identity_switch_identity_electric_teacher">电教人员</string>
+    <string name="el_identity_switch_identity_edu_admin">管理人员</string>
+    <string name="el_identity_switch_identity_hn_squadroncounselor">中队辅导员</string>
+    <string name="el_identity_switch_identity_sp_area_course_admin">District/County PE Faculty</string>
+    <string name="el_identity_switch_identity_sp_teacher">Sports Teacher</string>
+    <string name="el_identity_switch_identity_sp_school_cr_admin">Group leader of sports teaching and research</string>
+    <string name="el_identity_switch_identity_other">Other</string>
+    <string name="el_identity_switch_identity_hn_team_counselor">大队辅导员</string>
+    <string name="el_identity_switch_identity_hn_young_pioneer">Young pioneer</string>
+    <string name="el_identity_switch_identity_hn_work_committee">少工委</string>
+    <string name="el_identity_switch_identity_volunteer_counsellor">志愿辅导员</string>
+    <string name="el_identity_switch_identity_edu_expert">教育专家</string>
+    <string name="el_identity_switch_identity_lecturer">Lecturer</string>
+    <string name="el_identity_switch_identity_student_remark">Learn together with your mates</string>
+    <string name="el_identity_switch_identity_teacher_remark">Create or join class for students learning</string>
+    <string name="el_identity_switch_identity_guardian_remark">Manage child\'s learning and talk to teacher</string>
+    <string name="el_identity_switch_identity_academic_staff_remark">发挥带头作用，指导教师教学</string>
+    <string name="el_identity_switch_identity_electric_teacher_remark">提供应用技术服务，支持运营推广</string>
+    <string name="el_identity_switch_identity_edu_admin_remark">管理各类信息，组织各类活动</string>
+    <string name="el_identity_switch_select_your_role">Please select your role.</string>
+    <string name="el_identity_switch_you">Who are you?</string>
+    <string name="el_identity_switch_identity_switch">身份选择-EN</string>
+    <string name="el_identity_switch_error_set_identity">设置身份失败，请稍后重试</string>
+    <string name="el_identity_switch_tip_privacy">我们会根据身份提供相匹配的功能与服务。\n我们会遵循安全合规要求，保证您的信息安全。请您放心填写。</string>
+
+</resources>

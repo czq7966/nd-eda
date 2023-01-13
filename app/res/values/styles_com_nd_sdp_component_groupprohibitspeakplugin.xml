@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GroupBanned"/>
+    <style name="GroupBanned.Style"/>
+    <style name="GroupBanned.Style.Btn"/>
+    <style name="GroupBanned.Style.Btn.Unbanned">
+        <item name="android:layout_width">57dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:background">@drawable/im_group_banned_unbanned_btn_bg</item>
+        <item name="android:textColor">@color/im_group_banned_unbanned_btn_text</item>
+        <item name="android:textSize">@dimen/fontsize5</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="GroupBanned.Style.Widget"/>
+    <style name="GroupBanned.Style.Widget.BannedSettingTip1" parent="CommonBase.Style.Widget.TextInSettingItem.Secondary">
+        <item name="android:text">@string/im_group_banned_setting_tip1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/common_padding_horizantal</item>
+        <item name="android:paddingStart">@dimen/common_padding_horizantal</item>
+        <item name="android:layout_height">30dp</item>
+    </style>
+    <style name="GroupBanned.Style.Widget.BannedSettingTip2" parent="GroupBanned.Style.Widget.BannedSettingTip1">
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="GroupBanned.Style.Widget.BannedSettingLabel" parent="CommonBase.Style.Widget.SettingItem.Text">
+    </style>
+
+    <style name="GroupBanned.Style.Divider"/>
+    <style name="GroupBanned.Style.Divider.BannedSetting" parent="CommonBase.Style.ListDivider.Light"/>
+    <style name="GroupBanned.Style.Divider.List" parent="CommonBase.Style.ListDivider.Dark"/>
+
+    <style name="GroupBanned.Style.ListItem"/>
+    <style name="GroupBanned.Style.ListItem.Text1">
+        <item name="android:textColor">@color/color1</item>
+        <item name="android:textSize">@dimen/fontsize4</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

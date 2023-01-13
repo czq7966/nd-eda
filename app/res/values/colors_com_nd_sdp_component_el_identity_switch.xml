@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 99u设计规范规定的颜色 -->
+    <color name="el_identity_switch_color1">#ff333333</color>
+    <color name="el_identity_switch_color10">#fff5f5f5</color>
+    <color name="el_identity_switch_color11">#ffebeced</color>
+    <color name="el_identity_switch_color12">#ff7fedff</color>
+    <color name="el_identity_switch_color13">#fff43531</color>
+    <color name="el_identity_switch_color14">#ff38adff</color>
+    <color name="el_identity_switch_color15">#ffd4eeff</color>
+    <color name="el_identity_switch_color16">#ffff6f6f</color>
+    <color name="el_identity_switch_color17">#ffffb822</color>
+    <color name="el_identity_switch_color18">#ff2dd2d0</color>
+    <color name="el_identity_switch_color19">#ffff9518</color>
+    <color name="el_identity_switch_color2">#ff666666</color>
+    <color name="el_identity_switch_color20">#ff7ed728</color>
+    <color name="el_identity_switch_color21">#ffc166d8</color>
+    <color name="el_identity_switch_color22">#ff2a82bf</color>
+    <color name="el_identity_switch_color23">#fff0f0f0</color>
+    <color name="el_identity_switch_color24">#fffefbd5</color>
+    <color name="el_identity_switch_color25">#ffe5e1bf</color>
+    <color name="el_identity_switch_color26">#ffb54342</color>
+    <color name="el_identity_switch_color27">#ff8fbfdf</color>
+    <color name="el_identity_switch_color28">#fff1a09f</color>
+    <color name="el_identity_switch_color3">#ff0090ff</color>
+    <color name="el_identity_switch_color4">#ff999999</color>
+    <color name="el_identity_switch_color5">#ffcccccc</color>
+    <color name="el_identity_switch_color6">#ff9bd6ff</color>
+    <color name="el_identity_switch_color7">#ffffffff</color>
+    <color name="el_identity_switch_color7_alpha_30">#4cffffff</color>
+    <color name="el_identity_switch_color8">#ffdddddd</color>
+    <color name="el_identity_switch_color8_alpha_80">#50dddddd</color>
+    <color name="el_identity_switch_color9">#ffeeeeee</color>
+    <color name="el_identity_switch_color93">#ff939393</color>
+    <color name="el_identity_switch_bg_select">#F9F9F9</color>
+</resources>

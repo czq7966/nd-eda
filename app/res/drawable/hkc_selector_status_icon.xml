@@ -1,0 +1,7 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 被选中的样式 -->
+    <item android:state_selected="true" android:drawable="@drawable/hkc_icon_status_sel">
+    </item>
+    <item android:drawable="@drawable/hkc_color_empty">
+    </item>
+</selector>

@@ -1,0 +1,1218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="im_chat_split_screen_menu_label">Split Screen</string>
+
+    <string name="im_chat_friend_requested">%1$s wants to be your friend.</string>
+    <string name="im_chat_friend_removed">%1$s broke up with you.</string>
+    <string name="im_chat_friend_refused">%1$s declined to be your friend.</string>
+    <string name="im_chat_friend_refused_reason">%1$s declined to be your friend. Note: \n%2$s</string>
+    <string name="im_chat_friend_requested_content">%1$s want to be your friend. Note: \n%2$s</string>
+    <string name="im_chat_agree">Agree</string>
+    <string name="im_chat_refuse">Deny</string>
+
+    <string name="im_chat_role_changed">The position of \"%1$s\" has been changed. Please check Group Settings Position.</string>
+    <string name="im_chat_role_changed_self">Position has been changed. Please check Group Settings Position.</string>
+
+    <string name="im_chat_role_perm_changed">Permissions have been changed. Please check Group Settings Position.</string>
+
+    <string name="im_chat_role_reset">Group Role System has been reset</string>
+    <string name="im_chat_role_name_change">Your role name has been changed</string>
+
+
+    <string name="im_chat_group_level_upgrade">Congratulations! The Group \"%1$s\" was successfully upgraded to %2$d level%3$s.</string>
+    <string name="im_chat_group_level_degrade_modify">You made adjustment due to the grade requirement of the original %1$d grade %2$s, so the group \"%3$s\" is now adjusted to%4$d.Level %5$s</string>
+    <string name="im_chat_group_level_degrade_expire">The group \"%1$s\" has expired and is now downgraded to %2$d level%3$s.</string>
+    <string name="im_chat_group_level_degrade_unqualify">The active days of the group \"%1$s\" decreased, and now it is downgraded to %2$d level%3$s.</string>
+
+
+    <string name="im_chat_quit_user_donot_have_permission">The user is unable to use the function.</string>
+
+    <string name="im_chat_group_created">%1$s created \"%2$s\"</string>
+    <string name="im_chat_group_created_me">You created \"%1$s\"</string>
+    <string name="im_chat_group_invite">\"%1$s\" invites you to join Group \"%2$s\"</string>
+    <string name="im_chat_group_member_refuse">\"%1$s\" rejected the invitation.</string>
+    <string name="im_chat_group_quited">You\'ve quit \"%1$s\"</string>
+    <string name="im_chat_kf_away">Customer Service offline</string>
+    <string name="im_chat_group_dimissed">\"%1$s\" was deleted.</string>
+    <string name="im_chat_group_member_added">%1$s joined.</string>
+    <string name="im_chat_group_member_added_invite">%1$s invited %2$s to join.</string>
+    <string name="im_chat_group_member_added_invite_me">You invited %1$s to join.</string>
+    <string name="im_chat_group_member_removed">\"%1$s\" has quit this group</string>
+    <string name="im_chat_group_member_select_all">Select All</string>
+
+    <string name="im_chat_group_member_removed_kick_role">\"%1$s\" removed \"%2$s\" from the group chat.</string>
+    <string name="im_chat_group_member_removed_kick_role_me">“您”把“%1$s”移出了群聊</string>
+    <string name="im_chat_group_member_removed_self_role">\"%1$s\" has left the group chat \"%2$s\"</string>
+
+
+    <string name="im_chat_accept_group_invite">You successfully invited %1$s to Group %2$s.</string>
+    <string name="im_chat_refuse_group_invite">You invited %1$s to Group %2$s, but got rejected.</string>
+    <string name="im_chat_accept_group_request">%1$s accepted your request.</string>
+    <string name="im_chat_refuse_group_request">%1$s rejected your request. It\'s terrible.</string>
+    <string name="im_chat_request_join_group_with_note">%1$s applied to join Group %2$s. Note: %3$s, agree or not?</string>
+    <string name="im_chat_request_join_group">%1$s applied to join Group %2$s. Agree?</string>
+    <string name="im_chat_audio_message">[Audio]</string>
+    <string name="im_chat_video_message">[Video Message]</string>
+    <string name="im_chat_picture_message">[Image]</string>
+    <string name="im_chat_file_message">[File]</string>
+    <string name="im_chat_app_message">App Message</string>
+    <string name="im_chat_im_offline">Disconnected</string>
+    <string name="im_chat_im_connecting">Connecting</string>
+    <string name="im_chat_im_receiving">Receiving</string>
+    <string name="im_chat_group_info_changed_detail">\"%1$s\" modified the info of \"%2$s\": \nName: %3$s\nIntro: %4$s\nBulletin: %5$s\nPermission: %6$s</string>
+    <string name="im_chat_network_invalid">Unavailable network. Check network settings.</string>
+    <string name="im_chat_group_not_exist">%1$s\'s info cannot be found. The group was deleted or failed to error occurred.</string>
+    <string name="im_chat_refuse_friend_request_failed">Failed to reject.</string>
+    <string name="im_chat_refuse_friend_request_successfully">Successfully rejected.</string>
+    <string name="im_chat_approve_friend_request_failed">Failed to approve.</string>
+    <string name="im_chat_approve_friend_request_successfully">Successfully approved.</string>
+
+    <string name="im_chat_refuse_group_invitation_failed">Failed to reject.</string>
+    <string name="im_chat_refuse_group_invitation_successfully">Successfully rejected.</string>
+    <string name="im_chat_approve_group_invitation_failed">Failed to approve.</string>
+    <string name="im_chat_approve_group_invitation_successfully">Successfully approved.</string>
+
+    <string name="im_chat_refuse_group_member_join_failed">Failed to reject.</string>
+    <string name="im_chat_refuse_group_member_join_successfully">Successfully rejected.</string>
+    <string name="im_chat_approve_group_member_join_failed">Failed to approve.</string>
+    <string name="im_chat_approve_group_member_join_successfully">Successfully approved.</string>
+
+    <string name="im_chat_tab_chat">Chat</string>
+    <string name="im_chat_search_result_nothing_group">Group is not found.</string>
+
+    <string name="im_chat_create_dir">Failed to create a file/content.</string>
+    <string name="im_chat_no_sdcard">Cannot take photos without SD card.</string>
+
+    <string name="im_chat_recent_conversation_read">Read</string>
+    <string name="im_chat_recent_conversation_up">Pin</string>
+    <string name="im_chat_recent_conversation_up_chat">Sticky on Top</string>
+    <string name="im_chat_recent_conversation_up_cancel">Unpin</string>
+    <string name="im_chat_friend_detail_no_disturb">Do Not Disturb</string>
+    <string name="im_chat_friend_detail_set_no_disturb">Incoming messages setting</string>
+    <string name="im_chat_friend_detail_setting_no_disturb">Processing your request, please wait...</string>
+    <string name="im_chat_friend_detail_setting_no_disturb_fail">Processing failed,please retry later.</string>
+    <string name="im_chat_friend_detail_concern">Subscribe</string>
+    <string name="im_chat_friend_detail_set_concern">Subscribe setting</string>
+    <string name="im_chat_friend_detail_setting_concern">Processing your request, please wait...</string>
+    <string name="im_chat_friend_detail_setting_concern_fail">Processing failed,please retry later.</string>
+    <string name="im_chat_set_concern_text">When enabled, you will have individual prompt tone and vibration when you receive her/his messages</string>
+    <string name="im_chat_set_concern_shake">Vibrate</string>
+
+    <string name="im_chat_conversation_init_id_fail">Failed to create a discussion.</string>
+
+    <string name="im_chat_agent_group">Group Management</string>
+    <string name="im_chat_agent_psp">PSP Management</string>
+    <string name="im_chat_agent_info_title">Agent account information</string>
+
+    <string name="im_chat_conversation_draft">[Draft] </string>
+
+    <string name="im_chat_search_agent">Function</string>
+    <string name="im_chat_unknown_message">An unrecognized message is received. It may be because the current App version is too low or the message is from a different product of the same account.</string>
+
+
+    <string name="im_chat_group_invitation_tip">Dear classmates: \nGroup \"%1$s (ID:%2$s)\" invite you to join us!</string>
+    <string name="im_chat_group_invitation_input_hint">Enter the invitation information, invite small partners to join it! (200 words)</string>
+    <string name="im_chat_group_invitation_empty">Invitation letter is empty</string>
+    <string name="im_chat_group_invitation_empty_title">Invite multiple people at once, come and create!</string>
+    <string name="im_chat_group_invitation_empty_tip">You can add up to 8 pictures and 1 video!</string>
+    <string name="im_chat_group_invitation_setting_options">Set options</string>
+    <string name="im_chat_group_invitation_valid_time">End time: %1$s  %2$d days</string>
+    <string name="im_chat_group_invitation_permanent">Permanent</string>
+    <string name="im_chat_group_invitation_with_condition">Use the Inclusion criteria</string>
+    <string name="im_chat_group_invitation_unlimited">No Limitation</string>
+    <string name="im_chat_group_invitation_valid_time_title">Invitation validity time</string>
+    <string name="im_chat_group_invitation_end_time">End Time</string>
+    <string name="im_chat_group_invitation_send_setting">Send object settings</string>
+    <string name="im_chat_edit">Edit</string>
+    <string name="im_chat_group_invitation_requesting">Submitting data, please wait ...</string>
+    <string name="im_chat_send_to_friend">Send to friend</string>
+    <string name="im_chat_group_invitation_exit_tip">Are you sure you want to abandon the edit group invitation?</string>
+    <string name="im_chat_group_invitation_modify_tip">The invitations will cover the contents of the previous invitation, save?</string>
+    <string name="im_chat_group_member_reach_limit">Group membership has reached the upper limit, cannot continue to invite!</string>
+    <string name="im_chat_group_invitation_failure">Group invitation has expired, can not share!</string>
+    <string name="im_chat_group_invitation_more_than_200_words">Up to 200 characters can be entered!</string>
+
+    <string name="im_chat_confirm">Confirm</string>
+    <string name="im_chat_login">Login</string>
+
+    <!-- huanxin -->
+    <string name="im_chat_save">Save</string>
+    <string name="im_chat_button_pushtotalk">Hold to talk</string>
+    <string name="im_chat_attach_picture">Album</string>
+    <string name="im_chat_attach_take_pic">Camera</string>
+    <string name="im_chat_attach_assignment">Assign</string>
+    <string name="im_chat_attach_file">File</string>
+    <string name="im_chat_attach_net_disk">NetDisk</string>
+    <string name="im_chat_attach_writing">Handwriting</string>
+    <string name="im_chat_attach_scrawl">Scrawl</string>
+    <string name="im_chat_attach_small_video">Small Video</string>
+    <string name="im_chat_delete">Delete</string>
+    <string name="im_chat_connect_failuer_toast">Please check network, and try again.</string>
+    <string name="im_chat_network_unavailable">Unavailable network. Check network settings.</string>
+    <string name="im_chat_copy">Copy</string>
+    <string name="im_chat_forward">Forward</string>
+    <string name="im_chat_save_netdisk">Save To NetDisk</string>
+    <string name="im_chat_share">Share</string>
+    <string name="im_chat_recall">Recall</string>
+    <string name="im_chat_msg2todo">TODO</string>
+    <string name="im_chat_msg2assignment">Transfer task</string>
+    <string name="im_chat_recall_title">Message Recall</string>
+    <string name="im_chat_recall_message">Recalling message,please wait...</string>
+    <string name="im_chat_recall_self">You recalled a message</string>
+    <string name="im_chat_recall_other">%1$s recalled a message</string>
+    <string name="im_chat_admin_recall_other">%1$s recalled a message.</string>
+    <string name="im_chat_admin_yout_recall_other">You recalled a member message.</string>
+    <string name="im_chat_recall_fail">Recall message failed</string>
+    <string name="im_chat_admin_recall_tip">The recalled message will be hidden and cannot be recovered, confirm recalling?</string>
+    <string name="im_chat_recall_no_response">Recall message no response</string>
+    <string name="im_chat_recall_no_pemission">Access forbidden</string>
+    <string name="im_chat_recall_time_out">You cannot recall a sent message after 5 minutes</string>
+    <string name="im_chat_ok">Confirm</string>
+    <string name="im_chat_cancel">Cancel</string>
+    <string name="im_chat_prompt">Prompt</string>
+    <string name="im_chat_picture">[Image]</string>
+    <string name="im_chat_button_cancel">Cancel</string>
+    <string name="im_chat_select_contacts">Select from Contacts</string>
+    <string name="im_chat_forward_msg">Forward Msg</string>
+    <string name="im_chat_confirm_forward_to">Send the message to %s?</string>
+    <string name="im_chat_connect_conflict">The account has been signed into another device.</string>
+    <string name="im_chat_force_offline">Forced offline</string>
+    <string name="im_chat_sender_writing">Typing</string>
+    <string name="im_chat_3d">3D Chat</string>
+    <!-- MainActivity -->
+    <string name="im_chat_groups">Groups</string>
+    <string name="im_chat_contact">Contacts</string>
+    <!-- GroupsFragment -->
+    <string name="im_chat_group_member_appoint_add_member">Successfully added!</string>
+    <string name="im_chat_group_member_appoint_delete_member">Removed</string>
+    <string name="im_chat_group_member_appoint_all_role">Set More Positions</string>
+    <string name="im_chat_group_member_appoint_more"> etc.</string>
+    <string name="im_chat_group_member_appoint_you">You</string>
+    <string name="im_chat_group_member_appoint">%1$s set %2$s as %3$s</string>
+    <string name="im_chat_group_add_member">Set %1$s</string>
+    <string name="im_chat_group_add_group_manager">Add %1$s</string>
+    <string name="im_chat_group_setting">Group Settings</string>
+    <string name="im_chat_group_setting_member_count">%1$d in total</string>
+    <string name="im_chat_group_setting_member_add">Set %1$s</string>
+    <string name="im_chat_dismiss_group_failed">Failed to delete.</string>
+    <string name="im_chat_transfer_group_successfully">Successfully transferred!</string>
+    <string name="im_chat_transfer_group_failed">Failed to transfer.</string>
+    <string name="im_chat_quit_group_failed">Quit group failed.</string>
+
+    <!--推荐群组-->
+    <string name="im_chat_recommend_groups">Trending</string>
+    <string name="im_chat_interest_groups">Featured</string>
+    <string name="im_chat_interest_member_full_text">%1$s is full and is expanding... Please try again later.</string>
+    <string name="im_chat_interest_dialog_neg">Got it</string>
+    <string name="im_chat_interest_dialog_pos">View other groups</string>
+
+    <!-- ListDialog -->
+    <string name="im_chat_group_member_too_many_member_selected">Number of exceeded limits: %1$d</string>
+    <string name="im_chat_set">Setting</string>
+    <string name="im_chat_transfer_group">Transfer Group</string>
+    <string name="im_chat_dismiss_group">Delete Group</string>
+    <string name="im_chat_sure_to_dismiss_group">Delete the group?</string>
+    <string name="im_chat_quit_group">Quit Group</string>
+    <string name="im_chat_report_group">Report</string>
+    <string name="im_chat_select_btn_text">Confirm(%1$d)</string>
+    <string name="im_chat_sure_to_quit_group">Are you sure you want to exit Group %1$s?</string>
+
+    <!-- CreateGroupActivity -->
+    <string name="im_chat_groupname">Group Name</string>
+    <string name="im_chat_group_number">Group ID</string>
+    <string name="im_chat_group_owner">Creator</string>
+    <string name="im_chat_group_guest">Guest</string>
+    <string name="im_chat_groupintroduction">Group Intro</string>
+    <string name="im_chat_more">More</string>
+    <string name="im_chat_create_group">Create a Group</string>
+    <string name="im_chat_group_name_not_allow_be_empty">Please enter a group name.</string>
+    <string name="im_chat_created_group_successfully">Successfully created!</string>
+    <string name="im_chat_created_group_invitation_send">Invitation sent, please wait patiently.</string>
+    <string name="im_chat_created_group_failed">Failed to create.</string>
+
+    <string name="im_chat_get_members_in_the_group_failed">Failed to view group members.</string>
+    <string name="im_chat_remove_the_member_out_of_group">Move out</string>
+    <string name="im_chat_grant_administration_successfully">Succeeded!</string>
+    <string name="im_chat_grant_administration_failed">Failed.</string>
+    <string name="im_chat_revoke_administration_successfully">Done!</string>
+    <string name="im_chat_revoke_administration_failed">Failed to discharge.</string>
+    <string name="im_chat_remove_the_member_out_of_group_successfully">Done!</string>
+    <string name="im_chat_remove_the_member_out_of_group_failed">Failed to move out.</string>
+    <string name="im_chat_add_friend_member">Add Members</string>
+
+    <!-- FriendGroupManagerActivity -->
+    <string name="im_chat_org">Organization</string>
+    <string name="im_chat_cloud_office">Cloud Office</string>
+    <string name="im_chat_determine">Confirm</string>
+
+    <string name="im_chat_gpermission_edit_info">Edit Group Info</string>
+    <string name="im_chat_gpermission_set_request_policy">Set Requirements to Join</string>
+    <string name="im_chat_gpermission_audit_request">Verify Application</string>
+    <string name="im_chat_gpermission_grant_role">Appoint</string>
+    <string name="im_chat_gpermission_remove_member">Remove</string>
+    <string name="im_chat_gpermission_upload_file">Upload a File</string>
+    <string name="im_chat_gpermission_manager_file">Delete a File</string>
+    <string name="im_chat_gpermission_send_timed_msg">Send Scheduled Msg</string>
+    <string name="im_chat_gpermission_invite">Invite</string>
+    <string name="im_chat_gpermission_publish_grp_ad">Edit Group Ads</string>
+    <string name="im_chat_gpermission_manager_invitation">Edit Group Invitation</string>
+
+    <!-- FriendsFragment -->
+    <string name="im_chat_operation_failed">Failed.</string>
+
+    <string name="im_chat_group_notice_create_ok">Successfully created!</string>
+    <string name="im_chat_group_notice_create_failed">Failed to create.</string>
+    <string name="im_chat_group_notice_confirm">Yes</string>
+    <string name="im_chat_group_notice_cancel">No</string>
+    <string name="im_chat_load_more_data">Loading data...</string>
+    <string name="im_chat_add_chat">Add</string>
+    <string name="im_chat_group_notice_cant_be_empty">Please enter the content!</string>
+    <string name="im_chat_group_content_is_same">No modification was made.</string>
+
+    <string name="im_chat_censor_contain_sensitive_word">The message contains sensitive content and fails to be sent</string>
+    <string name="im_chat_sensitive_edit_message_exception">You can edit text messages only.</string>
+    <string name="im_chat_authentication_wrong">No Permission</string>
+    <string name="im_chat_can_not_change_setting_self">Cannot change your own settings.</string>
+
+    <!-- ApplyJoinGroupActivity -->
+    <string name="im_chat_group_name">Group Name</string>
+    <string name="im_chat_group_introduction">Group Intro</string>
+    <string name="im_chat_group_enter_introduction">Please enter group intro</string>
+    <string name="im_chat_apply_reason">Reason</string>
+
+    <string name="im_chat_invite_friend">Invite Friend</string>
+    <string name="im_chat_failed">Failed</string>
+
+    <string name="im_chat_group_detail_info">Group Details</string>
+
+    <!-- MainActivity -->
+    <string name="im_chat_file_invalid">Invalid file</string>
+    <string name="im_chat_revisal_sensitive_word">The information contains sensitive content. Please modify it before sending.</string>
+    <string name="im_chat_revisal_sensitive">Re-edit</string>
+    <string name="im_chat_no_blacklist_text">Empty Blacklist</string>
+
+    <string name="im_chat_file_sending">Sending</string>
+    <string name="im_chat_file_downloading">Downloading</string>
+    <string name="im_chat_file_send_fail">Failed</string>
+    <string name="im_chat_file_down_fail">Failed to download</string>
+    <string name="im_chat_file_click_down">Download</string>
+    <string name="im_chat_file_click_to_resume">Continue</string>
+    <string name="im_chat_file_click_to_pause">Pause</string>
+    <string name="im_chat_file_click_to_open">Open</string>
+
+    <string name="im_chat_file_download_status_pause">Pause</string>
+
+    <!-- 个人聊天设置界面 -->
+    <string name="im_chat_config">Chat Settings</string>
+    <string name="im_chat_del_blacklist">Delete Blacklist</string>
+    <string name="im_chat_add_to_desktop">Add to Desktop</string>
+    <string name="im_chat_select">Report</string>
+    <string name="im_chat_choose_message">Select more than one messages</string>
+
+    <!-- 清空个人消息 -->
+    <string name="im_chat_sure_transfer_group">Transfer the group to \"%s\"?</string>
+    <string name="im_chat_clear_talk_record">Clear Chat History</string>
+    <string name="im_chat_view_history_msg">Chat History</string>
+    <string name="im_chat_clear_history">Clear Messages</string>
+    <string name="im_chat_confirm_clear">Clear chat history?</string>
+    <string name="im_chat_clearing_history">Clearing chat history...</string>
+    <string name="im_chat_clear_chat_recorder_sucs">Successfully cleared.</string>
+    <string name="im_chat_clear_chat_recorder_faild">Failed to clear.</string>
+    <string name="im_chat_add_friend_note">validation message</string>
+    <string name="im_chat_add_friend_note_hint">please enter validation message</string>
+
+    <!-- 通用设置 -->
+    <string name="im_chat_common_config">General</string>
+    <string name="im_chat_common_config_label_msg_system_notify">Sound &amp; Vibration</string>
+    <string name="im_chat_recv_new_msg_notify">Receive with prompt.</string>
+    <string name="im_chat_enable_sound">Voice Remind</string>
+    <string name="im_chat_enable_msg_vibrate">Vibrate Remind</string>
+    <string name="im_chat_light_reminder">LED Remind</string>
+    <string name="im_chat_font_size_set">Font Size</string>
+    <string name="im_chat_menu_item_translation">Translation</string>
+    <string name="im_chat_menu_item_origin">original text</string>
+    <string name="im_chat_div_translation">Translation completed</string>
+    <string name="im_chat_div_translate_failed">Failed to translate</string>
+    <string name="im_chat_notify_remain">%s messages to read</string>
+    <string name="im_chat_group_recommend">Group Recommend</string>
+    <string name="im_chat_new_msg_notify_setting">New message notification</string>
+    <string name="im_chat_msg_bubble_animation">Message bubble animation</string>
+
+    <!-- 网络连接不可用 -->
+    <string name="im_chat_see_detail">Detail</string>
+
+    <!-- 选择联系人 -->
+    <string name="im_chat_finish">Finish</string>
+
+    <string name="im_chat_friend_request_accept_text">Passed</string>
+    <string name="im_chat_friend_request_refuse_text">Denied</string>
+
+    <!--<string name="im_chat_hello_blank_fragment">Hello blank fragment</string>-->
+    <string name="im_chat_title_activity_search_group_detail">SearchGroupDetailActivity</string>
+
+    <!-- 文件共享 -->
+    <string name="im_chat_action_bar_title_file_pick">Select File</string>
+    <string name="im_chat_no_file">You can add image/audio/video/text here, and share with others.</string>
+    <string name="im_chat_no_cnf_file">You can add image/text here, and share with others.</string>
+    <string name="im_chat_not_up_file">You don\'t has permission to upload file.</string>
+    <string name="im_chat_release_spase_for_download">Make some room first, and then download the file.</string>
+    <string name="im_chat_canot_upload_null_file">The file to be uploaded is empty.</string>
+    <string name="im_chat_file_not_exist">This file doesn\'t exist.</string>
+    <string name="im_chat_file_video_invalid">Video file corrupted</string>
+    <string name="im_chat_canot_upload_over_2m">Cannot upload files bigger than 200M.</string>
+    <string name="im_chat_canot_upload_not_support">This file is not support: %s.</string>
+    <string name="im_chat_canot_upload_same_filename">Cannot upload files of the same name: %s</string>
+    <string name="im_chat_net_not_work">Unavailable network</string>
+    <string name="im_chat_cant_delete_uploading_file">Failed to delete. Uploading the file.</string>
+    <string name="im_chat_dealing">Dealing</string>
+    <string name="im_chat_dealing_wait_moment">Processing... Please wait.</string>
+    <string name="im_chat_deal_faild">Request failed</string>
+    <string name="im_chat_deal_sucs">Request succeeded</string>
+    <string name="im_chat_not_support_file_type">Unsupported type of file</string>
+    <string name="im_chat_uploading_file_faild">Failed to upload.</string>
+
+    <string name="im_chat_org_file_not_exist">please click to download original picture first!</string>
+    <string name="im_chat_down_success_path">Downloaded! Storage path: %s</string>
+    <string name="im_chat_file_upload_faild_retry">Failed to upload. Touch to retry.</string>
+
+    <!--添加群成员-->
+    <item name="im_chat_tag_holder" type="id"/>
+    <item name="im_chat_tag_friend" type="id"/>
+
+    <!--添加讨论组-->
+
+    <string name="im_chat_delete_all_message">Clear Chat History</string>
+
+
+    <string name="im_chat_dismissing_group">Deleting\u002e\u002e\u002e</string>
+    <string name="im_chat_modify_group_name_error">Error occurred.</string>
+    <string name="im_chat_modify_group_intro_error">Error occurred.</string>
+    <string name="im_chat_modify_group_avatar_error">Failed to change.</string>
+
+    <string name="im_chat_my_groups">My Groups</string>
+
+    <string name="im_chat_recent_contact">Recent Contacts</string>
+    <string name="im_chat_set_all_msg_read">Checked All</string>
+    <string name="im_chat_has_no_result">No results found</string>
+    <string name="im_chat_contact_group">Groups</string>
+
+    <!-- time -->
+    <string name="im_chat_monday">Monday</string>
+    <string name="im_chat_tuesday">Tuesday</string>
+    <string name="im_chat_wednesday">Wednesday</string>
+    <string name="im_chat_thursday">Thursday</string>
+    <string name="im_chat_friday">Friday</string>
+    <string name="im_chat_saturday">Saturday</string>
+    <string name="im_chat_sunday">Sunday</string>
+    <string name="im_chat_yymmdd">%1$d/%2$d/%3$d </string>
+    <string name="im_chat_mmdd">%1$d/%2$d </string>
+    <string name="im_chat_hhmm">%1$02d:%2$02d</string>
+    <string name="im_chat_yesterday">Yesterday</string>
+
+    <!-- ChatActivity -->
+    <string name="im_chat_sure_clear_chat_history">Clear chat history with this contact?</string>
+    <string name="im_chat_un_download">Not downloaded</string>
+    <string name="im_psp_view_all">View More</string>
+    <string name="im_psp_pictext_msg_title">Title</string>
+    <string name="im_chat_goto_web_with_null_url">Url invalid</string>
+
+    <!-- 聊天消息中的数字点击 -->
+    <string name="im_chat_like_account_add_g_text">Search a Group</string>
+    <string name="im_chat_like_phone_call_text">Call</string>
+    <string name="im_chat_like_phone_add_text">Add to the phone contact</string>
+
+    <string name="im_chat_downloading_now">Downloading...</string>
+    <string name="im_chat_uploading_now">Uploading...</string>
+
+    <!-- SettingActivity -->
+    <string name="im_chat_share_to_friends">Share To Friends</string>
+    <string name="im_chat_share_to_groups">Share to Group</string>
+
+
+    <string name="im_chat_group_avatar">Group Icon</string>
+    <string name="im_chat_start_chatting">Start a Chat</string>
+    <string name="im_chat_group_notice">Bulletin</string>
+    <string name="im_chat_group_notice_title">Group Bulletin</string>
+    <string name="im_chat_group_enter_notice">Enter...</string>
+    <string name="im_chat_group_share">Group Share</string>
+    <string name="im_chat_group_qrcode">Group QR Code</string>
+    <string name="im_chat_contact_qrcode">Personal QR Code</string>
+    <string name="im_chat_group_join_policy">Verification</string>
+    <string name="im_chat_my_friend">My Contacts</string>
+    <string name="im_chat_clear_chat_history">Clear Chat History</string>
+    <string name="im_chat_agree_to_join">Allow anyone to join.</string>
+    <string name="im_chat_administrator_grant">Require verification to join.</string>
+    <string name="im_chat_reject_request">Decline anyone to join.</string>
+    <string name="im_chat_group_member">Group Members</string>
+    <string name="im_chat_loading_group_member_info">Loading group member info.</string>
+    <string name="im_chat_search_group">Search a Group</string>
+    <string name="im_chat_group_search_hint">Search Group ID, Group name</string>
+    <string name="im_chat_please_type_request_reason">Please enter the reason</string>
+    <string name="im_chat_group_ad">Group Ad</string>
+    <string name="im_chat_enter_group_ad">please enter [App Box] - [Group Add], publish your Ad</string>
+    <string name="im_chat_enter_group_ad_remind">Remind</string>
+    <string name="im_chat_enter">Enter</string>
+
+    <string name="im_chat_group_not_found_by_keyword">No group found</string>
+    <string name="im_chat_loading_detail_please_waiting">Loading detail...</string>
+    <string name="im_chat_join_success">Successfully joined!</string>
+    <string name="im_chat_need_group_owner_grant">Wait for review</string>
+    <string name="im_chat_application_was_rejected">Request was declined.</string>
+    <string name="im_chat_no_relate_result">No results found</string>
+    <string name="im_chat_view_detail">More</string>
+    <string name="im_chat_invitation_sent">Invitations have been sent.</string>
+    <string name="im_chat_listener_and_array_resource_must_be_set">Set the callback and array resource!</string>
+    <string name="im_chat_deleted">Deleted</string>
+    <string name="im_chat_add_group_member">Add group member</string>
+    <string name="im_chat_modifying_group_name">Modifying group name...</string>
+    <string name="im_chat_quiting_group_please_wait">Quiting group...</string>
+    <string name="im_chat_fetch_group_detail_failed">Getting group detail failed</string>
+    <string name="im_chat_modify_success">Modified.</string>
+    <string name="im_chat_modify_group_introduction_success">Modify group introduction success</string>
+    <string name="im_chat_release_to_end">Release to finish</string>
+    <string name="im_chat_release_to_cancel_record">Release to cancel</string>
+    <string name="im_chat_group_modifying_group_avatar">Modifying Group Icon</string>
+    <string name="im_chat_loading">Loading...</string>
+    <string name="im_chat_apply_join_group_failed">Apply to join group failed</string>
+    <string name="im_chat_group_modify_request_policy_failed">Modify group request policy failed</string>
+    <string name="im_chat_delete_all_message_failed">Failed to delete</string>
+    <string name="im_chat_search_failed">Search failed</string>
+    <string name="im_chat_hint">Prompt</string>
+    <string name="im_chat_member_management">Member Management</string>
+
+    <string name="im_chat_hint_title">Prompt</string>
+
+    <string name="im_chat_add_group_member_failed">Add Group Member Failed</string>
+
+    <!-- 公众号 begin -->
+    <string name="im_psp_confirm_unfollow">You won\'t receive the related information after you unfollow \"%s\".</string>
+
+    <string name="im_psp_unfollow">Unfollow</string>
+    <string name="im_psp_cancle_collection">Unfavorited</string>
+    <string name="im_psp_find_history">Check History Record</string>
+    <string name="im_psp_clear_history">Clear History Record</string>
+    <string name="im_psp_notice">Notice</string>
+    <string name="im_psp_enter_official">Enter Official Account</string>
+    <string name="im_psp_info_title">Account Info</string>
+    <string name="im_psp_follow_num"> %s Followers</string>
+    <string name="im_psp_oa_id">Account ID: %s</string>
+    <string name="im_psp_follow">Follow</string>
+    <string name="im_psp_collect">Favorite</string>
+
+    <string name="im_chat_network_error">Network disconnected. Please try again later.</string>
+
+    <string name="im_psp_psp_name">Official</string>
+    <string name="im_psp_psp_name_short">Official</string>
+    <string name="im_psp_search_no_result">Sorry, no official account related to \"%s\" was found.</string>
+    <string name="im_psp_searching_now">Searching...</string>
+    <string name="im_psp_psp_no_let_me_think">No. </string>
+    <string name="im_psp_psp_yes_i_want_to_unsubscribe">Yes. I want to unsubscribe.</string>
+    <string name="im_psp_no_record_title">Search official accounts for more services</string>
+    <string name="im_psp_tip">Prompt</string>
+    <string name="im_psp_waiting">Please wait...</string>
+    <string name="im_psp_no_data_now">No data</string>
+    <string name="im_psp_public_number_dismissed_ext">(Logged off)</string>
+    <string name="im_psp_sub_success">Subscribed successfully.</string>
+    <string name="im_psp_psp_sub_failed">Failed to subscribe.</string>
+    <string name="im_psp_collect_success">Collect successfully.</string>
+    <string name="im_psp_psp_collect_failed">Failed to collect.</string>
+    <string name="im_psp_result_unsubscribe_ok">Unsubscribed successfully.</string>
+    <string name="im_psp_unsubscribe_failed">Failed to unsubscribe.</string>
+    <string name="im_psp_result_uncollect_ok">Cancel collect successfully.</string>
+    <string name="im_psp_uncollect_failed">Failed to cancel collect.</string>
+    <string name="im_psp_chat_get_menu_failed">Failed to acquire menu.</string>
+    <string name="im_psp_search_error">Search error.</string>
+    <string name="im_psp_are_you_sure_to_clear_msg_record">Are you sure you want to clear the message record?</string>
+    <string name="im_psp_op_failed">Failed to operate.</string>
+    <string name="im_psp_refreshing">Refreshing...</string>
+    <string name="im_psp_loading_menu">Loading...</string>
+    <string name="im_psp_not_exist_in_db">Official Account not found, please try later.</string>
+    <!-- 公众号 end -->
+
+
+    <!-- 快捷回复 begin-->
+    <string name="im_chat_quick_add">Add</string>
+    <string name="im_chat_quick_reply">Quick Reply</string>
+    <string name="im_chat_quick_reply_add_repeat">Quick Reply Exist Already</string>
+    <string name="im_chat_quick_reply_empty">Edit Quick Reply</string>
+
+    <string name="im_chat_quickreply_areyouthere">Hello, are you there?</string>
+    <string name="im_chat_quickreply_recivedthx">I got it. Thanks!</string>
+    <string name="im_chat_quickreply_sure">Okay, no problem!</string>
+    <string name="im_chat_quickreply_cometohere">Please come here!</string>
+    <!-- 快捷回复 end-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="im_chat_search_empty">No Result</string>
+    <string name="im_chat_group">Groups</string>
+    <string name="im_psp_psp_search_psp_title">Search Official Accounts</string>
+    <string name="im_chat_search">Search</string>
+    <string name="im_chat_search_more">More</string>
+    <string name="im_chat_group_has_been_deleted">The group has been deleted</string>
+    <string name="im_psp_recommend_psp">Recommend</string>
+
+    <!--其它-->
+    <string name="im_chat_lookup_more_message">Check History Messages</string>
+    <!-- 个人会话文件列表 -->
+    <string name="im_chat_person_chat_file_list_file">Contact File</string>
+    <string name="im_chat_person_chat_file_list_saveto_netdisk">Save to NetDisk</string>
+    <string name="im_chat_session_expired">session is expired!</string>
+    <string name="im_chat_cant_delte_file_belong_other">Unable to delete other people\'s upload files</string>
+    <string name="im_chat_cant_delte_file_transmiting">File is transmiting.</string>
+    <string name="im_chat_time_week_ago">Messages before %1$s week(s) have been shown.</string>
+    <string name="im_chat_time_month_ago">Messages before %1$s month(s) have been shown.</string>
+    <string name="im_chat_time_year_ago">Messages before %1$s year(s) have been shown.</string>
+    <string name="im_chat_offline">Offline</string>
+    <string name="im_chat_uploader">Uploader: %s</string>
+    <string name="im_chat_search_chatfile_no_result">No Result</string>
+
+    <!-- 选择群成员的时候 -->
+    <string name="im_chat_select_group_member">Select Group Member</string>
+    <string name="im_chat_add_group">Group Chat</string>
+    <string name="im_psp_add_psp">Official Accounts</string>
+    <string name="im_chat_add_qrcode">Scan QR Code</string>
+    <string name="im_chat_my_all_groups">My Groups</string>
+    <string name="im_chat_recent_groups">Recent Groups</string>
+    <string name="im_chat_not_found_group">Sorry, you didn\'t join the group!</string>
+    <string name="im_chat_not_found_group_detail">Sorry, the group information is not found!</string>
+
+    <!--二维码登录 -->
+    <string name="im_chat_qrcode_login_title">Login Confirm</string>
+    <string name="im_chat_qrcode_login_confirm">%s login confirm</string>
+    <string name="im_chat_qrcode_login_fail">Login Confirm is expired, please rescan</string>
+    <string name="im_chat_qrcode_login_rescan_for_login">Rescan for Login</string>
+    <string name="im_chat_qrcode_cancel_login">Cancel Login</string>
+    <string name="im_chat_select_a_psp">Select Official Account</string>
+    <string name="im_chat_select_a_group">Select Group</string>
+    <string name="im_chat_select_a_person">Select from Contacts</string>
+
+    <string name="im_chat_select_person">Person</string>
+
+    <!-- 快捷回复 2015-11新增 -->
+    <string name="im_chat_quick_replay_edit">Edit</string>
+    <string name="im_chat_quick_replay_cancel">Cancel</string>
+    <string name="im_chat_quick_replay_tip">Tap and hold a reply to adjust the order..</string>
+    <string name="im_chat_quick_reply_hint_new">Please enter a quick reply.</string>
+    <string name="im_chat_quick_reply_selected_count">A total of %d fast content</string>
+    <string name="im_chat_quick_reply_delete">Delete (%d)</string>
+    <string name="im_chat_current_org" formatted="false"> <![CDATA[Current Organization： <font color=\'%s\'>%s</font>]]></string>
+    <string name="im_chat_group_modify_invite_policy_failed">Modify invite policy failed</string>
+    <string name="im_chat_group_invite_policy">Allow All Members to Invite</string>
+    <string name="im_chat_generate_qrcode_error">Generate QR Code Error</string>
+
+    <string name="im_chat_search_type_usually">Recently-used</string>
+    <string name="im_chat_search_type_contact">Contact</string>
+    <string name="im_chat_member_count">%d</string>
+    <string name="im_chat_group_member_count_display">(%d Members)</string>
+
+    <string name="im_chat_no_contact">No Contact</string>
+
+    <string name="im_chat_search_group_detail_activity_start_chat">Chat</string>
+    <string name="im_chat_search_group_detail_activity_join_chat">Join Group Chat</string>
+    <string name="im_chat_search_group_detail_activity_not_allow_join">Decline to Join</string>
+    <string name="im_chat_search_group_detail_activity_apply_join">Apply to Join Group Chat</string>
+
+    <string name="im_chat_file_cooper">File Cooperation</string>
+
+
+    <string name="im_chat_create_meeting">Create Meeting</string>
+    <string name="im_chat_join_meeting">Join Meeting</string>
+    <string name="im_chat_select_from_org">Select from organization</string>
+    <string name="im_chat_webview_activity_menu_reload">refresh</string>
+    <string name="im_chat_webvie_activity_menu_share">Share</string>
+
+
+    <!-- 收藏 -->
+    <string name="im_chat_collection">Favorite</string>
+    <string name="im_chat_file_assistant">File Transfer</string>
+    <string name="im_chat_quick_phone">Dial</string>
+
+    <string name="im_chat_file_received">%1$s received Real-time file %2$s from PC</string>
+    <string name="im_chat_folder_received">%1$s received Real-time file folder %2$s from PC</string>
+    <string name="im_chat_file_received_other">%1$s %2$s received Real-time file %3$s from PC</string>
+    <string name="im_chat_folder_received_other">%1$s %2$s received Real-time file folder %3$s from PC</string>
+    <string name="im_chat_messages_unread">%1$d unread messages</string>
+    <string name="im_chat_messages_divider">Below are new messages</string>
+    <string name="im_chat_shake">shake</string>
+    <string name="im_chat_shake_me">[you shook %1$s]</string>
+    <string name="im_chat_shake_other">[shook you]</string>
+    <string name="im_chat_shake_network_error">Network invalid，can not send a shake message</string>
+    <string name="im_chat_attach_shake">shake</string>
+    <string name="im_chat_attach_shake_invalid">Shake too frequently，please try later！</string>
+    <string name="im_chat_content_too_long">Text too long</string>
+    <string name="im_chat_call_authority_disabled">Call permissions are disabled, please enable after retry!</string>
+
+    <string name="im_chat_image_list_title">Contact Image</string>
+
+    <!-- webview -->
+    <string name="im_chat_webvie_activity_menu_copy_url">Copy link</string>
+    <string name="im_chat_webvie_activity_menu_open_with_browser">Open with Browser</string>
+
+    <string name="im_chat_db_update">Upgrade Database</string>
+    <string name="im_chat_db_updating">Upgrading database，please wait....\n Processing：%1$s</string>
+    <string name="im_chat_db_update_fail">Database upgrade fail!</string>
+    <string name="im_chat_db_update_success">Database upgrade successful!</string>
+
+    <string name="im_chat_link">[Link] </string>
+    <string name="im_chat_video_size_confirm_to_send">The video file size is %s, send the video?</string>
+
+    <!-- 历史记录搜索时间范围  2016.01.18-->
+    <string name="im_chat_history_msg_search_1_weak">Within 1 week</string>
+    <string name="im_chat_history_msg_search_3_month">Within 3 months</string>
+    <string name="im_chat_history_msg_search_1_year">Within 1 year</string>
+    <string name="im_chat_history_msg_search_all">All</string>
+    <string name="im_chat_history_no_more">No more messages</string>
+
+    <string name="im_chat_exceed_selected_user_limit">The number exceeds the upper limit of %d.</string>
+
+    <!-- 语音转换文字 -->
+    <string name="im_chat_audio_convert_to_text">Convert to text</string>
+
+    <string name="im_chat_sub_psp_group">Subscribe Official Account</string>
+    <string name="im_chat_ent_psp_group">Application account</string>
+    <string name="im_chat_agent_notification_group">Notice</string>
+
+    <string name="im_chat_no_permission">No Permission!</string>
+    <string name="im_chat_psp_file">Shared File</string>
+    <string name="im_chat_file_uploading_now">%s file is uploading.</string>
+
+    <string name="im_chat_at_msg_tip_one">%s @ You</string>
+    <string name="im_chat_at_msg_tip_many">Some one @ You</string>
+
+    <!-- xxx@你 -->
+    <string name="im_chat_user_at_you" formatted="false"><![CDATA[<font color=\'%s\'>[%s @ You]</font>]]>　</string>
+    <!-- 有人@你 -->
+    <string name="im_chat_someone_at_you" formatted="false"><![CDATA[<font color=\'%s\'>[Someone @ You]</font>]]>　</string>
+
+    <!-- 字体提示 -->
+    <string name="im_chat_small_font_size">Small Font</string>
+    <string name="im_chat_normal_font_size">Medium Font</string>
+    <string name="im_chat_big_font_size">Big Font</string>
+    <string name="im_chat_great_font_size">Great Font Size</string>
+    <string name="im_chat_king_font_size">King Font</string>
+
+    <!-- 表情 -->
+    <string name="im_chat_view_smiley_ablum">View Smiley Album</string>
+    <string name="im_chat_add_to_smiley">Add To Emotion</string>
+
+    <!-- 送花感谢默认回复的话，没有title，就用这个默认的 -->
+    <string name="im_chat_thx_flower_default_title">Use custom messages</string>
+
+    <!-- 聊天个人顶部菜单 -->
+    <string name="im_chat_top_menu_p2p_file">File</string>
+    <string name="im_chat_top_menu_p2p_picture">Image</string>
+    <string name="im_chat_top_menu_p2p_setting">Setting</string>
+    <string name="im_chat_top_menu_p2p_history">Chat History</string>
+
+
+    <!-- 聊天群顶部菜单 -->
+    <string name="im_chat_top_menu_grp_notice">Notice</string>
+    <string name="im_chat_top_menu_grp_forum">Forum</string>
+    <string name="im_chat_top_menu_grp_picture">Image</string>
+    <string name="im_chat_top_menu_grp_setting">Setting</string>
+    <string name="im_chat_top_menu_grp_history">Chat History</string>
+
+    <string name="im_chat_msg_collect_failed">Failed to collect.</string>
+    <string name="im_chat_no_record_or_camera_permission">No Camera or Record Permission</string>
+
+    <string name="im_chat_attach_burn">Whisper</string>
+    <string name="im_chat_attach_burn_exit">Exit Whisper</string>
+    <string name="im_chat_conversation_burn_receive">Whisper Received</string>
+    <string name="im_chat_conversation_burn_send">Whisper Sent</string>
+    <string name="im_chat_burn_message_click_tip">View Message</string>
+    <string name="im_chat_click_to_view_image">Hold To Review</string>
+    <string name="im_chat_burn_message_click_to_view">View</string>
+    <string name="im_chat_burn_video_load_failed">Failed to load</string>
+    <string name="im_chat_burn_video_replay">Replay</string>
+    <string name="im_chat_message_unread">Unread</string>
+    <string name="im_chat_message_read">%s Read</string>
+    <string name="im_chat_group_message_person_unread">%s Unread &gt;</string>
+    <string name="im_chat_group_message_unread">%d Unread &gt;</string>
+    <string name="im_chat_group_person_message_read">Read &gt;</string>
+    <string name="im_chat_group_message_read">All Read &gt;</string>
+    <string name="receive_member_list_title">Receive Member</string>
+    <string name="group_member_unread_tab">Unread（%d）</string>
+    <string name="group_member_read_tab">Read（%d）</string>
+    <string name="message_receiver_unread_text">Unread</string>
+    <string name="im_chat_smiley_title">[smiley]</string>
+    <string name="im_chat_associate_msgs_title">[Multi Messages]%s</string>
+    <string name="im_chat_exit_group_text">Quit</string>
+    <string name="im_chat_message_cannot_forward_tip">Here %s special message failed to forward</string>
+    <string name="im_chat_message_unchose_forward_tip">Here %s Chat messages are not forwarded</string>
+    <string name="im_chat_message_lost_forward_tip">1 message lost</string>
+
+    <string name="im_chat_download_file_first">Download File First</string>
+
+    <string name="im_chat_sel_groups_count_out_limit">No more than %1$d groups.</string>
+
+    <string name="im_chat_group_zone">Group Zone</string>
+    <string name="im_chat_enter_group_notice_faild">Enter Group Notice Faild!</string>
+
+    <string name="im_chat_reward">Reward</string>
+
+    <string name="im_chat_item_menu_more">Multiple</string>
+    <string name="im_chat_multi_forward_un_choose_tip">Check the message, the middle part can be forwarded message is not selected, whether to continue?</string>
+    <string name="im_chat_multi_forward_not_found_tip">Some of the messages you have selected may have been deleted or withdrawn, it can not be sent, please re-select</string>
+    <string name="im_chat_multi_forward_un_forward_tip">Some of the selected messages cannot be forwarded such as system message/message deleted once read/nudge/file transfer history/big emoji/folder message, etc. Continue?</string>
+    <string name="im_chat_multi_forward_both_tip">Check the message, cannot be forwarded in content, and the middle part can be forwarded message is not selected, whether to continue?</string>
+    <string name="im_chat_multi_preview">Preview</string>
+    <string name="im_chat_multi_forward_and">%1$s and %2$s</string>
+    <string name="im_chat_multi_forward_title_suffix">\'s %d chats</string>
+    <string name="im_chat_deleting">Deleting</string>
+    <string name="im_chat_delet_faild">Failed to delete</string>
+    <string name="im_chat_delet_success">Deleted</string>
+    <string name="im_chat_ensure_delete">Are you sure to delete?</string>
+
+    <string name="im_chat_multi_forward_can_not_forward">Can not Forward!</string>
+
+    <string name="im_chat_burn_msg_group_chat_edit_tip">Msg burned after exit</string>
+    <string name="im_chat_burn_msg_group_recent_contact_content_new_msg">[New message,exit burning]</string>
+    <string name="im_chat_burn_msg_group_recent_contact_content">[Chat message,exit burning]</string>
+    <string name="im_chat_burn_msg_group_notification_content">You have received a new message</string>
+    <string name="im_chat_burn_msg_group_cant_send_msg">Chat recorder or file or big-smiley cant be sent to burn message group,please repick again</string>
+    <string name="im_chat_burn_msg_group_chat_empty_tip1">Speak whatever you want</string>
+    <string name="im_chat_burn_msg_group_chat_empty_tip2">All messages will be cleared after exiting</string>
+
+    <!--入群条件-->
+    <string name="im_chat_group_join_allow_anyone">Allows anyone to join</string>
+    <string name="im_chat_group_join_need_validation">Require verification to join.</string>
+    <string name="im_chat_group_join_not_allow_anyone">Don\'t allow anyone to join</string>
+    <string name="im_chat_group_join_need_answer_question_and_validation">Need answer question and verify</string>
+    <string name="im_chat_group_join_need_answer_question_correctly">Need answer question correctly</string>
+    <string name="im_chat_group_join_password">Password to join</string>
+    <string name="im_chat_group_join_pay">Pay to join</string>
+    <string name="im_chat_group_join_attachment">Need upload attachment and verify</string>
+    <string name="im_chat_group_join_department">Department</string>
+    <string name="im_chat_group_join_level">Level</string>
+    <string name="im_chat_group_join_working_age">Working age</string>
+    <string name="im_chat_group_join_game_star">Game star</string>
+
+    <string name="im_chat_group_join_complete_group_info">Complete group info</string>
+    <string name="im_chat_group_join_input_group_name">Group name</string>
+    <string name="im_chat_group_join_verification_mode">Verification mode:</string>
+    <string name="im_chat_group_join_verification_type">Verification type:</string>
+    <string name="im_chat_group_join_secret_group_mode">Secret group mode</string>
+    <string name="im_chat_group_join_secret_group_mode_tips">The message is burned when exiting the chat, and the group mode can not be changed after the group is created successfully</string>
+    <!--<string name="im_chat_group_join_more_configuration_mode_tips">更多入群条件模板请联系IM系统管理员配置</string>-->
+    <string name="im_chat_group_join_question_title">Question</string>
+    <string name="im_chat_group_join_question_hint">Why do you want to join?</string>
+    <string name="im_chat_group_join_answer_title">Answer</string>
+    <string name="im_chat_group_join_answer_hint">Zhang San</string>
+    <string name="im_chat_group_join_password_hint">Please enter a 4-digit number</string>
+    <string name="im_chat_group_join_question_empty">Question can\'t be empty</string>
+    <string name="im_chat_group_join_answer_empty">Answer can\'t be empty</string>
+    <string name="im_chat_group_join_password_empty">Password can\'t be empty</string>
+    <string name="im_chat_group_join_password_length">Password must be a %d-digit number</string>
+    <string name="im_chat_group_join_department_empty">Department can\'t be empty</string>
+    <string name="im_chat_group_join_attachment_empty">Attachment tips can\'t be empty</string>
+    <string name="im_chat_group_join_attachment_hint">What need to upload?</string>
+    <string name="im_chat_group_join_number_pay_range_min">The input of amount can\'t less than ¥%d</string>
+    <string name="im_chat_group_join_number_pay_range_max">The input of amount can\'t more than ¥%d</string>
+    <string name="im_chat_group_join_number_working_age_range_min">The input of working age can\'t less than %d</string>
+    <string name="im_chat_group_join_number_level_range_min">The input of level can\'t less than %d</string>
+    <string name="im_chat_group_join_number_game_star_range_min">The input of game star can\'t less than %d</string>
+    <string name="im_chat_group_join_select_join_group_mode">Select join group mode</string>
+    <string name="im_chat_group_join_loading">Loading...</string>
+    <string name="im_chat_group_join_loading_failed">Failed to load</string>
+    <string name="im_chat_group_join_modifying">modifying...</string>
+    <string name="im_chat_group_join_modifying_success">Modified.</string>
+    <string name="im_chat_group_join_modifying_failed">Failed to modify.</string>
+    <string name="im_chat_enter_group_join_passwd">Enter password</string>
+    <string name="im_chat_requesting_now">Requesting...</string>
+    <string name="im_chat_join_request_need_admin_confirm">You need be approved by admin</string>
+    <string name="im_chat_join_request_need_answer">You need to answer the question</string>
+    <string name="im_chat_join_request_need_answer_right">You need to answer the question right</string>
+    <string name="im_chat_join_request_need_passwd">You need to input the password</string>
+    <string name="im_chat_join_request_need_pay">You need to pay</string>
+    <string name="im_chat_join_request_need_attachment">You need to upload attachments</string>
+    <string name="im_chat_join_policy_remind">Join Policy</string>
+    <string name="im_chat_password_error">Input password is error</string>
+    <string name="im_chat_answer_error">Answer is error</string>
+    <string name="im_chat_join_policy_not_supported">Need Update Your App!</string>
+    <string name="im_chat_group_join_other_conditions">Other conditions</string>
+    <string name="im_chat_group_join_current_group_conditions">Current group conditions</string>
+
+    <string name="im_chat_group_role_add_member">Add %1$s</string>
+    <string name="im_chat_group_role_manager">%1$s(%2$d)</string>
+    <string name="im_chat_group_role_show_more">Set More Positions</string>
+    <string name="im_chat_group_role">Permissions</string>
+    <string name="im_chat_group_role_menu">Next</string>
+    <string name="im_chat_group_role_permission">Permissions</string>
+    <string name="im_chat_group_role_tips1">Please select a title system for your group.</string>
+    <string name="im_chat_group_role_tips2">[A title indicates a member\'s position in a group.]</string>
+    <string name="im_chat_group_role_loading">Loading data...</string>
+    <string name="im_chat_group_role_loading_failed">Failed.</string>
+
+    <string name="im_chat_group_level">Group Level</string>
+    <string name="im_chat_group_level_upgrade_tips">Congratulations!Group “%1$s” has upgraded to %2$s</string>
+    <string name="im_chat_group_level_upgrade_confirm">Got it</string>
+
+    <string name="im_chat_forwarding">Getting Info....</string>
+    <string name="im_chat_cant_forward_smiley">Smiley cant be forwarded.</string>
+
+    <string name="im_chat_shareing">Getting Info....</string>
+    <string name="im_chat_cant_share_smiley">This smiley is not support share.</string>
+
+    <string name="im_chat_group_invitation">Group Invitation</string>
+    <string name="im_chat_file_download_speed_unknown">Unknown</string>
+    <string name="im_max_select_video_limit">Video has reached the maximum of %d choice</string>
+
+    <string name="im_max_select_conact_limit">Max Limit Size %d</string>
+
+    <string name="im_max_select_person_limit">Selected personnel cannot exceed %d.</string>
+
+    <string name="im_chat_group_invitation_edit_success">Invitations to edit a success</string>
+    <string name="im_chat_group_member_role_degrade">You have lost edit permissions of the invitation</string>
+    <string name="im_chat_sharing">Sharing</string>
+    <string name="im_chat_share_complete">Share Completed!</string>
+    <string name="im_chat_share_faild">Share Faild!</string>
+    <string name="im_chat_accept_invitation_faild">Accept Faild!</string>
+
+    <string name="im_chat_admin">Administrator</string>
+    <string name="im_chat_file_forward_to_assistant">Forward To Assistant</string>
+    <string name="im_chat_multi_online_btn_txt_offline">Offline</string>
+    <string name="im_chat_multi_online_local">Local</string>
+    <string name="im_chat_multi_online_tip">Currently Online</string>
+    <string name="im_chat_multi_online_disable_offline">The current PC\'s version does not support offline</string>
+    <string name="im_chat_toast_sync_failure">PC is offline or version is too low</string>
+    <string name="im_chat_fun_not_support_check_version">This operation is not supported, please check app version!</string>
+
+    <string name="im_chat_select_forward_contact">Select a receiver</string>
+
+    <string name="im_chat_group_verification_title_msg">Verification Message</string>
+    <string name="im_chat_group_verification_more_than_255_words">verification nessage must less than 255</string>
+    <string name="im_chat_group_verification_input_hint">Tell us why you want join this group?</string>
+    <string name="im_chat_group_verification_post_msg_success">post message success</string>
+    <string name="im_chat_group_verification_need_attachment">this group require attachment to varify. please add one</string>
+    <string name="im_chat_group_verification_need_message">this group require message to varify. please add one</string>
+    <string name="im_chat_group_verify_requesting">Submitting data, please wait ...</string>
+    <string name="im_chat_group_join_answer_wrong">wrong answer</string>
+
+    <string name="im_chat_psp_group_send_msg">Official Account History Message</string>
+    <string name="im_chat_psp_group_send_msg_get_faild">Get Message Faild!</string>
+
+    <string name="im_chat_group_policy_allow_all">Allow anyone to join.</string>
+    <string name="im_chat_group_policy_need_admin">Require verification to join.</string>
+    <string name="im_chat_group_policy_refuse_all">Decline anyone to join.</string>
+
+
+    <string name="im_chat_view_more_contact">More Contact</string>
+    <string name="im_chat_view_more_group">More Group</string>
+    <string name="im_chat_view_more_psp">More Official Account</string>
+    <string name="im_chat_view_more_org_node">More Organization</string>
+    <string name="im_chat_hisory_message">Chat History</string>
+    <string name="im_chat_view_more_hisory_message">More History Message</string>
+
+    <string name="im_chat_chat_background">Chat Background</string>
+
+    <string name="im_chat_select_user_reach_limit">Max Limit Size %s.</string>
+    <string name="im_chat_group_member_over_limit">No more than %s group members.</string>
+
+    <string name="im_chat_delete_file_faild">Delete File Faild!</string>
+
+    <string name="im_chat_relative_message">%1$s related messages</string>
+    <string name="im_chat_relative_message_tip1">%1$s message(s) related to \"</string>
+    <string name="im_chat_relative_message_tip2">\"</string>
+
+
+    <string name="im_chat_group_donot_have_vedio_conferrence_permission">Your group does not have</string>
+
+    <string name="im_chat_group_is_not_exist">Group is not exist!</string>
+    <string name="im_chat_community_group">Community</string>
+
+    <string name="im_chat_join_recommend_group_success">Successfully joined!</string>
+    <string name="im_chat_join_recommend_group_failed">Join Failed</string>
+
+    <string name="ll_chat_intimacy">Intimacy Icon Setting</string>
+
+    <string name="im_chat_delay_text">Delayed!</string>
+
+    <string name="im_spell_check">Spell Check</string>
+
+    <string name="im_chat_click_browse">Click to view</string>
+    <string name="im_chat_directory_message">[folder]</string>
+
+
+    <string name="im_chat_file_save_failed">Failed to save file</string>
+    <string name="im_chat_file_deleted_or_recalled">File has been deleted or withdrawn</string>
+
+
+    <string name="im_chat_email">Mail</string>
+
+
+    <string name="im_chat_list_is_emtpy">Session list is null</string>
+    <string name="im_chat_custom_service_not_available">Component not exist</string>
+
+    <string name="im_chat_cnf_select_file">Choose File</string>
+
+    <string name="im_chat_activity_multi_forward_msg_desc_1">10003</string>
+    <string name="im_chat_friendlist_item_userinfo_desc_1">10004</string>
+    <string name="im_psp_menu_item_view_desc_1">10005</string>
+    <string name="im_chat_hint_recent_pic">The picture you would like to send:</string>
+    <string name="im_chat_bottom_view_desc_1">Switch to input panel</string>
+    <string name="im_chat_bottom_view_desc_2">Audio</string>
+    <string name="im_chat_bottom_view_desc_3">Keyboard</string>
+    <string name="im_chat_bottom_view_desc_4">Emotion</string>
+    <string name="im_chat_bottom_view_desc_5">Text</string>
+    <string name="im_chat_bottom_view_desc_6">Input panel</string>
+    <string name="im_chat_bottom_view_desc_7">Send</string>
+    <string name="im_chat_list_item_psparticle_label_desc_1">10013</string>
+    <string name="im_chat_group_setting_item_image_desc_1">Image</string>
+    <string name="im_chat_item_in_search_type_result_desc_1">Avatar</string>
+    <string name="im_chat_bottom_item_view_desc_1"/>
+    <string name="im_chat_list_item_group_join_divider_light_desc_1">10017</string>
+    <string name="im_chat_list_item_smiley_send_desc_1">Avatar</string>
+    <string name="im_chat_list_item_smiley_send_desc_2">Failed</string>
+    <string name="im_chat_list_item_smiley_send_desc_3">10020</string>
+    <string name="im_chat_group_join_password_dialog_desc_1">10021</string>
+    <string name="im_chat_activity_group_invitaion_empty_sub_desc_1">10022</string>
+    <string name="im_chat_list_item_pcfile_receive_desc_1">10023</string>
+    <string name="im_chat_list_item_pcfile_receive_desc_2">10024</string>
+    <string name="im_chat_list_item_pcfile_receive_desc_3">10025</string>
+    <string name="im_chat_activity_chat_desc_1">10026</string>
+    <string name="im_chat_activity_chat_desc_2">10027</string>
+    <string name="im_chat_dlg_multi_forward_confirm_desc_1">10028</string>
+    <string name="im_chat_group_read_user_item_desc_1">10029</string>
+    <string name="im_chat_list_item_text_receive_desc_1">Avatar</string>
+    <string name="im_chat_list_item_text_receive_desc_2">Image</string>
+    <string name="im_chat_item_picture_bottom_btn_desc_1">More</string>
+    <string name="im_chat_list_item_box_send_desc_1">Image</string>
+    <string name="im_chat_list_item_audio_send_desc_1">Avatar</string>
+    <string name="im_chat_list_item_audio_send_desc_2">Image</string>
+    <string name="im_chat_list_item_audio_send_desc_3">Animation</string>
+    <string name="im_chat_list_item_audio_send_desc_4">Failed</string>
+    <string name="im_chat_list_item_audio_send_desc_5">Unread</string>
+    <string name="im_chat_listitem_recentcontact_desc_1">Avatar</string>
+    <string name="im_chat_listitem_recentcontact_desc_2"/>
+    <string name="im_chat_layout_searchwidget_hismg_item_desc_1">Avatar</string>
+    <string name="im_chat_list_item_multi_forward_receive_desc_1">Avatar</string>
+    <string name="im_chat_list_item_multi_forward_receive_desc_2">Image</string>
+    <string name="im_chat_list_item_multi_forward_receive_desc_3">Failed</string>
+    <string name="im_chat_group_members_list_item_desc_1">Avatar</string>
+    <string name="im_chat_person_chat_file_list_item_desc_1">File</string>
+    <string name="im_chat_person_chat_file_list_item_desc_2">10047</string>
+    <string name="im_chat_person_chat_file_list_item_desc_3">Download</string>
+    <string name="im_chat_cloud_user_item_desc_1">Avatar</string>
+    <string name="im_chat_cloud_user_item_desc_2">10050</string>
+    <string name="im_chat_item_group_detail_desc_1">10051</string>
+    <string name="im_chat_activity_group_invitation_edit_desc_1">Delete</string>
+    <string name="im_chat_activity_group_invitation_edit_desc_2">Add</string>
+    <string name="im_chat_friendlist_friend_item_desc_1">Avatar</string>
+    <string name="im_chat_friendlist_friend_item_desc_2">10055</string>
+    <string name="im_chat_friendlist_friend_item_desc_3">10056</string>
+    <string name="im_chat_list_item_video_send_desc_1">Avatar</string>
+    <string name="im_chat_list_item_video_send_desc_2">Failed</string>
+    <string name="im_chat_list_item_video_send_desc_3">Video</string>
+    <string name="im_chat_list_item_video_send_desc_4">Pause</string>
+    <string name="im_chat_list_item_video_send_desc_5">Cancel</string>
+    <string name="im_chat_list_item_video_send_desc_6">Failed</string>
+    <string name="im_chat_item_type_icon_desc_1">10063</string>
+    <string name="im_chat_sel_groups_list_item_desc_1">10064</string>
+    <string name="im_chat_sel_groups_list_item_desc_2">Avatar</string>
+    <string name="im_chat_sel_groups_list_item_desc_3"/>
+    <string name="im_chat_list_item_picture_receive_desc_1">Avatar</string>
+    <string name="im_chat_list_item_picture_receive_desc_2">Image</string>
+    <string name="im_chat_list_item_picture_receive_desc_3">Image</string>
+    <string name="im_chat_list_item_file_send_desc_1">Avatar</string>
+    <string name="im_chat_list_item_file_send_desc_2">Image</string>
+    <string name="im_chat_list_item_file_send_desc_3">Image</string>
+    <string name="im_psp_gridlist_item_desc_1">10076</string>
+    <string name="im_psp_gridlist_item_desc_2">10077</string>
+    <string name="im_chat_list_item_effect_text_receive_desc_1">Avatar</string>
+    <string name="im_chat_list_item_effect_text_receive_desc_2">Failed</string>
+    <string name="im_chat_list_item_file_receive_desc_1">Avatar</string>
+    <string name="im_chat_list_item_file_receive_desc_2">File</string>
+    <string name="im_chat_list_item_file_receive_desc_3">Failed</string>
+    <string name="im_chat_groups_list_item_desc_1">Groups</string>
+    <string name="im_chat_list_item_psparticle_desc_1">Image</string>
+    <string name="im_chat_list_item_psparticle_desc_2">10085</string>
+    <string name="im_chat_activity_chat_cfg_p2p_desc_1">Avatar</string>
+    <string name="im_chat_activity_qrcode_login_desc_1"/>
+    <string name="im_chat_loading_progress_dialog_desc_1"/>
+    <string name="im_chat_qrcode_show_desc_1">Avatar</string>
+    <string name="im_chat_qrcode_show_desc_2">QR Code</string>
+    <string name="im_chat_sel_group_bottom_content_avatar_desc_1">10091</string>
+    <string name="im_chat_list_item_smiley_receive_desc_1">Avatar</string>
+    <string name="im_chat_list_item_smiley_receive_desc_2">Play</string>
+    <string name="im_chat_list_item_smiley_receive_desc_3">Failed</string>
+    <string name="im_chat_list_item_container_receive_desc_1">Avatar</string>
+    <string name="im_chat_list_item_container_receive_desc_2">Failed</string>
+    <string name="im_chat_list_item_link_receive_desc_1">Avatar</string>
+    <string name="im_chat_list_item_link_receive_desc_2">Failed</string>
+    <string name="im_chat_list_item_link_receive_desc_3">Audio</string>
+    <string name="im_chat_list_item_multi_forward_send_desc_1">Avatar</string>
+    <string name="im_chat_list_item_multi_forward_send_desc_2">Image</string>
+    <string name="im_chat_list_item_multi_forward_send_desc_3">Failed</string>
+    <string name="im_chat_list_item_group_join_param_number_desc_1">Add</string>
+    <string name="im_chat_list_item_group_join_param_number_desc_2">Delete</string>
+    <string name="im_chat_list_item_shake_send_desc_1">Avatar</string>
+    <string name="im_chat_list_item_shake_send_desc_2">Failed</string>
+    <string name="im_chat_listitem_system_message_desc_1">Avatar</string>
+    <string name="im_chat_listitem_system_ntf_group_my_notice">  群通知</string>
+    <string name="im_chat_listitem_system_ntf_group_delete">  群解散</string>
+    <string name="im_chat_item_image_list_desc_1">Video</string>
+    <string name="im_chat_item_image_list_desc_2">Video</string>
+    <string name="im_psp_search_list_item_desc_1"/>
+    <string name="im_chat_view_recent_pic_pop_desc_1">Image</string>
+    <string name="im_chat_friendlist_fileaide_item_desc_1"/>
+    <string name="im_chat_list_item_video_receive_desc_1">Avatar</string>
+    <string name="im_chat_list_item_video_receive_desc_2">Failed</string>
+    <string name="im_chat_list_item_video_receive_desc_3">Video</string>
+    <string name="im_chat_list_item_video_receive_desc_4">Pause</string>
+    <string name="im_chat_list_item_video_receive_desc_5">Cancel</string>
+    <string name="im_chat_list_item_video_receive_desc_6">Failed</string>
+    <string name="im_chat_mutil_btn_menu_view_desc_1">Forward</string>
+    <string name="im_chat_mutil_btn_menu_view_desc_2">Delete</string>
+    <string name="im_chat_mutil_btn_menu_view_desc_3">Sent Email</string>
+    <string name="im_chat_mutil_btn_menu_view_desc_4">Report</string>
+    <string name="im_chat_fragment_recentcontact_desc_1">Animation</string>
+    <string name="im_chat_quick_reply_item_view_desc_1">Sort</string>
+    <string name="im_chat_item_multi_online_desc_1">Online</string>
+    <string name="im_chat_search_group_list_item_desc_1">Group</string>
+    <string name="im_chat_activity_folded_conversation_desc_1">10124</string>
+    <string name="im_chat_group_level_upgrade_dialog_desc_1">10125</string>
+    <string name="im_psp_psplist_psp_item_desc_1">Avatar</string>
+    <string name="im_psp_psplist_psp_item_desc_2">10127</string>
+    <string name="im_chat_search_item_checkable_desc_1">Avatar</string>
+    <string name="im_chat_listitem_recentcontact_psn_userinfo_desc_1">Avatar</string>
+    <string name="im_chat_listitem_recentcontact_psn_userinfo_desc_2">Level</string>
+    <string name="im_chat_listitem_recentcontact_psn_userinfo_desc_3">10131</string>
+    <string name="im_chat_list_item_audio_receive_desc_1">Avatar</string>
+    <string name="im_chat_list_item_audio_receive_desc_2">Image</string>
+    <string name="im_chat_list_item_audio_receive_desc_3">Animation</string>
+    <string name="im_chat_list_item_audio_receive_desc_4">Failed</string>
+    <string name="im_chat_list_item_audio_receive_desc_5">Audio</string>
+    <string name="im_chat_activity_group_role_template_desc_1">10137</string>
+    <string name="im_chat_list_item_picture_send_desc_1">Avatar</string>
+    <string name="im_chat_list_item_picture_send_desc_2">Image</string>
+    <string name="im_chat_list_item_picture_send_desc_3">Failed</string>
+    <string name="im_chat_history_msg_search_item_view_desc_1">Avatar</string>
+    <string name="im_chat_list_item_group_join_divider_dark_desc_1">10142</string>
+    <string name="im_chat_list_item_link_send_desc_1">Avatar</string>
+    <string name="im_chat_list_item_link_send_desc_2">Failed</string>
+    <string name="im_chat_list_item_text_send_desc_1">Avatar</string>
+    <string name="im_chat_list_item_text_send_desc_2">Failed</string>
+    <string name="im_chat_list_item_directory_send_desc_1">Avatar</string>
+    <string name="im_chat_list_item_directory_send_desc_2">Folder</string>
+    <string name="im_chat_list_item_directory_send_desc_3">Failed</string>
+    <string name="im_chat_list_item_container_send_desc_1">Avatar</string>
+    <string name="im_chat_list_item_container_send_desc_2">Failed</string>
+    <string name="im_chat_list_item_directory_receive_desc_1">Avatar</string>
+    <string name="im_chat_list_item_directory_receive_desc_2">Folder</string>
+    <string name="im_chat_list_item_directory_receive_desc_3">Failed</string>
+    <string name="im_chat_item_selected_members_desc_1"/>
+    <string name="im_chat_member_select_chip_desc_1">Image</string>
+    <string name="im_chat_member_select_chip_desc_2">Delete</string>
+    <string name="im_chat_list_item_box_receive_desc_1">Image</string>
+    <string name="im_chat_list_item_pcfile_send_desc_1">Avatar</string>
+    <string name="im_chat_list_item_pcfile_send_desc_2">File</string>
+    <string name="im_chat_list_item_pcfile_send_desc_3">Failed</string>
+    <string name="im_chat_list_item_effect_text_send_desc_1">Avatar</string>
+    <string name="im_chat_list_item_effect_text_send_desc_2">Failed</string>
+    <string name="im_chat_layout_searchwidget_item_desc_1">Avatar</string>
+    <string name="im_chat_list_item_shake_receive_desc_1">Avatar</string>
+    <string name="im_chat_list_item_shake_receive_desc_2">Failed</string>
+    <string name="im_chat_view_burn_picture_override_desc_1">10167</string>
+    <string name="im_chat_view_square_image_view_desc">Avatar</string>
+
+    <string name="im_chat_item_view_content_audio">Audio of %1$d second(s)</string>
+    <string name="im_chat_item_view_content_description_audio">%1$s sent an audio of %2$d second(s)</string>
+    <string name="im_chat_item_view_content_description_message">%1$s sent a message %2$s</string>
+    <string name="im_chat_item_view_content_description_picture">%1$s sent an image</string>
+    <string name="im_chat_item_view_content_description_video">%1$s sent a video of %2$s</string>
+    <string name="im_chat_item_view_content_description_link">%1$s sent a link %2$s</string>
+    <string name="im_chat_item_view_content_description_file">%1$s sent a %3$s file named %2$s</string>
+    <string name="im_chat_item_view_content_description_rich">%1$s sent a message %2$s</string>
+    <string name="im_chat_item_view_content_description_folder">%1$s sent a file %2$s</string>
+    <string name="im_chat_item_view_content_description_box">%1$s sent %2$s %3$s</string>
+    <string name="im_chat_item_view_content_description_normal">%1$s sent %2$s</string>
+    <string name="im_chat_item_view_content_description_pc_file">%1$s sent a file %2$s to file assistant</string>
+    <string name="im_chat_item_view_content_file">File %1$s</string>
+    <string name="im_chat_item_view_hour">hour(s)</string>
+    <string name="im_chat_item_view_minute">Score</string>
+    <string name="im_chat_item_view_second">second(s)</string>
+
+    <string name="im_chat_group_tab_content_description">%1$s %2$d/%3$d</string>
+    <string name="im_chat_item_head_content_description">Selected %1$s</string>
+    <string name="im_chat_send_msg_hint">Text massage</string>
+
+    <string name="im_chat_open_msg_notification">Allow Notification</string>
+    <string name="im_chat_open_msg_notification_tip">Allow Notification ensures you never miss an important reminders and update notifications.</string>
+    <string name="im_chat_goto_set">Setting</string>
+
+    <string name="im_chat_open_bg_permission_help_tip">Turning on related permissions ensures you never miss a notification</string>
+    <string name="im_chat_open_bg_permission_helper">Enable Permissions</string>
+
+    <string name="im_chat_group_expire_time_tip">This QR code is valid for 7 days (Before %1$s). You can re-enter to refresh it.</string>
+    <string name="im_chat_cant_forward_file">File deleted or permission denied</string>
+    <string name="im_chat_notification_channel_name">Notifications</string>
+
+    <string name="im_chat_pick_all">Select All</string>
+    <string name="im_chat_chose_forward">Select a receiver</string>
+    <string name="im_chat_offline_goto_adhoc_tip">offline,try adhoc</string>
+    <string name="im_search_name_hint">Search</string>
+    <string name="im_chat_db_error">Database damaged</string>
+    <string name="im_chat_db_error_notice">Sorry, your local database was damaged and will be fixed at the next startup. You can continue the operation, but it may cause unpredictable results.  Are you sure you want to exit now?</string>
+
+    <string name="im_chat_move_top_up">Move up</string>
+    <string name="im_chat_group_share_closed">Group Sharing has been disabled.</string>
+    <string name="im_chat_group_share_closed_file">The file cannot be sent since the group sharing has been disabled.</string>
+    <string name="im_chat_group_share_closed_transfer">The file cannot be forwarded since the group sharing has been disabled.</string>
+    <string name="im_chat_group_share_closed_net_disk">The file cannot be saved to cloud disk since the group sharing has been disabled.</string>
+    <string name="im_chat_group_share_closed_collection">The file cannot be added to Favorites since the group sharing has been disabled.</string>
+    <string name="im_chat_group_share_closed_qrcode">Group QR code has been disabled.</string>
+    <string name="im_chat_blacklist_notice_title">Block His/Her Messages</string>
+    <string name="im_chat_blacklist_notice_content">Messages including text, image, voice, red packet, voice or video call, sharing, file, etc.</string>
+
+    <string name="im_chat_login_fail_tenant_unmatch">Tenant unavailable</string>
+
+    <!--为了屏蔽漏洞检测，防这里通过翻译覆盖到roundedimageview里面有url-->
+    <string name="library_roundedimageview_libraryWebsite" translatable="false">RoundedImageView</string>
+    <string name="library_roundedimageview_repositoryLink" translatable="false">RoundedImageView</string>
+
+    <string name="im_chat_select_contain_unchange_uri">The member already exists.</string>
+
+    <string name="im_chat_select_contain_selected_uri">Duplicate contacts have been automatically removed.</string>
+
+    <string name="im_chat_max_select_member_count_per">Add up to %d members at a time.</string>
+    <string name="im_chat_group_member_hit_max">Failed to add members. The upper limit of group members is reached.</string>
+    <string name="im_chat_group_add_member_hit_max">Failed to add members. The upper limit of group members is reached.</string>
+
+    <string name="im_chat_welcome_title">Learning assistant</string>
+    <string name="im_chat_welcome_subtitle">Welcome to Cloud Platform for China\'s National Primary and Secondary Schools</string>
+    <string name="im_chat_welcome_content">In order to carry out the plans for work related to the prevention and control of COVID-19, and teaching in schools for the coming autumn semester, the Ministry of Education uses the Cloud Platform for China\'s National Primary and Secondary Schools to provide students with high-quality learning resources for independent learning. \n\n The resources on the platform include: epidemic prevention education, moral education, curriculum learning, life and safety education, mental health education, family education, classical reading, study camp education, film and television education, etc. According to the national curriculum program and the curriculum standards of each subject, the three subjects of Language, Politics, and History use the national unified version of textbooks, and other subjects use most popular version of textbooks in the country. The resources will be updated and supplemented continuously. According to the national curriculum program and the curriculum standards of each subject, the three subjects of Language, Politics, and History use the national textbooks, and other subjects use the most popular version of textbooks in the country.  The resources will be updated and supplemented continuously. \n\n All learning resources on the platform are free and may not be used for commercial purposes.</string>
+
+    <string name="im_chat_group_tip_normal">Ordinary group</string>
+    <string name="im_chat_group_tip_discussion">My Discussions</string>
+    <string name="im_chat_group_tip_department">Department group</string>
+    <string name="im_chat_group_tip_recommend">Interest group</string>
+    <string name="im_chat_group_tip_course">Course group</string>
+    <string name="im_chat_group_tip_aiservice">AI group</string>
+    <string name="im_chat_group_tip_class">Class group</string>
+    <string name="im_share_say_something">说点什么吧</string>
+
+    <string name="im_chat_forward_msg_success">Successful</string>
+    <string name="im_chat_forward_msg_failed">Forward Faild!</string>
+    <string name="im_chat_forward_msg_cancel">转发取消</string>
+
+    <string name="im_chat_select_contact_item_group">Groups</string>
+    <string name="im_chat_select_contact_item_recent">Recent</string>
+
+    <string name="im_chat_nofity_count_header">[%d条]</string>
+    <string name="im_chat_group_tip_home_school">Home school group</string>
+    <string name="im_chat_at_tip_count">(%d)</string>
+    <string name="im_chat_choose_all_member">\@all</string>
+
+    <string name="im_chat_notify_setting_open">Turn on</string>
+    <string name="im_chat_notify_setting_closed">Close</string>
+    <string name="im_chat_notify_setting_tip_app_background">App 未打开时</string>
+    <string name="im_chat_notify_setting_tip_app_running">App 运行时</string>
+    <string name="im_chat_notify_setting_open_extra_tip">如果需要开启或关闭【%1s】的新消息通知，请在系统设置的通知管理中，找到【%2s】进行修改</string>
+
+    <string name="chat_something_list_empty_hint">哎呀，这里空空如也</string>
+    <string name="chat_group_notice_empty_hint_1">快去发布群公告吧</string>
+    <string name="chat_group_notice_empty_hint_2">还没有群公告哦~</string>
+    <string name="chat_p2p_file_list_empty_hint">还没有文件哦~</string>
+
+</resources>

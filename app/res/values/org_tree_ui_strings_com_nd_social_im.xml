@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="tree_app_name">Organization</string>
+    <string name="tree_btn_ok_text">Confirm</string>
+    <string name="tree_cancel">Cancel</string>
+    <string name="tree_more">More</string>
+    <string name="tree_search">Search</string>
+    <string name="tree_refresh">refresh</string>
+
+    <string name="tree_data_load_text">Loading...</string>
+    <string name="tree_load_fail_text">Failed to load.</string>
+    <string name="tree_load_not_finish_text">Contacts not loaded.</string>
+    <string name="tree_init_not_finish_text">Not initialized.</string>
+    <string name="tree_unavailable_node">Invalid Node: %1$s</string>
+    <string name="tree_user_cant_selected_text">Cannot select this user.</string>
+    <string name="tree_most_selected_text">Select up to %1$s.</string>
+
+    <string name="tree_network_error">Netwwork connection error.</string>
+    <string name="org_tree_no_result">No result</string>
+
+
+    <string name="tree_sel_org">Select Organization</string>
+    <string name="tree_sel_org_node">Select Org Node</string>
+    <string name="tree_not_son_org">Have no sub orgnization node!</string>
+    <string name="tree_select">Select</string>
+
+    <string name="tree_data_load_faild">Data Load Faild!</string>
+    <string name="tree_select_user_limit">No more than %s members.</string>
+    <string name="tree_select_org_node_limit">Selected node reach limit.</string>
+
+    <string name="sel_node_activity_item">Selected%1$s</string>
+    <string name="tree_intro">Intro &gt;&gt;</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="ele_schedule_share">Share</string>
+    <string name="ele_schedule_confirm">Confirm</string>
+    <string name="ele_schedule_cancel">Cancel</string>
+    <string name="ele_schedule_network_error">Network connection failed</string>
+    <string name="ele_schedule_request_error">Request data failed</string>
+    <string name="ele_schedule_request_role_error">请求角色失败</string>
+    <string name="ele_schedule_data_error">Data parse error</string>
+    <string name="ele_schedule_empty_class_schedule">该班级暂无课程表</string>
+    <string name="ele_schedule_table_adjust_content">已废弃</string>
+    <string name="ele_schedule_upload_success">Uploaded successfully</string>
+    <string name="ele_schedule_share_teacher_schedule">各位家长好：\n最新的班级课程表已上传，请各位家长及时查看并保存。</string>
+    <string name="ele_schedule_class_no_exit">Class does not exist.</string>
+    <string name="ele_schedule_class_schedule">Class Schedule</string>
+
+    <string name="ele_schedule_hint_select_again">Reselect</string>
+    <string name="ele_schedule_hint_confirm_upload">Confirm upload</string>
+    <string name="ele_schedule_hint_upload_success">Uploaded</string>
+    <string name="ele_schedule_hint_upload_failed_retry">上传失败，请稍后重试！</string>
+    <string name="ele_schedule_hint_upload_failed_net">网络异常，请稍后重试！</string>
+    <string name="ele_schedule_hint_edit">Edit</string>
+    <string name="ele_schedule_hint_retry">Retry</string>
+    <string name="ele_schedule_hint_take_photo">点击拍照或上传图片</string>
+    <string name="ele_schedule_hint_take_photo_vice">确认上传后，全部班级成员可查看课程表</string>
+    <string name="ele_schedule_hint_share_schedule">可以立即通知家长查看\n最新课程表</string>
+    <string name="ele_schedule_hint_camera">Camera</string>
+    <string name="ele_schedule_hint_album">Upload image</string>
+    <string name="ele_schedule_notice_space_select">Submit</string>
+    <string name="ele_schedule_hint_tip_text">Prompt</string>
+    <string name="ele_schedule_hint_tip_save_picture">Save images</string>
+    <string name="ele_schedule_hint_tip_save_picture_success">Saved</string>
+    <string name="ele_schedule_hint_tip_save_picture_fail">Failed to save</string>
+    <string name="ele_schedule_hint_tip_load_picture_fail">Failed to load image</string>
+    <string name="ele_schedule_hint_tip_load_picture_loading">图片加载中..</string>
+    <string name="ele_schedule_hint_tip_delete">Delete</string>
+    <string name="ele_schedule_hint_tip_delete_success">Deleted</string>
+    <string name="ele_schedule_hint_tip_delete_failed">The operation failed. Please try again later.</string>
+    <string name="ele_schedule_hint_tip_role_error_teacher">非教师和学校管理者角色，无法上传或编辑课程表！</string>
+    <string name="ele_schedule_hint_delete_schedule">删除后班级成员将无法查看课程表，\n确认删除？</string>
+    <string name="ele_schedule_hint_tip_class_id">请输入班级ID，允许为空</string>
+    <string name="ele_schedule_hint_tip_no_class_data">暂无关联班级数据</string>
+
+</resources>

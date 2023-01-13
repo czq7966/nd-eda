@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- 网络操作 -->
+    <string name="cscollection_loading">Loading...</string>
+    <string name="cscollection_loading_success">Succeeded</string>
+    <string name="cscollection_loading_failed">Loading failed</string>
+    <string name="cscollection_dealing">Processing...</string>
+    <string name="cscollection_dealing_success">Succeeded</string>
+    <string name="cscollection_dealing_failed">Failed</string>
+    <string name="cscollection_load_more">Load more…</string>
+    <string name="cscollection_download_success">Succeeded</string>
+    <string name="cscollection_download_failed">Download failed</string>
+    <string name="cscollection_upload_success">Uploaded</string>
+    <string name="cscollection_upload_failed">Failed</string>
+
+    <!-- 处理动作 -->
+    <string name="cscollection_confirm">OK</string>
+    <string name="cscollection_cancel">Cancel</string>
+    <string name="cscollection_rename">Rename</string>
+    <string name="cscollection_move">Move</string>
+    <string name="cscollection_top">Pin</string>
+    <string name="cscollection_untop">Unpin</string>
+    <string name="cscollection_delete">Delete</string>
+    <string name="cscollection_forward">Forward</string>
+    <string name="cscollection_forward_netdisk">Save to Cloud</string>
+    <string name="cscollection_select_all">Select All</string>
+
+    <!-- 功能 -->
+    <string name="cscollection_function_new_folder">New Folder</string>
+    <string name="cscollection_function_multi_select">Multiple</string>
+    <string name="cscollection_function_sort">Sort</string>
+
+    <!-- 菜单 -->
+    <string name="cscollection_menu_search">Search</string>
+    <string name="cscollection_menu_more">More</string>
+    <string name="cscollection_menu_cancel">Cancel</string>
+    <string name="cscollection_menu_upload_image">Upload Image</string>
+    <string name="cscollection_menu_upload_file">Upload File</string>
+    <string name="cscollection_menu_upload_list">Upload Progress</string>
+    <string name="cscollection_menu_display_icon">Display by Icon</string>
+    <string name="cscollection_menu_display_list">Display by List</string>
+
+    <!-- 标题 -->
+    <string name="cscollection_title_selected">%d Selected</string>
+    <string name="cscollection_title_select_target_folder">Select Folder</string>
+    <string name="cscollection_title_search">Search</string>
+    <string name="cscollection_title_new_folder">New Folder</string>
+    <string name="cscollection_title_rename_file_folder">Rename File (Folder)</string>
+    <string name="cscollection_title_select_dir">Select Directory</string>
+    <string name="cscollection_title_upload_image">Select Image</string>
+    <string name="cscollection_title_upload_file">Select File</string>
+    <string name="cscollection_title_upload_list">Upload Progress</string>
+    <string name="cscollection_title_search_by_type">All “%2$s” in %1$s</string>
+
+    <!-- 标签 -->
+    <string name="cscollection_label_time_order">Chronological Order</string>
+    <string name="cscollection_label_time_reverse_order">Reverse Chronological Order </string>
+    <string name="cscollection_label_name_order">Name Order</string>
+    <string name="cscollection_label_name_reverse_order">Reverse Name Order</string>
+    <string name="cscollection_label_file_type_doc">Document</string>
+    <string name="cscollection_label_file_type_image">Image</string>
+    <string name="cscollection_label_file_type_video">Video</string>
+    <string name="cscollection_label_file_type_audio">Audio</string>
+    <string name="cscollection_label_file_type_others">Others</string>
+    <string name="cscollection_label_move_here">Move to Current Folder</string>
+    <string name="cscollection_label_uploader">Uploaded by: %s</string>
+    <string name="cscollection_label_delete">Delete selected files (folders)</string>
+    <string name="cscollection_label_select_dir">Select %s</string>
+    <string name="cscollection_label_upload_dir">Upload to: %s</string>
+    <string name="cscollection_label_upload">Upload</string>
+    <string name="cscollection_label_upload_with_count">Upload (%d)</string>
+    <string name="cscollection_label_path">/%s</string>
+
+    <!-- 提示 -->
+    <string name="cscollection_tips_no_list_data">No documents found</string>
+    <string name="cscollection_tips_no_folder_data">No folders found</string>
+    <string name="cscollection_tips_no_search_data">No related content found for \"%s\". </string>
+    <string name="cscollection_tips_file_not_exist">File does not exist.</string>
+    <string name="cscollection_tips_file_not_exist_and_redownload">File does not exist and re-download again.</string>
+    <string name="cscollection_tips_not_support_file_type">Failed to open this type of files.</string>
+    <string name="cscollection_tips_name_can_not_be_empty">Name can not be empty.</string>
+    <string name="cscollection_tips_network_unavailable">Network connection is unavailable. Please check the network.</string>
+    <string name="cscollection_tips_max_operation">Select up to 10</string>
+    <string name="cscollection_tips_no_permission">Permission denied. Please enable the relevant permission in App Management.</string>
+    <string name="cscollection_tips_move_failed">Failed</string>
+    <string name="cscollection_tips_move_failed_partially">Partially failed</string>
+    <string name="cscollection_tips_delete_failed">Failed to delete</string>
+    <string name="cscollection_tips_delete_failed_partially">Partially failed to delete</string>
+
+    <string name="cscollection_hint_input_folder_name">Enter folder name</string>
+    <string name="cscollection_hint_input_file_folder_name">Enter file (folder) name</string>
+
+    <string name="cscollection_foward_message_lack_of_md5">Unable to forward the file because no MD5 code is found.</string>
+    <string name="cscollection_save_to_netdisk_lack_of_md5">Unable to save to Cloud because no MD5 code is found.</string>
+
+    <string name="cscollection_select_all_with_unper_file">Files (folders) with no operation permission are filtered when all are selected.</string>
+
+    <!--服务端错误码-->
+    <string name="FILE_NAME_CONFLICT">File name occupied</string>
+    <string name="DISK_FILE_NOT_EXIST">File (folder) does not exist.</string>
+    <string name="FILE_FILE_NOT_FOUND">File (folder) does not exist.</string>
+
+    <string name="FILE_BAD_REQUEST">Operation exception. Please try again later.</string>
+    <string name="FILE_INVALID_ARGUMENT">Operation exception. Please try again later.</string>
+    <string name="FILE_REQUIRE_ARGUMENT">Operation exception. Please try again later.</string>
+    <string name="FILE_UNAUTHORIZED">Unauthorized</string>
+    <string name="FILE_AUTH_DENIED">Authorization is limited.</string>
+
+    <string name="DISK_INTERNAL_SERVER_ERROR">Server exception. Please try again later.</string>
+    <string name="DISK_INVALID_ARGUMENT">Operation exception. Please try again later.</string>
+    <string name="DISK_REQUIRE_ARGUMENT">Operation exception. Please try again later.</string>
+    <string name="DISK_CS_TOKEN_CREATE_FAILURE">Server exception. Please try again later.</string>
+    <string name="DISK_CS_SESSION_CREATE_FAILURE">Server exception. Please try again later.</string>
+
+
+</resources>

@@ -1,0 +1,115 @@
+<resources>
+
+    <string name="im_friend_get_third_person_info_error">获取用户信息出错</string>
+
+    <string name="im_friend_you_maybe_hasno_add_the_friend">你可能还未添加该好友。</string>
+
+    <string name="im_friend_modify_remark_name">修改好友备注名</string>
+
+    <string name="im_friend_network_error">网络未连接，请稍后重试</string>
+
+    <string name="im_friend_modify_name_fail">好友备注名修改失败</string>
+
+    <string name="im_friend_modify_name_success">好友备注名修改成功</string>
+
+    <string name="im_friend_ok">确定</string>
+
+    <string name="im_friend_cancel">取消</string>
+
+    <string name="im_friend_note_hint">请输入验证信息</string>
+
+    <string name="im_friend_add_note">验证信息</string>
+
+    <string name="im_my_friend">我的好友</string>
+
+    <string name="im_friend_file_assistant">文件传输助手</string>
+
+    <string name="im_friend_search">搜索</string>
+
+    <string name="im_friend_add">添加</string>
+
+    <string name="im_friend_no_result">无相关结果</string>
+
+    <string name="im_friend_set_friend_policy">加好友验证设置</string>
+
+    <string name="im_friend_set_friend_policy_tip">其他用户加我为好友时，使用以下方式</string>
+
+    <string name="im_friend_policy_auto_accept">自动通过申请</string>
+
+    <string name="im_friend_policy_need_confirm">都需要我验证</string>
+
+    <string name="im_friend_policy_load_faild">获取设置失败</string>
+
+    <string name="im_friend_policy_set_faild">设置失败</string>
+
+    <string name="im_friend_policy_set_sucs">设置成功</string>
+
+    <string name="im_friend_loading_set">正在获取设置</string>
+
+    <string name="im_friend_setting">正在设置</string>
+
+    <string name="im_friend_input_request">填写验证信息</string>
+
+    <string name="im_friend_send">发送</string>
+
+    <string name="im_friend_request_is_empty">请求不能为空</string>
+
+    <string name="im_friend_I_am">我是%1$s</string>
+
+    <string name="im_friend_delete_friend_one_side">将删除好友%1$s，Ta将从你的好友列表中删除</string>
+
+    <string name="im_friend_delete_friend_two_side">将删除好友%1$s，同时将我从对方好友列表中删除</string>
+
+    <string name="im_friend_statue_accept">同意</string>
+    <string name="im_friend_statue_accepted">已同意</string>
+    <string name="im_friend_statue_add">添加</string>
+    <string name="im_friend_statue_added">已添加</string>
+    <string name="im_friend_statue_expired">已过期</string>
+    <string name="im_friend_statue_refused">已拒绝</string>
+
+    <string name="im_friend_new">新朋友</string>
+
+    <string name="im_friend_request_list_faild">获取列表失败</string>
+
+    <string name="im_friend_request_deleting">正在删除请求...</string>
+    <string name="im_friend_request_delete_faild">删除好友请求失败</string>
+
+    <string name="im_friend_request_accepting">正在接受请求...</string>
+    <string name="im_friend_request_accept_faild">接受好友请求失败</string>
+
+    <string name="im_friend_request_tip">好友申请</string>
+
+    <string name="im_friend_long_menu_delete">删除</string>
+
+    <string name="im_friend_unfriend_tip">你和对方不是好友，是否添加对方为好友？</string>
+
+    <string name="im_friend_add_tip">添加好友 ></string>
+
+    <string name="im_friend_send_faild_tip">发送失败，请将对方添加为好友之后才能聊天/互动</string>
+
+    <string name="im_friend_add_tip2">添加好友</string>
+
+    <string name="im_friend_remark_tip">备注好友名称：</string>
+
+    <string name="im_friend_remark_tip2">在这里可设置好友的备注名，改备注名会显示在整个应用内。仅本人可见</string>
+
+    <string name="im_friend_remark_hint">请输入备注名</string>
+
+    <string name="im_friend_request_list_is_empty">好友申请列表是空的哦</string>
+
+    <string name="im_friend_reuest_refresh">重新获取</string>
+
+    <string name="im_friend_request_veritify_too_long_tip">验证信息不能超过%1$d字节</string>
+
+    <string name="im_friend_remark_name_too_long_tip">备注名不能超过%1$d字节</string>
+
+    <string name="im_friend_confirm">确认</string>
+
+    <string name="im_friend_please_input_phone_num">请输入手机号码查询</string>
+
+    <string name="im_friend_request_expired">该申请已失效</string>
+
+    <string name="im_chat_select_contact_item_friend">好友</string>
+
+    <string name="im_friend_fun_not_support_check_version">暂不支持此功能，请升级此软件版本”</string>
+</resources>

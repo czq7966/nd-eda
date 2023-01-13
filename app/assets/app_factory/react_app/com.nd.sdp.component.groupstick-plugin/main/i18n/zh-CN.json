@@ -1,0 +1,47 @@
+{
+    "IMGroupStick": {
+        "messageList": {
+            "title" : "置顶信息",
+            "fetchMessagesFailed" : "获取置顶信息失败",
+            "pleaseChooseMessage" : "请选择消息",
+            "cancelStick" : "取消置顶",
+            "cancelStickSuccess" : "取消置顶成功",
+            "cancelStickFailed" : "取消置顶失败"
+        },
+        "message": {
+        	"stickTip" : "置顶了消息",
+            "sender" : "发布者：",
+            "open" : "打开",
+            "download" : "下载",
+            "uploader" : "上传者：",
+            "redownload" : "重新下载",
+            "continueDownload" : "继续下载",
+            "openFileFailed" : "打开文件失败",
+            "openPictureFailed" : "打开图片失败",
+            "today" : "今天",
+            "hour" : "小时",
+            "minuteLater" : "分钟后",
+            "hourLater" : "小时后",
+            "halfHourLater" : "半小时后",
+            "invalid" : "失效",
+            "delete" : "取消置顶",
+            "publisher" : "发布者：",
+            "reply" : "回复",
+            "openVideoFailed" : "打开视频失败"
+        },
+        "emptyView" : {
+            "title" : "还没有任何置顶信息哦",
+            "subTitle" : ""
+        },
+        "loadMore" : {
+            "noMoreData" : "没有更多数据",
+            "loading" : "加载中...",
+            "loadMore" : "上拉加载更多"
+        },
+        "util": {
+            "networkError": "似乎网络已断开，请检查网络连接",
+            "cancel" : "取消",
+            "confirm" : "确定"
+        }
+    }
+}

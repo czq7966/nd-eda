@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="edu_usf_loading">Loading...</string>
+    <string name="edu_user_select_net_error_tips">Network connection error, please try again</string>
+    <string name="edu_user_select_data_error_tips">Data parsing error, please try again</string>
+    <string name="usf_select_type">Choose a method</string>
+    <string name="usf_cancel">Cancel</string>
+</resources>

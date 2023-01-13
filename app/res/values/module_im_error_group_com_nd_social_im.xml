@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="IMG_GROUP_NOT_FOUND">The group doesn\'t exist.</string>
+    <string name="IMG_REQUEST_NOT_FOUND">Expired request, or request doesn\'t exist.</string>
+</resources>

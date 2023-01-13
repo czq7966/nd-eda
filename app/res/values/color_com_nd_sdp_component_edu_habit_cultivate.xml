@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="x_habit_bg_header_start">#2788EA</color> <!-- titlebar背景渐变开始颜色 -->
+    <color name="x_habit_bg_header_end">#1E62EC</color> <!-- titlebar背景渐变开始颜色 -->
+    <color name="x_habit_text_create_successful">#666666</color>
+    <color name="x_habit_text_create_successful_des">#999999</color>
+    <color name="x_habit_bg_habit_info">#fff4f8ff</color>
+    <color name="x_habit_color29">#f8f9fb</color>
+    <color name="x_habit_color1">#333333</color>
+    <color name="x_habit_color7">#ffffff</color>
+    <color name="x_habit_color9">#eeeeee</color>
+    <color name="x_habit_color_accent">#1E62EC</color>
+    <color name="x_habit_color_accent_trans">#121E62EC</color>
+    <color name="x_habit_color4">#999999</color>
+    <color name="x_habit_color2">#666666</color>
+    <color name="x_habit_color30">#fafeff</color>
+    <color name="x_habit_color16">#ff6f6f</color>
+    <color name="x_habit_color5">#cccccc</color>
+    <color name="x_habit_color31">#ebebeb</color>
+    <color name="x_habit_color_red">#ff4646</color>
+    <color name="x_habit_seat_bg">#f8f8fb</color>
+
+
+    <color name="x_habit_color32">#0bdbd4</color>
+    <color name="x_habit_color33">#0ccfdc</color>
+    <color name="x_habit_color19">#ff9518</color>
+    <color name="x_habit_color34">#ffaa17</color>
+    <color name="x_habit_color_light_blue">#e8effd</color>
+
+    <color name="x_habit_recycler_view_divider">#e5e5e5</color>
+
+	<color name="x_habit_bg_cover_default">#1A7AFF</color>
+    <color name="x_habit_bg_cover_blue">#1A7AFF</color>
+    <color name="x_habit_bg_cover_green">#29c991</color>
+    <color name="x_habit_bg_cover_orange">#ff8a1d</color>
+    <color name="x_habit_bg_cover_light_blue">#08a8fe</color>
+    <color name="x_habit_bg_cover_purple">#5d46dd</color>
+    <color name="x_habit_div_color">#f3f4f6</color>
+
+    <drawable name="x_habit_transparent">#00000000</drawable>
+
+    <color name="x_habit_search_ecr_blue">#27aef2</color>
+
+    <color name="x_habit_color35">#edfff4</color>
+    <color name="x_habit_color36">#fefefe</color>
+
+
+
+    <color name="x_habit_color_light_grey">#909090</color>
+    <color name="x_habit_color_div">#f8f8f8</color>
+    <color name="x_habit_color_black">#333333</color>
+    <color name="x_habit_light_blue">#39b7ff</color>
+    <color name="x_habit_light_gray">#999999</color>
+    <color name="x_habit_light_gray666">#666666</color>
+
+    <color name="x_habit_activity_edit_input_text_color">@color/color1</color>
+    <color name="x_habit_activity_edit_max_hint_text_color">@color/color4</color>
+    <color name="x_habit_activity_edit_input_length_text_color">@color/color1</color>
+    <color name="x_habit_activity_edit_overseed_max_hint_text_color">@color/color16</color>
+    <color name="x_habit_save_dialog_left_text_color">@color/color16</color>
+    <color name="x_habit_getdraft_dialog_left_text_color">@color/color1</color>
+    <color name="x_habit_save_dialog_right_text_color">#1e62ec</color>
+    <color name="x_habit_activity_edit_content_shadow">#0f000000</color>
+    <color name="x_habit_audio_sb_progress_second_color">#919090</color>
+    <color name="x_habit_audio_sb_progress_color">#1E62EC</color>
+    <color name="x_habit_audio_sb_bg_color">#F8F9FA</color>
+    <color name="x_habit_text_color_666666">#666666</color>
+    <color name="x_habit_text_color_333333">#333333</color>
+    <color name="x_habit_audio_mask_color">#25000000</color>
+    <color name="x_habit_no_line_click">#FF6E99B6</color>
+    <color name="x_habit_detail_page_bg">#FFFFFF</color>
+    <color name="x_habit_list_page_bg">#FFFFFF</color>
+    <color name="x_habit_list_item_file_title">@color/color2</color>
+    <color name="x_habit_list_item_file_size">@color/color4</color>
+    <color name="x_habit_list_empty_text_color">@color/color2</color>
+    <color name="x_habit_list_empty_subtext_color">@color/color4</color>
+</resources>

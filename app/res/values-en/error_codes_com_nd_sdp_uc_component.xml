@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="uc_component_email_cant_be_use">Mailbox is not available</string>
+    <string name="uc_component_mobile_cant_be_use">Phone number is not available</string>
+    <string name="uc_component_email_format_invalid">E-mail format is incorrect</string>
+    <string name="uc_component_email_has_register">E-mail is registered</string>
+    <string name="uc_component_register_over_sum">The device is registered with time limit</string>
+    <string name="uc_component_email_over_sum">The number of times beyond the limit, please try again tomorrow</string>
+    <string name="uc_component_email_over_frequent">Request too often, please try again later</string>
+    <string name="uc_component_email_has_bind">User mailbox is bound, please unbind first.</string>
+    <string name="uc_component_email_is_sole_login">The mailbox is the only login ID and can not be unbound</string>
+    <string name="uc_component_email_not_exist">The mailbox does not exist</string>
+    <string name="uc_component_sms_over_sum">Send time exceeds the limit of the day, please try again tomorrow</string>
+    <string name="uc_component_smscode_error_over_sum">SMS OPT error times exceed the limit, please try again.</string>
+    <string name="uc_component_sms_over_frequent">SMS sent too frequently, please try again later</string>
+    <string name="uc_component_passport_exist_mobile">The mobile phone is already bound. Please choose another one.</string>
+    <string name="uc_component_loginname_not_exist">Wrong username or password</string>
+    <string name="uc_component_no_permission_send_isms">No permission to send international SMS</string>
+    <string name="uc_component_phone_has_register">Mobile phone number has been registered</string>
+    <string name="uc_component_phone_number_format_invalid">@string/uc_component_mobile_incorrect</string>
+
+    <!-- UC1.1 -->
+    <string name="uc_component_identify_code_required">Verification code is required.</string>
+    <string name="uc_component_invalid_identify_code">Invalid captcha</string>
+    <string name="uc_component_invalid_country_code">Invalid international calling code. It should start with "+" and be no more than 16 characters.</string>
+    <string name="uc_component_invalid_mobile_number">Invalid mobile number</string>
+    <string name="uc_component_invalid_login_name">Invalid username. It should be no more than 128 characters and may contain only letters, numbers, and _ . @ characters.</string>
+    <string name="uc_component_account_un_enable">The account is not activated.</string>
+    <string name="uc_component_login_failure">Login failed</string>
+    <string name="uc_component_account_locked">The account is locked due to too many failed login attempts. Please try again in 5 minutes.</string>
+    <string name="uc_component_invalid_sms">Invalid verification code. Please try again.</string>
+    <string name="uc_component_sms_code_error_over_sum">Too many failed SMS verification attempts.</string>
+    <string name="uc_component_third_part_login_failure">Third-party login failed</string>
+    <string name="uc_component_third_plat_auth_failure">Authentication error</string>
+    <string name="uc_component_invalid_username">Invalid username. It should start with a letter and be no more than 20 characters. It can contain letters, numbers and "_".</string>
+    <string name="uc_component_invalid_nick_name">User alias can neither exceed 100 bytes in length nor contain sensitive words.</string>
+    <string name="uc_component_invalid_email_code">Invalid email verification code</string>
+    <string name="uc_component_invalid_email">Invalid email address</string>
+    <string name="uc_component_email_code_expired">Email verification code is not sent or expired.</string>
+    <string name="uc_component_email_code_error_over_sum">Too many failed email verification attempts.</string>
+    <string name="uc_component_password_same">New password cannot be the same as the old password.</string>
+    <string name="uc_component_invalid_account_id">Invalid account ID</string>
+    <string name="uc_component_invalid_passport">Invalid passport number</string>
+    <string name="uc_component_invalid_id_card">Invalid ID number</string>
+    <string name="uc_component_invalid_ext_info_length">Extended information length exceeds the limit of 65535 characters.</string>
+    <string name="uc_component_need_bind_mobile_or_email">The account needs to be bound to a phone number or an email.</string>
+    <string name="uc_component_phone_not_binding">This user is not bound to a phone number.</string>
+    <string name="uc_component_email_is_only_login_credentials">The email cannot be unbound because it is the only login ID.</string>
+    <string name="uc_component_mobile_registed">The phone number is already registered.</string>
+    <string name="uc_component_user_person_account_can_not_auto_join_org">Unable to create a new account. Please bind an existing account.</string>
+    <string name="uc_component_join_join_org_apply_submitted">Application submitted</string>
+    <string name="uc_component_join_org_apply_failed">Submission failed</string>
+    <string name="uc_component_has_binged_org_accounts">Account already exists</string>
+    <string name="uc_component_mobile_not_exist">The phone number is unregistered.</string>
+    <string name="uc_component_not_match_user">The phone number does not match the organization account. Unable to use the phone number to modify the password of the organization account.</string>
+    <string name="uc_component_user_had_bind_account">The organization account has bound to an individual account.</string>
+    <string name="uc_component_third_user_binded_by_person">The same third-party account can only bind by one person</string>
+    <string name="uc_component_only_bind_one_third_user">One personal account can only bind to one third-party account.</string>
+    <string name="uc_component_check_bind_info_error_over_sum">The number of failed binding verification attempts cannot exceed 5 times a day.</string>
+    <string name="uc_component_user_bind_relation_not_found">No binding found.</string>
+    <string name="uc_component_credential_not_exist">Please enter a valid account.</string>
+
+    <string name="uc_component_waiting_join_org_apply_exist">您已提交过加入该组织的申请</string>
+    <string name="uc_component_has_bound_in_org">A bound organization account already exists in the specified organization</string>
+    <string name="uc_component_has_bound_under_node">A bound organization account already exists in the specified organization</string>
+    <string name="uc_component_has_bound_under_org">A bound organization account already exists under the specified organization</string>
+    <string name="uc_component_api_access_limit">The operation is too frequent. Please try again later</string>  
+    <string name="uc_component_weak_pwd_exist">Password strength is low, easy to crack</string>
+    <string name="uc_component_password_error_account_will_be_locked">Wrong username or password</string>
+    <string name="uc_component_invalid_encrypt_data">用户信息异常，请联系管理员。</string>
+    <string name="uc_component_require_guardians_mobile">监护关系手机不能是当前用户手机号</string>
+</resources>

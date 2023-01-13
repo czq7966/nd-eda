@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="eyecf_settings">护眼设置</string>
+    <string name="eyecf_mode">护眼模式</string>
+    <string name="eyecf_reminder">护眼提醒</string>
+    <string name="eyecf_reminder_tip">您已经连续使用本产品%1$d分钟了，\n为了保护您的视力健康，\n建议您放下手机，放松一下眼睛吧！\nps：在我-设置，可以更改护眼提醒的时长哦～</string>
+    <string name="eyecf_reminder_permission_tip">请开启手机系统设置内的浮动窗口权限，否则护眼模式将无法正常使用！</string>
+    <string name="eyecf_reminder_time">护眼定时提醒</string>
+    <string name="eyecf_reminder_time_select">选择定时提醒的时长</string>
+    <string name="eyecf_reminder_off">Close</string>
+    <string name="eyecf_minute">min</string>
+    <string name="eyecf_ok">OK</string>
+    <string name="eyecf_cancel">Cancel</string>
+    <string name="eyecf_confirm">Confirm</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="nd_pay_webview_reload">Reload</string>
+	<string name="nd_pay_network_disabled">The current network is unavailable</string>
+	<string name="nd_pay_wxpay_comm_error">Failed to launch WeChat , please check whether WeChat can be logged in normally</string>
+	<string name="nd_pay_wxpay_auth_denied">WeChat authentication is rejected, please check whether WeChat can be logged in normally</string>
+	<string name="nd_pay_wxpay_sent_failed">Failed to send WeChat message, please check whether WeChat can be logged in normally</string>
+	<string name="nd_pay_wxpay_unsupport">WeChat payment is not supported, please check whether WeChat is the latest version</string>
+	<string name="nd_pay_not_install_wx">Please install WeChat before payment!</string>
+	<string name="nd_pay_cancel_pay_tips">Do you want to cancel the payment?</string>
+	<string name="nd_pay_ok">Confirm</string>
+	<string name="nd_pay_cancel">Cancel</string>
+	<string name="nd_pay_charge_data_invalid">Pay order parsing failed</string>
+	<string name="nd_pay_not_support_payment">This payment method is not supported</string>
+	<string name="nd_pay_result_success">Payment Succeeded</string>
+	<string name="nd_pay_result_failed">Payment Failed</string>
+	<string name="nd_pay_result_cancel">Cancelled</string>
+	<string name="nd_pay_result_paying">Confirming…</string>
+	<string name="nd_dialog_tip">Tip</string>
+	<string name="nd_union_pay_plugin_tips">Need to install the UnionPay payment control to complete the purchase, is it installed?</string>
+	<string name="nd_error_sdk_init_failed">Pay sdk initialization failed</string>
+	<string name="nd_error_pay_params_invalid">Wrong payment parameters</string>
+	<string name="nd_error_wx_activity_config_invalid">WeChat payment callback activity config error.</string>
+	<string name="nd_error_channel_invalid">Payment channel invalid.</string>
+	<string name="nd_error_network_error">Network error: %s</string>
+	<string name="nd_error_adyen_not_compile_rx">Adyen payment channel-should import rx2.x version of library dependencies</string>
+	<string name="nd_error_adyen_request_unknown_err">Unknown Error</string>
+	<string name="nd_error_adyen_layout_missing">Adyen channel resources unavailable</string>
+</resources>

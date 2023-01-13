@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="@color/module_wallet_recharge_hint_start"
+        android:centerColor="@color/module_wallet_recharge_hint_center"
+        android:endColor="@color/module_wallet_recharge_hint_end"
+        android:centerX="0.5"
+        android:centerY="0.5"
+        android:type="linear"/>
+</shape>

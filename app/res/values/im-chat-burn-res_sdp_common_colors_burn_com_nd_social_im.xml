@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ============================== 公共模块-顶部 ============================== -->
+    <!-- 请在“#”后输入六位数色值 -->
+
+    <!-- 顶部-主标题 -->
+    <color name="navigation_title_main_color_burn">#ffffff</color>
+
+    <!-- 顶部-在线状态 -->
+    <color name="navigation_online_color_burn">#666666</color>
+
+</resources>

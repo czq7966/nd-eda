@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="hkc_color_transparent">#00000000</color>
+    <color name="hkc_color_translucence">#7F000000</color>
+    <color name="hkc_color_black">#ff000000</color>
+    <color name="hkc_color_black_b2">#b2000000</color>
+    <color name="hkc_color_white">#ffffffff</color>
+
+    <!--批注的颜色-->
+    <color name="hkc_color_scrawl">#EE355B</color>
+
+
+    <!-- 可替换区域 -->
+    <!-- 工具栏背景色 -->
+    <color name="hkc_toolbar">#EAEAEA</color>
+    <!-- 工具栏标题色 -->
+    <color name="hkc_toolbar_title">#333333</color>
+    <!-- 工具栏按钮字体色 -->
+    <color name="hkc_toolbar_button_text">#666666</color>
+    <!-- 录音窗口背景色 -->
+    <color name="hkc_record_backgroud">#f0f0f0</color>
+    <!-- 录音字体色 -->
+    <color name="hkc_record_text">#333333</color>
+    <!-- 下载字体色 -->
+    <color name="hkc_download_text">#333333</color>
+    <!-- 图片浏览背景色 -->
+    <color name="hkc_photo_backgroud">#b2000000</color>
+
+    <color name="hkc_homework_menu_background">#f8f8f8</color>
+    <color name="hkc_homework_menu_active">#101010</color>
+    <color name="hkc_homework_menu_negative">#ABABAB</color>
+
+    <!--底部Bar字体颜色-->
+    <color name="hkc_bottom_bar_text">#1e62ec</color>
+
+    <color name="hkc_question_detail_red">#FE6A61</color>
+    <color name="hkc_question_detail_bg">#F0F0F0</color>
+
+    <color name="hkc_title_press_color">#39A5FE</color>
+
+    <color name="hkc_bottom_bar_button_press_color">#D4DFE5</color>
+
+    <color name="hkc_correct_bg">#F0F0F0</color>
+
+    <!-- 行项标题颜色:主 -->
+    <color name="hkc_item_title_main">#24A7DF</color>
+    <!-- 行项标题颜色:次 -->
+    <color name="hkc_item_title_sub">#A4A4A4</color>
+    <color name="hkc_answer_detail_evaluate_bg">#F9F9F9</color>
+
+    <color name="hkc_publish_correct_unable">#808080</color>
+    <color name="hkc_report_title_bar_bg">#4bc8ff</color>
+    <color name="hkc_report_grid_color">#33ffffff</color>
+    <color name="hkc_report_grid_alpha_color">#33ffffff</color>
+    <color name="hkc_report_axis_text_color">#ccffffff</color>
+
+    <color name="hkc_report_pie_chart_hole_color">#43BDFF</color>
+    <color name="hkc_report_pie_finish_color">#ffea01</color>
+    <color name="hkc_report_pie_not_finish_color">#62caff</color>
+    <color name="hkc_report_excellent_color">#ffea01</color>
+    <color name="hkc_report_not_bad_color">#3394fb</color>
+    <color name="hkc_report_bad_color">#fe7d3c</color>
+
+    <color name="hkc_study_navbar">#4bc8ff</color>
+    <color name="hkc_study_tabbar">#34b7ff</color>
+
+    <color name="hkc_download_bg">#99000000</color>
+
+    <color name="hkc_smart_question_bg">#F0F0F0</color>
+
+    <color name="hkc_smart_question_divider">#DCDCDC</color>
+
+    <color name="hkc_correct_guide_bg">#77000000</color>
+
+    <color name="hkc_question_sort_main_color">#1095FB</color>
+    <color name="hkc_question_sort_delete_color">#FEC12F</color>
+
+    <color name="hkc_reach_standard_preview_bg">#44acacac</color>
+
+    <color name="hkc_finish_pink">#FF6B8A</color>
+
+    <color name="hkc_homework_list_title">#ff1095fb</color>
+    <color name="hkc_homework_list_subtitle">#ff333333</color>
+    <color name="hkc_homework_list_deadline_time">#ff999999</color>
+    <color name="hkc_homework_list_deadline_state">#ff5f57</color>
+    <color name="hkc_homework_complete_state_0">#999999</color>
+    <color name="hkc_homework_complete_state_1">#25c92c</color>
+
+    <color name="hkc_homework_detail_item_title">#A4A4A4</color>
+
+    <color name="hkc_homework_time_divider">#ECECEC</color>
+    <color name="hkc_homework_detail_button">#40A9FC</color>
+
+    <!-- 99u设计规范规定的颜色 -->
+    <color name="hkc_color1">#ff333333</color>
+    <color name="hkc_color10">#fff5f5f5</color>
+    <color name="hkc_color11">#ffebeced</color>
+    <color name="hkc_color12">#ff7fedff</color>
+    <color name="hkc_color13">#fff43531</color>
+    <color name="hkc_color14">#ff1e62ec</color>
+    <color name="hkc_color15">#ffd4eeff</color>
+    <color name="hkc_color16">#ffff6f6f</color>
+    <color name="hkc_color17">#ffffb822</color>
+    <color name="hkc_color18">#ff2dd2d0</color>
+    <color name="hkc_color19">#ffff9518</color>
+    <color name="hkc_color2">#ff666666</color>
+    <color name="hkc_color20">#ff7ed728</color>
+    <color name="hkc_color21">#ffc166d8</color>
+    <color name="hkc_color22">#ff2a82bf</color>
+    <color name="hkc_color23">#fff0f0f0</color>
+    <color name="hkc_color24">#fffefbd5</color>
+    <color name="hkc_color25">#ffe5e1bf</color>
+    <color name="hkc_color26">#ffb54342</color>
+    <color name="hkc_color27">#ff8fbfdf</color>
+    <color name="hkc_color28">#fff1a09f</color>
+    <color name="hkc_color3">#ff1e62ec</color>
+    <color name="hkc_color4">#ff999999</color>
+    <color name="hkc_color5">#ffcccccc</color>
+    <color name="hkc_color6">#ff9bd6ff</color>
+    <color name="hkc_color7">#ffffffff</color>
+    <color name="hkc_color7_alpha_30">#4cffffff</color>
+    <color name="hkc_color8">#ffdddddd</color>
+    <color name="hkc_color8_alpha_80">#50dddddd</color>
+    <color name="hkc_color9">#ffeeeeee</color>
+    <color name="hkc_color93">#ff939393</color>
+    <color name="hkc_color94">#F8F9FB</color>
+    <color name="hkc_color95">#1A1e62ec</color>
+
+    <!-- 2017-12-06 新增 -->
+    <color name="hkc_publish_homework_bg">#F9F9F9</color>
+
+    <!-- 各种作业类型在作业列表的背景颜色-->
+    <!--基础-->
+    <color name="hkc_homework_basic_bg">#1e62ec</color>
+    <!--题卡作业-->
+    <color name="hkc_homework_direct_bg">#ff6f6f</color>
+    <!--达标作业-->
+    <color name="hkc_homework_std_bg">#2dd2d0</color>
+    <!--专项作业(自动布置作业)-->
+    <color name="hkc_homework_auto_bg">#c166d8</color>
+    <!--智能组卷-->
+    <color name="hkc_homework_smart_bg">#7ed728</color>
+    <!--假期作业-->
+    <color name="hkc_homework_holiday_bg">#ff9518</color>
+    <!--口语作业-->
+    <color name="hkc_homework_oral_bg">#f670c2</color>
+    <!--其他类型(其他类型用默认颜色)-->
+    <color name="hkc_homework_other_bg">#999999</color>
+
+    <!--各种学科在作业列表页的背景颜色-->
+    <!--语文-->
+    <color name="hkc_subject_chinese_bg">#fcb927</color>
+    <!--数学-->
+    <color name="hkc_subject_math_bg">#1e62ec</color>
+    <!--英语-->
+    <color name="hkc_subject_english_bg">#c166d8</color>
+    <!--音le-->
+    <color name="hkc_subject_music_bg">#ff6f6f</color>
+    <!--物理-->
+    <color name="hkc_subject_physic_bg">#7ed728</color>
+    <!--历史-->
+    <color name="hkc_subject_history_bg">#ff9518</color>
+    <!--化学-->
+    <color name="hkc_subject_chemical_bg">#2dd2d0</color>
+    <!--生物-->
+    <color name="hkc_subject_biology_bg">#fcb927</color>
+    <!--政治-->
+    <color name="hkc_subject_politics_bg">#adc838</color>
+    <!--其他（其他学科默认颜色）-->
+    <color name="hkc_subject_other_bg">#2dd2d0</color>
+
+    <color name="hkc_homework_urge_label">#FFB821</color>
+
+    <color name="hkc_detail_left_button_pressed">#26000000</color>
+
+    <color name="hkc_wheel_view_divider_line">#e0e0e0</color>
+
+    <color name="hkc_homework_time_length_cover">#66000000</color>
+
+    <color name="hkc_correct_unable_text_color">#e5e5e5</color>
+
+    <color name="hkc_correct_enable_text_color">#ffb822</color>
+
+    <color name="hkc_correct_wrong_color">#ff3f3f</color>
+    <color name="hkc_correct_record_item_bg">#F2F2F2</color>
+    <color name="hkc_time_remaining_bg">#3BA8FF</color>
+    <color name="hkc_guide_view_bg">#99000000</color>
+    <color name="hkc_revise_color">#ff8429</color>
+
+    <color name="hkc_choose_class_bg">#F5F5F5</color>
+
+    <color name="hkc_audio_pressed">#3092D9</color>
+
+    <color name="hkc_new_homework_tip_bg">#99e4e4e4</color>
+
+    <color name="hkc_bt">#ebf6ff</color>
+    <!-- 以下为新版本新加 -->
+    <!-- 以下为v2新加 -->
+    <color name="hkc_v2_bg_color">#f8f9fb</color>
+    <color name="hkc_v2_color1">#c4c4c4</color>
+    <color name="hkc_color3_alpha_14">#141e62ec</color>
+    <color name="hkc_color19_alpha_14">#14ff9518</color>
+    <color name="hkc_color20_alpha_14">#147ed728</color>
+    <color name="hkc_color18_alpha_14">#142dd2d0</color>
+    <color name="hkc_color21_alpha_14">#14c166d8</color>
+    <color name="hkc_color14_alpha_14">#141e62ec</color>
+    <color name="hkc_color3_alpha_4d">#4d1e62ec</color>
+    <color name="hkc_color13_alpha_4d">#4df43531</color>
+    <color name="hkc_color7_alpha_0">#00ffffff</color>
+
+
+    <color name="hkc_excellent_color">#22BBFF</color>
+    <color name="hkc_good_color">#7ED728</color>
+    <color name="hkc_middle_color">#FF9518</color>
+    <color name="hkc_pass_color">#FF6F6F</color>
+    <color name="hkc_no_pass_color">#FF6F6F</color>
+
+    <color name="hkc_excellent_bg_color">#141e62ec</color>
+    <color name="hkc_good_bg_color">#147ED728</color>
+    <color name="hkc_middle_bg_color">#14FF9518</color>
+    <color name="hkc_pass_bg_color">#14FF6F6F</color>
+    <color name="hkc_no_pass_bg_color">#14FF6F6F</color>
+    <color name="hkc_color3_alpha_1a">#1a1e62ec</color>
+    <color name="hkc_comment_status_sel_color">#40acff</color>
+    <color name="hkc_comment_status_normal_color">#666666</color>
+    <color name="hkc_comment_status_div_color">#f6f6f6</color>
+
+    <color name="hkc_color16_alpha_14">#14ff6f6f</color>
+    <color name="hkc_color29">#f8f9fb</color>
+    <color name="hkc_v2_header_bg_color">#ffffff</color>
+    <color name="hkc_v2_header_text_color">#333333</color>
+    <color name="hkc_v2_color7_alpha_1a">#1aaaaaaa</color>
+
+
+    <color name="hkc_xstudy_color_accent">#1e62ec</color>
+    <color name="hkc_xstudy_color_accent2">#2788ea</color>
+    <color name="hkc_xstudy_color_accent3">#1d6eea</color>
+    <color name="hkc_xstudy_color_accent4">#1d93f7</color>
+    <color name="hkc_xstudy_color_divider">#f3f4f6</color>
+    <color name="hkc_xstudy_color_bg">#eaeaeb</color>
+    <color name="hkc_xstudy_color_filter_bg">#e8effd</color>
+    <color name="hkc_xstudy_color_level_a">#ffb820</color>
+    <color name="hkc_xstudy_color_level_b">#0894ff</color>
+    <color name="hkc_xstudy_color_level_c">#52d3b1</color>
+    <color name="hkc_xstudy_color_level_d">#60db8f</color>
+    <color name="hkc_xstudy_color_level_e">#ff6f6f</color>
+</resources>

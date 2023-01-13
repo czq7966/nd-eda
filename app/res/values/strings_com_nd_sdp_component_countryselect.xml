@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+  <string name="module_country_select_china">China</string>
+  <string name="module_country_select_deflaut_title">Select region</string>
+  <string name="module_country_select_search">Search</string>
+  <!--do not translate-->
+  <string name="module_country_select_chinasmscode" translatable="false">86</string>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="x_live_DimDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="x_live_progress_bar" parent="@android:style/Widget.ProgressBar">
+        <item name="android:focusable">false</item>
+        <item name="android:indeterminate">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="x_live_progress_bar.loading">
+        <item name="android:minWidth">43dip</item>
+        <item name="android:maxWidth">43dip</item>
+        <item name="android:minHeight">43dip</item>
+        <item name="android:maxHeight">43dip</item>
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateDrawable">@drawable/x_live_progress_loading</item>
+    </style>
+
+    <style name="XLiveLayout">
+        <item name="tabIndicatorColor">@color/x_live_color_accent</item>
+        <item name="tabSelectedTextColor">@color/x_live_color_accent</item>
+        <item name="tabTextColor">@color/x_live_color2</item>
+        <item name="tabBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="x_live_filter_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--<item name="android:windowFullscreen">true</item>-->
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="XLiveCardCommonButton">
+        <item name="android:textColor">@color/x_live_button_dark_text_color</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">70dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">15.5dp</item>
+        <item name="android:background">@drawable/x_live_bg_button_common_dark</item>
+    </style>R
+    <style name="XLiveRetryButton">
+        <item name="android:textColor">@color/x_live_color7</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">70dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">15.5dp</item>
+        <item name="android:background">@drawable/x_live_bg_btn_dark_blue</item>
+    </style>
+    <style name="XLiveTitle">
+        <item name="android:textColor">@color/color1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="XLiveSubTitle">
+        <item name="android:textColor">@color/color4</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="x_live_TabLayoutTextSizeSel">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">17dp</item>
+    </style>
+
+    <style name="x_live_TabLayoutTextSizeNormal">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+</resources>

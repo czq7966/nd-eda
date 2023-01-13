@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="im_friend_get_third_person_info_error">Access error</string>
+
+    <string name="im_friend_you_maybe_hasno_add_the_friend">You are not friends.</string>
+
+    <string name="im_friend_modify_remark_name">Modify Remark</string>
+
+    <string name="im_friend_network_error">Network not connected. Please try again later.</string>
+
+    <string name="im_friend_modify_name_fail">Operation failed</string>
+
+    <string name="im_friend_modify_name_success">Operation succeeded</string>
+
+    <string name="im_friend_ok">OK</string>
+
+    <string name="im_friend_cancel">Cancel</string>
+
+    <string name="im_friend_note_hint">Enter verification info</string>
+
+    <string name="im_friend_add_note">Verification Info</string>
+
+    <string name="im_my_friend">My Friend</string>
+
+    <string name="im_friend_file_assistant">File Assistant</string>
+
+    <string name="im_friend_search">Search</string>
+
+    <string name="im_friend_add">Add</string>
+
+    <string name="im_friend_no_result">No results found</string>
+
+    <string name="im_friend_set_friend_policy">Friend Verification Settings</string>
+
+    <string name="im_friend_set_friend_policy_tip">Allow other users to add me as a friend: </string>
+
+    <string name="im_friend_policy_auto_accept">Auto accept</string>
+
+    <string name="im_friend_policy_need_confirm">Require verification</string>
+
+    <string name="im_friend_policy_load_faild">Access failed</string>
+
+    <string name="im_friend_policy_set_faild">Operation failed</string>
+
+    <string name="im_friend_policy_set_sucs">Operation succeeded</string>
+
+    <string name="im_friend_loading_set">Accessing...</string>
+
+    <string name="im_friend_setting">Setting...</string>
+
+    <string name="im_friend_input_request">Enter verification info</string>
+
+    <string name="im_friend_send">Send</string>
+
+    <string name="im_friend_request_is_empty">Request cannot be empty.</string>
+
+    <string name="im_friend_I_am">This is %1$s.</string>
+
+    <string name="im_friend_delete_friend_one_side">You are going to remove %1$s and remove him/her from your friend list.</string>
+
+    <string name="im_friend_delete_friend_two_side">You are going to remove %1$s and remove yourself from his/her friend list.</string>
+
+    <string name="im_friend_statue_accept">Agree </string>
+    <string name="im_friend_statue_accepted">Agreed</string>
+    <string name="im_friend_statue_add">Add</string>
+    <string name="im_friend_statue_added">Added</string>
+    <string name="im_friend_statue_expired">Expired</string>
+    <string name="im_friend_statue_refused">Rejected</string>
+
+    <string name="im_friend_new">New Friend</string>
+
+    <string name="im_friend_request_list_faild">Access failed</string>
+
+    <string name="im_friend_request_deleting">Deleting...</string>
+    <string name="im_friend_request_delete_faild">Operation failed</string>
+
+    <string name="im_friend_request_accepting">Accepting...</string>
+    <string name="im_friend_request_accept_faild">Operation failed</string>
+
+    <string name="im_friend_request_tip">Friend Request</string>
+
+    <string name="im_friend_long_menu_delete">Delete</string>
+
+    <string name="im_friend_unfriend_tip">You are not friends. Whether to add him/her?</string>
+
+    <string name="im_friend_add_tip">Add &gt;</string>
+
+    <string name="im_friend_send_faild_tip">Failed. Please add him/her as your friend before chat/interaction.</string>
+
+    <string name="im_friend_add_tip2">Add now</string>
+
+    <string name="im_friend_remark_tip">Set remark: </string>
+
+    <string name="im_friend_remark_tip2">You can set remark here, which will be displayed throughout the app.  Private</string>
+
+    <string name="im_friend_remark_hint">Enter Remark</string>
+
+    <string name="im_friend_request_list_is_empty">No data found</string>
+
+    <string name="im_friend_reuest_refresh">Reload</string>
+
+    <string name="im_friend_request_veritify_too_long_tip">Verification info cannot exceed %1$d bytes.</string>
+
+    <string name="im_friend_remark_name_too_long_tip">Remark cannot exceed %1$d bytes.</string>
+
+    <string name="im_friend_confirm">OK</string>
+
+    <string name="im_friend_please_input_phone_num">请输入手机号码查询</string>
+
+    <string name="im_friend_request_expired">该申请已失效</string>
+
+    <string name="im_chat_select_contact_item_friend">Friend</string>
+
+    <string name="im_friend_fun_not_support_check_version">暂不支持此功能，请升级此软件版本”</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="@dimen/module_wallet_dimen_dip20"
+        android:drawable="@drawable/module_wallet_recharge_rb_selector">
+    </item>
+</layer-list>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="wallet_main_coin_name">#b2ffffff</color>   <!--（1）主页我的币种名称-->
+    <color name="wallet_main_coin_value">@color/module_wallet_text_color7</color>   <!--（2）主页我的币种值-->
+    <color name="wallet_main_operate_btn_normal">@color/module_wallet_text_color7</color>   <!--（3）主页币种操作按钮颜色-->
+    <color name="wallet_main_operate_btn_clicked">@color/module_wallet_text_color7</color>   <!--（3）主页币种操作按钮颜色-->
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="el_ot_today">Today</string>
+    <string name="el_ot_order">Book</string>
+    <string name="el_ot_cancel_order">Cancel</string>
+    <string name="el_ot_not_start">Coming</string>
+    <string name="el_ot_begin">Begin Soon</string>
+    <string name="el_ot_in_progress">Ongoing</string>
+    <string name="el_ot_ended">Ended</string>
+    <string name="el_ot_empty_hint">No data</string>
+    <string name="el_ot_tip">Prompt</string>
+    <string name="el_ot_ok">OK</string>
+    <string name="el_ot_enroll_error1">Sorry, all slots are taken. Please try next time.</string>
+    <string name="el_ot_enroll_error2">Sorry, you already have an appointment during the time period (%1$s). Please cancel the appointment and try again.</string>
+    <string name="el_ot_enroll_success_message">Your appointment has been successfully booked (%1$s). Please participate the online tutoring on time.</string>
+    <string name="el_ot_cancel_enroll_error1">You are not allowed to cancel the appointment.</string>
+    <string name="el_ot_classroom_number2">Classroom ID</string>
+    <string name="el_ot_copy">Copy</string>
+    <string name="el_ot_hour">hour(s)</string>
+    <string name="el_ot_minute">min</string>
+    <string name="el_ot_classroom_number_text">Classroom ID: %1$s</string>
+    <string name="el_ot_reserved_text"><![CDATA[<font color="#333333">%1$d</font>/%2$d slots taken]]></string>
+    <string name="el_ot_time_pattern_ymd">M/d/yyyy</string>
+    <string name="el_ot_enter_room">Enter</string>
+    <string name="el_ot_watch_replay">Playback</string>
+    <string name="el_ot_not_enroll_message">Sorry, you cannot join the session. Please make an appointment in advance next time.</string>
+    <string name="el_ot_no_replay_massage">Sorry, the tutoring is over and no playback is available.</string>
+    <string name="el_ot_cancel">Cancel</string>
+    <string name="el_ot_sure">Confirm</string>
+    <string name="el_ot_select_playback_clip">Select Playback Clip</string>
+    <string name="el_ot_replay">Playback %1$d %2$s - %3$s</string>
+    <string name="el_ot_unknown_error">Unknown Error</string>
+    <string name="el_ot_net_error">No network</string>
+    <string name="el_ot_request_error">Request error</string>
+    <string name="el_ot_open_failure">The operation failed. Please try again later.</string>
+
+    <!-- 下面为测试  -->
+    <string name="test_el_ot_inptut_scope_id">请输入scope_id</string>
+    <string name="test_el_ot_online_tutor_page">Tutoring</string>
+    <string name="test_el_ot_live_adapter">直播转接</string>
+
+
+    <string name="live_adapter_please_try_again_later">Please try again later</string>
+    <string name="live_adapter_address_is_illegal">当前消息地址不合法不能跳转</string>
+</resources>

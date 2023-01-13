@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="group_share">Group Share</string>
+    <string name="group_share_get_permission_failed">Access denied</string>
+    <string name="group_share_no_permission">No permission</string>
+    <string name="group_share_all_file_upload_completed">All files have been uploaded.</string>
+    <string name="group_share_upload_file_failed">Failed to upload file \'%1$s\' due to %2$s</string>
+    <string name="group_share_entity_not_found">Folder does not exist</string>
+    <string name="im_chat_top_menu_grp_file">Group Share</string>
+    <string name="group_share_init_tenant_null">初始化群共享失败，请检测网络是否正常</string>
+    <string name="group_share_init_tenant_exception">初始化群共享异常:“%1$s”</string>
+</resources>

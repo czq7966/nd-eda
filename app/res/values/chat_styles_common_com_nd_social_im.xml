@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="im_chat_IMModuleTheme" parent="CommonBase.Theme">
+        <item name="im_chat_title_style">@style/CommonBase.Style.Toolbar.Normal</item>
+        <item name="im_chat_menu_detail">@drawable/chat_top_icon_more</item>
+        <item name="im_chat_list_bg">@drawable/chat_list_bg</item>
+        <item name="im_chat_top_tip_color">@color/chat_toptip_color</item>
+        <item name="im_chat_top_tip_bg_color">@color/chat_toptip_bg_color</item>
+        <item name="im_chat_top_title_style">@style/CommonBase.Style.Toolbar.TitleText.Normal</item>
+        <item name="im_chat_top_subtitle_style">
+            @style/CommonBase.Style.Toolbar.SubTitleText.Normal
+        </item>
+        <item name="im_chat_bottom_view_bg">@drawable/chat_bottom_input_ornament_top</item>
+        <item name="im_chat_mic_icon">@drawable/chat_input_bottom_mic</item>
+        <item name="im_chat_keyboard_icon">@drawable/chat_input_bottom_keyboard</item>
+        <item name="im_chat_bottom_smiley_icon">@drawable/chat_input_bottom_face</item>
+        <item name="im_chat_bottom_more_icon">@drawable/chat_input_bottom_more</item>
+        <item name="im_chat_bottom_send_icon">@drawable/chat_input_bottom_send</item>
+        <item name="im_chat_bottom_menu_icon">@drawable/chat_input_bottom_menu</item>
+        <item name="im_chat_bottom_edit_style">@style/im_chat_chat_bottom_edittext</item>
+        <item name="im_chat_bottom_switch_keyboard_icon">
+            @drawable/chat_input_bottom_switchkeyboard
+        </item>
+        <item name="im_chat_bottom_chat_btn_record_normal_bg">@drawable/chat_btn_record_normal
+        </item>
+        <item name="im_chat_bottom_chat_btn_record_press_bg">@drawable/chat_btn_record_pressed
+        </item>
+        <item name="im_chat_bottom_chat_btn_record_text_color">
+            @color/bottom_record_txt_android_color
+        </item>
+        <item name="im_chat_item_send_bg_selector">@drawable/chat_dialog_bg_me_selector</item>
+        <item name="im_chat_item_receive_bg_selector">@drawable/chat_dialog_bg_other_selector</item>
+        <item name="im_chat_item_send_text_color">@color/chat_me_txt_color</item>
+        <item name="im_chat_item_receive_text_color">@color/chat_other_txt_color</item>
+        <item name="im_chat_burn_mode_me_txt_color">@color/chat_me_txt_color</item>
+        <item name="im_chat_burn_mode_other_txt_color">@color/chat_other_txt_color</item>
+        <item name="im_chat_message_send_failed_icon">@drawable/chat_msg_state_failed_resend</item>
+        <item name="im_chat_voice_send_play_animation">@drawable/chat_audio_record_sender_play
+        </item>
+        <item name="im_chat_voice_icon_send_three">
+            @drawable/chat_chatinterface_icon_sound_right_three
+        </item>
+        <item name="im_chat_voice_receive_play_animation">@drawable/chat_audio_record_receive_play
+        </item>
+        <item name="im_chat_voice_icon_receive_three">
+            @drawable/chat_chatinterface_icon_sound_lift_three
+        </item>
+        <item name="im_chat_send_link_color">@color/chat_me_link_color</item>
+        <item name="im_chat_receive_link_color">@color/chat_other_link_color</item>
+        <item name="im_chat_shake_send_icon">@drawable/chat_icon_shake_me</item>
+        <item name="im_chat_shake_receive_icon">@drawable/chat_icon_shake_other</item>
+        <item name="im_chat_shape_send_bg">@drawable/chat_dialog_shape_bg_me_normal</item>
+        <item name="im_chat_shape_receive_bg">@drawable/chat_dialog_shape_bg_other_normal</item>
+        <item name="im_chat_item_send_pic_selector">@drawable/chat_dialog_bg_me_pic_selector</item>
+        <item name="im_chat_item_receive_pic_selector">@drawable/chat_dialog_bg_other_pic_selector
+        </item>
+        <item name="im_chat_item_file_send_progress">@drawable/chat_file_progress_send</item>
+        <item name="im_chat_item_file_receive_progress">@drawable/chat_file_progress_receive</item>
+        <item name="im_chat_send_file_size_text_color">@color/chat_me_size_color</item>
+        <item name="im_chat_receive_file_size_text_color">@color/chat_other_size_color</item>
+        <item name="im_chat_tip_bg_color">@drawable/chat_bg_chat_item_tip</item>
+        <item name="im_chat_tip_text_color">@color/chat_tiptxt_color</item>
+        <item name="im_chat_time_text_color">@color/chat_time_color</item>
+        <item name="im_chat_bottom_line_color">@color/bottom_input_top_line_color</item>
+        <item name="im_chat_top_icon_phone">@drawable/general_top_icon_phone</item>
+        <item name="im_chat_toolbar_bg">@drawable/chat_general_navigation_title_bg</item>
+        <item name="im_chat_toolbar_title_appearance">
+            @style/CommonBase.Style.Toolbar.TitleText.Normal
+        </item>
+        <item name="im_chat_toolbar_subtitle_appearance">
+            @style/CommonBase.Style.Toolbar.SubTitleText.Normal
+        </item>
+        <!--<item name="navigationIcon">@drawable/general_top_icon_back_android</item>-->
+        <item name="im_chat_toolbar_theme">@style/CommonBase.Theme.ActionBar.Normal</item>
+        <item name="im_chat_toolbar_line_color">@color/navigation_title_line_color</item>
+        <item name="im_chat_more_text_color">@color/chat_more_color</item>
+    </style>
+
+
+    <style name="CommonBase.Theme.ActionBar.Normal" parent="CommonBase.Theme.ActionBar">
+        <!-- 返回按钮图标 -->
+        <item name="navigationIcon">@drawable/chat_top_icon_back_android</item>
+        <!-- 返回按钮图标 -->
+        <item name="android:homeAsUpIndicator">@drawable/chat_top_icon_back_android</item>
+    </style>
+
+    <style name="im_chat_IMModuleTheme.Normal" parent="im_chat_IMModuleTheme"></style>
+
+    <style name="CommonBase.Style.Toolbar.TitleText.Normal" parent="CommonBase.Style.Toolbar.TitleText">
+        <!-- 主标题文字颜色-->
+        <item name="android:textColor">#FF000000</item>
+    </style>
+
+    <style name="CommonBase.Style.Toolbar.SubTitleText.Normal" parent="CommonBase.Style.Toolbar.SubTitleText">
+        <!-- 主标题文字颜色-->
+        <item name="android:textColor">#95000000</item>
+    </style>
+
+
+    <style name="im_chat_IMModuleTheme.Transparent" parent="im_chat_IMModuleTheme.Normal">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="im_chat_header_btn_title">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+    </style>
+
+    <style name="im_chat_header_centent_title">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+    </style>
+    <!-- 对话框统一背景规格 -->
+    <style name="im_chat_Style_Dlg_Bg">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:background">@drawable/chat_bg_common_dialog</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <!-- 自定义dialog样式 -->
+    <style name="im_chat_MyDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/im_chat_transparent</item>
+        <!--背景透明-->
+    </style>
+
+    <style name="im_chat_Style_Patterns">
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="im_chat_Style_Patterns_SectionBar">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/im_chat_sectionbar</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40.0dip</item>
+        <item name="android:layout_marginRight">5.0dip</item>
+    </style>
+
+
+    <style name="im_chat_friend_contact_column_title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <style name="im_chat_friend_contact_column_value">
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:textColor">#04397a</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:singleLine">true</item>
+        <!-- <item name="android:ellipsize">end</item> -->
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:focusable">true</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+
+    <style name="im_chat_activity_group_detail_item_relative_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="im_chat_activity_group_detail_item_relative_layout_introduction" parent="im_chat_activity_group_detail_item_relative_layout">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">60dp</item>
+    </style>
+
+    <style name="im_chat_activity_group_detail_item_margin">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+    </style>
+
+    <style name="im_chat_activity_group_detail_item_text">
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#655748</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="im_chat_activity_group_detail_item_content_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:textColor">#194A85</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="im_chat_activity_group_detail_item_content_text_introduction" parent="im_chat_activity_group_detail_item_content_text">
+        <item name="android:singleLine">false</item>
+        <item name="android:ellipsize">none</item>
+    </style>
+
+    <style name="im_chat_invite_group_member_style" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">
+            @android:drawable/screen_background_light_transparent
+        </item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="im_chat_header_refresh_multiple_devices_status">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="im_chat_header_refresh_title">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--聊天底部按钮样式-->
+    <style name="im_chat_bottom_button">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+    </style>
+
+    <!-- 好友设置界面中，设置选项的字体样式 -->
+    <style name="im_chat_friend_title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:padding">15dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="im_chat_MMLabelSplit">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">10.0dip</item>
+        <item name="android:layout_height">13.0dip</item>
+    </style>
+
+    <!-- 通用设置菜单text -->
+    <style name="im_chat_common_config_title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#3a3f43</item>
+        <item name="android:paddingLeft">10dip</item>
+    </style>
+
+    <style name="im_chat_title_text_style">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="im_chat_normal_text_style">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#ff1b1616</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+
+    <!-- 搜索群组Activity的indicator里的TextView的样式-->
+    <style name="im_chat_activity_search_groups_pager_indicator_text_view">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/holo_orange_light</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="im_chat_group_detail_item_margin">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/chat_group_detail_item_margin_height</item>
+    </style>
+
+    <!--<style name="ImageChooseDefaultStyle.Chat">-->
+    <!--</style>-->
+
+    <style name="im_chat_ios_dialog_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#3e8cd7</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="im_chat_ios_dialog_background">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_margin">20dp</item>
+        <item name="android:background">@drawable/chat_bg_common_dialog</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+
+    <style name="im_chat_ActivityDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!--公众号 begin  -->
+    <style name="im_chat_psptitleText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">8.6dip</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#7d7d82</item>
+    </style>
+
+    <style name="im_chat_user_face_no_bg">
+        <item name="android:layout_width">48dip</item>
+        <item name="android:layout_height">48dip</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <!--公众号 end  -->
+
+    <!-- 聊天界面 begin -->
+
+    <style name="im_chat_time_name_ui_split">
+        <item name="android:textSize">?font_xxsmall</item>
+        <item name="android:textColor">?attr/im_chat_time_text_color</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingTop">3.0dip</item>
+        <item name="android:paddingBottom">6.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="im_chat_style_tv_empty">
+        <item name="android:textColor">#999999</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="im_chat_activity_chat_receive_message_user_name">
+        <item name="android:textColor">@color/chat_name_color</item>
+        <item name="android:textSize">?font_xsmall</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <!-- 聊天界面顶部“xx条未读消息”，“xxx提到了你”之类的提示 -->
+    <style name="im_chat_activity_chat_top_tips">
+        <item name="android:background">?attr/im_chat_top_tip_bg_color</item>
+        <item name="android:layout_height">36dp</item>
+    </style>
+
+    <!-- 聊天界面顶部“xx条未读消息”，“xxx提到了你”之类的提示 -->
+    <style name="im_chat_activity_chat_top_tips_text">
+        <item name="android:textColor">?attr/im_chat_top_tip_color</item>
+    </style>
+
+    <!-- 聊天界面 end -->
+
+    <!--CircularProgressBar 默认属性-->
+    <color name="im_chat_group_circular_progress_view_default_color">#2196F3</color>
+    <dimen name="im_chat_group_circular_progress_view_default_thickness">4dp</dimen>
+    <bool name="im_chat_group_circular_progress_view_default_is_indeterminate">false</bool>
+    <bool name="im_chat_group_circular_progress_view_default_anim_autostart">false</bool>
+    <integer name="im_chat_group_circular_progress_view_default_progress">0</integer>
+    <integer name="im_chat_group_circular_progress_view_default_max_progress">100</integer>
+    <integer name="im_chat_group_circular_progress_view_default_anim_duration">4000</integer>
+    <integer name="im_chat_group_circular_progress_view_default_anim_swoop_duration">5000</integer>
+    <integer name="im_chat_group_circular_progress_view_default_anim_sync_duration">500</integer>
+    <integer name="im_chat_group_circular_progress_view_default_anim_steps">3</integer>
+
+
+    <style name="im_chat_myProgressBarStyleLarge">
+        　　
+        <item name="android:indeterminateDrawable">@drawable/chat_pb_sending</item>
+        　　
+        <item name="android:minWidth">25dp</item>
+        　　
+        <item name="android:maxWidth">25dp</item>
+        　　
+        <item name="android:minHeight">25dp</item>
+        　　
+        <item name="android:maxHeight">25dp</item>
+    </style>
+
+    <style name="im_chat_PinnedHeader">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:textAllCaps" tools:targetApi="ice_cream_sandwich">true</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- TODO: 转移到公共组件-->
+    <style name="im_chat_rowLines">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/chat_divider_height</item>
+        <item name="android:background">@color/md_divider_black</item>
+    </style>
+
+    <style name="im_chat_IMModuleTheme.Style.Widget.Divider.Horizantal.SettingItem.NoMarging" parent="CommonBase.Style.Widget.Divider.Horizantal.SettingItem">
+        <item name="android:layout_margin">0dp</item>
+    </style>
+
+    <style name="CommonBase.Style.Widget.TextInSettingItem.Secondary.LongValue">
+        <item name="android:paddingLeft">@dimen/common_padding_horizantal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingBottom">@dimen/common_padding_vertical</item>
+        <item name="android:background">@drawable/bg_white_ripple</item>
+        <item name="android:paddingRight">@dimen/common_padding_horizantal</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="im_chat_history_msg_search_nodata">
+        <item name="android:textColor">@color/im_chat_history_msg_search_nodata</item>
+        <item name="android:textSize">?font_medium</item>
+        <item name="android:background">@color/chat_history_msg_search_empty_bg</item>
+    </style>
+
+    <!-- 聊天界面底部输入框样式 -->
+    <style name="im_chat_chat_bottom_edittext">
+        <item name="android:textColor">@color/bottom_input_txt_android_color</item>
+        <item name="android:textCursorDrawable">@drawable/chat_bottom_input_cursor_drawable</item>
+        <item name="android:background">@drawable/chat_bottom_input_bg</item>
+    </style>
+
+
+    <style name="im_chat_drop_down_nav" parent="android:style/Widget.Holo.Light.Spinner">
+        <!--<item name="android:background">@drawable/ad_spinner_background_holo_light</item>-->
+        <!--<item name="android:popupBackground">@drawable/ad_menu_dropdown_panel_holo_light</item>-->
+        <!--<item name="android:dropDownSelector">@drawable/ad_selectable_background</item>-->
+    </style>
+
+    <style name="CommonBase.Style.Toolbar.Normal" parent="CommonBase.Style.Toolbar">
+
+
+    </style>
+
+
+    <!-- 自定义的MaterialDialog 样式 -->
+    <style name="im_chat_dialog_style" parent="im_chat_MyDialog">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>

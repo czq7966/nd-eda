@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="chat_chat_background">聊天背景</string>
+    <string name="chat_birh_background">生日背景</string>
+    <string name="chat_holiday_background">节日背景</string>
+    <string name="chat_holiday_background_tip">“节日背景”设置启动后，节日当天聊天背景会有惊喜喔。</string>
+    <string name="chat_friend_background">好友互相关注背景</string>
+    <string name="chat_friend_background_tip">“好友互相关注背景”设置启动后，若你和B好友为互相关注关系，此时聊天背景会有变化喔。</string>
+
+</resources>

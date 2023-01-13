@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="x_live_bg_header_start">#2788EA</color> <!-- titlebar背景渐变开始颜色 -->
+    <color name="x_live_bg_header_end">#1E62EC</color> <!-- titlebar背景渐变开始颜色 -->
+    <color name="x_live_text_create_successful">#666666</color>
+    <color name="x_live_text_create_successful_des">#999999</color>
+    <color name="x_live_bg_live_info">#fff4f8ff</color>
+    <color name="x_live_bg_habit_info">#fff4f8ff</color>
+    <color name="x_live_color29">#f8f9fb</color>
+    <color name="x_live_color1">#333333</color>
+    <color name="x_live_color7">#ffffff</color>
+    <color name="x_live_color9">#eeeeee</color>
+    <color name="x_live_color_accent">#1E62EC</color>
+    <color name="x_live_color_accent_trans">#121E62EC</color>
+    <color name="x_live_color4">#999999</color>
+    <color name="x_live_color2">#666666</color>
+    <color name="x_live_color30">#fafeff</color>
+    <color name="x_live_color16">#ff6f6f</color>
+    <color name="x_live_color5">#cccccc</color>
+    <color name="x_live_color31">#ebebeb</color>
+    <color name="x_live_color_red">#ff4646</color>
+    <color name="x_live_seat_bg">#f8f8fb</color>
+
+
+    <color name="x_live_color32">#0bdbd4</color>
+    <color name="x_live_color33">#0ccfdc</color>
+    <color name="x_live_color19">#ff9518</color>
+    <color name="x_live_color34">#ffaa17</color>
+    <color name="x_live_color_light_blue">#e8effd</color>
+
+    <color name="x_live_recycler_view_divider">#e5e5e5</color>
+
+    <color name="x_live_bg_cover_blue">#1A7AFF</color>
+    <color name="x_live_bg_cover_green">#29c991</color>
+    <color name="x_live_bg_cover_orange">#ff8a1d</color>
+    <color name="x_live_bg_cover_light_blue">#08a8fe</color>
+    <color name="x_live_bg_cover_purple">#5d46dd</color>
+    <color name="x_live_div_color">#f3f4f6</color>
+
+    <drawable name="x_live_transparent">#00000000</drawable>
+    <drawable name="x_live_edit_cursor">#1E62EC</drawable>
+
+    <color name="x_live_search_ecr_blue">#27aef2</color>
+
+    <color name="x_live_color35">#edfff4</color>
+    <color name="x_live_color36">#fefefe</color>
+
+
+
+    <color name="x_live_color_light_grey">#909090</color>
+    <color name="x_live_color_div">#f8f8f8</color>
+    <color name="x_live_color_black">#333333</color>
+    <color name="x_live_light_blue">#39b7ff</color>
+    <color name="x_live_light_gray">#999999</color>
+    <color name="x_live_light_gray_aaa">#AAAAAA</color>
+    <color name="x_live_light_gray666">#666666</color>
+    <color name="x_live_color_yellow">#f48400</color>
+    <color name="x_live_dark_blue">#1d6eea</color>
+    <color name="x_live_EDEDED">#EDEDED</color>
+    <color name="x_live_bbd0f9">#bbd0f9</color>
+    <color name="x_live_FF6F6F">#FF6F6F</color>
+    <color name="x_live_light_more_blue">#1A1e62ec</color>
+
+</resources>

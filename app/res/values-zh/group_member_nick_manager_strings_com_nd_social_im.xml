@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="im_group_member_my_nick">我在本群的昵称</string>
+
+    <string name="im_group_member_edit_other_nick">设置群内成员昵称</string>
+
+    <string name="im_group_member_no_result">未找到匹配信息</string>
+
+    <string name="im_group_member_ok">确定</string>
+
+    <string name="im_group_member_cancel">取消</string>
+
+    <string name="im_group_member_nick">群昵称</string>
+
+    <string name="im_group_member_nick_max_length_tip">最多可输入15字</string>
+
+    <string name="im_group_member_modifying">正在修改...</string>
+
+    <string name="im_group_member_menu_item_search">搜索</string>
+
+    <string name="im_group_member_save">保存</string>
+
+    <string name="im_group_member_saving">正在保存...</string>
+
+    <string name="im_group_member_sure_save">此次修改是否保存?</string>
+
+    <string name="im_group_member_nosave">不保存</string>
+
+    <string name="im_group_member_save_sucs">保存成功</string>
+
+    <string name="im_group_member_no_change">没有修改</string>
+
+    <string name="im_group_member_click_to_edit">点击设置昵称</string>
+
+    <string name="im_group_member_network_faild">网络不可用</string>
+</resources>

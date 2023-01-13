@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="upload_intercept_dialog_ok">Continue</string>
+    <string name="upload_intercept_dialog_cancel">Cancel</string>
+    <string name="upload_intercept_dialog_title">You are using non-WiFi network</string>
+    <string name="upload_intercept_dialog_content">Data charges will apply if you continue to upload. Continue?</string>
+
+    <string name="download_intercept_dialog_ok">Continue</string>
+    <string name="download_intercept_dialog_cancel">Cancel</string>
+    <string name="download_intercept_dialog_title">You are using non-WiFi network</string>
+    <string name="download_intercept_dialog_content">Continuing to download will generate mobile data fee, it is suggested to download with WiFi.</string>
+</resources>

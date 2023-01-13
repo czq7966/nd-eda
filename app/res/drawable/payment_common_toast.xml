@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/payment_black_70" />
+    <corners android:radius="@dimen/payment_dip_8" />
+    <padding
+        android:bottom="@dimen/payment_dip_16"
+        android:left="@dimen/payment_dip_24"
+        android:right="@dimen/payment_dip_24"
+        android:top="@dimen/payment_dip_16" />
+</shape>

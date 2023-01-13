@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="nduc_selector_loading_failed">Data Load Faild!</string>
+    <string name="nduc_selector_selected_item_title">Selected</string>
+    <string name="nduc_selector_selected_max">最多可选%d</string>
+    <string name="nduc_selector_completed">Finish</string>
+    <string name="nduc_selector_clear_all_data">Clear</string>
+    <string name="nduc_selector_clear_all_data_dialog_msg">Are you sure you want to clear the selected content?</string>
+    <string name="nduc_selector_count_limit_tip">The selected number has reached the limit</string>
+    <string name="nduc_selector_tab_institution">Cloud Office</string>
+    <string name="nduc_selector_tab_my_org">当前组织</string>
+    <string name="nduc_selector_tab_history">History</string>
+    <string name="nduc_selector_tab_custom_group">Custom</string>
+    <string name="nduc_selector_not_record_tip">没有记录</string>
+    <string name="nduc_selector_not_search_result_tip">没有结果</string>
+    <string name="nduc_selector_not_error_tip">加载数据出错啦～</string>
+    <string name="nduc_selector_not_error_button_text_retry">Reload</string>
+    <string name="nduc_selector_params_error">Parameter error</string>
+    <string name="nduc_selector_condition_single_init_text">Filter</string>
+    <string name="nduc_selector_condition_mul_reset">Reset</string>
+    <string name="nduc_selector_condition_mul_ok">Confirm</string>
+    <string name="nduc_selector_condition_single_all">All</string>
+    <string name="nduc_selector_select_all">Select All</string>
+    <string name="nduc_selector_without_condition">条件数据为空！</string>
+    <string name="nduc_selector_title_select_user">Person</string>
+    <string name="nduc_selector_title_select_org">Select Organization</string>
+    <string name="nduc_selector_title_select_node">Select node</string>
+    <string name="nduc_selector_title_select_org_or_node">Select organization or node</string>
+    <string name="nduc_selector_item_load_more">查看更多人员</string>
+    <string name="nduc_selector_load_more_button_ok">Confirm</string>
+    <string name="nduc_selector_refresh_dialog_msg">刷新后已选将被清空，是否确认刷新？</string>
+    <string name="nduc_selector_refresh_dialog_positive">Confirm</string>
+    <string name="nduc_selector_refresh_dialog_negative">Cancel</string>
+    <string name="nduc_selector_search">Search</string>
+    <string name="nduc_selector_location_tip">Location</string>
+    <string name="nduc_selector_person_join_type_with_check">Need to be reviewed</string>
+    <string name="nduc_selector_person_join_type_without_check">No review required</string>
+    <string name="nduc_selector_person_join_type_disallow">Unable to join</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="usf_transparent">#00000000</color>
+    <color name="usf_shadow">#60000000</color>
+    <color name="usf_divider_color1">#f2f2f2</color>
+    <color name="usf_divider_color2">#eeeeee</color>
+    <color name="usf_item_bg_color">#ffffff</color>
+    <color name="usf_text_color1">#333333</color>
+    <color name="usf_text_color2">#666666</color>
+    <color name="usf_text_color3">#999999</color>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="im_group_banned_activity_setting_bg">#f5f5f5</color>
+
+    <color name="im_group_banned_bottom_tip_line_color">#CCCCCC</color>
+
+    <color name="im_group_banned_lock_input_tip_text_color">#666666</color>
+
+</resources>

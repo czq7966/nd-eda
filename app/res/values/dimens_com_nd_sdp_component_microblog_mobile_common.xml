@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nvweibo_margin_large">10dp</dimen>
+    <dimen name="nvweibo_margin_xlarge">15dp</dimen>
+    <dimen name="nvweibo_actionbar_compat_height">48dp</dimen>
+    <dimen name="nvweibo_input_type_item_width">81dip</dimen>
+    <dimen name="nvweibo_input_type_attach_item_icon_width">27dip</dimen>
+    <dimen name="nvweibo_input_type_item_close_width">17dip</dimen>
+    <dimen name="nvweibo_input_type_item_close_margin">5dip</dimen>
+    <dimen name="nvweibo_input_type_attach_item_icon_left_margin">7dip</dimen>
+    <dimen name="nvweibo_input_type_attach_item_icon_top_margin">3dip</dimen>
+    <dimen name="nvweibo_input_type_item_top_margin">8dip</dimen>
+    <dimen name="nvweibo_input_type_corners_radius">8dip</dimen>
+    <dimen name="nvweibo_edit_text_size">@dimen/fontsize14</dimen>
+
+    <dimen name="nvweibo_file_icon_size">40dp</dimen>
+    <dimen name="nvweibo_audio_icon_size">35dp</dimen>
+    <dimen name="nvweibo_thumb_icon_size">35dp</dimen>
+</resources>

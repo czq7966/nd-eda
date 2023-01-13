@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="el_ot_color_accent">#3478f6</color>
+    <color name="el_ot_color1">#333333</color>
+    <color name="el_ot_color2">#666666</color>
+    <color name="el_ot_color4">#999999</color>
+    <color name="el_ot_color5">#cccccc</color>
+    <color name="el_ot_color7">#ffffff</color>
+    <color name="el_ot_color30">#f7b231</color>
+
+    <color name="el_ot_color_bg">#f8f8f8</color>
+    <color name="el_ot_color_divider">#e5e5e5</color>
+    <color name="el_ot_color_divider2">#d8d8d8</color>
+    <color name="el_ot_color_divider3">#dddddd</color>
+</resources>

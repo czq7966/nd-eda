@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="downloadmanager_downloading">正在下载%s…</string>
+    <string name="downloadmanager_cancel">取消</string>
+    <string name="downloadmanager_pause">暂停</string>
+    <string name="downloadmanager_download_complete_title">%s下载完成</string>
+    <string name="downloadmanager_download_complete_content">已保存至%s</string>
+    <string name="downloadmanager_download_failed_title">%s下载失败</string>
+    <string name="downloadmanager_download_failed_content">%s下载失败，请确认网络或下载地址是否正确</string>
+    <string name="downloadmanager_network_type_warning_dialog_ok">继续下载</string>
+    <string name="downloadmanager_network_type_warning_dialog_cancel">取消下载</string>
+    <string name="downloadmanager_network_type_warning_dialog_title">您正在使用非 WiFi 网络</string>
+    <string name="downloadmanager_network_type_warning_dialog_content">继续下载将产生流量费用，建议您在 WiFi 环境下载。</string>
+
+</resources>

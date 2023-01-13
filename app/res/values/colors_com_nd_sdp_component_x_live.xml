@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pro_color_white">#ffffffff</color>
+
+    <color name="pro_book_main_button_text_normal">#4CB0FC</color>
+    <color name="pro_book_main_button_text_pressed">#D4DFE5</color>
+
+    <color name="pro_title_bar_bg">#F5F5F5</color>
+
+    <!-- 99u设计规范规定的颜色 -->
+    <color name="pro_color1">@color/color1</color>
+    <color name="pro_color10">#fff5f5f5</color>
+    <color name="pro_color11">#ffebeced</color>
+    <color name="pro_color12">#ff7fedff</color>
+    <color name="pro_color13">#fff43531</color>
+    <color name="pro_color14">#ff38adff</color>
+    <color name="pro_color14_alpha_20">#1438adff</color>
+    <color name="pro_color15">#ffd4eeff</color>
+    <color name="pro_color16">#ffff6f6f</color>
+    <color name="pro_color17">#ffffb822</color>
+    <color name="pro_color18">#ff2dd2d0</color>
+    <color name="pro_color19">#ffff9518</color>
+    <color name="pro_color2">#ff666666</color>
+    <color name="pro_color20">#ff7ed728</color>
+    <color name="pro_color21">#ffc166d8</color>
+    <color name="pro_color22">#ff2a82bf</color>
+    <color name="pro_color23">#fff0f0f0</color>
+    <color name="pro_color24">#fffefbd5</color>
+    <color name="pro_color25">#ffe5e1bf</color>
+    <color name="pro_color26">#ffb54342</color>
+    <color name="pro_color27">#ff8fbfdf</color>
+    <color name="pro_color28">#fff1a09f</color>
+    <color name="pro_color3">#ff0090ff</color>
+    <color name="pro_color4">#ff999999</color>
+    <color name="pro_color5">#ffcccccc</color>
+    <color name="pro_color6">#ff9bd6ff</color>
+    <color name="pro_color7">#ffffffff</color>
+    <color name="pro_color7_alpha_30">#4cffffff</color>
+    <color name="pro_color8">#ffdddddd</color>
+    <color name="pro_color9">#ffeeeeee</color>
+    <color name="pro_color93">#ff939393</color>
+
+    <color name="pro_piechar_holo">#000000</color>
+    <color name="pro_color_909090">#909090</color>
+    <color name="pro_color_efefef">#efefef</color>
+    <color name="pro_color_e9e9e9">#e9e9e9</color>
+    <color name="pro_color_c9c9c9">#c9c9c9</color>
+    <color name="pro_color_1e62ec">#1e62ec</color>
+    <color name="pro_color_555555">#555555</color>
+    <color name="pro_color_f7f8f9">#f7f8f9</color>
+    <color name="pro_color_ebebeb">#ebebeb</color>
+    <color name="pro_color_222222">#222222</color>
+    <color name="pro_color_f2f3f6">#f2f3f6</color>
+    <color name="pro_color_ff4646">#ff4646</color>
+    <color name="pro_color_333333">#333333</color>
+    <color name="pro_color_FF6F6F">#FF6F6F</color>
+</resources>

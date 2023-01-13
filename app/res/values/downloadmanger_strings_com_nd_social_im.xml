@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="downloadmanager_downloading">%s Downloading…</string>
+    <string name="downloadmanager_cancel">Cancel</string>
+    <string name="downloadmanager_pause">Pause</string>
+    <string name="downloadmanager_download_complete_title">%sDownload Complete</string>
+    <string name="downloadmanager_download_complete_content">Saved to %s</string>
+    <string name="downloadmanager_download_failed_title">%s Download failure</string>
+    <string name="downloadmanager_download_failed_content">%s Download failure,please check network</string>
+    <string name="downloadmanager_network_type_warning_dialog_ok">Continue</string>
+    <string name="downloadmanager_network_type_warning_dialog_cancel">Cancel</string>
+    <string name="downloadmanager_network_type_warning_dialog_title">You are using non-WiFi network</string>
+    <string name="downloadmanager_network_type_warning_dialog_content">Continuing to download will generate mobile data fee, it is suggested to download with WiFi.</string>
+
+</resources>

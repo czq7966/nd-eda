@@ -1,0 +1,25 @@
+<resources>
+    <!-- 无障碍提示相关 -->
+
+    <!--自定义开关切换提示-->
+    <string name="module_wallet_accessibility_switch_on">开启</string>
+    <string name="module_wallet_accessibility_switch_off">关闭</string>
+
+    <!--窗口-关闭时朗读-->
+    <string name="module_wallet_accessibility_dialog_close">关闭窗口</string>
+
+    <!--Toolbar Menu 设置-->
+    <string name="module_wallet_accessibility_menu_setttings">设置</string>
+
+    <!--选择时间-->
+    <string name="module_wallet_accessibility_pick_datetime">选择时间</string>
+
+    <!--密码键盘-删除-->
+    <string name="module_wallet_accessibility_password_input_delete">删除</string>
+
+    <!--密码键盘-提示已输入字符数-->
+    <string name="module_wallet_accessibility_password_input_length">已输入%s个字符</string>
+
+    <!--滑动选择控件-滑动提示-->
+    <string name="module_wallet_accessibility_slide_picker_tip">上下滑动可选择</string>
+</resources>

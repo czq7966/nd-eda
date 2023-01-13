@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ============================== IM模块-聊天 ============================== -->
+    <!-- 请在“#”后输入六位数色值 -->
+
+    <!-- 聊天详情-顶部提示 -->
+    <color name="im_chat_toptip_color_birthday">#ffffff</color>
+    <!-- 聊天详情-顶部提示背景色 -->   
+    <color name="im_chat_toptip_bg_color_birthday">#fa7f80</color>
+    <!-- 聊天详情-时间 -->
+    <color name="im_chat_time_color_birthday">#fda8a8</color>
+    <!-- 聊天详情-提示 -->
+    <color name="im_chat_tiptxt_color_birthday">#ffffff</color>
+    <!-- 聊天详情-提示背景色,80固定，写后面6位颜色 -->
+    <color name="im_chat_tiptxt_bg_color_birthday">#80d44f4f</color>
+    <!-- 聊天详情-查看更多 -->
+    <color name="im_chat_more_color_birthday">#1e62ec</color>
+    <!-- 聊天详情-用户名 -->
+    <color name="im_chat_name_color_birthday">#666666</color>
+    <!-- 聊天详情-我-链接文字 -->
+    <color name="im_chat_me_link_color_birthday">#ff3c00</color>
+    <!-- 聊天详情-他人-链接文字 -->
+    <color name="im_chat_other_link_color_birthday">#ff3c00</color>
+    <!-- 聊天详情-我-主文字 -->
+    <color name="im_chat_me_txt_color_birthday">#333333</color>
+    <!-- 聊天详情-他人-主文字 --> 
+    <color name="im_chat_other_txt_color_birthday">#333333</color>
+    <!-- 聊天详情-我-文件K数 -->
+    <color name="im_chat_me_size_color_birthday">#fda8a8</color>
+    <!-- 聊天详情-他人-文件K数 -->
+    <color name="im_chat_other_size_color_birthday">#fda8a8</color>
+    <!-- 聊天详情-消息框分隔线 -->
+    <color name="im_chat_message_line_color_birthday">#dddddd</color>
+
+    <!-- 底部输入框光标、横线色(android) -->
+    <color name="im_bottom_input_android_color_birthday">#f66f5a</color>
+    <!-- 底部输入框文字色(android) -->
+    <color name="im_bottom_input_txt_android_color_birthday">#333333</color>
+    <!-- 底部与内容区域分隔线(android) -->
+    <color name="im_bottom_input_top_line_color_birthday">#00000000</color>
+
+
+     <!-- 底部录音按钮背景色-正常(android) -->
+    <color name="bottom_record_bg_normal_android_color_birthday">#ffffff</color>
+    <!-- 底部录音按钮背景色-点击(android) -->
+    <color name="bottom_record_bg_pressed_android_color_birthday">#999999</color>
+    <!-- 底部录音按钮边框色(android) -->
+    <color name="bottom_record_frame_android_color_birthday">#cccccc</color>
+    <!-- 底部录音按钮文字色(android) -->
+    <color name="bottom_record_txt_android_color_birthday">#333333</color>
+
+</resources>

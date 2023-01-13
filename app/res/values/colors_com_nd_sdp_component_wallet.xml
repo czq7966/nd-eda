@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="wallet_module_colorPrimary">#3F51B5</color>
+    <color name="wallet_module_colorPrimaryDark">#303F9F</color>
+    <color name="wallet_module_colorAccent">#FF4081</color>
+    <color name="wallet_module_black">#000000</color>
+
+    <color name="wallet_module_main_bg">#38ADFF</color>
+    <color name="module_wallet_text_color_7">#FFFFFF</color>
+    <color name="module_wallet_text_color_5">#CCCCCC</color>
+    <color name="module_wallet_transparent">#00000000</color>
+    <color name="module_wallet_half_transparent">#7F000000</color>
+    <color name="module_wallet_transparent_20">#33000000</color>
+    <color name="module_wallet_setting_devide_line">#F2F2F2</color>
+
+    <!--主要色彩-->
+    <color name="module_wallet_color14">#38adff</color>
+    <color name="module_wallet_color22">#2a82bf</color>
+    <color name="module_wallet_color6">#9bd6ff</color>
+    <color name="module_wallet_color15">#d4eeff</color>
+    <color name="module_wallet_color13">#f43531</color>
+    <color name="module_wallet_color26">#b54342</color>
+    <color name="module_wallet_color16">#ff6f6f</color>
+    <color name="module_wallet_color17">#ffb822</color>
+    <color name="module_wallet_color18">#2dd2d0</color>
+    <color name="module_wallet_color19">#ff9518</color>
+    <color name="module_wallet_color20">#7ed728</color>
+    <color name="module_wallet_color21">#c166d8</color>
+
+    <!--文字颜色-->
+    <color name="module_wallet_text_color1">#333333</color>
+    <color name="module_wallet_text_color2">#666666</color>
+    <color name="module_wallet_text_color3">#0090ff</color>
+    <color name="module_wallet_text_color4">#999999</color>
+    <color name="module_wallet_text_color5">#cccccc</color>
+    <color name="module_wallet_text_color7">#ffffff</color>
+    <color name="module_wallet_text_color12">#7fedff</color>
+    <color name="module_wallet_line_color5">#cccccc</color>
+    <color name="module_wallet_line_color8">#dddddd</color>
+    <color name="module_wallet_line_color9">#eeeeee</color>
+    <color name="module_wallet_line_color25">#e5e1bf</color>
+
+    <color name="module_wallet_bg_color10">#f5f5f5</color>
+    <color name="module_wallet_bg_color11">#ebeced</color>
+    <color name="module_wallet_bg_color7">#ffffff</color>
+    <color name="module_wallet_bg_color23">#f0f0f0</color>
+    <color name="module_wallet_bg_color24">#fefbd5</color>
+
+    <color name="module_wallet_passwordnum_devide_line_color">#EAEAEA</color>
+    <color name="module_wallet_password_page_status_bar_color">#11364F</color>
+    <color name="module_wallet_top_title_bottom_line_color">#C9C9C9</color>
+    <color name="module_wallet_setting_line_color">#E3E3E3</color>
+    <color name="module_wallet_common_devide_line_color">#D6D6D6</color>
+    <color name="module_wallet_popwinbg_color">#33000000</color>
+
+    <color name="module_wallet_background">#F7F4F0</color>
+    <color name="module_wallet_title_color">#333333</color>
+
+    <color name="module_wallet_pay_channel_sel_dialog_title_color">#E9F6FF</color>
+
+    <color name="module_wallet_text_btn_normal">#38adff</color>
+    <color name="module_wallet_text_btn_pressed">#0089e9</color>
+    <color name="module_wallet_recharge_item_line_normal_color">#7f000000</color>
+    <color name="module_wallet_recharge_item_line_selected_color">#7fffffff</color>
+
+    <color name="module_wallet_coindisplayview_bg_color">@android:color/transparent</color>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--支付方式radio资源-->
+    <drawable name="module_wallet_recharge_rb_checked">@drawable/general_radiobutton_icon_pressed</drawable>
+    <drawable name="module_wallet_recharge_rb_normal">@drawable/general_radiobutton_icon_normal</drawable>
+
+    <!--支付方式分隔线-->
+    <drawable name="module_wallet_recharge_item_line">@drawable/module_wallet_recharge_line</drawable>
+
+    <!--充值购买按钮资源-->
+    <drawable name="module_wallet_recharge_btn_normal">@drawable/module_wallet_recharge_btn_normal_bg</drawable>
+    <drawable name="module_wallet_recharge_btn_pressed">@drawable/module_wallet_recharge_btn_pressed_bg</drawable>
+    <drawable name="module_wallet_recharge_btn_unable">@drawable/module_wallet_recharge_btn_unable_bg</drawable>
+
+    <!--关闭按钮资源-->
+    <drawable name="module_wallet_recharge_close_normal">@drawable/module_wallet_recharge_icon_close_normal_bg</drawable>
+    <drawable name="module_wallet_recharge_close_pressed">@drawable/module_wallet_recharge_icon_close_pressed_bg</drawable>
+
+	 <!--充值选中项打勾资源-->
+    <drawable name="module_wallet_recharge_checked_icon">@drawable/module_wallet_recharge_checked</drawable>
+
+    <!--支付方式分隔线：虚线间隔宽度，当为0时，表示间隔为0，为实线-->
+    <dimen name="module_wallet_recharge_line_dash">0dp</dimen>
+
+    <!--支付方式背景-->
+    <drawable name="module_wallet_recharge_rb_bg_normal">#0fff</drawable>
+    <drawable name="module_wallet_recharge_rb_bg_pressed">#4aaa</drawable>
+    <!--文字提示背景渐变色-->
+    <color name="module_wallet_recharge_hint_start" >@color/module_wallet_line_color9</color>
+    <color name="module_wallet_recharge_hint_end" >@color/module_wallet_line_color9</color>
+    <color name="module_wallet_recharge_hint_center" >@color/module_wallet_line_color9</color>
+    <!--余额文字颜色-->
+    <color name="module_wallet_recharge_balance">@color/module_wallet_color14</color>
+    <!--余额提示文字颜色-->
+    <color name="module_wallet_recharge_balance_hint">@color/module_wallet_text_color1</color>
+    <!--提示文字颜色-->
+    <color name="module_wallet_recharge_hint">@color/module_wallet_text_color4</color>
+    <color name="module_wallet_recharge_title">@color/module_wallet_text_color1</color>
+    <!--支付方式分隔线颜色-->
+    <color name="module_wallet_recharge_line">@color/module_wallet_line_color5</color>
+    <!--界面背景-->
+    <color name="module_wallet_recharge_bg_color">#66000000</color>
+    <!--商品项图片背景-->
+    <drawable name="module_wallet_recharge_goods_item">@drawable/module_wallet_recharge_goods_item_bg</drawable>
+
+    <!--充值页面顶部余额显示-->
+    <color name="module_wallet_recharge_top_bg_balance">@color/color14</color>
+    <color name="module_wallet_recharge_top_balance_font_color">@color/color7</color>
+
+</resources>

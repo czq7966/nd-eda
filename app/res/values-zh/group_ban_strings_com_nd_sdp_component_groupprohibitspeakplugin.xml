@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="im_group_setting_banned">设置群内禁言</string>
+    <string name="im_group_open_all_banned">%1$s开启了全员禁言</string>
+    <string name="im_group_banned_ban_all">全员禁言</string>
+    <string name="im_group_banned_setting_tip1">开启后，有禁言权限者和指定的成员发言</string>
+    <string name="im_group_close_all_banned">%1$s关闭了全员禁言</string>
+    <string name="im_group_banned_btn_unbanned_text">解禁</string>
+
+    <string name="im_group_banned_uris_by_operator">%1$s被%2$s禁言%3$s</string>
+    <string name="im_group_banned_uris_by_operator_more">%1$s等%3$d人被%2$s禁言%4$s</string>
+
+    <string name="im_group_banned_forever_uris_by_operator">%1$s被%2$s无限期禁言</string>
+    <string name="im_group_banned_forever_uris_by_operator_more">%1$s等%3$d人被%2$s无限期禁言</string>
+
+    <string name="im_group_unbanned_uris_by_operator">%1$s解除了%2$s的禁言</string>
+    <string name="im_group_unbanned_uris_by_operator_more">%1$s解除了%2$s等%3$d人的禁言</string>
+
+    <string name="im_group_banned_you">您</string>
+    <string name="im_group_banned_black_list_label_text">个别成员禁言</string>
+    <string name="im_group_banned_add_banned_users">添加禁言成员</string>
+    <string name="im_group_banned_setting_tip2">添加的禁言成员将不允许在群内发言</string>
+
+    <string name="im_group_banneding_retry_after_unbanned">禁言中，请解禁后再试</string>
+
+    <string name="im_group_you_have_been_banned">您被禁言中</string>
+
+    <string name="im_group_all_have_been_banned">全员禁言中</string>
+
+    <string name="im_group_banned_toast_ban_failed">禁言失败</string>
+    <string name="im_group_banned_toast_ban_success">禁言成功</string>
+    <string name="im_group_banned_toast_unban_success">解除禁言成功</string>
+    <string name="im_group_banned_toast_unban_failed">解除禁言失败</string>
+    <string name="im_group_banned_toast_banned_info_failed">获取禁言信息失败</string>
+    <string name="im_group_banned_toast_lose_permission">您的职位发生变化，已无禁言权限</string>
+    <string name="im_group_banned_toast_reach_limit_tip">超过限制的个数:%1$d</string>
+    <string name="im_group_banned_toast_network_error">网络连接失败</string>
+
+    <string name="im_group_banned_add_ban_group_member">添加禁言成员</string>
+
+    <string name="im_group_banned_deal">处理中...</string>
+
+    <string name="im_group_banned_ten_minutes">10分钟</string>
+
+    <string name="im_group_banned_thirty_minutes">30分钟</string>
+
+    <string name="im_group_banned_one_hour">1小时</string>
+
+    <string name="im_group_banned_one_day">1天</string>
+
+    <string name="im_group_banned_seven_days">7天</string>
+
+    <string name="im_group_banned_thirty_days">30天</string>
+
+    <string name="im_group_banned_forever">无限期禁言</string>
+
+    <string name="im_group_banned_add_speakable_uris_by_operator">%1$s被%2$s设置为发言人员</string>
+
+    <string name="im_group_banned_add_speakable_uris_by_operator_more">%1$s等%3$d人被%2$s设置为发言人员</string>
+
+    <string name="im_group_banned_remove_speakable_uris_by_operator">%1$s将%2$s从发言名单移除</string>
+
+    <string name="im_group_banned_remove_speakable_uris_by_operator_more">%1$s将%2$s等%3$d从发言名单移除</string>
+
+    <string name="im_group_you_have_been_banned_unbanned_after">禁言中，约%1$s后解禁</string>
+
+    <string name="im_group_banned_set_banned_duration">设置禁言时长</string>
+
+    <string name="im_group_banned_cancel">取消</string>
+
+    <string name="im_group_banned_second">%1$s秒</string>
+    <string name="im_group_banned_minute">%1$s分</string>
+    <string name="im_group_banned_hour">%1$s小时</string>
+    <string name="im_group_banned_day">%1$s天</string>
+
+    <string name="im_group_banned_unbanned_after">约%1$s后解除禁言</string>
+
+    <string name="im_group_banned_remove">移除</string>
+
+    <string name="im_group_banned_add_speakable_member">添加发言成员</string>
+    <string name="im_group_banned_add_speakable_member_sucs">添加发言成员成功</string>
+    <string name="im_group_banned_add_speakable_member_faild">添加发言成员失败</string>
+
+    <string name="im_group_banned_remove_speakable_member_sucs">移除发言成员成功</string>
+    <string name="im_group_banned_remove_speakable_member_faild">移除发言成员失败</string>
+
+</resources>

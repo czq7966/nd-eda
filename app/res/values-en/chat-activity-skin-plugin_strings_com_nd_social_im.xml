@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string name="chat_chat_background">Chat Background</string>
+    <string name="chat_birh_background">Birthday Background</string>
+    <string name="chat_holiday_background">Festival Background</string>
+    <string name="chat_holiday_background_tip">Activate \"Festival Background\", you will have a background surprise on that day.</string>
+    <string name="chat_friend_background">Friend Background</string>
+    <string name="chat_friend_background_tip">Activate \"Friends Background\". This will become a special background when the people you are following also follow you.</string>
+
+</resources>

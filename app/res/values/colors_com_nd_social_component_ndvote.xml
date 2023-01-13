@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 公用颜色值 -->
+    <color name="ndvote_common_bg_color">@color/color23</color> <!-- 公用背景颜色 -->
+    <color name="ndvote_common_title_divider_color">@color/color8</color> <!-- 公用标题分割线颜色 -->
+    <color name="ndvote_common_text_color">@color/color1</color><!-- 公用文本颜色 -->
+    <color name="ndvote_common_textHint_color">@color/color4</color> <!-- 公用文本提示颜色 -->
+    <color name="ndvote_common_textHigh_color">@color/color3</color> <!-- 公用文本高亮颜色 -->
+    <color name="ndvote_common_editext_hint_color">@color/color5</color> <!-- 公用编辑框提示颜色 -->
+    <color name="ndvote_common_editext_bg_color">@android:color/transparent</color> <!-- 公用编辑框背景颜色 -->
+    <color name="ndvote_common_btn_text_color">#ffffff</color><!-- 公用按钮文本颜色 -->
+    <color name="ndvote_common_btn_bg_normal_color">@color/color14</color><!-- 公用按钮背景颜色 -->
+    <color name="ndvote_common_btn_bg_pressed_color">#63B8FF</color><!-- 公用按钮背景颜色 -->
+    <color name="ndvote_common_divide_line_color">@color/color8</color> <!-- 公用分割线颜色 -->
+    <color name="ndvote_common_listView_divider_color">@color/color8</color>
+    <!-- 对话框相关-->
+    <color name="ndvote_common_dialog_bg_color">#ffffff</color> <!-- 公用对话框背景颜色 -->
+    <color name="ndvote_common_dialog_title_textColor">@color/color1</color>
+    <color name="ndvote_common_dialog_content_textColor">@color/color1</color>
+    <color name="ndvote_common_dialog_btn_textColor">@color/color3</color> <!-- 公用对话框背景颜色 -->
+    <color name="ndvote_common_dialog_divider_color">@color/color8</color>
+    <color name="ndvote_common_alert_dialog_btn_normal">#FFFFFF</color>
+    <color name="ndvote_common_alert_dialog_btn_pressed">#F0F0F0</color>
+    <color name="ndvote_common_cicleDialog_textColor">#FFFFFF</color> <!-- 加载进度条对话框文字颜色 -->
+    <color name="ndvote_common_cicleDialog_bg">#90000000</color>
+    <color name="ndvote_common_numberpicker_textColor">@color/color1</color>
+    <!-- 投票列表 -->
+    <color name="ndvote_votelist_radio_bg">@color/navigation_title_second_bg_color</color>
+    <color name="ndvote_votelist_radio_normal">@color/navigation_title_second_separate_color</color>
+    <color name="ndvote_votelist_radio_check">@color/navigation_title_second_line_color</color>
+    <color name="ndvote_votelist_radio_text_checked">@color/navigation_title_second_pressed_color</color>
+    <color name="ndvote_votelist_radio_text">@color/navigation_title_second_color</color>
+    <color name="ndvote_votelist_item_bg_color">#FFFFFF</color> <!-- 主页投票列表项的背景色 -->
+    <color name="ndvote_votelist_item_bg_frame_color">@color/color23</color> <!-- 主页投票列表项的背景边框色 -->
+    <color name="ndvote_votelist_item_name_color">@color/color1</color> <!-- 投票View 昵称颜色-->
+    <color name="ndvote_votelist_item_minor_text_color">@color/color4</color> <!-- 投票View 次级文本(发布时间、来源等)颜色-->
+    <color name="ndvote_votelist_item_title_root_bg_color">@color/color23</color>
+    <color name="ndvote_votelist_item_title_icon_bg_color">@color/color14</color>
+    <color name="ndvote_votelist_item_title_icon_text_color">@color/color7</color>
+    <color name="ndvote_votelist_item_content_text_color">@color/color1</color> <!-- 投票View 文本内容颜色-->
+    <color name="ndvote_votelist_item_content_textHint_color">@color/color4</color> <!-- 投票View 文本内容颜色-->
+    <!-- 投票选项列表显示-->
+    <color name="ndvote_vote_precent_src_color">#939393</color>
+    <color name="ndvote_vote_precent_line_color">@color/color8</color>
+    <color name="ndvote_display_dovote_bg_color">@android:color/transparent</color>
+    <color name="ndvote_optionlist_item_minor_text_color">@color/color4</color> <!-- 投票View 次级文本(百分比等)颜色-->
+    <color name="ndvote_optionlist_item_pic_text_color">@color/color7</color> <!-- 图文类型的图片上的文本颜色-->
+    <!-- 投票详情-->
+    <color name="ndvote_detail_voteview_bg_color">#FFFFFF</color> <!-- 投票详情Voete背景色 -->
+    <color name="ndvote_detail_voteview_bg_frame_color">@color/color23</color> <!-- 投票详情Vote背景边框色 -->
+    <color name="ndvote_detail_voteview_title_color">@color/color1</color> <!-- 投票标题颜色 -->
+    <color name="ndvote_detail_voteview_part_num_label_textColor">@color/color7</color> <!-- 投票参与人数颜色 -->
+    <color name="ndvote_detail_more_dialog_bgColor">@color/color11</color>
+    <color name="ndvote_detail_more_dialog_cancel_bgColor">@color/color7</color>
+    <color name="ndvote_detail_more_dialog_cancel_textColor">@color/color2</color>
+    <color name="ndvote_detail_more_dialog_item_textColor">@color/color1</color>
+
+    <!-- 发布投票页面-->
+    <color name="ndvote_publish_subview_bg_color">#ffffff</color> <!-- 发布投票页面子模块背景色-->
+    <color name="ndvote_publish_edtext_bg_color">@android:color/transparent</color>
+    <color name="ndvote_publish_edtext_text_color">@color/color1</color>
+    <color name="ndvote_publish_edtext_textHint_color">@color/color5</color>
+    <color name="ndvote_publish_addAndDel_text_color">@color/color3</color> <!-- 添加说明和删除说明文本颜色-->
+    <color name="ndvote_publish_dateDialog_title_bg_color">@color/color23</color>
+    <color name="ndvote_publish_dateDialog_divider_color">@color/color14</color>
+
+    <color name="ndvote_censor_text">#FF0000</color><!--敏感词颜色-->
+    <!-- 群统计投票结果背景颜色-->
+    <color name="ndvote_interactive_result_bg_org">#ff995c</color>
+    <color name="ndvote_interactive_result_bg_pup">#8568fc</color>
+    <color name="ndvote_interactive_result_bg_blue">#3896ff</color>
+    <color name="ndvote_interactive_result_bg_green">#21e692</color>
+    <color name="ndvote_interactive_result_bg_red">#fe7379</color>
+    <color name="ndvote_interactive_signup_bg_grey">#f0f5ff</color>
+
+
+</resources>

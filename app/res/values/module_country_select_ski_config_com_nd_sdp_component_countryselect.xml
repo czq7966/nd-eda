@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!--右上搜索按钮图标-->
+  <drawable name="module_country_select_search_icon">@drawable/general_top_icon_search_android</drawable>
+
+
+  <!--右侧字母栏-字体颜色-未选中-->
+  <color name="module_country_select_slidebar_font_normal">@color/color14</color>
+  <!--右侧字母栏-字体颜色-选中-->
+  <color name="module_country_select_slidebar_font_pressed">#3399ff</color>
+
+  <!--中间字母弹窗-字体颜色-->
+  <color name="module_country_select_slidebar_dialog_font">@color/color7</color>
+
+
+  <!--字母分组标题-字体颜色-->
+  <color name="module_country_select_item_catalog_font">@color/color4</color>
+  <!--字母分组标题-背景颜色-->
+  <color name="module_country_select_item_catalog_bg">@color/color10</color>
+
+
+  <!--列表项，地区名称-字体颜色-->
+  <color name="module_country_select_item_name_font">@color/color1</color>
+  <!--列表项，地区编码-字体颜色-->
+  <color name="module_country_select_item_code_font">@color/color4</color>
+  <!--列表项，分割线颜色-->
+  <color name="module_country_select_item_line">@color/color8</color>
+
+</resources>

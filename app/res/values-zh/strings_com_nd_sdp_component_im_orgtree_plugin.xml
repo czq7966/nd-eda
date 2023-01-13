@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="orgtree_app_name">组织</string>
+    <string name="orgtree_search">搜索</string>
+    <string name="orgtree_no_result">无结果</string>
+    <string name="orgtree_load_fail_text">组织树加载失败</string>
+    <string name="orgtree_refresh">刷新</string>
+    <string name="orgtree_data_load_faild">数据加载失败</string>
+    <string name="orgtree_intro">简介 >></string>
+    <string name="orgtree_btn_ok_text">确定</string>
+    <string name="orgtree_more">更多</string>
+    <string name="orgtree_select_user_limit">人数超过上限%d个</string>
+    <string name="orgtree_sel_org_node">选择部门</string>
+    <string name="orgtree_data_load_text">加载数据</string>
+    <string name="orgtree_select_org_node_limit">选择的节点超过上限</string>
+
+    <string name="orgtree_filter_tag">标签</string>
+
+    <string name="orgtree_filter_tag_tip">筛选条件：</string>
+
+    <string name="orgtree_node_tag">节点标签</string>
+    <string name="orgtree_user_tag">人员标签</string>
+
+    <string name="orgtree_all_user_amount_format">| 共%1$s人</string>
+
+    <string name="orgtree_network_unavailable">网络不可用</string>
+    <string name="orgtree_start_sync">开始同步</string>
+    <string name="orgtree_syncing">正在同步</string>
+    <string name="orgtree_btn_cancel_text">取消</string>
+
+    <string name="orgtree_sync_tip">要准备同步标签数据啦～可能需要较长时间，请耐心等待呦</string>
+    <string name="orgtree_my_org_name">我的组织</string>
+    <string name="orgtree_need_to_apply">需申请加入</string>
+    <string name="orgtree_join_directly">直接加入</string>
+    <string name="orgtree_sel_org">选择组织</string>
+    <string name="orgtree_org_inst">机构</string>
+    <string name="orgtree_search_result">搜索结果：%d个组织</string>
+
+    <string name="orgtree_tag_selector_load_fail">标签数据加载失败</string>
+    <string name="orgtree_tag_selector_empty">标签数据为空</string>
+    <string name="orgtree_tag_user_empty_tip">请至少选择一个人员标签</string>
+
+</resources>
