@@ -1596,8 +1596,9 @@ afterEvaluate {
              
 		
 
-              compile ("com.nd.sdp.android:e-cloud-assemble-android:1.0.1.119")
-          
+//              compile ("com.nd.sdp.android:e-cloud-assemble-android:1.0.1.119")
+
+                compile project(":e-cloud-assemble-android")
               // x学习定制的im界面，IM同学维护
               compile("com.nd.android.sdp.im:im-x-study-gluein:22.16.2.15184.release") {     
               	exclude group: 'com.android.support'

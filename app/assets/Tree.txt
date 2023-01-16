@@ -1,5 +1,5 @@
 
-    217 MB	       0 B	\--- project :app
+    215 MB	       0 B	\--- project :app
  34.563 MB	    927 KB	 	+--- com.nd.sdp.android:edu-appraise-pro:0.0.2
   8.170 MB	    911 KB	 	|	+--- com.nd.android.smartcan:smartcan-appfactory:3.5.12-androidx.2 -> 3.5.39-release.1
  72.395 KB	 72.395 KB	 	|	|	+--- com.google.android.play:core:1.5.0
@@ -4135,49 +4135,13 @@
     146 KB	    146 KB	 	+--- com.tencent.android.weixin:open_sdk:1.0
     245 KB	    245 KB	 	+--- com.nd.sdp.android:social-alipay:3.0.3
  21.866 MB	    344 KB	 	+--- com.nd.sdp.android:ndpayment:0.10.72.46bde8b -> 0.10.73.af27dc1
- 54.386 MB	  2.317 MB	 	+--- com.nd.sdp.android:e-cloud-assemble-android:1.0.1.119
+ 13.131 MB	       0 B	 	+--- project :e-cloud-assemble-android
   4.047 MB	 22.316 KB	 	|	+--- com.nd.sdp.android.common:res:0.2.6-release -> 2.6.3
   8.236 MB	 67.701 KB	 	|	+--- com.nd.sdp.android.centralsdk:configuration-central-sdk:3.0.0.12.release -> 3.0.0.13.release
   5.068 MB	 73.708 KB	 	|	+--- com.nd.hy.android.hermes:hermes-frame:2.2.7-rc03
   3.178 MB	 28.129 KB	 	|	+--- com.nd.hy.android.hermes:commons-view:2.2.7-rc03
   8.388 MB	 27.134 KB	 	|	+--- com.nd.hy.android.hermes:hermes-compat:2.2.7-rc03
- 26.533 KB	  1.750 KB	 	|	+--- androidx.databinding:viewbinding:3.6.4 -> 4.2.2
-  1.512 MB	  8.604 KB	 	|	+--- org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.40 -> 1.3.50
-  2.412 MB	  1.027 MB	 	|	+--- androidx.appcompat:appcompat:1.0.0
- 24.783 KB	 24.783 KB	 	|	+--- androidx.annotation:annotation:1.0.0
-  1.508 MB	    344 KB	 	|	+--- androidx.recyclerview:recyclerview:1.0.0
-  1.647 MB	  2.777 KB	 	|	+--- androidx.legacy:legacy-support-v4:1.0.0
-    181 KB	 62.794 KB	 	|	+--- androidx.constraintlayout:constraintlayout:1.1.3
-  8.170 MB	    911 KB	 	|	+--- com.nd.android.smartcan:smartcan-appfactory:3.5.17-release.1 -> 3.5.39-release.1
-  8.362 MB	    220 KB	 	|	+--- com.nd.android.smartcan:smartcan-accountclient-aar:1.3.1.7.ucsdk.release -> 1.3.1.9.ucsdk.release
- 46.163 MB	  5.381 MB	 	|	+--- com.nd.android.sdp.im:module_im:22.16.2.15180.release -> 22.16.3.15201.release
-  7.310 MB	 52.461 KB	 	|	+--- com.nd.android.im:im-extend-layer:2.5.113.release -> 3.0.138.release
- 26.626 KB	  1.843 KB	 	|	+--- com.nd.sdp.android.serviceloader:service-loader-annotation:1.2.0 -> 1.3.0
- 34.807 KB	 10.023 KB	 	|	+--- com.nd.sdp.android.serviceloader:service-loader:1.2.0 -> 1.3.0
-  8.999 MB	 24.166 KB	 	|	+--- com.nd.sdp.im:group_config:23.6.68.release -> 23.6.77.develop
-  1.664 MB	  5.391 KB	 	|	+--- com.nd.hy.android.hermes:commons-data:2.2.6-rc7 -> 2.2.7-rc03
- 15.495 MB	 62.371 KB	 	|	+--- nd.sdp.common:leaf-android:1.6.0 -> 1.6.2
-    887 KB	  6.051 KB	 	|	+--- com.squareup.retrofit2:converter-gson:2.6.4
-    629 KB	    126 KB	 	|	+--- com.squareup.retrofit2:retrofit:2.6.4
-  2.692 MB	 15.544 KB	 	|	+--- com.squareup.retrofit2:adapter-rxjava2:2.6.4
-  2.063 MB	  2.061 MB	 	|	+--- io.reactivex.rxjava2:rxjava:2.0.7 -> 2.1.2
-  2.073 MB	  9.671 KB	 	|	+--- io.reactivex.rxjava2:rxandroid:2.0.1
-    515 KB	 12.193 KB	 	|	+--- com.squareup.okhttp3:logging-interceptor:3.4.1 -> 3.12.1
- 10.426 MB	    168 KB	 	|	+--- com.nd.sdp.android:nd-address-chooser:1.0.9 -> 1.1.3
- 19.663 MB	 95.348 KB	 	|	+--- com.nd.sdp.android:e-frame:6.1.2-rc5 -> 13.1.7-rc.2
-    186 KB	    161 KB	 	|	+--- com.jakewharton.rxbinding2:rxbinding:2.0.0
- 24.783 KB	 24.783 KB	 	|	|	\--- androidx.annotation:annotation:1.0.0
-  3.139 MB	    280 KB	 	|	+--- com.nd.android.smartcan:framework-aar:3.4.03-release.1 -> 3.4.09-release.1
-  1.158 MB	 47.063 KB	 	|	+--- com.nd.sdp.uc:nducsdk:0.1.3.8.nducsdk.release -> 0.1.5.0.nducsdk.release
- 33.732 KB	 33.732 KB	 	|	+--- jp.wasabeef:glide-transformations:2.0.1
- 31.563 KB	 31.563 KB	 	|	+--- com.nd.sdp.android.common.ui:nd-recycle-list:1.0.1
-  1.532 MB	 20.613 KB	 	|	+--- com.nd.xst:dynamic-blur-view:0.2-rc2
- 11.537 MB	    241 KB	 	|	+--- com.nd.sdp.android:xst-config:1.3.9-rc12 -> 1.4.3-rc02
- 20.486 MB	    219 KB	 	|	+--- com.nd.sdp.android:censor-sdk:18.8.0.androidx.4d6caed -> 19.0.6.ad9bce5
- 13.367 MB	    287 KB	 	|	+--- com.nd.sdp.android:xst-class-sdk:4.5-rc01 -> 4.6-rc09
-  4.471 MB	 12.104 KB	 	|	+--- com.nd.sdp.android:x-app-status:1.3-rc01 -> 1.3.8-rc02
-  9.588 MB	    200 KB	 	|	+--- com.nd.sdp.android:webviewwrapper:3.5.24-xst04 -> 3.5.24-xst05
- 18.070 MB	    250 KB	 	|	\--- com.nd.sdp.android:ele_common_widget:1.5-rc09 -> 1.6-rc10
+ 26.533 KB	  1.750 KB	 	|	\--- androidx.databinding:viewbinding:3.6.4 -> 4.2.2
  46.356 MB	    198 KB	 	+--- com.nd.android.sdp.im:im-x-study-gluein:22.16.2.15184.release
  26.626 KB	  1.843 KB	 	|	+--- com.nd.sdp.android.serviceloader:service-loader-annotation:1.3.0
  34.807 KB	 10.023 KB	 	|	+--- com.nd.sdp.android.serviceloader:service-loader:1.3.0
@@ -4723,7 +4687,6 @@
  20.515 MB	 69.644 KB	 	+--- com.nd.sdp.android:mui-countryselect:{strictly 0.0.2.89036d3} -> 0.0.2.89036d3
   8.267 KB	  8.267 KB	 	+--- com.nd.sdp.android:social-wxpay:{strictly 3.0.3.3} -> 3.0.3.3
     245 KB	    245 KB	 	+--- com.nd.sdp.android:social-alipay:{strictly 3.0.3} -> 3.0.3
- 54.386 MB	  2.317 MB	 	+--- com.nd.sdp.android:e-cloud-assemble-android:{strictly 1.0.1.119} -> 1.0.1.119
  46.356 MB	    198 KB	 	+--- com.nd.android.sdp.im:im-x-study-gluein:{strictly 22.16.2.15184.release} -> 22.16.2.15184.release
  39.117 MB	  2.748 MB	 	+--- com.nd.eda:e-study-activity:{strictly 1.1.0.105} -> 1.1.0.105
  14.908 MB	    119 KB	 	+--- com.nd.eda:e-study-content:{strictly 1.1.0.105} -> 1.1.0.105
@@ -5384,7 +5347,6 @@
  20.500 MB	 53.777 KB	 	+--- com.nd.sdp.android:wallet-payment-common-sdk:{strictly 0.1.022.ad6825e} -> 0.1.022.ad6825e
  59.099 KB	 59.099 KB	 	+--- com.nd.sdp.android:social-nd-pay-sdk:{strictly 3.0.3.1} -> 3.0.3.1
  59.360 KB	 59.360 KB	 	+--- com.nd.sdp.android:password-input:{strictly 0.0.9.a140bd8} -> 0.0.9.a140bd8
-    186 KB	    161 KB	 	+--- com.jakewharton.rxbinding2:rxbinding:{strictly 2.0.0} -> 2.0.0
  13.616 KB	 13.616 KB	 	+--- com.nd.android.im:im-blur-view-library:{strictly 3.0.135.develop} -> 3.0.135.develop
  24.682 MB	    344 KB	 	+--- com.nd.xst:x-video:{strictly 0.8.3-rc08} -> 0.8.3-rc08
  21.843 MB	 82.671 KB	 	+--- com.nd.xst:x-doc:{strictly 0.8.3-rc08} -> 0.8.3-rc08
@@ -5572,7 +5534,6 @@ jar	com.nd.sdp.im.protobuf:im-protobuf:2.6.10
 jar	org.bouncycastle:bcprov-jdk15to18:1.69
 aar	com.nd.eda:e-study-activity:1.1.0.105
 aar	com.nd.sdp.uc:nd_uc_component:0.2.3.1.nduc.release
-aar	com.nd.sdp.android:e-cloud-assemble-android:1.0.1.119
 aar	com.nd.sdp.android:edu-notice:0.2.52
 jar	io.reactivex.rxjava2:rxjava:2.1.2
 aar	com.nd.sdp.android:react-wrapper:0.9.0
@@ -5761,7 +5722,6 @@ jar	io.reactivex.rxjava2:rxkotlin:2.1.0
 aar	com.nd.mob.stat:x-stat:1.0.2-rc08
 aar	com.nd.android.sdp.im:boxview:0.10.1.170.release
 aar	androidx.transition:transition:1.0.0
-aar	com.jakewharton.rxbinding2:rxbinding:2.0.0
 aar	com.nd.android.sdp.im:module_birthday_res:13.2.10.release
 aar	com.nd.sdp.android.common.ui:nd-calendar2:3.0.3-release.1
 aar	com.jakewharton.rxbinding:rxbinding:0.4.0
@@ -6329,3 +6289,4 @@ aar	com.nd.sdp.android:e-video-player-common:0.3-rc7
 jar	androidx.lifecycle:lifecycle-common-java8:2.0.0
 jar	com.jakewharton.hugo:hugo-annotations:1.2.1
 jar	com.parse.bolts:bolts-android:1.4.0
+pom	project :e-cloud-assemble-android

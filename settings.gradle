@@ -1,1 +1,4 @@
 include ':app'
+include ':e-cloud-assemble-android'
+
+project(':e-cloud-assemble-android').projectDir = new File("E:\\data\\eda\\android\\comps\\e-cloud-assemble-android\\module")
