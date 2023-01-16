@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:apps="http://schemas.android.com/apk/res-auto"
+        android:background="@drawable/ele_vtnew_bg_card_selector"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
+
+        <com.nd.hy.android.refactor.elearning.template.widget.RoundImageViewRadius
+            android:id="@+id/image01"
+            style="@style/EleVtNewChannelImgCoverx"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+             apps:vtnew_radius="8dp"
+            tools:background="@drawable/ele_vtnew_img_default_x" />
+
+        <TextView
+            android:layout_alignEnd="@+id/image01"
+            android:layout_alignTop="@+id/image01"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="10dp"
+            tools:text="公开课"
+            android:id="@+id/label10"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:background="@drawable/ele_vtnew_bg_tag_h"
+            android:textColor="@color/ele_vtnew_color7"
+            android:textSize="@dimen/ele_vtnew_fontsize_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:layout_toEndOf="@+id/image01"
+            android:layout_toRightOf="@+id/image01"
+            android:layout_alignBottom="@+id/image01"
+            android:layout_alignTop="@+id/image01"
+            android:layout_marginStart="14dp">
+
+            <TextView
+                android:id="@+id/label01"
+                android:textDirection="locale"
+                android:maxLines="2"
+                tools:text="ssssssssssss"
+                style="@style/EleVtNewChannelItemTitleStyle"
+                />
+
+                <TextView
+                    android:id="@+id/label02"
+                    android:textDirection="locale"
+                    android:text="MIAOSHUsss"
+                    style="@style/EleVtNewItemDescStyle"
+                    android:gravity="top"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/ele_vtnew_color2"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="10dp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <ImageView
+                android:id="@+id/image02"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                />
+
+            <TextView
+                android:id="@+id/label03"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="3dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/ele_vtnew_color4"
+                android:textSize="@dimen/fontsize7"
+                tools:text="168人"
+                />
+
+            <ImageView
+                android:id="@+id/image03"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+               />
+
+            <TextView
+                android:id="@+id/label04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/ele_vtnew_color4"
+                android:textSize="@dimen/fontsize7"
+                tools:text="3.53课时"
+                />
+        </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+</RelativeLayout>

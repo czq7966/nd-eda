@@ -222,7 +222,7 @@ public class G_app_config implements IJsonMapCreator
 			func_0((Map<String, Object>) stack.peek());
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
-			map1.put("build_time", 1673505888332L);
+			map1.put("build_time", 1673865021618L);
 			map1.put("scope", "app");
 			map1.put("allow_check_update", "true");
 			stack.push(new ArrayList<>(18));

@@ -61,7 +61,7 @@ public class G_app_app implements IJsonMapCreator
 			map1.put("dns_enable", "false");
 			map1.put("stage", "eda");
 			map1.put("env_client", "eda");
-			map1.put("build_time", 1673505888332L);
+			map1.put("build_time", 1673865021618L);
 			map1.put("scope", "app");
 			map1.put("allow_check_update", "true");
 			stack.push(new ArrayList<>(18));

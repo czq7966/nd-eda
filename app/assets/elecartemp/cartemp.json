@@ -2811,33 +2811,5 @@
     "template_code": "Temp01",
     "template_expand_codes": null,
     "unit_id": null
-  }, {
-    "content": {
-      "label07": "   function GetValue(data) {        var sdata = JSON.parse(data);        if(sdata&&sdata.extra){            if(sdata.extra.experience_type=='1'||sdata.extra.experience_type==1){                return '免费体验';            }        }    }",
-      "label06": "function GetValue(data) {        var sdata = JSON.parse(data);        if(sdata&&sdata.commodity){            if(sdata.commodity.is_vip==true){                return '会员优惠';            }        }    }",
-      "label05": "function GetValue(data) {        var sdata = JSON.parse(data);        if(sdata&&sdata.commodity){            if(sdata.commodity.is_free){                return '免费';            }else if(sdata.commodity.display_amount){                return sdata.commodity.display_amount;              }        }    }",
-      "label04": "function GetValue(data) {        var sdata = JSON.parse(data);        if(sdata&&sdata.extra&&sdata.extra.period){            return  parseFloat(sdata.extra.period)+'课时';         }    }",
-      "label08": "function GetValue(data) {        var sdata = JSON.parse(data);        if(sdata&&sdata.commodity){            if(sdata.commodity.is_free){                return '免费';            }        }    }",
-      "image02": "function GetValue(data){return 'icon_user';};",
-      "label10": "function GetValue(data) {            return  '';     }",
-      "image01": "function GetValue(data) {        var sdata = JSON.parse(data);        if (sdata) {            return sdata.cover_url        }    }",
-      "image03": "function GetValue(data){return 'icon_hour';};",
-      "label03": "function GetValue(data) {        var sdata = JSON.parse(data);        if(sdata){            if(sdata.user_count){                return sdata.user_count+'人';            }else {                return '0'+'人';            }        }    }",
-      "label14": "function splicingUnits(price,type){        var priceunits='';        var pricenum='';        var len=price.length;        for(var i=0;i<len;i++){            if(!(isNaN(price[i]))||(price[i] == '.')){                pricenum +=price[i];            }else {                priceunits +=price[i];            }        }        if(priceunits){           priceunits =priceunits+' '        }        if(type ==1){            return priceunits;        }else {            return pricenum;        }    }    function GetValue(data) {        var sdata = JSON.parse(data);        if (sdata && sdata.commodity) {            if (sdata.commodity.display_amount) {                return splicingUnits(sdata.commodity.display_amount,2);            }        }    }",
-      "label02": "function GetValue(data) {        var sdata = JSON.parse(data);        if(sdata){            return sdata.description;        }    }",
-      "label13": "function splicingUnits(price,type){        var priceunits='';        var pricenum='';        var len=price.length;        for(var i=0;i<len;i++){            if(!(isNaN(price[i]))||(price[i] == '.')){                pricenum +=price[i];            }else {                priceunits +=price[i];            }        }        if(priceunits){           priceunits =priceunits+' '        }        if(type ==1){            return priceunits;        }else {            return pricenum;        }    };    function GetValue(data) {        var sdata = JSON.parse(data);        if (sdata && sdata.commodity) {            if (sdata.commodity.display_amount) {                return splicingUnits(sdata.commodity.display_amount,1);            }        }    }",
-      "label01": "function GetValue(data) {        var sdata = JSON.parse(data);        if(sdata){            return sdata.title;        }    }",
-      "label12": "function GetValue(data) {        var sdata = JSON.parse(data);        if(sdata&&sdata.extra&&sdata.extra.period){            return  '课时';         }    }",
-      "label11": "function GetValue(data) {        var sdata = JSON.parse(data);        if(sdata&&sdata.extra&&sdata.extra.period){            return  parseFloat(sdata.extra.period)+' ';        }    }"
-    },
-    "mobile_expand_urls": null,
-    "mobile_url": "function GetValue(data) {            var vdata = JSON.parse(data);            if(vdata){                var cmp='';                if(vdata.unit_id){                     cmp='cmp://com.nd.eda.ecourse/tcourse?courseId=' +vdata.unit_id;                }else if(vdata.resource_id){                     cmp='cmp://com.nd.eda.ecourse/tcourse?courseId=' +vdata.resource_id;                }                if(vdata.override_tenant){    var encodeCmp = encodeURIComponent(cmp);    return 'cmp://com.nd.edu.component.el-router/router?targetCmp='+encodeCmp + '&bizType='+vdata.override_tenant.override_sdp_biz_type + '&projectId='+vdata.override_tenant.override_sdp_tenant_id;                 }else {                    return cmp;                }            }        }",
-    "mobile_url2": null,
-    "project_id": null,
-    "res_type": "t_course",
-    "scenes_code": "Scenes30",
-    "template_code": "TempBx",
-    "template_expand_codes": null,
-    "unit_id": "function GetValue(data) {        var sdata = JSON.parse(data);        if(sdata&&sdata.unit_id){            return sdata.unit_id        }    }"
   }]
 }

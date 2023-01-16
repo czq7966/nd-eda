@@ -317,7 +317,7 @@ android {
 
             
             
-				def im_version = "22.16.3.15200.release"
+				def im_version = "22.16.3.15201.release"
 				compile("com.nd.sdp.im:GroupMemberNickManager:${im_version}") {     
                     exclude group: 'com.android.support'
                     exclude group:'com.nd.android.im_plugin',module:'im-plugin-group-ad'
@@ -1241,7 +1241,7 @@ afterEvaluate {
         
 
             
-			     compile('com.nd.sdp.android:edu-notice:0.2.51@aar') {
+			     compile('com.nd.sdp.android:edu-notice:0.2.52@aar') {
                     exclude module: 'active-android'
 			        transitive = true
 			        changing = true
@@ -1259,7 +1259,7 @@ afterEvaluate {
         
 
     	  
-  			compile 'com.nd.sdp.android:x-habit-train-android:0.3.9.7-rc70'
+  			compile 'com.nd.sdp.android:x-habit-train-android:0.3.9.7-rc71'
 		
 		
 
@@ -1282,7 +1282,7 @@ afterEvaluate {
     	
 
             
-			    compile 'com.nd.sdp.android:edu-family-android:2.2.0-rc03'
+			    compile 'com.nd.sdp.android:edu-family-android:2.2.1-rc01'
                 android {
 	              packagingOptions {
 	              	exclude 'LICENSE.txt'
@@ -1327,7 +1327,7 @@ afterEvaluate {
 		
 
             
-       		    implementation ("com.nd.xst:x-player-component:0.8.2-rc07")
+       		    implementation ("com.nd.xst:x-player-component:0.8.3-rc08")
                 //视频
                 def xstVideoVersion = "2.0.2-rc08" 
                 implementation "com.nd.sdp.ele.android.video:video:${xstVideoVersion}" 
@@ -1360,29 +1360,6 @@ afterEvaluate {
           compile ("com.nd.sdp.android:x-app-startup-android:1.3.8-rc02")
         
 
-			
-				android {
-                    compileOptions {
-                        sourceCompatibility 1.8
-                        targetCompatibility 1.8
-                    }
-                }
-			    compile('com.nd.sdp.android.social:nd-vote-component:2.0.23') {
-			        transitive = true
-			        changing = true
-                    exclude group: 'com.nd.android.sdp.im.common.widget', module: 'emotion'
-                    exclude group: 'com.nd.android.sdp.im', module: 'imsdk'
-                    exclude group: 'com.nd.sdp.component.im', module: 'im-coresdk-impl'
-                    exclude group: 'com.nd.android.sdp.im', module: 'im_common'
-			    }
-                compile("com.nd.sdp.im:flowInteractExtender:0.2.6.release") {
-                    exclude group: 'com.nd.android.sdp.im', module: 'imsdk'
-                    exclude group: 'com.nd.sdp.component.im', module: 'im-coresdk-impl'
-                    exclude group: 'com.nd.android.sdp.im', module: 'im_common'
-                }
-             
-		
-
                     compile('com.nd.sdp.android:microblog-mobile-common:1.0.12') {
                         transitive = true
                         changing = true
@@ -1409,18 +1386,18 @@ afterEvaluate {
        
 					
 
-       		def interactVer = "0.2.9-rc05"
+       		def interactVer = "0.3.0-rc07"
        		implementation "com.nd.xst:xst-content-interact:${interactVer}"
             implementation "com.nd.xst:xst-interact-sdk:${interactVer}"
 		
 
 		
-			compile('com.nd.sdp.android:e-teacher-studio:0.0.1-beta.172') 
+			compile('com.nd.sdp.android:e-teacher-studio:0.0.1-beta.173') 
 		
 		
 
 			
-     			compile 'com.nd.sdp.android:edu-schedule:1.1.0.21'
+     			compile 'com.nd.sdp.android:edu-schedule:1.1.0.24'
          
           
 		
@@ -1456,7 +1433,7 @@ afterEvaluate {
 		
 
 		
-			compile('com.nd.sdp.android:e-prepare-lessons:0.0.1-beta.55') 
+			compile('com.nd.sdp.android:e-prepare-lessons:0.0.1-beta.57') 
 		
 		
 
@@ -1491,7 +1468,7 @@ afterEvaluate {
             compile 'com.nd.sdp.android:xst-app-faq:0.1-rc05'
         
 
-        	implementation 'com.nd.xst:xst-app-center:1.1.0-rc10'
+        	implementation 'com.nd.xst:xst-app-center:1.1.0-rc12'
         
 
 
@@ -1619,7 +1596,7 @@ afterEvaluate {
              
 		
 
-              compile ("com.nd.sdp.android:e-cloud-assemble-android:1.0.1.117")
+              compile ("com.nd.sdp.android:e-cloud-assemble-android:1.0.1.119")
           
               // x学习定制的im界面，IM同学维护
               compile("com.nd.android.sdp.im:im-x-study-gluein:22.16.2.15184.release") {     
@@ -1635,7 +1612,7 @@ afterEvaluate {
               }
         
 
-            def stuActVersion = "1.1.0.102"
+            def stuActVersion = "1.1.0.105"
         	compile "com.nd.eda:e-study-activity:${stuActVersion}"
             compile "com.nd.eda:e-study-content:${stuActVersion}"
               
@@ -1647,17 +1624,30 @@ afterEvaluate {
         
 
         	
-       		    compile ("com.nd.sdp.android:eda-course:1.1.0.109")
+       		    compile ("com.nd.sdp.android:eda-course:1.1.0.119")
              
+          // 拼装门户
            configurations {
                 all*.exclude group:'com.nd.sdp.android', module: 'x-cloud-assemble-android'
-                all*.exclude group:'com.nd.sdp.android', module: 'xst-course'
-                all*.exclude group:'com.nd.sdp.android', module: 'xst-course-data'
-               all*.exclude group:'com.nd.sdp.android', module: 'xst-coursehour'
-               all*.exclude group:'com.nd.sdp.android', module: 'xst-off-course'
-               all*.exclude group:'com.nd.sdp.android', module: 'xst-course-presenter'
-               all*.exclude group:'com.nd.sdp.android', module: 'xst-course-sdk'
               }
+              //COURSE
+    configurations {
+        all*.exclude group:'com.nd.sdp.android', module: 'xst-course-sdk'
+        all*.exclude group:'com.nd.sdp.android', module: 'xst-course'
+        all*.exclude group:'com.nd.sdp.android', module: 'xst-course-data'
+        all*.exclude group:'com.nd.sdp.android', module: 'xst-coursehour'
+        all*.exclude group:'com.nd.sdp.android', module: 'xst-off-course'
+        all*.exclude group:'com.nd.sdp.android', module: 'xst-course-presenter'
+    }
+
+    //xcloud
+    configurations {
+        all*.exclude group: 'com.nd.sdp.android.xcloud', module: 'xcloud-sdk'
+        all*.exclude group: 'com.nd.sdp.android.xcloud', module: 'xcloud-textview-loader'
+        all*.exclude group: 'com.nd.sdp.android.xcloud', module: 'xcloud-ui'
+        all*.exclude group: 'com.nd.sdp.android.xcloud', module: 'xcloud-screen-lock'
+        all*.exclude group: 'com.nd.sdp.android.xcloud', module: 'eda-xcloud-gbase'
+    }
 		
 
             compile 'com.nd.sdp.android:eda-user-android:1.1.2.007'
@@ -2837,7 +2827,6 @@ def addPermissionAar(group, module, version, add) {
                 } 
             
         
-
 
 
 

@@ -1296,7 +1296,7 @@ public class G_app_service implements IJsonListCreator
 				map1.put("x_cloud_cdn", "https://s-file-1.ykt.cbern.com.cn");
 				map1.put("x_recommend_teacher_studio", "https://bdcs-file-1.ykt.cbern.com.cn/studio/api_static/e5649925-441d-4a53-b525-51a2f1c4e0a8/studio/recommend_studio.json");
 				map1.put("x_recommend_service", "https://x-recommend-service.eda.101.com");
-				map1.put("x_special_cs_servicename", "zxx");
+				map1.put("x_special_cs_servicename", "edastatic");
 				map1.put("x_follow_host", "https://x-follow-api.eda.101.com");
 				map1.put("x_special_topic_home_host", "");
 				map1.put("x_studio_cs_service_name", "studio");
@@ -1305,7 +1305,7 @@ public class G_app_service implements IJsonListCreator
 				map1.put("x_edu_h5_host", "https://h5.zxx.edu.cn");
 				map1.put("x_study_record_host", "https://x-study-record-api.eda.101.com");
 				map1.put("x_course_tab", "http://cdncs.eda.101.com/v0.1/93a87990-0737-4e7c-a392-db18a57d9055/static/eda_course/course_tabs.json");
-				map1.put("x_special_topic_config_tenant", "https://api.ykt.cbern.com.cn/zxx/api_static/conf/librarylist.json");
+				map1.put("x_special_topic_config_tenant", "https://cdncs.eda.101.com/v0.1/static/apistatic/librarylist1.json");
 				map1.put("cdn_service_name", "/zxx");
 				map1.put("x_follow_teacher_studio", "https://bdcs-file-1.ykt.cbern.com.cn/studio/api_static/e5649925-441d-4a53-b525-51a2f1c4e0a8/teach-studio/recommend_studio_content.json");
 				map1.put("x_recommend_article", "https://bdcs-file-1.ykt.cbern.com.cn/studio/front/the_resource/recommend.json");

@@ -27,7 +27,7 @@ public class G_app_components implements IJsonListCreator
 	{
 		Stack<Object> stack = new Stack();
 		Map<String, Object> map1 = null;
-		ArrayList<Object> list1 = new ArrayList<Object>(158);
+		ArrayList<Object> list1 = new ArrayList<Object>(157);
 		stack.push(list1);
 		{
 			list1 = (ArrayList<Object>) stack.peek();
@@ -701,7 +701,7 @@ public class G_app_components implements IJsonListCreator
 			func_133((Map<String, Object>) stack.peek());
 			stack.pop();
 			list1 = (ArrayList<Object>) stack.peek();
-			stack.push(new LinkedHashMap<String, Object>(4));
+			stack.push(new LinkedHashMap<String, Object>(3));
 			list1.add(stack.peek());
 			func_134((Map<String, Object>) stack.peek());
 			stack.pop();
@@ -711,7 +711,7 @@ public class G_app_components implements IJsonListCreator
 			func_135((Map<String, Object>) stack.peek());
 			stack.pop();
 			list1 = (ArrayList<Object>) stack.peek();
-			stack.push(new LinkedHashMap<String, Object>(3));
+			stack.push(new LinkedHashMap<String, Object>(2));
 			list1.add(stack.peek());
 			func_136((Map<String, Object>) stack.peek());
 			stack.pop();
@@ -721,22 +721,22 @@ public class G_app_components implements IJsonListCreator
 			func_137((Map<String, Object>) stack.peek());
 			stack.pop();
 			list1 = (ArrayList<Object>) stack.peek();
-			stack.push(new LinkedHashMap<String, Object>(2));
+			stack.push(new LinkedHashMap<String, Object>(4));
 			list1.add(stack.peek());
 			func_138((Map<String, Object>) stack.peek());
 			stack.pop();
 			list1 = (ArrayList<Object>) stack.peek();
-			stack.push(new LinkedHashMap<String, Object>(4));
+			stack.push(new LinkedHashMap<String, Object>(2));
 			list1.add(stack.peek());
 			func_139((Map<String, Object>) stack.peek());
 			stack.pop();
 			list1 = (ArrayList<Object>) stack.peek();
-			stack.push(new LinkedHashMap<String, Object>(2));
+			stack.push(new LinkedHashMap<String, Object>(3));
 			list1.add(stack.peek());
 			func_140((Map<String, Object>) stack.peek());
 			stack.pop();
 			list1 = (ArrayList<Object>) stack.peek();
-			stack.push(new LinkedHashMap<String, Object>(3));
+			stack.push(new LinkedHashMap<String, Object>(4));
 			list1.add(stack.peek());
 			func_141((Map<String, Object>) stack.peek());
 			stack.pop();
@@ -751,12 +751,12 @@ public class G_app_components implements IJsonListCreator
 			func_143((Map<String, Object>) stack.peek());
 			stack.pop();
 			list1 = (ArrayList<Object>) stack.peek();
-			stack.push(new LinkedHashMap<String, Object>(4));
+			stack.push(new LinkedHashMap<String, Object>(3));
 			list1.add(stack.peek());
 			func_144((Map<String, Object>) stack.peek());
 			stack.pop();
 			list1 = (ArrayList<Object>) stack.peek();
-			stack.push(new LinkedHashMap<String, Object>(3));
+			stack.push(new LinkedHashMap<String, Object>(4));
 			list1.add(stack.peek());
 			func_145((Map<String, Object>) stack.peek());
 			stack.pop();
@@ -811,14 +811,9 @@ public class G_app_components implements IJsonListCreator
 			func_155((Map<String, Object>) stack.peek());
 			stack.pop();
 			list1 = (ArrayList<Object>) stack.peek();
-			stack.push(new LinkedHashMap<String, Object>(4));
-			list1.add(stack.peek());
-			func_156((Map<String, Object>) stack.peek());
-			stack.pop();
-			list1 = (ArrayList<Object>) stack.peek();
 			stack.push(new LinkedHashMap<String, Object>(3));
 			list1.add(stack.peek());
-			func_157((Map<String, Object>) stack.peek());
+			func_156((Map<String, Object>) stack.peek());
 			stack.pop();
 			list1 = (ArrayList<Object>) stack.peek();
 		}
@@ -896,8 +891,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -932,8 +927,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
 				list1.add("native-android");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -968,8 +963,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
 				list1.add("native-ios");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -1012,8 +1007,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -1056,8 +1051,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -1100,8 +1095,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -1179,8 +1174,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -1223,8 +1218,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -1267,8 +1262,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -1311,9 +1306,9 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -1356,8 +1351,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -1400,8 +1395,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -1444,8 +1439,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -1488,8 +1483,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -1532,8 +1527,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -1576,8 +1571,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -1681,8 +1676,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -1725,8 +1720,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -1796,8 +1791,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
 				list1.add("native-android");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -1832,8 +1827,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
 				list1.add("native-android");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -1911,8 +1906,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -2017,8 +2012,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -2061,8 +2056,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -2131,8 +2126,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -2175,8 +2170,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -2219,8 +2214,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -2263,8 +2258,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -2307,8 +2302,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -2343,8 +2338,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
 				list1.add("native-android");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -2387,8 +2382,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -2501,8 +2496,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -2545,8 +2540,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -2616,8 +2611,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
 				list1.add("native-android");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -2660,8 +2655,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -2730,8 +2725,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -2774,8 +2769,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -2818,9 +2813,9 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -2863,8 +2858,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -2907,8 +2902,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -2951,8 +2946,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -2995,8 +2990,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -3031,8 +3026,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
 				list1.add("native-android");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -3067,8 +3062,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
 				list1.add("native-android");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -3095,10 +3090,10 @@ public class G_app_components implements IJsonListCreator
 			map1.put("local-h5", stack.peek());
 			{
 				map1 = (Map<String, Object>) stack.peek();
-				map1.put("host", "https://sdpcs.eda.101.com/v0.1/static/limitation_support_service_eda/ap1670571246227/android/eda/com.nd.sdp.component/model-app/local-h5/1673505857900/test");
-				map1.put("npm", "\"@sdp.nd/model-h5\":\"1.60.58\"");
-				map1.put("build_time", 1673505857900L);
-				map1.put("version", "1.60.58");
+				map1.put("host", "https://sdpcs.eda.101.com/v0.1/static/limitation_support_service_eda/ap1670571246227/android/eda/com.nd.sdp.component/model-app/local-h5/1673864989743/test");
+				map1.put("npm", "\"@sdp.nd/model-h5\":\"1.60.59\"");
+				map1.put("build_time", 1673864989743L);
+				map1.put("version", "1.60.59");
 				map1.put("preassign", "false");
 			}
 			stack.pop();
@@ -3150,8 +3145,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -3229,8 +3224,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -3273,9 +3268,9 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -3318,9 +3313,9 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -3363,8 +3358,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -3407,8 +3402,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -3435,9 +3430,9 @@ public class G_app_components implements IJsonListCreator
 			map1.put("local-h5", stack.peek());
 			{
 				map1 = (Map<String, Object>) stack.peek();
-				map1.put("host", "https://sdpcs.eda.101.com/v0.1/static/limitation_support_service_eda/ap1670571246227/android/eda/com.nd.sdp.component/edu-selector/local-h5/1673505857900/test");
+				map1.put("host", "https://sdpcs.eda.101.com/v0.1/static/limitation_support_service_eda/ap1670571246227/android/eda/com.nd.sdp.component/edu-selector/local-h5/1673864989743/test");
 				map1.put("npm", "\"@sdp.nd/edu-selector-offline\":\"1.0.13\"");
-				map1.put("build_time", 1673505857900L);
+				map1.put("build_time", 1673864989743L);
 				map1.put("version", "1.0.13");
 				map1.put("preassign", "false");
 			}
@@ -3482,8 +3477,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
 				list1.add("native-android");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -3526,8 +3521,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -3570,8 +3565,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -3614,8 +3609,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -3658,8 +3653,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -3737,8 +3732,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -3781,8 +3776,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -3825,8 +3820,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -3879,7 +3874,7 @@ public class G_app_components implements IJsonListCreator
 			{
 				map1 = (Map<String, Object>) stack.peek();
 				map1.put("npm", "\"@sdp.nd/IMGroupStick\":\"0.0.65\"");
-				map1.put("build_time", 1673505857900L);
+				map1.put("build_time", 1673864989743L);
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -3887,10 +3882,10 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("react-ios");
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 				list1.add("react-android");
+				list1.add("react-ios");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -3933,8 +3928,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -3961,7 +3956,7 @@ public class G_app_components implements IJsonListCreator
 			map1.put("widget", stack.peek());
 			{
 				map1 = (Map<String, Object>) stack.peek();
-				map1.put("build_time", 1673505857900L);
+				map1.put("build_time", 1673864989743L);
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -4047,8 +4042,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -4083,8 +4078,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
 				list1.add("native-android");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -4127,8 +4122,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -4171,8 +4166,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -4215,8 +4210,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -4251,8 +4246,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
 				list1.add("native-android");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -4295,8 +4290,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -4365,9 +4360,9 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -4410,8 +4405,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -4454,8 +4449,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -4498,8 +4493,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -4542,8 +4537,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -4586,9 +4581,9 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -4631,8 +4626,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -4710,8 +4705,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -4754,8 +4749,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -4798,9 +4793,9 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -4808,50 +4803,6 @@ public class G_app_components implements IJsonListCreator
 	}
 	 
 	private void func_97(Map<String, Object> map1)
-	{
-		Stack<Object> stack = new Stack();
-		ArrayList<Object> list1 = null;
-		stack.push(map1);
-		{
-			map1 = (Map<String, Object>) stack.peek();
-			stack.push(new LinkedHashMap<String, Object>(2));
-			map1.put("component", stack.peek());
-			{
-				map1 = (Map<String, Object>) stack.peek();
-				map1.put("namespace", "com.nd.social.component");
-				map1.put("name", "score");
-			}
-			stack.pop();
-			map1 = (Map<String, Object>) stack.peek();
-			stack.push(new LinkedHashMap<String, Object>(1));
-			map1.put("native-android", stack.peek());
-			{
-				map1 = (Map<String, Object>) stack.peek();
-				map1.put("class", "com.nd.sdp.android.score.ScoreComponent");
-			}
-			stack.pop();
-			map1 = (Map<String, Object>) stack.peek();
-			stack.push(new LinkedHashMap<String, Object>(1));
-			map1.put("native-ios", stack.peek());
-			{
-				map1 = (Map<String, Object>) stack.peek();
-				map1.put("class", "ScoreComponent");
-			}
-			stack.pop();
-			map1 = (Map<String, Object>) stack.peek();
-			stack.push(new ArrayList<>(2));
-			map1.put("type", stack.peek());
-			{
-				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
-				list1.add("native-ios");
-			}
-			stack.pop();
-			map1 = (Map<String, Object>) stack.peek();
-		}
-	}
-	 
-	private void func_98(Map<String, Object> map1)
 	{
 		Stack<Object> stack = new Stack();
 		ArrayList<Object> list1 = null;
@@ -4887,8 +4838,52 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
+			}
+			stack.pop();
+			map1 = (Map<String, Object>) stack.peek();
+		}
+	}
+	 
+	private void func_98(Map<String, Object> map1)
+	{
+		Stack<Object> stack = new Stack();
+		ArrayList<Object> list1 = null;
+		stack.push(map1);
+		{
+			map1 = (Map<String, Object>) stack.peek();
+			stack.push(new LinkedHashMap<String, Object>(2));
+			map1.put("component", stack.peek());
+			{
+				map1 = (Map<String, Object>) stack.peek();
+				map1.put("namespace", "com.nd.social.component");
+				map1.put("name", "score");
+			}
+			stack.pop();
+			map1 = (Map<String, Object>) stack.peek();
+			stack.push(new LinkedHashMap<String, Object>(1));
+			map1.put("native-android", stack.peek());
+			{
+				map1 = (Map<String, Object>) stack.peek();
+				map1.put("class", "com.nd.sdp.android.score.ScoreComponent");
+			}
+			stack.pop();
+			map1 = (Map<String, Object>) stack.peek();
+			stack.push(new LinkedHashMap<String, Object>(1));
+			map1.put("native-ios", stack.peek());
+			{
+				map1 = (Map<String, Object>) stack.peek();
+				map1.put("class", "ScoreComponent");
+			}
+			stack.pop();
+			map1 = (Map<String, Object>) stack.peek();
+			stack.push(new ArrayList<>(2));
+			map1.put("type", stack.peek());
+			{
+				list1 = (ArrayList<Object>) stack.peek();
+				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -4957,8 +4952,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -5001,8 +4996,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -5037,8 +5032,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
 				list1.add("native-android");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -5081,8 +5076,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -5170,7 +5165,7 @@ public class G_app_components implements IJsonListCreator
 			{
 				map1 = (Map<String, Object>) stack.peek();
 				map1.put("npm", "\"@sdp.nd/el-channel-rn\":\"1.2.22\"");
-				map1.put("build_time", 1673505857900L);
+				map1.put("build_time", 1673864989743L);
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -5178,10 +5173,10 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("react-ios");
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 				list1.add("react-android");
+				list1.add("react-ios");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -5224,9 +5219,9 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -5269,8 +5264,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -5313,9 +5308,9 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -5393,8 +5388,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -5437,8 +5432,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -5481,8 +5476,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -5525,8 +5520,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -5569,8 +5564,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -5613,9 +5608,9 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -5658,8 +5653,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -5702,8 +5697,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -5798,8 +5793,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -5834,8 +5829,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
 				list1.add("native-android");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -5940,8 +5935,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -5984,8 +5979,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -6028,9 +6023,9 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -6073,8 +6068,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -6117,8 +6112,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -6161,8 +6156,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -6205,8 +6200,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -6249,8 +6244,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -6293,8 +6288,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -6337,8 +6332,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -6346,50 +6341,6 @@ public class G_app_components implements IJsonListCreator
 	}
 	 
 	private void func_134(Map<String, Object> map1)
-	{
-		Stack<Object> stack = new Stack();
-		ArrayList<Object> list1 = null;
-		stack.push(map1);
-		{
-			map1 = (Map<String, Object>) stack.peek();
-			stack.push(new LinkedHashMap<String, Object>(2));
-			map1.put("component", stack.peek());
-			{
-				map1 = (Map<String, Object>) stack.peek();
-				map1.put("namespace", "com.nd.social.component");
-				map1.put("name", "ndvote");
-			}
-			stack.pop();
-			map1 = (Map<String, Object>) stack.peek();
-			stack.push(new LinkedHashMap<String, Object>(1));
-			map1.put("native-android", stack.peek());
-			{
-				map1 = (Map<String, Object>) stack.peek();
-				map1.put("class", "com.nd.sdp.android.ndvote.VoteComponent");
-			}
-			stack.pop();
-			map1 = (Map<String, Object>) stack.peek();
-			stack.push(new LinkedHashMap<String, Object>(1));
-			map1.put("native-ios", stack.peek());
-			{
-				map1 = (Map<String, Object>) stack.peek();
-				map1.put("class", "NDVoteComponent");
-			}
-			stack.pop();
-			map1 = (Map<String, Object>) stack.peek();
-			stack.push(new ArrayList<>(2));
-			map1.put("type", stack.peek());
-			{
-				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
-				list1.add("native-ios");
-			}
-			stack.pop();
-			map1 = (Map<String, Object>) stack.peek();
-		}
-	}
-	 
-	private void func_135(Map<String, Object> map1)
 	{
 		Stack<Object> stack = new Stack();
 		ArrayList<Object> list1 = null;
@@ -6409,9 +6360,9 @@ public class G_app_components implements IJsonListCreator
 			map1.put("local-h5", stack.peek());
 			{
 				map1 = (Map<String, Object>) stack.peek();
-				map1.put("host", "https://sdpcs.eda.101.com/v0.1/static/limitation_support_service_eda/ap1670571246227/android/eda/com.nd.sdp.component/model-source-app/local-h5/1673505857900/test");
+				map1.put("host", "https://sdpcs.eda.101.com/v0.1/static/limitation_support_service_eda/ap1670571246227/android/eda/com.nd.sdp.component/model-source-app/local-h5/1673864989743/test");
 				map1.put("npm", "\"@sdp.nd/model-source-h5\":\"1.0.38\"");
-				map1.put("build_time", 1673505857900L);
+				map1.put("build_time", 1673864989743L);
 				map1.put("version", "1.0.0");
 				map1.put("preassign", "false");
 			}
@@ -6428,7 +6379,7 @@ public class G_app_components implements IJsonListCreator
 		}
 	}
 	 
-	private void func_136(Map<String, Object> map1)
+	private void func_135(Map<String, Object> map1)
 	{
 		Stack<Object> stack = new Stack();
 		ArrayList<Object> list1 = null;
@@ -6456,8 +6407,34 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
 				list1.add("native-android");
+				list1.add("library");
+			}
+			stack.pop();
+			map1 = (Map<String, Object>) stack.peek();
+		}
+	}
+	 
+	private void func_136(Map<String, Object> map1)
+	{
+		Stack<Object> stack = new Stack();
+		ArrayList<Object> list1 = null;
+		stack.push(map1);
+		{
+			map1 = (Map<String, Object>) stack.peek();
+			stack.push(new LinkedHashMap<String, Object>(2));
+			map1.put("component", stack.peek());
+			{
+				map1 = (Map<String, Object>) stack.peek();
+				map1.put("namespace", "com.nd.sdp.maf");
+				map1.put("name", "callphone-permission");
+			}
+			stack.pop();
+			map1 = (Map<String, Object>) stack.peek();
+			stack.push(new ArrayList<>(0));
+			map1.put("type", stack.peek());
+			{
+				list1 = (ArrayList<Object>) stack.peek();
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -6500,8 +6477,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
@@ -6509,32 +6486,6 @@ public class G_app_components implements IJsonListCreator
 	}
 	 
 	private void func_138(Map<String, Object> map1)
-	{
-		Stack<Object> stack = new Stack();
-		ArrayList<Object> list1 = null;
-		stack.push(map1);
-		{
-			map1 = (Map<String, Object>) stack.peek();
-			stack.push(new LinkedHashMap<String, Object>(2));
-			map1.put("component", stack.peek());
-			{
-				map1 = (Map<String, Object>) stack.peek();
-				map1.put("namespace", "com.nd.sdp.maf");
-				map1.put("name", "callphone-permission");
-			}
-			stack.pop();
-			map1 = (Map<String, Object>) stack.peek();
-			stack.push(new ArrayList<>(0));
-			map1.put("type", stack.peek());
-			{
-				list1 = (ArrayList<Object>) stack.peek();
-			}
-			stack.pop();
-			map1 = (Map<String, Object>) stack.peek();
-		}
-	}
-	 
-	private void func_139(Map<String, Object> map1)
 	{
 		Stack<Object> stack = new Stack();
 		ArrayList<Object> list1 = null;
@@ -6570,15 +6521,15 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
 		}
 	}
 	 
-	private void func_140(Map<String, Object> map1)
+	private void func_139(Map<String, Object> map1)
 	{
 		Stack<Object> stack = new Stack();
 		ArrayList<Object> list1 = null;
@@ -6604,7 +6555,7 @@ public class G_app_components implements IJsonListCreator
 		}
 	}
 	 
-	private void func_141(Map<String, Object> map1)
+	private void func_140(Map<String, Object> map1)
 	{
 		Stack<Object> stack = new Stack();
 		ArrayList<Object> list1 = null;
@@ -6639,7 +6590,7 @@ public class G_app_components implements IJsonListCreator
 		}
 	}
 	 
-	private void func_142(Map<String, Object> map1)
+	private void func_141(Map<String, Object> map1)
 	{
 		Stack<Object> stack = new Stack();
 		ArrayList<Object> list1 = null;
@@ -6675,15 +6626,15 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
 		}
 	}
 	 
-	private void func_143(Map<String, Object> map1)
+	private void func_142(Map<String, Object> map1)
 	{
 		Stack<Object> stack = new Stack();
 		ArrayList<Object> list1 = null;
@@ -6719,15 +6670,15 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
 		}
 	}
 	 
-	private void func_144(Map<String, Object> map1)
+	private void func_143(Map<String, Object> map1)
 	{
 		Stack<Object> stack = new Stack();
 		ArrayList<Object> list1 = null;
@@ -6763,15 +6714,15 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
 		}
 	}
 	 
-	private void func_145(Map<String, Object> map1)
+	private void func_144(Map<String, Object> map1)
 	{
 		Stack<Object> stack = new Stack();
 		ArrayList<Object> list1 = null;
@@ -6806,7 +6757,7 @@ public class G_app_components implements IJsonListCreator
 		}
 	}
 	 
-	private void func_146(Map<String, Object> map1)
+	private void func_145(Map<String, Object> map1)
 	{
 		Stack<Object> stack = new Stack();
 		ArrayList<Object> list1 = null;
@@ -6842,15 +6793,15 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
 		}
 	}
 	 
-	private void func_147(Map<String, Object> map1)
+	private void func_146(Map<String, Object> map1)
 	{
 		Stack<Object> stack = new Stack();
 		ArrayList<Object> list1 = null;
@@ -6886,15 +6837,15 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
 		}
 	}
 	 
-	private void func_148(Map<String, Object> map1)
+	private void func_147(Map<String, Object> map1)
 	{
 		Stack<Object> stack = new Stack();
 		ArrayList<Object> list1 = null;
@@ -6930,15 +6881,15 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
 		}
 	}
 	 
-	private void func_149(Map<String, Object> map1)
+	private void func_148(Map<String, Object> map1)
 	{
 		Stack<Object> stack = new Stack();
 		ArrayList<Object> list1 = null;
@@ -6974,15 +6925,15 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
 		}
 	}
 	 
-	private void func_150(Map<String, Object> map1)
+	private void func_149(Map<String, Object> map1)
 	{
 		Stack<Object> stack = new Stack();
 		ArrayList<Object> list1 = null;
@@ -7018,15 +6969,15 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
 		}
 	}
 	 
-	private void func_151(Map<String, Object> map1)
+	private void func_150(Map<String, Object> map1)
 	{
 		Stack<Object> stack = new Stack();
 		ArrayList<Object> list1 = null;
@@ -7062,15 +7013,15 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
 		}
 	}
 	 
-	private void func_152(Map<String, Object> map1)
+	private void func_151(Map<String, Object> map1)
 	{
 		Stack<Object> stack = new Stack();
 		ArrayList<Object> list1 = null;
@@ -7106,15 +7057,15 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
 		}
 	}
 	 
-	private void func_153(Map<String, Object> map1)
+	private void func_152(Map<String, Object> map1)
 	{
 		Stack<Object> stack = new Stack();
 		ArrayList<Object> list1 = null;
@@ -7150,15 +7101,15 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
 		}
 	}
 	 
-	private void func_154(Map<String, Object> map1)
+	private void func_153(Map<String, Object> map1)
 	{
 		Stack<Object> stack = new Stack();
 		ArrayList<Object> list1 = null;
@@ -7194,15 +7145,15 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
 		}
 	}
 	 
-	private void func_155(Map<String, Object> map1)
+	private void func_154(Map<String, Object> map1)
 	{
 		Stack<Object> stack = new Stack();
 		ArrayList<Object> list1 = null;
@@ -7238,15 +7189,15 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
 		}
 	}
 	 
-	private void func_156(Map<String, Object> map1)
+	private void func_155(Map<String, Object> map1)
 	{
 		Stack<Object> stack = new Stack();
 		ArrayList<Object> list1 = null;
@@ -7282,15 +7233,15 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("native-android");
 				list1.add("native-ios");
+				list1.add("native-android");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();
 		}
 	}
 	 
-	private void func_157(Map<String, Object> map1)
+	private void func_156(Map<String, Object> map1)
 	{
 		Stack<Object> stack = new Stack();
 		ArrayList<Object> list1 = null;
@@ -7318,8 +7269,8 @@ public class G_app_components implements IJsonListCreator
 			map1.put("type", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
-				list1.add("library");
 				list1.add("native-android");
+				list1.add("library");
 			}
 			stack.pop();
 			map1 = (Map<String, Object>) stack.peek();

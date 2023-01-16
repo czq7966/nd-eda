@@ -270,7 +270,7 @@ public class G_zhCN_pages_pages implements IJsonMapCreator
 				map1.put("page_display", "免登陆TAB");
 				map1.put("tabbar_background_image_ios", "");
 				map1.put("tabbar_item_selected_text_color", "");
-				map1.put("default_tab_index", "0");
+				map1.put("default_tab_index", "1");
 				stack.push(new ArrayList<>(3));
 				map1.put("items", stack.peek());
 				{
@@ -279,8 +279,8 @@ public class G_zhCN_pages_pages implements IJsonMapCreator
 					list1.add(stack.peek());
 					{
 						map1 = (Map<String, Object>) stack.peek();
-						map1.put("image", "main_pageid_1613715207118_901d3c55_bf0ae5aa_study_image.png");
-						map1.put("hidden", "true");
+						map1.put("image", "main_pageid_1613715207118_901d3c55_6b0417f2_chat_list_image.png");
+						map1.put("hidden", "");
 						stack.push(new LinkedHashMap<String, Object>(0));
 						map1.put("param", stack.peek());
 						{
@@ -288,10 +288,10 @@ public class G_zhCN_pages_pages implements IJsonMapCreator
 						}
 						stack.pop();
 						map1 = (Map<String, Object>) stack.peek();
-						map1.put("image_selected", "main_pageid_1613715207118_901d3c55_bf0ae5aa_study_image_selected.png");
+						map1.put("image_selected", "main_pageid_1613715207118_901d3c55_6b0417f2_chat_list_image_selected.png");
 						map1.put("_stick", "");
-						map1.put("text", "EDA学习");
-						map1.put("page", "cmp://com.nd.eda.assemble/study");
+						map1.put("text", "消息");
+						map1.put("page", "cmp://com.nd.social.im/chat_list");
 						map1.put("_not_switch_tab", "");
 					}
 					stack.pop();
@@ -375,7 +375,7 @@ public class G_zhCN_pages_pages implements IJsonMapCreator
 				map1.put("page_display", "纯静态模式");
 				map1.put("tabbar_background_image_ios", "");
 				map1.put("tabbar_item_selected_text_color", "");
-				map1.put("default_tab_index", "0");
+				map1.put("default_tab_index", "1");
 				stack.push(new ArrayList<>(3));
 				map1.put("items", stack.peek());
 				{
@@ -384,28 +384,7 @@ public class G_zhCN_pages_pages implements IJsonMapCreator
 					list1.add(stack.peek());
 					{
 						map1 = (Map<String, Object>) stack.peek();
-						map1.put("image", "main_pageid_1645499450840_dbad465a_bf0ae5aa_study_image.png");
-						map1.put("hidden", "true");
-						stack.push(new LinkedHashMap<String, Object>(0));
-						map1.put("param", stack.peek());
-						{
-							map1 = (Map<String, Object>) stack.peek();
-						}
-						stack.pop();
-						map1 = (Map<String, Object>) stack.peek();
-						map1.put("image_selected", "main_pageid_1645499450840_dbad465a_bf0ae5aa_study_image_selected.png");
-						map1.put("_stick", "");
-						map1.put("text", "EDA学习");
-						map1.put("page", "cmp://com.nd.eda.assemble/study");
-						map1.put("_not_switch_tab", "");
-					}
-					stack.pop();
-					list1 = (ArrayList<Object>) stack.peek();
-					stack.push(new LinkedHashMap<String, Object>(8));
-					list1.add(stack.peek());
-					{
-						map1 = (Map<String, Object>) stack.peek();
-						map1.put("image", "main_pageid_1645499450840_dbad465a_bf0ae5aa_study_image.png");
+						map1.put("image", "main_pageid_1645499450840_dbad465a_6b0417f2_chat_list_image.png");
 						map1.put("hidden", "");
 						stack.push(new LinkedHashMap<String, Object>(0));
 						map1.put("param", stack.peek());
@@ -414,10 +393,31 @@ public class G_zhCN_pages_pages implements IJsonMapCreator
 						}
 						stack.pop();
 						map1 = (Map<String, Object>) stack.peek();
-						map1.put("image_selected", "main_pageid_1645499450840_dbad465a_bf0ae5aa_study_image_selected.png");
+						map1.put("image_selected", "main_pageid_1645499450840_dbad465a_6b0417f2_chat_list_image_selected.png");
+						map1.put("_stick", "");
+						map1.put("text", "消息");
+						map1.put("page", "cmp://com.nd.social.im/chat_list");
+						map1.put("_not_switch_tab", "");
+					}
+					stack.pop();
+					list1 = (ArrayList<Object>) stack.peek();
+					stack.push(new LinkedHashMap<String, Object>(8));
+					list1.add(stack.peek());
+					{
+						map1 = (Map<String, Object>) stack.peek();
+						map1.put("image", "main_pageid_1645499450840_dbad465a_6b0417f2_chat_list_image.png");
+						map1.put("hidden", "");
+						stack.push(new LinkedHashMap<String, Object>(0));
+						map1.put("param", stack.peek());
+						{
+							map1 = (Map<String, Object>) stack.peek();
+						}
+						stack.pop();
+						map1 = (Map<String, Object>) stack.peek();
+						map1.put("image_selected", "main_pageid_1645499450840_dbad465a_6b0417f2_chat_list_image_selected.png");
 						map1.put("_stick", "");
 						map1.put("text", "EDA学习");
-						map1.put("page", "cmp://com.nd.eda.assemble/study");
+						map1.put("page", "cmp://com.nd.social.im/chat_list");
 						map1.put("_not_switch_tab", "");
 					}
 					stack.pop();

@@ -31,7 +31,7 @@ public class G_app_announce implements IJsonMapCreator
 		stack.push(map1);
 		{
 			map1 = (Map<String, Object>) stack.peek();
-			stack.push(new ArrayList<>(124));
+			stack.push(new ArrayList<>(123));
 			map1.put("native", stack.peek());
 			{
 				list1 = (ArrayList<Object>) stack.peek();
@@ -1392,13 +1392,13 @@ public class G_app_announce implements IJsonMapCreator
 					map1.put("component", stack.peek());
 					{
 						map1 = (Map<String, Object>) stack.peek();
-						map1.put("namespace", "com.nd.social.component");
-						map1.put("name", "score");
+						map1.put("namespace", "com.nd.sdp.component");
+						map1.put("name", "xst-online-tutor");
 					}
 					stack.pop();
 					map1 = (Map<String, Object>) stack.peek();
-					map1.put("android", "com.nd.sdp.android.score.ScoreComponent");
-					map1.put("ios", "ScoreComponent");
+					map1.put("android", "com.nd.sdp.android.liveadapter.LiveAdapterComponent");
+					map1.put("ios", "XSTOnlineTutorComponent");
 				}
 				stack.pop();
 				list1 = (ArrayList<Object>) stack.peek();
@@ -1410,13 +1410,13 @@ public class G_app_announce implements IJsonMapCreator
 					map1.put("component", stack.peek());
 					{
 						map1 = (Map<String, Object>) stack.peek();
-						map1.put("namespace", "com.nd.sdp.component");
-						map1.put("name", "xst-online-tutor");
+						map1.put("namespace", "com.nd.social.component");
+						map1.put("name", "score");
 					}
 					stack.pop();
 					map1 = (Map<String, Object>) stack.peek();
-					map1.put("android", "com.nd.sdp.android.liveadapter.LiveAdapterComponent");
-					map1.put("ios", "XSTOnlineTutorComponent");
+					map1.put("android", "com.nd.sdp.android.score.ScoreComponent");
+					map1.put("ios", "ScoreComponent");
 				}
 				stack.pop();
 				list1 = (ArrayList<Object>) stack.peek();
@@ -1935,24 +1935,6 @@ public class G_app_announce implements IJsonMapCreator
 					map1.put("component", stack.peek());
 					{
 						map1 = (Map<String, Object>) stack.peek();
-						map1.put("namespace", "com.nd.social.component");
-						map1.put("name", "ndvote");
-					}
-					stack.pop();
-					map1 = (Map<String, Object>) stack.peek();
-					map1.put("android", "com.nd.sdp.android.ndvote.VoteComponent");
-					map1.put("ios", "NDVoteComponent");
-				}
-				stack.pop();
-				list1 = (ArrayList<Object>) stack.peek();
-				stack.push(new LinkedHashMap<String, Object>(3));
-				list1.add(stack.peek());
-				{
-					map1 = (Map<String, Object>) stack.peek();
-					stack.push(new LinkedHashMap<String, Object>(2));
-					map1.put("component", stack.peek());
-					{
-						map1 = (Map<String, Object>) stack.peek();
 						map1.put("namespace", "com.nd.sdp.component");
 						map1.put("name", "groupprohibitspeakplugin");
 					}
@@ -2279,7 +2261,7 @@ public class G_app_announce implements IJsonMapCreator
 				{
 					map1 = (Map<String, Object>) stack.peek();
 					map1.put("host", "");
-					map1.put("version", "1.60.58");
+					map1.put("version", "1.60.59");
 					stack.push(new LinkedHashMap<String, Object>(2));
 					map1.put("component", stack.peek());
 					{

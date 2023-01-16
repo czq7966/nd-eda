@@ -1,40 +1,64 @@
-<components><component namespace="com.nd.sdp.component" name="timepicker" display="时间选择器" type="library">
-	<pages>
-	</pages>
-	
-	<properties>
-	</properties>
-	
-	<events>
-	</events>
-
-	<handlers>
-	</handlers>  
-    <runtime>
-      <properties>
-        <property type="bool" name="lazy_init_android" displayName="是否开启延迟初始化" value="true"/>
-        <property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
-      </properties>
+<components><component namespace="com.nd.social" name="mui-videocontroller" display="视频公共控件" type="library">
+     <properties>
+        <property type="enum" name="iOSRecordMode" displayName="iOS默认的录制输出方式" value="4_3">
+          <options multi="false">
+             <option value="4_3">宽高比4:3</option>
+             <option value="16_9">宽高比16:9</option>
+             <option value="1_1">宽高比1:1</option>
+            <option value="9_16">宽高比9:16(竖屏)</option>
+          </options>
+       </property>
+       <property type="enum" name="AndroidRecordMode" displayName="Android默认的录制输出方式" value="0">
+          <options multi="false">
+             <option value="0">默认</option>
+             <option value="1">全屏</option>
+          </options>
+       </property>
+	 </properties>
+   <runtime>
+	 <properties>
+        <property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="false"/>
+        <property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="false"/>
+	 </properties>
     </runtime>
-    <android>
-		<class/>
-		<dependency>
-          <![CDATA[
-            compile('com.nd.sdp.android.common.ui:nd-timepicker:1.3.8') {
-                transitive = true
-                changing = true;
-            }
-          ]]>
-		 </dependency>
-	</android>
-  
-  	<ios>
-		<dependency>
+    <ios>
+        <class>MUIVideoSupportComponent</class>
+        <dependency>
             <![CDATA[
-				pod 'MUIDatePickerView', '0.0.11'
-			]]>
-		</dependency>
-	</ios>
+                      pod 'MUIVideoController', '1.1.68'
+             ]]>
+        </dependency>
+      
+        <scenes>
+           <scene name="NSCameraUsageDescription" describe="使用相机进行录制视频"/>
+           <scene name="NSMicrophoneUsageDescription" describe="录制音频需要使用录音权限"/>
+        </scenes>
+    </ios>
+	 <android>
+      <class>com.nd.android.social.mediaRecorder.VideoComponent</class>
+		 <dependency>
+         compile('com.nd.android.sdp.social:module_recorder:13.6.9.release@aar') {
+			transitive = true
+  			exclude group: 'com.nd.android.sdp.im.common.widget', module: 'emotion'
+		 }
+		 </dependency>
+         <scenes>
+          <scene name="android.permission.CAMERA" displayName="拍摄照片和录制视频" describe="录制视频" isAsk="true" closeable="true" type="permission"/>
+          <scene name="android.permission.RECORD_AUDIO" displayName="录制音频" describe="录制视频同时需要录音权限" isAsk="true" closeable="true" type="permission"/>
+          <scene name="android.permission.WRITE_SETTINGS" displayName="修改系统设置" describe="拍摄视频是提高视频亮度，拍摄后恢复" isAsk="false" closeable="true" type="permission"/>
+          <scene name="android.permission.WRITE_EXTERNAL_STORAGE" displayName="修改或删除存储卡中的内容" describe="拍摄的视频存到本地" isAsk="true" closeable="true" type="permission"/>
+          <scene name="android.permission.FLASHLIGHT" displayName="访问闪光灯" describe="拍摄视频选择闪光灯的开启关闭" isAsk="false" closeable="true" type="permission"/>
+          <scene name="android.permission.READ_EXTERNAL_STORAGE" displayName="读取存储卡中的内容" describe="读取存入本地的拍摄视频" isAsk="true" closeable="true" type="permission"/>
+         </scenes>
+	 </android>
+</component><component namespace="com.nd.social" name="mui-imagecropper" display="图片裁剪公共控件" type="library">
+    <ios>
+        <dependency>
+            <![CDATA[
+                      pod 'MUIImageCropper', '0.0.12'
+             ]]>
+        </dependency>
+    </ios>
 
 </component><component namespace="com.nd.smartcan.appfactory" name="main_component" display="应用框架">
   <pages>
@@ -1532,7 +1556,7 @@ end
         <dependency>
             <![CDATA[
             
-				def im_version = "22.16.3.15200.release"
+				def im_version = "22.16.3.15201.release"
 				compile("com.nd.sdp.im:GroupMemberNickManager:${im_version}") {     
                     exclude group: 'com.android.support'
                     exclude group:'com.nd.android.im_plugin',module:'im-plugin-group-ad'
@@ -1621,7 +1645,7 @@ end
                 fileObj = File.new(__FILE__, "r")
                 while (line = fileObj.gets)
                         if(line =~ /\s(p)od\s+'x_study_activity_ios'/)
-                                $imscomponent_version =  "21.21.367"
+                                $imscomponent_version =  "21.21.369"
                                 break
                         else
                                 $imscomponent_version =   "21.20.267"
@@ -1632,7 +1656,7 @@ end
                 pod 'IMSComponent', $imscomponent_version 
 				pod 'IMExtend' , '1.0.137'
 				pod 'IMGroupSDK', '0.0.82'
-				pod 'IMGroupCoreSDK', '0.0.88-hotfix5'
+				pod 'IMGroupCoreSDK', '0.0.88-hotfix7'
                ]]>
         </dependency>
         <scenes>
@@ -2344,9 +2368,9 @@ end
 		<class>ElearningConfigManager</class>
 		<dependency>
           <![CDATA[
-            pod 'elearningConfig', '1.0.97'
+            pod 'elearningConfig', '1.0.98'
             pod 'MBCircularProgressBar', '0.3.2'
-            pod 'elearning_sdp_base', '1.0.182'
+            pod 'elearning_sdp_base', '1.0.185'
             pod 'elearn_hyapi', '0.3.140'
             pod 'elearn_download_base','1.0.91'   
             pod 'ELEOfflineManager','1.1.53'
@@ -2355,9 +2379,9 @@ end
 			pod 'ELECharts', '1.0.38'
 			pod 'edu_rescard_sdk_ios', '1.1.17'
 			pod 'edu_search_sdk_ios', '1.1.9'
-			pod 'edu_media_ios', '0.2.28'
+			pod 'edu_media_ios', '0.2.29'
 			pod 'KLVKeywordListView', '0.0.10'
-			pod 'e_common_ui_ios', '0.3.7'
+			pod 'e_common_ui_ios', '0.3.11'
 		  ]]>
 		</dependency>
 	</ios>
@@ -2389,68 +2413,82 @@ end
         </dependency>
     </ios>
 
-</component><component namespace="com.nd.social" name="mui-videocontroller" display="视频公共控件" type="library">
-     <properties>
-        <property type="enum" name="iOSRecordMode" displayName="iOS默认的录制输出方式" value="4_3">
-          <options multi="false">
-             <option value="4_3">宽高比4:3</option>
-             <option value="16_9">宽高比16:9</option>
-             <option value="1_1">宽高比1:1</option>
-            <option value="9_16">宽高比9:16(竖屏)</option>
-          </options>
-       </property>
-       <property type="enum" name="AndroidRecordMode" displayName="Android默认的录制输出方式" value="0">
-          <options multi="false">
-             <option value="0">默认</option>
-             <option value="1">全屏</option>
-          </options>
-       </property>
-	 </properties>
-   <runtime>
-	 <properties>
-        <property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="false"/>
-        <property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="false"/>
-	 </properties>
-    </runtime>
-    <ios>
-        <class>MUIVideoSupportComponent</class>
-        <dependency>
-            <![CDATA[
-                      pod 'MUIVideoController', '1.1.68'
-             ]]>
-        </dependency>
-      
-        <scenes>
-           <scene name="NSCameraUsageDescription" describe="使用相机进行录制视频"/>
-           <scene name="NSMicrophoneUsageDescription" describe="录制音频需要使用录音权限"/>
-        </scenes>
-    </ios>
-	 <android>
-      <class>com.nd.android.social.mediaRecorder.VideoComponent</class>
-		 <dependency>
-         compile('com.nd.android.sdp.social:module_recorder:13.6.9.release@aar') {
-			transitive = true
-  			exclude group: 'com.nd.android.sdp.im.common.widget', module: 'emotion'
-		 }
-		 </dependency>
-         <scenes>
-          <scene name="android.permission.CAMERA" displayName="拍摄照片和录制视频" describe="录制视频" isAsk="true" closeable="true" type="permission"/>
-          <scene name="android.permission.RECORD_AUDIO" displayName="录制音频" describe="录制视频同时需要录音权限" isAsk="true" closeable="true" type="permission"/>
-          <scene name="android.permission.WRITE_SETTINGS" displayName="修改系统设置" describe="拍摄视频是提高视频亮度，拍摄后恢复" isAsk="false" closeable="true" type="permission"/>
-          <scene name="android.permission.WRITE_EXTERNAL_STORAGE" displayName="修改或删除存储卡中的内容" describe="拍摄的视频存到本地" isAsk="true" closeable="true" type="permission"/>
-          <scene name="android.permission.FLASHLIGHT" displayName="访问闪光灯" describe="拍摄视频选择闪光灯的开启关闭" isAsk="false" closeable="true" type="permission"/>
-          <scene name="android.permission.READ_EXTERNAL_STORAGE" displayName="读取存储卡中的内容" describe="读取存入本地的拍摄视频" isAsk="true" closeable="true" type="permission"/>
-         </scenes>
-	 </android>
-</component><component namespace="com.nd.social" name="mui-imagecropper" display="图片裁剪公共控件" type="library">
-    <ios>
-        <dependency>
-            <![CDATA[
-                      pod 'MUIImageCropper', '0.0.12'
-             ]]>
-        </dependency>
-    </ios>
+</component><component namespace="com.nd.sdp.component" name="h5-social-biz" display="H5-Social业务组件">
+	<pages>
+	</pages>
+	
+	<properties>
+	</properties>
+	
+	<events>
+	</events>
 
+	<handlers>
+	</handlers>
+    <h5>
+      <version>12.9.32</version>
+      <npm>"@sdp.nd/h5-social":"12.9.32"</npm>
+    </h5>
+    <widgets>
+      <widget type="h5" name="pack" display="底部送花">
+        <img src="http://cdncs.101.com/v0.1/download?dentryId=65e526dc-fd07-4029-9ab0-21402531ee4f&amp;session=084871ce-6f08-423e-9c79-10d33c46a289&amp;attachment=true&amp;serviceName=production_pbl_user"/>
+      </widget>
+      <widget type="h5" name="microblog" display="microblog"/>
+      <widget type="h5" name="microblog-choice" display="精选微博（限群空间使用）"/>
+      <widget type="h5" name="microblog-heartsign" display="群空间心签到"/>
+      <widget type="h5" name="microblog-recent" display="最近微博">
+        <img src="http://cdncs.101.com/v0.1/download?dentryId=44c558dc-c2f4-445d-8ad8-0527cbc1217b&amp;session=084871ce-6f08-423e-9c79-10d33c46a289&amp;attachment=true&amp;serviceName=production_pbl_user"/>
+      </widget>
+      <widget type="h5" name="microblog-others" display="他人微博">
+        <img src="http://cdncs.101.com/v0.1/download?dentryId=ab514eb9-96d0-4f83-9987-aea1de37af93&amp;session=084871ce-6f08-423e-9c79-10d33c46a289&amp;attachment=true&amp;serviceName=production_pbl_user"/>
+      </widget>
+      <widget type="h5" name="activity" display="活动"/>
+      <widget type="h5" name="news" display="新闻"/>
+      <widget type="h5" name="forum" display="论坛">
+        <img src="http://cdncs.101.com/v0.1/download?dentryId=85f439d2-6ff8-47e9-9dec-bb05066e9e5f&amp;session=084871ce-6f08-423e-9c79-10d33c46a289&amp;attachment=true&amp;serviceName=production_pbl_user"/>
+      </widget>
+    </widgets>
+   	<runtime>
+      <properties>
+        <property type="bool" name="lazy_init_android" displayName="是否开启延迟初始化" value="true"/>
+      </properties>
+    </runtime>
+</component><component namespace="com.nd.sdp.component" name="video-player-sdk" display="教育-视频控件SDK">
+	<pages>
+      <page type="cmp" name="test" display="测试" toplevel="1"/>
+	</pages>
+	
+	<properties>
+	</properties>
+	
+	<events>
+	</events>
+
+	<handlers>
+	</handlers>
+
+	<runtime>
+		<properties>
+			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
+			<property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
+		</properties>
+	</runtime>
+  	<android>
+		<class>com.nd.ele.android.exp.main.ExamPlayerComponent</class>
+		<dependency>
+			<![CDATA[
+              compile('com.nd.sdp.ele.android.video:video:1.3.7-rc7') 
+             ]]>
+		</dependency>
+	</android>
+  <ios>
+		<class>ELMediaSDKComponent</class>
+		<dependency>
+			 <![CDATA[
+			pod 'ElearningVideoSDK', '1.0.159'
+             ]]>
+		</dependency>
+	</ios>
 </component><component namespace="com.nd.sdp.appfactory" name="jssdk" display="JS SDK">
 	<pages>
 	</pages>
@@ -3057,104 +3095,105 @@ configurations.all {
         </dependency>
     </ios>
 
-</component><component namespace="com.nd.sdp.component" name="ele-channel" display="教育-学习-频道" type="function_library">
+</component><component namespace="com.nd.sdp.component" name="groupshareplug-in" display="群共享插件">
 	<pages>
-      <page type="react" name="index" display="频道页面" toplevel="1"/>
-      <page type="react" name="resources" display="资源列表" toplevel="1"/>
-      <page type="react" name="channel" display="单频道页面" toplevel="1"/>
-      
-       <page type="cmp" name="nindex" display="原生频道页面" toplevel="1" allow_guest="true"/>
-      <page type="cmp" name="test" display="测试页面" toplevel="1" allow_guest="true"/>
-
-      <page type="cmp" name="newresources" display="新原生资源列表" toplevel="1" allow_guest="true"/>
-      <page type="cmp" name="newchannel" display="新原生单频道页面" toplevel="1" allow_guest="true"/>
-      
-      <page type="cmp" name="nresources" display="原生资源列表" toplevel="1" allow_guest="true"/>
-      <page type="cmp" name="nchannel" display="原生单频道页面" toplevel="1" allow_guest="true"/>
-      
 	</pages>
-  
-  <properties>
-      	<property type="string" name="page_id" displayName="学习社区主页id（社区使用）" value="1516852474244">
-           <tip>学习社区主页id（社区使用）</tip>
-        </property>
-              <property type="bool" name="is_ink" value="false" displayName="是否开启水墨"/>
-    
-            <property type="bool" name="is_show_search" value="false" displayName="二级页面开启搜索"/>
-          <property type="string" name="search_cmp" value="" displayName="搜索跳转地址">
-                 <tip>默认会替换{library_id},{custom_tags}</tip>
-          </property>
-             <property type="string" name="uiType" value="" displayName="ui风格">
-              <tip>xUi、vodUi、tocUi，默认不填为普通ui</tip>
-        </property>
-         <property type="bool" name="enable_static" value="false" displayName="请求是否使用cdn形式">
-              <tip>频道相关请求按CDN形式</tip>
-        </property>
-	</properties>
-  
-    <runtime>
-    	<properties>      
-      		<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="false"/>      
-    	</properties>
-      	<providers>
-        	<provider name="com.nd.sdp.component.ele-channel.provider" filter="com.nd.sdp.component.ele-channel.provider.filter" desc="频道数据" anClass="com.nd.hy.ele.channel.provider.ELCHChannelDataProvider" iosClass="ELCHChannelDataProvider"/>  
-        </providers>
-  	</runtime>  
 	
 	<properties>
+	</properties>
+	
+	<handlers>
+        <handler name="delete_file" desc="删除群文件" receive_event="im_event_group_share_delete_file"/>
+        <handler name="group_dismissed" desc="解散群通知" receive_event="im_event_group_dismissed"/>
+      <handler name="register_file" desc="登记群文件" receive_event="group_share_event_register_file"/>
+	</handlers>
+
+   
+  
+	 <runtime>
+    	<properties>
+     	 <property type="bool" name="lazy_init_android" displayName="是否开启延迟初始化" value="true"/>
+         <property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
+    	</properties>
+       
+        <providers>
+  			<provider name="com.nd.sdp.component.groupshareplug-in.ServiceNameTaker" filter="Group_ServiceNameTaker" desc="ServiceName提供者"/>
+    		<provider name="com.nd.sdp.component.groupshareplug-in.TokenTaker" filter="Group_TokenTaker" desc="Token提供者"/>
+            <provider name="com.nd.sdp.component.groupshareplug-in.TenantInfoTaker" filter="Group_TenantInfoTaker" desc="TenantInfo提供者"/>
+			<provider name="com.nd.sdp.component.groupshareplug-in.TokenTakerByCid" filter="Group_TokenTakerByCid" desc="TokenTakerByCid提供者"/>
+		</providers>
+     
+  	</runtime>
+
+      <android>
+          <class>com.nd.anroid.im.groupshare.component.GroupShareComponent</class>
+					<dependency>
+             <![CDATA[
+                        compile('com.nd.android.im.groupshare:groupshareui:1.2.338.release'){
+                             exclude group:'com.nd.android.sdp.im',module:'imsdk'
+                        }
+        				compile('com.nd.social.im:cscollectionui:0.2.334.release')
+       ]]>
+					</dependency>
+     </android> 
+  
+  <ios>
+    <class>GroupShareComponent</class>
+    <dependency>
+            <![CDATA[
+                pod 'GroupSharePlugin', '0.1.105'
+               ]]>
+     </dependency>
+  </ios>
+</component><component namespace="com.nd.hy.android" name="reader" display="教育-播放-文档" type="function_library">
+	<pages>
+		<!--<page type="cmp" name="document" display="文档" toplevel="2" android_class="com.nd.hy.android.reader.biz.ReaderActivity"></page>-->
+	</pages>
+  
+	<runtime>
+		<properties>
+			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="false"/>
+            <property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
+		</properties>
+	</runtime>
+  
+	<properties>
+		<!--<property type="string" name="org" displayName="组织名" value="nd" />-->
 	</properties>
 	
 	<events>
 	</events>
 
 	<handlers>
-       <handler name="not-ios://doStuff" desc="tab切换" receive_event="EL_CHANNEL_SWITCH_TAB"/>
-       <handler name="not-ios://userinfo_event_refresh_data_source" desc="用户信息刷新" receive_event="userinfo_event_refresh_data_source"/>
+        <handler name="ios://eventHandlerProgressChanged" desc="进度上报回调事件" receive_event="elearning_resource_progress_changed"/>
+        <handler name="ios://smartlinkGenerateLinkResult" desc="smartLink获取成功" receive_event="smartlink_generate_link_result"/>
+        <handler name="ios://smartlinkGenerateLinkFailed" desc="smartLink获取失败" receive_event="smartlink_generate_qrcode_image_result"/>
 	</handlers>
-       <sdk> 
-      <js-sdk>  
-        <name>ele-rn-channel</name>  
-        <version>3.0</version>  
-          <!-- 注意：组件热更新不可控，暂时不使用》每次发布请使用大版本与代码中相同，并且更新大版本（x.y中的x); -->
-          <!-- https://reference.doc.101.com/appfactory/userguide/#/light/js-sdk/version-rule -->
-        <ios/>  
-        <android> 
-          <react-class>com.nd.sdp.android.ele.rncommon.react.EleRnCommonProvider</react-class> 
-        </android> 
-      </js-sdk> 
-    </sdk>
-   
-    <!-- 在密钥组件中定义 -->
-  	<android>
-		<class>com.nd.hy.ele.channel.ChannelSpaceComponent</class>
+
+	<android>
+		<class>com.nd.hy.android.reader.biz.ReaderComponent</class>
 		<dependency>
 			<![CDATA[
-			    compile('com.nd.sdp.android:ele-channel:13.2.0-rc.65@aar') {
+			    compile('com.nd.hy.android.reader:reader-player:0.2@aar') {
+                    exclude group: 'com.android.support'
+                    exclude(group: "com.nd.sdp.ele.android.reader", module: "reader-pdf")
 			        transitive = true
 			        changing = true
 			    }
 
+                compile "com.nd.sdp.ele.android.reader:reader-image:2.0.7-rc8"
              ]]>
 		</dependency>
 	</android>
-  
-  	<react-android>
-      <npm>"@sdp.nd/el-channel-rn":"1.2.22"</npm>
-    </react-android>
-  	<react-ios>
-      <npm>"@sdp.nd/el-channel-rn":"1.2.22"</npm>
-    </react-ios>
-	
-   <ios>
-      <class>el_channel_ios_component</class>
-		<dependency>
-			<![CDATA[
-			pod 'el_channel_ios', '1.0.101'
+
+	<ios>
+		<class>ElearnDocumentComponent</class>
+        <dependency>
+            <![CDATA[
+            pod 'elearn_document', '2.5.81'
              ]]>
-		</dependency>
-      
+        </dependency>
 	</ios>
-  
 </component><component namespace="com.nd.sdp.library" name="cscom" display="内容服务">
     <sdk>
       <js-sdk>
@@ -3307,9 +3346,9 @@ android {
 	<handlers>
 	</handlers>
   	<h5>
-      <version>1.60.58</version>
+      <version>1.60.59</version>
       <npm>
-        "@sdp.nd/model-h5":"1.60.58"
+        "@sdp.nd/model-h5":"1.60.59"
       </npm>
       <h5app>model-h5</h5app>
     </h5>
@@ -3588,138 +3627,200 @@ android {
                ]]>
         </dependency>
     </ios>
-</component><component namespace="com.nd.sdp.component" name="groupshareplug-in" display="群共享插件">
+</component><component namespace="com.nd.sdp.component" name="model-source-app" display="个人信息聚合-本地数据源">
 	<pages>
+      <page type="local" name="index.html" display="个人信息数据查询组件" toplevel="2" android_class=""/>
 	</pages>
 	
 	<properties>
-	</properties>
-	
-	<handlers>
-        <handler name="delete_file" desc="删除群文件" receive_event="im_event_group_share_delete_file"/>
-        <handler name="group_dismissed" desc="解散群通知" receive_event="im_event_group_dismissed"/>
-      <handler name="register_file" desc="登记群文件" receive_event="group_share_event_register_file"/>
-	</handlers>
-
-   
-  
-	 <runtime>
-    	<properties>
-     	 <property type="bool" name="lazy_init_android" displayName="是否开启延迟初始化" value="true"/>
-         <property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
-    	</properties>
-       
-        <providers>
-  			<provider name="com.nd.sdp.component.groupshareplug-in.ServiceNameTaker" filter="Group_ServiceNameTaker" desc="ServiceName提供者"/>
-    		<provider name="com.nd.sdp.component.groupshareplug-in.TokenTaker" filter="Group_TokenTaker" desc="Token提供者"/>
-            <provider name="com.nd.sdp.component.groupshareplug-in.TenantInfoTaker" filter="Group_TenantInfoTaker" desc="TenantInfo提供者"/>
-			<provider name="com.nd.sdp.component.groupshareplug-in.TokenTakerByCid" filter="Group_TokenTakerByCid" desc="TokenTakerByCid提供者"/>
-		</providers>
-     
-  	</runtime>
-
-      <android>
-          <class>com.nd.anroid.im.groupshare.component.GroupShareComponent</class>
-					<dependency>
-             <![CDATA[
-                        compile('com.nd.android.im.groupshare:groupshareui:1.2.338.release'){
-                             exclude group:'com.nd.android.sdp.im',module:'imsdk'
-                        }
-        				compile('com.nd.social.im:cscollectionui:0.2.334.release')
-       ]]>
-					</dependency>
-     </android> 
-  
-  <ios>
-    <class>GroupShareComponent</class>
-    <dependency>
-            <![CDATA[
-                pod 'GroupSharePlugin', '0.1.105'
-               ]]>
-     </dependency>
-  </ios>
-</component><component namespace="com.nd.hy.android" name="reader" display="教育-播放-文档" type="function_library">
-	<pages>
-		<!--<page type="cmp" name="document" display="文档" toplevel="2" android_class="com.nd.hy.android.reader.biz.ReaderActivity"></page>-->
-	</pages>
-  
-	<runtime>
-		<properties>
-			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="false"/>
-            <property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
-		</properties>
-	</runtime>
-  
-	<properties>
-		<!--<property type="string" name="org" displayName="组织名" value="nd" />-->
 	</properties>
 	
 	<events>
 	</events>
 
 	<handlers>
-        <handler name="ios://eventHandlerProgressChanged" desc="进度上报回调事件" receive_event="elearning_resource_progress_changed"/>
-        <handler name="ios://smartlinkGenerateLinkResult" desc="smartLink获取成功" receive_event="smartlink_generate_link_result"/>
-        <handler name="ios://smartlinkGenerateLinkFailed" desc="smartLink获取失败" receive_event="smartlink_generate_qrcode_image_result"/>
 	</handlers>
+	<h5>
+      <version>1.0.0</version>
+      <npm>
+        "@sdp.nd/model-source-h5":"1.0.38"
+      </npm>
+      <h5app>model-source-h5</h5app>
+    </h5>
+  <runtime>
+  	<properties>
+  		<property name="lazy_init_android" value="false" type="string"/>
+  	</properties>
+  </runtime>
 
-	<android>
-		<class>com.nd.hy.android.reader.biz.ReaderComponent</class>
+</component><component namespace="com.nd.sdp.component" name="ele-channel" display="教育-学习-频道" type="function_library">
+	<pages>
+      <page type="react" name="index" display="频道页面" toplevel="1"/>
+      <page type="react" name="resources" display="资源列表" toplevel="1"/>
+      <page type="react" name="channel" display="单频道页面" toplevel="1"/>
+      
+       <page type="cmp" name="nindex" display="原生频道页面" toplevel="1" allow_guest="true"/>
+      <page type="cmp" name="test" display="测试页面" toplevel="1" allow_guest="true"/>
+
+      <page type="cmp" name="newresources" display="新原生资源列表" toplevel="1" allow_guest="true"/>
+      <page type="cmp" name="newchannel" display="新原生单频道页面" toplevel="1" allow_guest="true"/>
+      
+      <page type="cmp" name="nresources" display="原生资源列表" toplevel="1" allow_guest="true"/>
+      <page type="cmp" name="nchannel" display="原生单频道页面" toplevel="1" allow_guest="true"/>
+      
+	</pages>
+  
+  <properties>
+      	<property type="string" name="page_id" displayName="学习社区主页id（社区使用）" value="1516852474244">
+           <tip>学习社区主页id（社区使用）</tip>
+        </property>
+              <property type="bool" name="is_ink" value="false" displayName="是否开启水墨"/>
+    
+            <property type="bool" name="is_show_search" value="false" displayName="二级页面开启搜索"/>
+          <property type="string" name="search_cmp" value="" displayName="搜索跳转地址">
+                 <tip>默认会替换{library_id},{custom_tags}</tip>
+          </property>
+             <property type="string" name="uiType" value="" displayName="ui风格">
+              <tip>xUi、vodUi、tocUi，默认不填为普通ui</tip>
+        </property>
+         <property type="bool" name="enable_static" value="false" displayName="请求是否使用cdn形式">
+              <tip>频道相关请求按CDN形式</tip>
+        </property>
+	</properties>
+  
+    <runtime>
+    	<properties>      
+      		<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="false"/>      
+    	</properties>
+      	<providers>
+        	<provider name="com.nd.sdp.component.ele-channel.provider" filter="com.nd.sdp.component.ele-channel.provider.filter" desc="频道数据" anClass="com.nd.hy.ele.channel.provider.ELCHChannelDataProvider" iosClass="ELCHChannelDataProvider"/>  
+        </providers>
+  	</runtime>  
+	
+	<properties>
+	</properties>
+	
+	<events>
+	</events>
+
+	<handlers>
+       <handler name="not-ios://doStuff" desc="tab切换" receive_event="EL_CHANNEL_SWITCH_TAB"/>
+       <handler name="not-ios://userinfo_event_refresh_data_source" desc="用户信息刷新" receive_event="userinfo_event_refresh_data_source"/>
+	</handlers>
+       <sdk> 
+      <js-sdk>  
+        <name>ele-rn-channel</name>  
+        <version>3.0</version>  
+          <!-- 注意：组件热更新不可控，暂时不使用》每次发布请使用大版本与代码中相同，并且更新大版本（x.y中的x); -->
+          <!-- https://reference.doc.101.com/appfactory/userguide/#/light/js-sdk/version-rule -->
+        <ios/>  
+        <android> 
+          <react-class>com.nd.sdp.android.ele.rncommon.react.EleRnCommonProvider</react-class> 
+        </android> 
+      </js-sdk> 
+    </sdk>
+   
+    <!-- 在密钥组件中定义 -->
+  	<android>
+		<class>com.nd.hy.ele.channel.ChannelSpaceComponent</class>
 		<dependency>
 			<![CDATA[
-			    compile('com.nd.hy.android.reader:reader-player:0.2@aar') {
-                    exclude group: 'com.android.support'
-                    exclude(group: "com.nd.sdp.ele.android.reader", module: "reader-pdf")
+			    compile('com.nd.sdp.android:ele-channel:13.2.0-rc.65@aar') {
 			        transitive = true
 			        changing = true
 			    }
 
-                compile "com.nd.sdp.ele.android.reader:reader-image:2.0.7-rc8"
              ]]>
 		</dependency>
 	</android>
-
-	<ios>
-		<class>ElearnDocumentComponent</class>
-        <dependency>
-            <![CDATA[
-            pod 'elearn_document', '2.5.81'
-             ]]>
-        </dependency>
-	</ios>
-</component><component namespace="com.nd.sdp.component" name="neworganizationcomponent" display="新组织" type="function_library">
-	<pages>
-	</pages>
-	
-	<properties>
-       <property type="bool" name="orgtree_tag_filter" displayName="支持组织标签过滤(开关已迁移到IM组织树控件)" value="false"/>
-      <property type="bool" name="orgtree_tag_filter_result_show_by_tree" displayName="支持组织标签过滤结果树形展示(开关已迁移到IM组织树控件)" value="false"/>
-	
-	</properties>
-	
-	<events>
-	</events>
-
-	<handlers>
-	</handlers>
-
-	<runtime>
-		<properties>
-			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
-		</properties>
-	</runtime>
   
+  	<react-android>
+      <npm>"@sdp.nd/el-channel-rn":"1.2.22"</npm>
+    </react-android>
+  	<react-ios>
+      <npm>"@sdp.nd/el-channel-rn":"1.2.22"</npm>
+    </react-ios>
+	
    <ios>
-        <class>OrgTreeForORGSDK</class>
-
-        <dependency>
-            <![CDATA[
-				pod 'OrgTreeForORGSDK', '1.0.83'
+      <class>el_channel_ios_component</class>
+		<dependency>
+			<![CDATA[
+			pod 'el_channel_ios', '1.0.101'
              ]]>
-        </dependency>
-
-    </ios>
+		</dependency>
+      
+	</ios>
   
+</component><component namespace="com.nd.sdp.component.im" name="im-coresdk" display="IM核心SDK">
+    <pages/>
+    <runtime>
+        <properties>
+            <property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="false"/>
+            <property type="bool" name="lazy_init_ios" displayName="是否开启ios延迟初始化" value="false"/>
+        </properties>
+    </runtime>
+    <build>
+        <android>
+            <safe_whitelist>
+                <receivers>
+                    <receiver name="com.nd.sdp.im.transportlayer.core.TransportReceiver" describe="用来接收开机启动广播" type="receiver" owner="鄢宜扬"/>
+                </receivers>
+            </safe_whitelist>
+        </android>
+    </build>
+    <events/>
+    <handlers/>
+    <properties>
+        <property type="bool" name="im_support_msg_encrypt" displayName="支持本地消息存储加密" value="false">
+            <dependency>
+                <component namespace="com.nd.sdp.component" name="im-msg-encrypt" display="本地消息存储加密功能是否开启"/>
+            </dependency>
+        </property>
+    </properties>
+    <android>
+        <class>com.nd.android.coresdk.component.IMCoreComponent</class>
+        <dependency>
+            <![CDATA[ 
+            def im_coresdk_version = "1.9.739.release" 
+            compile("com.nd.sdp.component.im:im-coresdk-impl:${im_coresdk_version}") 
+            compile("com.nd.sdp.component.im:im-coresdk-impl-databiz:${im_coresdk_version}") 
+            compile("com.nd.sdp.component.im:im-coresdk-impl-upload:${im_coresdk_version}") 
+            compile("com.nd.sdp.component.im:im-coresdk-impl-appfactory:${im_coresdk_version}") 
+            compile("com.nd.sdp.component.im:core-cs-support-impl:${im_coresdk_version}") 
+            compile('com.nd.sdp.im.common:im_proxy_impl_appfactory:3.0.178.release')
+             compile('com.nd.android.sdp.im:TransportLayer:3.2.820.product')
+              compile('org.greenrobot:greendao:3.3.0') 
+            ]]>
+        </dependency>
+        <scenes>
+            <!--  com.nd.sdp.component.im:im-coresdk-impl:0.5.554.release  -->
+            <scene name="android.permission.CHANGE_WIFI_STATE" displayName="" describe="" isAsk="true" closeable="true" type="permission"/>
+            <scene name="android.permission.ACCESS_NETWORK_STATE" displayName="网络状态权限" describe="断开重连" isAsk="true" closeable="true" type="permission"/>
+            <scene name="android.permission.ACCESS_WIFI_STATE" displayName="WIFI状态权限" describe="断开重连" isAsk="true" closeable="true" type="permission"/>
+        </scenes>
+    </android>
+    <ios>
+        <class>IMSDKComponent</class>
+        <dependency>
+            <![CDATA[ 
+				imcoreFile = File.new(__FILE__, "r")
+                while (line = imcoreFile.gets)
+                        if(line =~ /\s(p)od\s+'x_study_activity_ios'/)
+                                $imcoresdk_version =  "1.6.56"
+                                break
+                        else
+                                $imcoresdk_version =   "1.5.56"
+                        end
+
+                end
+                imcoreFile.close
+            pod 'IMSDK' , '21.12.25' 
+            pod 'IMCoreSDK' , $imcoresdk_version 
+            pod 'IMCoreLayer' , '1.9.23'
+            pod 'GPBGeneratedCode', '1.1.1' 
+            ]]>
+        </dependency>
+    </ios>
 </component><component namespace="com.nd.social" name="socialShare" display="社会化分享">
    <properties>
       <property type="string" name="umeng_sina_appkey_ios" displayName="新浪微博的appkey（iOS）" senior="true" deprecated="//component[@namespace='com.nd.social' and @name='weiboshare']">
@@ -4338,9 +4439,7 @@ handleWxActivity()
 			<![CDATA[pod 'SensitiveWordFilterSDK', '1.0.53']]>
 		</dependency>
 	</ios>
-</component><component namespace="com.nd.sdp.component" name="h5-social-biz" display="H5-Social业务组件">
-	<pages>
-	</pages>
+</component><component namespace="com.nd.sdp.component" name="demo-rn" display="RN公共控件">
 	
 	<properties>
 	</properties>
@@ -4350,70 +4449,44 @@ handleWxActivity()
 
 	<handlers>
 	</handlers>
-    <h5>
-      <version>12.9.32</version>
-      <npm>"@sdp.nd/h5-social":"12.9.32"</npm>
-    </h5>
-    <widgets>
-      <widget type="h5" name="pack" display="底部送花">
-        <img src="http://cdncs.101.com/v0.1/download?dentryId=65e526dc-fd07-4029-9ab0-21402531ee4f&amp;session=084871ce-6f08-423e-9c79-10d33c46a289&amp;attachment=true&amp;serviceName=production_pbl_user"/>
-      </widget>
-      <widget type="h5" name="microblog" display="microblog"/>
-      <widget type="h5" name="microblog-choice" display="精选微博（限群空间使用）"/>
-      <widget type="h5" name="microblog-heartsign" display="群空间心签到"/>
-      <widget type="h5" name="microblog-recent" display="最近微博">
-        <img src="http://cdncs.101.com/v0.1/download?dentryId=44c558dc-c2f4-445d-8ad8-0527cbc1217b&amp;session=084871ce-6f08-423e-9c79-10d33c46a289&amp;attachment=true&amp;serviceName=production_pbl_user"/>
-      </widget>
-      <widget type="h5" name="microblog-others" display="他人微博">
-        <img src="http://cdncs.101.com/v0.1/download?dentryId=ab514eb9-96d0-4f83-9987-aea1de37af93&amp;session=084871ce-6f08-423e-9c79-10d33c46a289&amp;attachment=true&amp;serviceName=production_pbl_user"/>
-      </widget>
-      <widget type="h5" name="activity" display="活动"/>
-      <widget type="h5" name="news" display="新闻"/>
-      <widget type="h5" name="forum" display="论坛">
-        <img src="http://cdncs.101.com/v0.1/download?dentryId=85f439d2-6ff8-47e9-9dec-bb05066e9e5f&amp;session=084871ce-6f08-423e-9c79-10d33c46a289&amp;attachment=true&amp;serviceName=production_pbl_user"/>
-      </widget>
-    </widgets>
-   	<runtime>
+  
+    <runtime>
       <properties>
-        <property type="bool" name="lazy_init_android" displayName="是否开启延迟初始化" value="true"/>
+        <property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
       </properties>
     </runtime>
-</component><component namespace="com.nd.sdp.component" name="video-player-sdk" display="教育-视频控件SDK">
-	<pages>
-      <page type="cmp" name="test" display="测试" toplevel="1"/>
-	</pages>
-	
-	<properties>
-	</properties>
-	
-	<events>
-	</events>
-
-	<handlers>
-	</handlers>
-
-	<runtime>
-		<properties>
-			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
-			<property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
-		</properties>
-	</runtime>
-  	<android>
-		<class>com.nd.ele.android.exp.main.ExamPlayerComponent</class>
-		<dependency>
-			<![CDATA[
-              compile('com.nd.sdp.ele.android.video:video:1.3.7-rc7') 
-             ]]>
-		</dependency>
-	</android>
-  <ios>
-		<class>ELMediaSDKComponent</class>
-		<dependency>
-			 <![CDATA[
-			pod 'ElearningVideoSDK', '1.0.159'
-             ]]>
-		</dependency>
-	</ios>
+  
+  	<sdk> 
+      <js-sdk> 
+        <name>rn-common</name>  
+        <version>1.1</version>  
+        <ios>  
+          <js-class>RnCommonJsBridgeProvider</js-class>
+        </ios>
+        <android> 
+          <js-class>com.nd.sdp.android.rncommon.RnCommonJsSdkProvider</js-class>
+          <react-class>com.nd.sdp.android.rncommon.RnCommonProvider</react-class> 
+        </android> 
+      </js-sdk> 
+    </sdk>
+  
+    <android>
+      <class>com.nd.sdp.android.rncommon.demo.RNCommonComponent</class>
+      <dependency>
+        <![CDATA[
+			compile 'com.nd.sdp.android:rn-common-native:2.1.0'
+		]]>
+      </dependency>
+    </android>
+    <ios>
+      <class>RNCommonComponent</class>
+      <dependency>
+		<![CDATA[
+			pod 'rn_common_native', '0.0.12'
+            pod 'APFWebView', '0.0.3'
+        ]]>
+	  </dependency>
+    </ios>
 </component><component namespace="com.nd.sdp.component" name="el-load-lib" display="教育-加载管理库" type="library">
 	<pages>
       <page name="test" display="测试" toplevel="1" type="cmp"/>
@@ -4453,9 +4526,9 @@ handleWxActivity()
              ]]>
 		</dependency>
 	</ios>
-</component><component namespace="com.nd.sdp.component" name="ui-universal-popup" display="通用弹窗控件" type="library">
-	  <pages>
-    </pages>
+</component><component namespace="com.nd.sdp.component" name="timepicker" display="时间选择器" type="library">
+	<pages>
+	</pages>
 	
 	<properties>
 	</properties>
@@ -4464,37 +4537,33 @@ handleWxActivity()
 	</events>
 
 	<handlers>
-	</handlers>
+	</handlers>  
+    <runtime>
+      <properties>
+        <property type="bool" name="lazy_init_android" displayName="是否开启延迟初始化" value="true"/>
+        <property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
+      </properties>
+    </runtime>
+    <android>
+		<class/>
+		<dependency>
+          <![CDATA[
+            compile('com.nd.sdp.android.common.ui:nd-timepicker:1.3.8') {
+                transitive = true
+                changing = true;
+            }
+          ]]>
+		 </dependency>
+	</android>
+  
+  	<ios>
+		<dependency>
+            <![CDATA[
+				pod 'MUIDatePickerView', '0.0.11'
+			]]>
+		</dependency>
+	</ios>
 
-	<runtime>
-		<properties>
-			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
-		</properties>
-	</runtime>
-  
-  	<android>
-        <class>com.nd.module_popup.CommonPopupComponent</class>
-        <dependency>
-            <![CDATA[
-                compile('com.nd.sdp.component:ui-universal-popup:0.2.6.9@aar') {
-        			exclude group: 'android.support', module: 'android-support-v4'
-        			exclude group: 'com.android.support', module: 'support-v4'
-        			transitive = true
-        			changing = true
-				}
-       	]]>
-        </dependency>
-    </android>
-  
-      <ios>
-        <class>BirthdayWishesComponent</class>
-        <dependency>
-            <![CDATA[
-                pod 'MUIUniversalPopup', '0.0.4'
-               ]]>
-        </dependency>
-    </ios>
-  
 </component><component namespace="com.nd.sdp.android.org.server.adapter" name="orgserveradapter" display="新组织服务适配" type="library">
 	<pages>
 	</pages>
@@ -4992,100 +5061,31 @@ handleWxActivity()
              ]]>
              </dependency>
          </android>
-</component><component namespace="com.nd.sdp.component" name="demo-rn" display="RN公共控件">
-	
-	<properties>
-	</properties>
-	
-	<events>
-	</events>
-
+</component><component namespace="com.nd.sdp.component" name="groupentrycondition" display="入群条件插件" type="function_library">
+	<pages> </pages>
+	<properties> </properties>
+	<events> </events>
 	<handlers>
+		<handler name="imPlugInStartupEvent" desc="用于IM插件启动(注意实现imPlugInStartup方法)" receive_event="im_PlugIn_Startup_Event"/>
 	</handlers>
-  
-    <runtime>
-      <properties>
-        <property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
-      </properties>
-    </runtime>
-  
-  	<sdk> 
-      <js-sdk> 
-        <name>rn-common</name>  
-        <version>1.1</version>  
-        <ios>  
-          <js-class>RnCommonJsBridgeProvider</js-class>
-        </ios>
-        <android> 
-          <js-class>com.nd.sdp.android.rncommon.RnCommonJsSdkProvider</js-class>
-          <react-class>com.nd.sdp.android.rncommon.RnCommonProvider</react-class> 
-        </android> 
-      </js-sdk> 
-    </sdk>
-  
-    <android>
-      <class>com.nd.sdp.android.rncommon.demo.RNCommonComponent</class>
-      <dependency>
-        <![CDATA[
-			compile 'com.nd.sdp.android:rn-common-native:2.1.0'
-		]]>
-      </dependency>
-    </android>
-    <ios>
-      <class>RNCommonComponent</class>
-      <dependency>
-		<![CDATA[
-			pod 'rn_common_native', '0.0.12'
-            pod 'APFWebView', '0.0.3'
-        ]]>
-	  </dependency>
-    </ios>
-</component><component namespace="com.nd.social.component" name="score" display="应用市场评分组件">
-	<pages>
-         <page type="cmp" name="gotoScore" display="去评分" allow_guest="true"/>
-	</pages>
-	
-	<properties>
-      <property type="enum" name="jump_type" displayName="跳转到详情/评分" value="comment">
-        <options multi="false">
-          <option value="detail">跳转到详情界面</option>
-          <option value="comment">跳转到评分界面</option>
-        </options>
-    </property>
-    <property type="string" name="app_id" displayName="AppStore的应用ID">
-    </property>
-  </properties>
-	
-	<events>
-	</events>
-
-	<handlers>
-	</handlers>
-
 	<runtime>
 		<properties>
 			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
-            <property type="bool" name="lazy_init_ios" displayName="是否开启IOS延迟初始化" value="true"/>
+			<property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
 		</properties>
 	</runtime>
-  <android>
-		<class>com.nd.sdp.android.score.ScoreComponent</class>
+	<android>
+		<class>nd.sdp.android.im.group_joinpolicy.appfactory.GroupJoinPolicyComponent</class>
+			<dependency>
+			<![CDATA[ 
+			compile ("com.nd.android.sdp.im:im_group_join_policy:23.12.129.release")
+ 			]]>
+			</dependency>
+	</android>
+	<ios>
+		<class>IMJoinGroupComponent</class>
 		<dependency>
-			<![CDATA[
-			    compile('com.nd.sdp.android:score-component:16.9.2.f4f95b5@aar') {
-			        transitive = true
-			        changing = true
-                    exclude group: 'com.nd.android.sdp.im.common.widget', module: 'emotion'
-			    }    
-             ]]>
-		</dependency>
-    </android>
-  	<ios>
-		<class>ScoreComponent</class>
-		<dependency>
-			<![CDATA[
-            pod 'ScoreComponent', '1.0.0'
-            ]]>
+		<![CDATA[ pod 'IMJoinGroupComponent', '0.0.12' ]]>
 		</dependency>
 	</ios>
 </component><component namespace="com.nd.sdp" name="uc_component" display="用户登录">
@@ -5336,6 +5336,48 @@ pod 'UCCoreSDK', '1.0.173'
         </dependency>
 
     </ios>
+</component><component namespace="com.nd.sdp.component" name="ui-universal-popup" display="通用弹窗控件" type="library">
+	  <pages>
+    </pages>
+	
+	<properties>
+	</properties>
+	
+	<events>
+	</events>
+
+	<handlers>
+	</handlers>
+
+	<runtime>
+		<properties>
+			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
+		</properties>
+	</runtime>
+  
+  	<android>
+        <class>com.nd.module_popup.CommonPopupComponent</class>
+        <dependency>
+            <![CDATA[
+                compile('com.nd.sdp.component:ui-universal-popup:0.2.6.9@aar') {
+        			exclude group: 'android.support', module: 'android-support-v4'
+        			exclude group: 'com.android.support', module: 'support-v4'
+        			transitive = true
+        			changing = true
+				}
+       	]]>
+        </dependency>
+    </android>
+  
+      <ios>
+        <class>BirthdayWishesComponent</class>
+        <dependency>
+            <![CDATA[
+                pod 'MUIUniversalPopup', '0.0.4'
+               ]]>
+        </dependency>
+    </ios>
+  
 </component><component namespace="com.nd.sdp.component" name="appfontcomponent" display="字体大小设置">
   <sdk>
       <js-sdk>
@@ -5563,7 +5605,7 @@ pod 'UCCoreSDK', '1.0.173'
     <ios>
       <git>
         <source>git@git.sdp.nd:app-factory/template/componentappbase.git</source>
-        <commit-id>1278a7a</commit-id>
+        <commit-id>20bec9f</commit-id>
       </git>
     </ios>
     <h5-widget>
@@ -6325,9 +6367,9 @@ afterEvaluate {
              ]]>
         </dependency>
     </ios>
-</component><component namespace="com.nd.sdp.component" name="model-source-app" display="个人信息聚合-本地数据源">
+</component><component namespace="com.nd.xst" name="x-behavior-rewards" display="行为积分">
 	<pages>
-      <page type="local" name="index.html" display="个人信息数据查询组件" toplevel="2" android_class=""/>
+      <page type="cmp" name="main" display="积分主页" toplevel="2" allow_guest="true"/>
 	</pages>
 	
 	<properties>
@@ -6337,79 +6379,124 @@ afterEvaluate {
 	</events>
 
 	<handlers>
-	</handlers>
-	<h5>
-      <version>1.0.0</version>
-      <npm>
-        "@sdp.nd/model-source-h5":"1.0.38"
-      </npm>
-      <h5app>model-source-h5</h5app>
-    </h5>
-  <runtime>
-  	<properties>
-  		<property name="lazy_init_android" value="false" type="string"/>
-  	</properties>
-  </runtime>
+      <handler name="uc_on_login_success" desc="登录成功事件监听" receive_event="uc_on_login_success"/>
+    </handlers>
 
-</component><component namespace="com.nd.sdp.component.im" name="im-coresdk" display="IM核心SDK">
-    <pages/>
-    <runtime>
-        <properties>
-            <property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="false"/>
-            <property type="bool" name="lazy_init_ios" displayName="是否开启ios延迟初始化" value="false"/>
-        </properties>
-    </runtime>
-    <build>
-        <android>
-            <safe_whitelist>
-                <receivers>
-                    <receiver name="com.nd.sdp.im.transportlayer.core.TransportReceiver" describe="用来接收开机启动广播" type="receiver" owner="鄢宜扬"/>
-                </receivers>
-            </safe_whitelist>
-        </android>
-    </build>
-    <events/>
-    <handlers/>
-    <properties>
-        <property type="bool" name="im_support_msg_encrypt" displayName="支持本地消息存储加密" value="false">
-            <dependency>
-                <component namespace="com.nd.sdp.component" name="im-msg-encrypt" display="本地消息存储加密功能是否开启"/>
-            </dependency>
-        </property>
-    </properties>
-    <android>
-        <class>com.nd.android.coresdk.component.IMCoreComponent</class>
-        <dependency>
-            <![CDATA[ 
-            def im_coresdk_version = "1.9.739.release" 
-            compile("com.nd.sdp.component.im:im-coresdk-impl:${im_coresdk_version}") 
-            compile("com.nd.sdp.component.im:im-coresdk-impl-databiz:${im_coresdk_version}") 
-            compile("com.nd.sdp.component.im:im-coresdk-impl-upload:${im_coresdk_version}") 
-            compile("com.nd.sdp.component.im:im-coresdk-impl-appfactory:${im_coresdk_version}") 
-            compile("com.nd.sdp.component.im:core-cs-support-impl:${im_coresdk_version}") 
-            compile('com.nd.sdp.im.common:im_proxy_impl_appfactory:3.0.178.release')
-             compile('com.nd.android.sdp.im:TransportLayer:3.2.820.product')
-              compile('org.greenrobot:greendao:3.3.0') 
-            ]]>
+	<runtime>
+		<properties>
+			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
+			<property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
+		</properties>
+        <providers>
+        	<provider name="com.nd.xst.x-behavior-rewards.scoreProvider" filter="com.nd.xst.x-behavior-rewards.scoreProvider.filter" desc="获取总积分" iosClass="XstBehaviorRewardsProvider" anClass="com.nd.behavior.rewards.provider.RewardAccountProvider"/>
+		</providers>
+	</runtime>
+  <android>
+		<class>com.nd.behavior.rewards.BehaviorRewardComponent</class>
+		<dependency>
+        	compile 'com.nd.sdp.android:xst-behavior-rewards-android:1.1.0-rc04'
         </dependency>
-        <scenes>
-            <!--  com.nd.sdp.component.im:im-coresdk-impl:0.5.554.release  -->
-            <scene name="android.permission.CHANGE_WIFI_STATE" displayName="" describe="" isAsk="true" closeable="true" type="permission"/>
-            <scene name="android.permission.ACCESS_NETWORK_STATE" displayName="网络状态权限" describe="断开重连" isAsk="true" closeable="true" type="permission"/>
-            <scene name="android.permission.ACCESS_WIFI_STATE" displayName="WIFI状态权限" describe="断开重连" isAsk="true" closeable="true" type="permission"/>
-        </scenes>
     </android>
-    <ios>
-        <class>IMSDKComponent</class>
+	<ios>
+        <class>XstBehaviorRewardsComponent</class>
         <dependency>
-            <![CDATA[ 
-            pod 'IMSDK' , '21.12.25' 
-            pod 'IMCoreSDK' , '1.5.56' 
-            pod 'IMCoreLayer' , '1.9.23'
-            pod 'GPBGeneratedCode', '1.1.1' 
-            ]]>
+            <![CDATA[
+			pod 'xst_behavior_rewards_ios', '0.0.18'
+        ]]>
         </dependency>
+        <ruby>
+            <entry>XBRBuildExecutor</entry>
+            <dsl>
+                <pre_dependency_install>
+                <![CDATA[
+                require 'pathname'
+                require 'json'
+                require 'uri'
+                require 'net/http'
+                
+                current_dir = Pathname(Dir.pwd)
+                # 定义组件id
+                common_id = "com.nd.xst.x-behavior-rewards"
+            
+                # 获取sdp-app-id
+                app_json_path = current_dir.join("app/assets/app_factory/app/app.json")
+                app_json_content = File.read(app_json_path)
+                app_items = JSON.parse(app_json_content)
+                app_sdp_id_item = app_items['pkgid']
+                puts "### app_sdp_id_item #{app_sdp_id_item}"
+            
+                # 获取远程文件地址
+                incentive_service_host = ''
+                service_json = current_dir.join("app/assets/app_factory/app/service.json")
+                service_json_content = File.read(service_json)
+                service_items = JSON.parse(service_json_content)
+                service_items.each do |item|
+                    component_id = item['component']['namespace'] + '.' + item['component']['name']
+                    if component_id == common_id 
+                    incentive_service_host = item['properties']['record_config_proxy']
+                    end
+                end
+                puts "### incentive_service_host #{incentive_service_host}"
+            
+                # 拉取远程数据，并写入皮肤包资源文件
+                if not incentive_service_host.to_s.empty? 
+                    incentive_service_host = incentive_service_host+"v1/record_configs?sdp-app-id="+app_sdp_id_item
+                    puts "### 数据准备下载到皮肤包： #{incentive_service_host} "
+                    uri = URI(incentive_service_host)
+                    rule_config_response = Net::HTTP.get_response(uri)
+                    if rule_config_response.code != "200"
+                    puts "### error"
+                    else
+                    common_bundle = common_id + "_skin.bundle"
+                    file_name = "**/"+common_bundle+"/record_configs.json"
+                    puts "### write to file #{file_name}"
+                    files =  Dir.glob(current_dir.join(file_name))
+                    files.each do |json_path|
+                        puts "### #{json_path} "
+                        file = File.open(json_path, "w") { |f| f << rule_config_response.body }
+                    end
+                    end
+                else
+                    puts "### incentive_service_proxy 字段为空，不做处理 "
+                end
+                ]]>
+                </pre_dependency_install>
+            </dsl>            
+        </ruby>     
+	</ios>
+</component><component namespace="com.nd.sdp.component" name="neworganizationcomponent" display="新组织" type="function_library">
+	<pages>
+	</pages>
+	
+	<properties>
+       <property type="bool" name="orgtree_tag_filter" displayName="支持组织标签过滤(开关已迁移到IM组织树控件)" value="false"/>
+      <property type="bool" name="orgtree_tag_filter_result_show_by_tree" displayName="支持组织标签过滤结果树形展示(开关已迁移到IM组织树控件)" value="false"/>
+	
+	</properties>
+	
+	<events>
+	</events>
+
+	<handlers>
+	</handlers>
+
+	<runtime>
+		<properties>
+			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
+		</properties>
+	</runtime>
+  
+   <ios>
+        <class>OrgTreeForORGSDK</class>
+
+        <dependency>
+            <![CDATA[
+				pod 'OrgTreeForORGSDK', '1.0.83'
+             ]]>
+        </dependency>
+
     </ios>
+  
 </component><component namespace="com.nd.sdp.component" name="tag-sdk" display="标签sdk">
 	<pages>
 	</pages>
@@ -7095,7 +7182,7 @@ afterEvaluate {
 
         <dependency>
             <![CDATA[
-				pod 'NDUCCComponent', '1.0.359'
+				pod 'NDUCCComponent', '1.0.361'
              ]]>
         </dependency>
 
@@ -7521,55 +7608,119 @@ def getAllAarComponent(componentUrl) {
     </groovy>
     
   </android>
-</component><component namespace="com.nd.sdp.component" name="groupentrycondition" display="入群条件插件" type="function_library">
-	<pages> </pages>
-	<properties> </properties>
-	<events> </events>
+</component><component namespace="com.nd.sdp.component" name="el-identity-switch" display="教育-身份切换">
+	<pages>
+      <page type="cmp" name="charge" display="身份接管" toplevel="2" allow_guest="true"/>
+      <page type="cmp" name="switch" display="身份切换" toplevel="2" allow_guest="true"/>
+      <page type="cmp" name="test" display="测试" toplevel="1" allow_guest="true"/>
+      <page type="cmp" name="test_guide" display="测试引导" toplevel="2" allow_guest="true"/>
+	</pages>
+	
+	<properties>
+      
+      <group name="tabpage_for_identity_group" displayName="跳转配置" max-repeat="10">
+       	<validator type="size" rule="[0,10]"/>
+        <property type="string" name="role_name" displayName="身份" value=""/>
+        
+        <property type="page" name="guide_page_01" displayName="引导页面" senior="true"> 
+          <tip>[可选]外部引导页，需要业务方自己实现回调</tip>
+   	    </property>
+        <property type="page" name="tab_page" displayName="主页面" senior="true"> 
+          <tip>[必选]关联已配置好的TabPage模板页面</tip>
+   	    </property>
+      </group>
+      <property type="bool" name="source_always_from_system" displayName="任意切换身份" value="false"/>
+      <property type="bool" name="ipad_orientation_all" displayName="是否允许iPad横竖屏切换" value="false"/>
+	</properties>
+	
+	<events>
+	</events>
+
 	<handlers>
-		<handler name="imPlugInStartupEvent" desc="用于IM插件启动(注意实现imPlugInStartup方法)" receive_event="im_PlugIn_Startup_Event"/>
+       <handler name="not-ios://doStuff" desc="接收事件" receive_event="EVENT_QUERY_CURRENT_IDENTITY,EVENT_QUERY_CURRENT_ROLE,EVENT_QUERY_CURRENT_ROLE_NEW"/>
+       <handler name="not-ios://doStuff1" desc="接收事件" receive_event="EVENT_ADD_IDENTITY,EVENT_DELETE_IDENTITY,EVENT_REFRESH_USER_IDENTITY"/>
 	</handlers>
+
 	<runtime>
 		<properties>
 			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
-			<property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
 		</properties>
+        <providers>
+        	<provider name="com.nd.sdp.component.el-identity-switch.dataprovider" filter="com.nd.sdp.component.elis" desc="身份切换" anClass="com.nd.sdp.android.elearning.identityswitch.IdentityProvider" iosClass="ELISDataProvider"/>  
+        </providers>
 	</runtime>
-	<android>
-		<class>nd.sdp.android.im.group_joinpolicy.appfactory.GroupJoinPolicyComponent</class>
-			<dependency>
-			<![CDATA[ 
-			compile ("com.nd.android.sdp.im:im_group_join_policy:23.12.129.release")
- 			]]>
-			</dependency>
-	</android>
-	<ios>
-		<class>IMJoinGroupComponent</class>
+  
+  <android>
+		<class>com.nd.sdp.android.elearning.identityswitch.IdentitySwitchComponent</class>
 		<dependency>
-		<![CDATA[ pod 'IMJoinGroupComponent', '0.0.12' ]]>
+             <![CDATA[
+			    compile 'com.nd.sdp.android:el-identity-switch:1.2.0-rc01'
+             ]]>
 		</dependency>
+	</android>
+    <ios>
+      <class>ElIdetitySwitchComponent</class>
+		<dependency>
+			<![CDATA[
+                pod 'el_identity_switch_ios', '0.1.38'
+             ]]>
+		</dependency>
+      
 	</ios>
-</component><component namespace="com.nd.sdp.component" name="e-teacher-studio" display="强师-名师工作室">
+</component><component namespace="com.nd.sdp.component.im" name="suspentionwindow" display="悬浮窗组件" type="library">
 	<pages>
-    	<page type="cmp" name="debug" display="调测页面" toplevel="1" allow_guest="true"/>
-      	<page type="cmp" name="inst_studio_home" display="资源号主页" toplevel="2" allow_guest="true"/>
-      	<page type="cmp" name="expert_studio_home" display="专家工作室主页" toplevel="2" allow_guest="true"/>
-      	<page type="cmp" name="teacher_studio_home" display="名师工作室主页" toplevel="2" allow_guest="true"/>
-      	<page type="cmp" name="studio_news_detail" display="工作室资讯详情" toplevel="2" allow_guest="true"/>
-      	<page type="cmp" name="studio_notice_detail" display="工作室公告详情" toplevel="2" allow_guest="true"/>
-      	<page type="cmp" name="mine_train_list" display="我的培训" toplevel="2"/>
-      	<page type="cmp" name="mine_train_hours" display="我的培训学时" toplevel="2"/>
-      	<page type="cmp" name="mine_studio_list" display="我的教研组列表" toplevel="2"/>
-      	<page type="cmp" name="mine_profile" display="个人信息" toplevel="2"/>
-      	<page type="cmp" name="complete_mine_profile" display="完善个人信息" toplevel="2"/>
-      	<page type="cmp" name="studio_group_selector" display="教研组选择器" toplevel="2"/>
-      	<page type="cmp" name="common_group_selector" display="普通群选择器" toplevel="2"/>
 	</pages>
 	
 	<properties>
 	</properties>
 	
 	<events>
-		<event name="e_teacher_studio_clean_provider_cache" desc="清理 DataProvider 缓存。"/>
+	</events>
+
+	<handlers>
+	</handlers>
+
+	<runtime>
+		<properties>
+			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
+			<property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="false"/>
+		</properties>
+	</runtime>
+  
+    <ios>
+        <class>SuspensionWindowComponent</class>
+        <dependency>
+            <![CDATA[
+ 				pod 'MUISuspensionWindow', '1.0.59'
+               ]]>
+        </dependency>
+    </ios>
+</component><component namespace="com.nd.sdp.component" name="nduc-selector" display="UC选择器组件">
+	<pages>
+      	<page type="cmp" name="choose_org_or_node_single_before_login" display="组织节点选择器-单选(登录前可用)" toplevel="2" allow_guest="true"/>
+        <page type="cmp" name="choose_org_single_before_login" display="组织选择器-单选（登录前可用）" toplevel="2" allow_guest="true"/>
+	</pages>
+	
+	<properties>
+      	<property type="enum" name="data_range" displayName="数据范围" value="0">
+            <options multi="false">
+              <option value="0">机构</option>
+              <option value="1">当前组织</option>
+            </options>
+        </property>
+    	<property type="bool" name="show_my_org" displayName="显示当前组织" value="false"/>
+      	<property type="bool" name="show_orgs_under_org" displayName="递归展示组织" value="false"/>
+        <property type="bool" name="show_users_under_org" displayName="加载直接挂在组织下用户" value="true"/>
+      	<property type="enum" name="show_org_mode" displayName="组织展示方式" value="1">
+            <options multi="false">
+              <option value="1">树形</option>
+              <option value="2">平铺</option>
+            </options>
+        </property>
+      	<property type="bool" name="show_area_filter" displayName="是否开启地址过滤" value="false"/>
+	</properties>
+	
+	<events>
 	</events>
 
 	<handlers>
@@ -7580,38 +7731,33 @@ def getAllAarComponent(componentUrl) {
 			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
 			<property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
 		</properties>
-      	<providers>
-        	<provider name="com.nd.sdp.component.e-teacher-studio.provider" filter="com.nd.sdp.component.e-teacher-studio.provider.filter" desc="名师工作室" anClass="com.nd.sdp.studio.teacher.support.TeacherStudioDataProvider" iosClass="ETSAllStudiosDataProvider"/>  
-          	<provider name="com.nd.sdp.component.e-inst-studio.provider" filter="com.nd.sdp.component.e-inst-studio.provider.filter" desc="机构工作室" anClass="com.nd.sdp.studio.teacher.support.InstStudioDataProvider" iosClass="ETSInstStudioDataProvider"/>
-          	<provider name="com.nd.xst.teacher.train.provider" filter="com.nd.xst.teacher.train.provider.filter" desc="教师培训" anClass="com.nd.sdp.studio.teacher.support.TeacherTrainDataProvider" iosClass="ETSTeacherTrainDataProvider"/>
-          	<provider name="com.nd.sdp.component.e-teacher-studio-search.provider" filter="com.nd.sdp.component.e-teacher-studio-search.provider.filter" desc="教研工作室搜索" anClass="com.nd.sdp.studio.teacher.support.TeacherStudioSearchProvider" iosClass="ETSStudioSearchViewProvider"/>
-          	<provider name="com.nd.sdp.component.e-inst-studio-search.provider" filter="com.nd.sdp.component.e-inst-studio-search.provider.filter" desc="机构工作室搜索" anClass="com.nd.sdp.studio.teacher.support.InstStudioSearchProvider" iosClass="ETSInstSearchViewProvider"/>
-        </providers>
 	</runtime>
   
-  	<android>
-		<class>com.nd.sdp.studio.teacher.BizComponent</class>
-		<dependency>
-		<![CDATA[
-			compile('com.nd.sdp.android:e-teacher-studio:0.0.1-beta.172') 
-		]]>
-		</dependency>
-      	<scenes>
-   			<scene name="android.permission.CAMERA" displayName="相机权限" describe="添加附件时拍摄功能需要" isAsk="true" closeable="true" type="permission"/>
-			<scene name="android.permission.RECORD_AUDIO" displayName="录音权限" describe="添加附件时录音功能需要" isAsk="true" closeable="true" type="permission"/>
-    		<scene name="android.permission.flashlight" displayName="手机闪光灯权限" describe="相机拍摄功能需要" isAsk="true" closeable="true" type="permission"/>  
-          	<scene name="android.permission.read_phone_state" displayName="读取手机状态权限" describe="读取设备状态需要" isAsk="true" closeable="true" type="permission"/>
-        </scenes>
-	</android>
+	<android>
+        <class>com.nd.sdp.nduc.selector.SelectorComponent</class>
+        <dependency>
+            <![CDATA[
+            def nducSelectorComponent = "0.0.1.3.selector.release"
+            compile('com.nd.sdp.uc:nduc_selector_component:${nducSelectorComponent}')
+            configurations.all {
+                  resolutionStrategy {
+                      force "com.nd.sdp.uc:nduc_selector_component:${nducSelectorComponent}"
+                  }
+            }
+            ]]>
+        </dependency>
+    </android>
   
   	<ios>
-    	<class>ETSTeacherStudioComponent</class>
-    	<dependency>
-    	<![CDATA[
-			pod 'e_teacher_studio_ios', '0.2.45-release15'
-        ]]>
-    	</dependency>
-	</ios>
+        <class>UCSelectorComponent</class>
+
+        <dependency>
+            <![CDATA[
+				pod 'UCSelectorComponent', '1.0.25'
+             ]]>
+        </dependency>
+
+    </ios>
 </component><component namespace="com.nd.sdp.component" name="social3-common" display="Social三组公共库">
 	<pages>
 	</pages>
@@ -8070,93 +8216,106 @@ def getAllAarComponent(componentUrl) {
         ]]>
     	</dependency>
 	</ios>
-</component><component namespace="com.nd.sdp.component" name="el-identity-switch" display="教育-身份切换">
+</component><component namespace="com.nd.social" name="qqshare" display="QQ分享" type="function_library">
 	<pages>
-      <page type="cmp" name="charge" display="身份接管" toplevel="2" allow_guest="true"/>
-      <page type="cmp" name="switch" display="身份切换" toplevel="2" allow_guest="true"/>
-      <page type="cmp" name="test" display="测试" toplevel="1" allow_guest="true"/>
-      <page type="cmp" name="test_guide" display="测试引导" toplevel="2" allow_guest="true"/>
 	</pages>
 	
 	<properties>
-      
-      <group name="tabpage_for_identity_group" displayName="跳转配置" max-repeat="10">
-       	<validator type="size" rule="[0,10]"/>
-        <property type="string" name="role_name" displayName="身份" value=""/>
-        
-        <property type="page" name="guide_page_01" displayName="引导页面" senior="true"> 
-          <tip>[可选]外部引导页，需要业务方自己实现回调</tip>
-   	    </property>
-        <property type="page" name="tab_page" displayName="主页面" senior="true"> 
-          <tip>[必选]关联已配置好的TabPage模板页面</tip>
-   	    </property>
-      </group>
-      <property type="bool" name="source_always_from_system" displayName="任意切换身份" value="false"/>
-      <property type="bool" name="ipad_orientation_all" displayName="是否允许iPad横竖屏切换" value="false"/>
-	</properties>
+       <property type="string" name="umeng_qq_appkey_ios" displayName="QQ/Qzone的AppId（iOS）" senior="true"/>
+      <property type="string" name="umeng_qq_QQScheme_ios" displayName="QQ/Qzone的QQScheme（iOS）" iOS_URL_Types="1" senior="true"/>
+      <property type="string" name="umeng_qq_tencentScheme_ios" displayName="QQ/Qzone的tencentScheme（iOS）" iOS_URL_Types="1" senior="true"/>
+	  <property type="string" name="qq_universal_link" displayName="QQ/Qzone的universallink（iOS）" senior="true"/>
+  </properties>
 	
 	<events>
 	</events>
 
 	<handlers>
-       <handler name="not-ios://doStuff" desc="接收事件" receive_event="EVENT_QUERY_CURRENT_IDENTITY,EVENT_QUERY_CURRENT_ROLE,EVENT_QUERY_CURRENT_ROLE_NEW"/>
-       <handler name="not-ios://doStuff1" desc="接收事件" receive_event="EVENT_ADD_IDENTITY,EVENT_DELETE_IDENTITY,EVENT_REFRESH_USER_IDENTITY"/>
 	</handlers>
 
 	<runtime>
 		<properties>
 			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
+			<property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
 		</properties>
-        <providers>
-        	<provider name="com.nd.sdp.component.el-identity-switch.dataprovider" filter="com.nd.sdp.component.elis" desc="身份切换" anClass="com.nd.sdp.android.elearning.identityswitch.IdentityProvider" iosClass="ELISDataProvider"/>  
+       <handlers>
+    	<handler name="ios://receiveQQShareInit" desc="分享子组件初始化事件" receive_event="social_share_subcomponent_init"/>
+    </handlers>
+	</runtime>
+  
+  <ios>
+    <class>SocialShareQQComponent</class>
+    <dependency>
+      <![CDATA[
+pod 'SocialShareQQComponent', '1.1.6'
+pod 'TPQQHelper', '0.0.7'
+]]>
+    </dependency>
+  </ios>
+</component><component namespace="com.nd.sdp.component" name="e-teacher-studio" display="强师-名师工作室">
+	<pages>
+    	<page type="cmp" name="debug" display="调测页面" toplevel="1" allow_guest="true"/>
+      	<page type="cmp" name="inst_studio_home" display="资源号主页" toplevel="2" allow_guest="true"/>
+      	<page type="cmp" name="expert_studio_home" display="专家工作室主页" toplevel="2" allow_guest="true"/>
+      	<page type="cmp" name="teacher_studio_home" display="名师工作室主页" toplevel="2" allow_guest="true"/>
+      	<page type="cmp" name="studio_news_detail" display="工作室资讯详情" toplevel="2" allow_guest="true"/>
+      	<page type="cmp" name="studio_notice_detail" display="工作室公告详情" toplevel="2" allow_guest="true"/>
+      	<page type="cmp" name="mine_train_list" display="我的培训" toplevel="2"/>
+      	<page type="cmp" name="mine_train_hours" display="我的培训学时" toplevel="2"/>
+      	<page type="cmp" name="mine_studio_list" display="我的教研组列表" toplevel="2"/>
+      	<page type="cmp" name="mine_profile" display="个人信息" toplevel="2"/>
+      	<page type="cmp" name="complete_mine_profile" display="完善个人信息" toplevel="2"/>
+      	<page type="cmp" name="studio_group_selector" display="教研组选择器" toplevel="2"/>
+      	<page type="cmp" name="common_group_selector" display="普通群选择器" toplevel="2"/>
+	</pages>
+	
+	<properties>
+	</properties>
+	
+	<events>
+		<event name="e_teacher_studio_clean_provider_cache" desc="清理 DataProvider 缓存。"/>
+	</events>
+
+	<handlers>
+	</handlers>
+
+	<runtime>
+		<properties>
+			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
+			<property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
+		</properties>
+      	<providers>
+        	<provider name="com.nd.sdp.component.e-teacher-studio.provider" filter="com.nd.sdp.component.e-teacher-studio.provider.filter" desc="名师工作室" anClass="com.nd.sdp.studio.teacher.support.TeacherStudioDataProvider" iosClass="ETSAllStudiosDataProvider"/>  
+          	<provider name="com.nd.sdp.component.e-inst-studio.provider" filter="com.nd.sdp.component.e-inst-studio.provider.filter" desc="机构工作室" anClass="com.nd.sdp.studio.teacher.support.InstStudioDataProvider" iosClass="ETSInstStudioDataProvider"/>
+          	<provider name="com.nd.xst.teacher.train.provider" filter="com.nd.xst.teacher.train.provider.filter" desc="教师培训" anClass="com.nd.sdp.studio.teacher.support.TeacherTrainDataProvider" iosClass="ETSTeacherTrainDataProvider"/>
+          	<provider name="com.nd.sdp.component.e-teacher-studio-search.provider" filter="com.nd.sdp.component.e-teacher-studio-search.provider.filter" desc="教研工作室搜索" anClass="com.nd.sdp.studio.teacher.support.TeacherStudioSearchProvider" iosClass="ETSStudioSearchViewProvider"/>
+          	<provider name="com.nd.sdp.component.e-inst-studio-search.provider" filter="com.nd.sdp.component.e-inst-studio-search.provider.filter" desc="机构工作室搜索" anClass="com.nd.sdp.studio.teacher.support.InstStudioSearchProvider" iosClass="ETSInstSearchViewProvider"/>
         </providers>
 	</runtime>
   
-  <android>
-		<class>com.nd.sdp.android.elearning.identityswitch.IdentitySwitchComponent</class>
+  	<android>
+		<class>com.nd.sdp.studio.teacher.BizComponent</class>
 		<dependency>
-             <![CDATA[
-			    compile 'com.nd.sdp.android:el-identity-switch:1.2.0-rc01'
-             ]]>
+		<![CDATA[
+			compile('com.nd.sdp.android:e-teacher-studio:0.0.1-beta.173') 
+		]]>
 		</dependency>
+      	<scenes>
+   			<scene name="android.permission.CAMERA" displayName="相机权限" describe="添加附件时拍摄功能需要" isAsk="true" closeable="true" type="permission"/>
+			<scene name="android.permission.RECORD_AUDIO" displayName="录音权限" describe="添加附件时录音功能需要" isAsk="true" closeable="true" type="permission"/>
+    		<scene name="android.permission.flashlight" displayName="手机闪光灯权限" describe="相机拍摄功能需要" isAsk="true" closeable="true" type="permission"/>  
+          	<scene name="android.permission.read_phone_state" displayName="读取手机状态权限" describe="读取设备状态需要" isAsk="true" closeable="true" type="permission"/>
+        </scenes>
 	</android>
-    <ios>
-      <class>ElIdetitySwitchComponent</class>
-		<dependency>
-			<![CDATA[
-                pod 'el_identity_switch_ios', '0.1.38'
-             ]]>
-		</dependency>
-      
-	</ios>
-</component><component namespace="com.nd.sdp.component.im" name="suspentionwindow" display="悬浮窗组件" type="library">
-	<pages>
-	</pages>
-	
-	<properties>
-	</properties>
-	
-	<events>
-	</events>
-
-	<handlers>
-	</handlers>
-
-	<runtime>
-		<properties>
-			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
-			<property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="false"/>
-		</properties>
-	</runtime>
   
-    <ios>
-        <class>SuspensionWindowComponent</class>
-        <dependency>
-            <![CDATA[
- 				pod 'MUISuspensionWindow', '1.0.59'
-               ]]>
-        </dependency>
-    </ios>
+  	<ios>
+    	<class>ETSTeacherStudioComponent</class>
+    	<dependency>
+    	<![CDATA[
+			pod 'e_teacher_studio_ios', '0.2.46-nav3'
+        ]]>
+    	</dependency>
+	</ios>
 </component><component namespace="com.nd.sdp.component" name="imstickcomponent" display="IM登记服务">
 	<pages>
 	</pages>
@@ -8360,7 +8519,7 @@ def getAllAarComponent(componentUrl) {
       	<class>XClassManageComponent</class>
     	<dependency>
 			<![CDATA[
-				pod 'x_class_manage_ios', '0.0.90'
+				pod 'x_class_manage_ios', '0.0.91'
         	]]>
     	</dependency>
 	</ios>
@@ -8432,182 +8591,6 @@ def getAllAarComponent(componentUrl) {
 			"@sdp.nd/edu-selector-offline":"1.0.13"
 		</npm>
 	</h5>
-</component><component namespace="com.nd.sdp.component" name="edu-space-interaction" display="教育-空间互动（通知）">
-    <pages>
-        <page type="cmp" name="test" display="测试-QA" toplevel="1"/>
-        <page type="cmp" name="assessment" display="学生评价首页" toplevel="2"/>
-        <page type="cmp" name="contentPreview" display="内容库预览" toplevel="2"/>
-    </pages>
-  
-   
-    <events/>
-  
-    <handlers>
-        <handler name="not-ios://doStuff" desc="接收事件" receive_event="return_data"/>
-    </handlers>
-  
-    <runtime>
-        <properties>
-            <property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
-            <property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
-        </properties>
-    </runtime>
-  
-   	<properties>
-	      <property type="bool" name="is_show_notice_share" displayName="是否显示通知分享入口" value="true">            
-          		<tip>是否支持通知分享入口，默认开启</tip>
-          </property>
-	</properties>
-  
-    <android>
-        <class>com.nd.hy.ele.android.nitice.ElNoitceComponent</class>
-      
-        <dependency>
-            <![CDATA[
-			     compile('com.nd.sdp.android:edu-notice:0.2.11@aar') {
-                    exclude module: 'active-android'
-			        transitive = true
-			        changing = true
-			    }
-                api('com.nd.sdp.android:edu-appraise-pro:0.0.2') 
-                api('com.nd.sdp.android:edu-content-library:1.0.10') 
-
-                android {
-	              packagingOptions {
-	              exclude 'LICENSE.txt'
-	            }
-         	}
-
-             ]]>
-        </dependency>
-      
-        <scenes>
-            <scene name="android.permission.flashlight" displayName="存储权限" describe="拍照存储sd卡需要" isAsk="true" closeable="true" type="permission"/>
-            <scene name="android.permission.record_audio" displayName="网络权限" describe="请求网络时需要" isAsk="true" closeable="true" type="permission"/>
-            <scene name="android.permission.wake_lock" displayName="获取网络信息状态" describe="播放资源判断网络状态时需要" isAsk="false" closeable="true" type="permission"/>
-            <scene name="android.permission.ACCESS_WIFI_STATE" displayName="获取当前WiFi接入的状态以及WLAN热点的信息" describe="播放资源判断网络状态时需要" isAsk="false" closeable="true" type="permission"/>
-            <scene name="_applicationid_.permission.calendar_receive_broadcast" displayName="calendar_receive_broadcast" describe="calendar_receive_broadcast" isAsk="true" closeable="true" type="permission"/>
-        </scenes>
-    </android>
-  
-    <ios>
-        <class>edu_space_inter_component</class>
-        <dependency>
-            <![CDATA[
-	            pod 'edu_space_inter_ios', '1.0.12'
-				pod 'edu_notice_ios', '1.1.20'
-				pod 'edu_classroom_assessment', '1.0.3'
-				pod 'edu_content_library', '1.0.2'
-    	     ]]>
-        </dependency>
-    </ios>
-  
-    <!-- 路由表 -->
-    <routes>
-        <!-- 路由social旧原生通知公告地址 -->
-        <route source="cmp://com.nd.social.notice/receivedDetail" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
-        <route source="cmp://com.nd.social.notice/receivedNotice" destination="cmp://com.nd.sdp.component.edu-space-interaction/list"/>
-        <route source="cmp://com.nd.social.notice/sendedDetail" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
-        <route source="cmp://com.nd.social.notice/postNotice" destination="cmp://com.nd.sdp.component.edu-space-interaction/postNotice"/>
-        <route source="cmp://com.nd.social.notice/feedBack" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
-        <route source="cmp://com.nd.social.notice/detail" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
-        <!-- 路由通知公告H5地址 -->
-        <route source="local://com.nd.sdp.component.h5-notice/index.html#/receivedNotice?_maf_left_button=back&amp;_maf_allow_plays_inline=false" destination="cmp://com.nd.sdp.component.edu-space-interaction/list"/>
-        <route source="local://com.nd.sdp.component.h5-notice/index.html#!/receivedDetail?_maf_allow_plays_inline=false" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
-        <route source="local://com.nd.sdp.component.h5-notice/index.html#!/detail?_maf_left_button=back&amp;_maf_allow_plays_inline=false" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
-        <route source="local://com.nd.sdp.component.h5-notice/index.html#!/postNotice" destination="cmp://com.nd.sdp.component.edu-space-interaction/postNotice"/>
-        <route source="local://com.nd.sdp.component.h5-notice/index.html#!/feedBack" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
-        <route source="local://com.nd.sdp.component.h5-notice/index.html#!/sendedDetail?_maf_allow_plays_inline=false" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
-        <route source="local://com.nd.sdp.component.h5-notice/index.html" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
-    </routes>
-</component><component namespace="com.nd.sdp.component" name="edu-space-interaction" display="教育-空间互动（通知）">
-    <pages>
-        <page type="cmp" name="test" display="测试-QA" toplevel="1"/>
-        <page type="cmp" name="assessment" display="学生评价首页" toplevel="2"/>
-        <page type="cmp" name="contentPreview" display="内容库预览" toplevel="2"/>
-    </pages>
-  
-   
-    <events/>
-  
-    <handlers>
-        <handler name="not-ios://doStuff" desc="接收事件" receive_event="return_data"/>
-    </handlers>
-  
-    <runtime>
-        <properties>
-            <property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
-            <property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
-        </properties>
-    </runtime>
-  
-   	<properties>
-	      <property type="bool" name="is_show_notice_share" displayName="是否显示通知分享入口" value="true">            
-          		<tip>是否支持通知分享入口，默认开启</tip>
-          </property>
-	</properties>
-  
-    <android>
-        <class>com.nd.hy.ele.android.nitice.ElNoitceComponent</class>
-      
-        <dependency>
-            <![CDATA[
-			     compile('com.nd.sdp.android:edu-notice:0.2.51@aar') {
-                    exclude module: 'active-android'
-			        transitive = true
-			        changing = true
-			    }
-                api('com.nd.sdp.android:edu-appraise-pro:0.0.2') 
-                api('com.nd.sdp.android:edu-content-library:1.0.12') 
-
-                android {
-	              packagingOptions {
-	              exclude 'LICENSE.txt'
-	            }
-         	}
-
-             ]]>
-        </dependency>
-      
-        <scenes>
-            <scene name="android.permission.flashlight" displayName="存储权限" describe="拍照存储sd卡需要" isAsk="true" closeable="true" type="permission"/>
-            <scene name="android.permission.record_audio" displayName="网络权限" describe="请求网络时需要" isAsk="true" closeable="true" type="permission"/>
-            <scene name="android.permission.wake_lock" displayName="获取网络信息状态" describe="播放资源判断网络状态时需要" isAsk="false" closeable="true" type="permission"/>
-            <scene name="android.permission.ACCESS_WIFI_STATE" displayName="获取当前WiFi接入的状态以及WLAN热点的信息" describe="播放资源判断网络状态时需要" isAsk="false" closeable="true" type="permission"/>
-            <scene name="_applicationid_.permission.calendar_receive_broadcast" displayName="calendar_receive_broadcast" describe="calendar_receive_broadcast" isAsk="true" closeable="true" type="permission"/>
-        </scenes>
-    </android>
-  
-    <ios>
-        <class>edu_space_inter_component</class>
-        <dependency>
-            <![CDATA[
-	            pod 'edu_space_inter_ios', '1.0.15'
-				pod 'edu_notice_ios', '1.1.31'
-				pod 'edu_classroom_assessment', '1.0.3'
-				pod 'edu_content_library', '1.0.2'
-    	     ]]>
-        </dependency>
-    </ios>
-  
-    <!-- 路由表 -->
-    <routes>
-        <!-- 路由social旧原生通知公告地址 -->
-        <route source="cmp://com.nd.social.notice/receivedDetail" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
-        <route source="cmp://com.nd.social.notice/receivedNotice" destination="cmp://com.nd.sdp.component.edu-space-interaction/list"/>
-        <route source="cmp://com.nd.social.notice/sendedDetail" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
-        <route source="cmp://com.nd.social.notice/postNotice" destination="cmp://com.nd.sdp.component.edu-space-interaction/postNotice"/>
-        <route source="cmp://com.nd.social.notice/feedBack" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
-        <route source="cmp://com.nd.social.notice/detail" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
-        <!-- 路由通知公告H5地址 -->
-        <route source="local://com.nd.sdp.component.h5-notice/index.html#/receivedNotice?_maf_left_button=back&amp;_maf_allow_plays_inline=false" destination="cmp://com.nd.sdp.component.edu-space-interaction/list"/>
-        <route source="local://com.nd.sdp.component.h5-notice/index.html#!/receivedDetail?_maf_allow_plays_inline=false" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
-        <route source="local://com.nd.sdp.component.h5-notice/index.html#!/detail?_maf_left_button=back&amp;_maf_allow_plays_inline=false" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
-        <route source="local://com.nd.sdp.component.h5-notice/index.html#!/postNotice" destination="cmp://com.nd.sdp.component.edu-space-interaction/postNotice"/>
-        <route source="local://com.nd.sdp.component.h5-notice/index.html#!/feedBack" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
-        <route source="local://com.nd.sdp.component.h5-notice/index.html#!/sendedDetail?_maf_allow_plays_inline=false" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
-        <route source="local://com.nd.sdp.component.h5-notice/index.html" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
-    </routes>
 </component><component namespace="com.nd.sdp.component" name="edu-habit-cultivate" display="X-学习打卡">
 	<pages>
       <page type="cmp" name="test" display="打卡测试" toplevel="1"/>
@@ -8652,7 +8635,7 @@ def getAllAarComponent(componentUrl) {
     <class>com.nd.sdp.android.xhabitcultivate.XHabitCultivateComponent</class>   
 		<dependency>
     	<![CDATA[  
-  			compile 'com.nd.sdp.android:x-habit-train-android:0.3.9.7-rc70'
+  			compile 'com.nd.sdp.android:x-habit-train-android:0.3.9.7-rc71'
 		]]>
 		</dependency>
    		<scenes>
@@ -8667,7 +8650,7 @@ def getAllAarComponent(componentUrl) {
     	<class>edu_habit_cultivate_component</class>
     	<dependency>
     	<![CDATA[
-			pod 'edu_habit_cultivate_ios', '1.2.58'
+			pod 'edu_habit_cultivate_ios', '1.2.59-nav1'
 			pod 'edu_habit_cultivate_sdk', '0.0.2'
         ]]>
     	</dependency>
@@ -9365,7 +9348,7 @@ File.open(pod_file_path, 'w') { |file| file.write(final_pod_content) }
         <class>com.nd.sdp.android.ele.family.EduFamilyComponent</class>
         <dependency>
             <![CDATA[
-			    compile 'com.nd.sdp.android:edu-family-android:2.2.0-rc03'
+			    compile 'com.nd.sdp.android:edu-family-android:2.2.1-rc01'
                 android {
 	              packagingOptions {
 	              	exclude 'LICENSE.txt'
@@ -9379,7 +9362,7 @@ File.open(pod_file_path, 'w') { |file| file.write(final_pod_content) }
         <class>EduFamilyComponent</class>
         <dependency>
             <![CDATA[
-				pod 'edu_family_ios', '0.0.43'
+				pod 'edu_family_ios', '0.0.44'
         	]]>
         </dependency>
     </ios>
@@ -9849,7 +9832,7 @@ File.open(pod_file_path, 'w') { |file| file.write(final_pod_content) }
         <class>com.nd.xst.android.player.cmp.XPlayerComponent</class>
         <dependency>
             <![CDATA[
-       		    implementation ("com.nd.xst:x-player-component:0.8.2-rc07")
+       		    implementation ("com.nd.xst:x-player-component:0.8.3-rc08")
                 //视频
                 def xstVideoVersion = "2.0.2-rc08" 
                 implementation "com.nd.sdp.ele.android.video:video:${xstVideoVersion}" 
@@ -9878,112 +9861,239 @@ File.open(pod_file_path, 'w') { |file| file.write(final_pod_content) }
         <class>XSTPlayerComponent</class>
         <dependency>
             <![CDATA[ 
-                 pod 'xst_player_ios', '1.0.115' 
-                 pod 'x_doc_player', '1.0.13' 
-                 pod 'xst_media_player_ios', '0.0.12'
+                 pod 'xst_player_ios', '1.0.120' 
+                 pod 'x_doc_player', '1.0.15' 
+                 pod 'xst_media_player_ios', '0.0.17'
             ]]>
         </dependency>
     </ios>
-</component><component namespace="com.nd.xst" name="consult" display="X-答疑咨询">
+</component><component namespace="com.nd.sdp.component" name="edu-space-interaction" display="教育-空间互动（通知）">
+    <pages>
+        <page type="cmp" name="test" display="测试-QA" toplevel="1"/>
+        <page type="cmp" name="assessment" display="学生评价首页" toplevel="2"/>
+        <page type="cmp" name="contentPreview" display="内容库预览" toplevel="2"/>
+    </pages>
+  
+   
+    <events/>
+  
+    <handlers>
+        <handler name="not-ios://doStuff" desc="接收事件" receive_event="return_data"/>
+    </handlers>
+  
+    <runtime>
+        <properties>
+            <property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
+            <property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
+        </properties>
+    </runtime>
+  
+   	<properties>
+	      <property type="bool" name="is_show_notice_share" displayName="是否显示通知分享入口" value="true">            
+          		<tip>是否支持通知分享入口，默认开启</tip>
+          </property>
+	</properties>
+  
+    <android>
+        <class>com.nd.hy.ele.android.nitice.ElNoitceComponent</class>
+      
+        <dependency>
+            <![CDATA[
+			     compile('com.nd.sdp.android:edu-notice:0.2.11@aar') {
+                    exclude module: 'active-android'
+			        transitive = true
+			        changing = true
+			    }
+                api('com.nd.sdp.android:edu-appraise-pro:0.0.2') 
+                api('com.nd.sdp.android:edu-content-library:1.0.10') 
+
+                android {
+	              packagingOptions {
+	              exclude 'LICENSE.txt'
+	            }
+         	}
+
+             ]]>
+        </dependency>
+      
+        <scenes>
+            <scene name="android.permission.flashlight" displayName="存储权限" describe="拍照存储sd卡需要" isAsk="true" closeable="true" type="permission"/>
+            <scene name="android.permission.record_audio" displayName="网络权限" describe="请求网络时需要" isAsk="true" closeable="true" type="permission"/>
+            <scene name="android.permission.wake_lock" displayName="获取网络信息状态" describe="播放资源判断网络状态时需要" isAsk="false" closeable="true" type="permission"/>
+            <scene name="android.permission.ACCESS_WIFI_STATE" displayName="获取当前WiFi接入的状态以及WLAN热点的信息" describe="播放资源判断网络状态时需要" isAsk="false" closeable="true" type="permission"/>
+            <scene name="_applicationid_.permission.calendar_receive_broadcast" displayName="calendar_receive_broadcast" describe="calendar_receive_broadcast" isAsk="true" closeable="true" type="permission"/>
+        </scenes>
+    </android>
+  
+    <ios>
+        <class>edu_space_inter_component</class>
+        <dependency>
+            <![CDATA[
+	            pod 'edu_space_inter_ios', '1.0.12'
+				pod 'edu_notice_ios', '1.1.20'
+				pod 'edu_classroom_assessment', '1.0.3'
+				pod 'edu_content_library', '1.0.2'
+    	     ]]>
+        </dependency>
+    </ios>
+  
+    <!-- 路由表 -->
+    <routes>
+        <!-- 路由social旧原生通知公告地址 -->
+        <route source="cmp://com.nd.social.notice/receivedDetail" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
+        <route source="cmp://com.nd.social.notice/receivedNotice" destination="cmp://com.nd.sdp.component.edu-space-interaction/list"/>
+        <route source="cmp://com.nd.social.notice/sendedDetail" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
+        <route source="cmp://com.nd.social.notice/postNotice" destination="cmp://com.nd.sdp.component.edu-space-interaction/postNotice"/>
+        <route source="cmp://com.nd.social.notice/feedBack" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
+        <route source="cmp://com.nd.social.notice/detail" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
+        <!-- 路由通知公告H5地址 -->
+        <route source="local://com.nd.sdp.component.h5-notice/index.html#/receivedNotice?_maf_left_button=back&amp;_maf_allow_plays_inline=false" destination="cmp://com.nd.sdp.component.edu-space-interaction/list"/>
+        <route source="local://com.nd.sdp.component.h5-notice/index.html#!/receivedDetail?_maf_allow_plays_inline=false" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
+        <route source="local://com.nd.sdp.component.h5-notice/index.html#!/detail?_maf_left_button=back&amp;_maf_allow_plays_inline=false" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
+        <route source="local://com.nd.sdp.component.h5-notice/index.html#!/postNotice" destination="cmp://com.nd.sdp.component.edu-space-interaction/postNotice"/>
+        <route source="local://com.nd.sdp.component.h5-notice/index.html#!/feedBack" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
+        <route source="local://com.nd.sdp.component.h5-notice/index.html#!/sendedDetail?_maf_allow_plays_inline=false" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
+        <route source="local://com.nd.sdp.component.h5-notice/index.html" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
+    </routes>
+</component><component namespace="com.nd.sdp.component" name="edu-space-interaction" display="教育-空间互动（通知）">
+    <pages>
+        <page type="cmp" name="test" display="测试-QA" toplevel="1"/>
+        <page type="cmp" name="assessment" display="学生评价首页" toplevel="2"/>
+        <page type="cmp" name="contentPreview" display="内容库预览" toplevel="2"/>
+    </pages>
+  
+   
+    <events/>
+  
+    <handlers>
+        <handler name="not-ios://doStuff" desc="接收事件" receive_event="return_data"/>
+    </handlers>
+  
+    <runtime>
+        <properties>
+            <property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
+            <property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
+        </properties>
+    </runtime>
+  
+   	<properties>
+	      <property type="bool" name="is_show_notice_share" displayName="是否显示通知分享入口" value="true">            
+          		<tip>是否支持通知分享入口，默认开启</tip>
+          </property>
+	</properties>
+  
+    <android>
+        <class>com.nd.hy.ele.android.nitice.ElNoitceComponent</class>
+      
+        <dependency>
+            <![CDATA[
+			     compile('com.nd.sdp.android:edu-notice:0.2.52@aar') {
+                    exclude module: 'active-android'
+			        transitive = true
+			        changing = true
+			    }
+                api('com.nd.sdp.android:edu-appraise-pro:0.0.2') 
+                api('com.nd.sdp.android:edu-content-library:1.0.12') 
+
+                android {
+	              packagingOptions {
+	              exclude 'LICENSE.txt'
+	            }
+         	}
+
+             ]]>
+        </dependency>
+      
+        <scenes>
+            <scene name="android.permission.flashlight" displayName="存储权限" describe="拍照存储sd卡需要" isAsk="true" closeable="true" type="permission"/>
+            <scene name="android.permission.record_audio" displayName="网络权限" describe="请求网络时需要" isAsk="true" closeable="true" type="permission"/>
+            <scene name="android.permission.wake_lock" displayName="获取网络信息状态" describe="播放资源判断网络状态时需要" isAsk="false" closeable="true" type="permission"/>
+            <scene name="android.permission.ACCESS_WIFI_STATE" displayName="获取当前WiFi接入的状态以及WLAN热点的信息" describe="播放资源判断网络状态时需要" isAsk="false" closeable="true" type="permission"/>
+            <scene name="_applicationid_.permission.calendar_receive_broadcast" displayName="calendar_receive_broadcast" describe="calendar_receive_broadcast" isAsk="true" closeable="true" type="permission"/>
+        </scenes>
+    </android>
+  
+    <ios>
+        <class>edu_space_inter_component</class>
+        <dependency>
+            <![CDATA[
+	            pod 'edu_space_inter_ios', '1.0.15'
+				pod 'edu_notice_ios', '1.1.32-nav'
+				pod 'edu_classroom_assessment', '1.0.3'
+				pod 'edu_content_library', '1.0.2'
+    	     ]]>
+        </dependency>
+    </ios>
+  
+    <!-- 路由表 -->
+    <routes>
+        <!-- 路由social旧原生通知公告地址 -->
+        <route source="cmp://com.nd.social.notice/receivedDetail" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
+        <route source="cmp://com.nd.social.notice/receivedNotice" destination="cmp://com.nd.sdp.component.edu-space-interaction/list"/>
+        <route source="cmp://com.nd.social.notice/sendedDetail" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
+        <route source="cmp://com.nd.social.notice/postNotice" destination="cmp://com.nd.sdp.component.edu-space-interaction/postNotice"/>
+        <route source="cmp://com.nd.social.notice/feedBack" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
+        <route source="cmp://com.nd.social.notice/detail" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
+        <!-- 路由通知公告H5地址 -->
+        <route source="local://com.nd.sdp.component.h5-notice/index.html#/receivedNotice?_maf_left_button=back&amp;_maf_allow_plays_inline=false" destination="cmp://com.nd.sdp.component.edu-space-interaction/list"/>
+        <route source="local://com.nd.sdp.component.h5-notice/index.html#!/receivedDetail?_maf_allow_plays_inline=false" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
+        <route source="local://com.nd.sdp.component.h5-notice/index.html#!/detail?_maf_left_button=back&amp;_maf_allow_plays_inline=false" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
+        <route source="local://com.nd.sdp.component.h5-notice/index.html#!/postNotice" destination="cmp://com.nd.sdp.component.edu-space-interaction/postNotice"/>
+        <route source="local://com.nd.sdp.component.h5-notice/index.html#!/feedBack" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
+        <route source="local://com.nd.sdp.component.h5-notice/index.html#!/sendedDetail?_maf_allow_plays_inline=false" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
+        <route source="local://com.nd.sdp.component.h5-notice/index.html" destination="cmp://com.nd.sdp.component.edu-space-interaction/detail_share"/>
+    </routes>
+</component><component namespace="com.nd.xst" name="edu-class" display="X-班级基础能力">
 	<pages>
-		<page type="cmp" name="testMe" display="X学习云-答疑咨询Test" toplevel="1" allow_guest="true"/>
 	</pages>
 	
 	<properties>
-      <property type="bool" name="enable_shot_edit" displayName="是否允许图片编辑" value="true"/>
-       <property type="bool" name="enable_ask_other" displayName="是否开启问问其他人入口" value="false"/>
 	</properties>
 	
 	<events>
 	</events>
+  
+    <routes>
+    	<route source="cmp://com.nd.sdp.component.user-select-framework/main" destination="cmp://com.nd.xst.edu-class/class_picker"/> 
+	</routes>
 
-	<handlers>
-      <handler name="xst_event_asking" desc="课程提问事件" receive_event="XCloud_Event_Business_Asking"/>
-      <handler name="ios://xst_event_uc_on_login_success" receive_event="uc_on_login_success" desc="登录成功事件监听"/>
-	</handlers>
+    <handlers>
+        <handler name="ios://xClassBaseInit" desc="" receive_event="xcloud_app_init"/>
+        <handler name="ios://classSDKListenEvent" receive_event="com.nd.xcloud/class_change,com.nd.xcloud/class_statistics,com.nd.xcloud/class_dissolve,com.nd.xcloud/class_transfer,com.nd.xcloud/class_member_change,com.nd.xcloud/class_audit_change,com.nd.xcloud/class_member_delete" desc="转发班级SDK事件（班级信息变化）"/>
+        <handler name="not-ios:://xClassBaseInit" desc="" receive_event="xcloud_app_init"/>
+        <handler name="not-ios://classSDKListenEvent" receive_event="com.nd.xcloud/class_change,com.nd.xcloud/class_statistics,com.nd.xcloud/class_dissolve,com.nd.xcloud/class_transfer,com.nd.xcloud/class_member_change,com.nd.xcloud/class_audit_change,com.nd.xcloud/class_member_delete" desc="转发班级SDK事件"/>
+    </handlers>
 
 	<runtime>
 		<properties>
 			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
 			<property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
 		</properties>
+       <providers>
+            <provider name="com.nd.xst.edu-class.selection_provider" filter="" desc="provider的声明" anClass="SelectionProvider" iosClass=""/>
+        </providers>
 	</runtime>
-    <android>
-    	<class>com.nd.sdp.android.xst.ask.XAskComponent</class>   
+  
+     <android>
+    	<class>com.nd.sdp.android.xst.classmember.selector.XClassMemberSelectorComponent</class>   
 		<dependency>
     	<![CDATA[  
-  			compile 'com.nd.sdp.android:xst-consult-android:1.5.1-rc01'
-			implementation 'com.nd.xst:pic-editor:0.3-rc01'
+  			compile 'com.nd.sdp.android:xst-classmember-selector-android:1.3.0-rc3'
+            implementation('com.nd.sdp.android:xst-class-sdk:4.6-rc09')
 		]]> 
 		</dependency>
    	</android> 
-	<ios>
-        <class>XSTConsultComponent</class>
-        <dependency>
-            <![CDATA[
-			pod 'xst_consult_ios', '0.0.11'
-        ]]>
-        </dependency>
-    </ios>
-</component><component namespace="com.nd.pbl" name="weixinpay" display="微信支付" type="function_library">
-    <pages>
-    </pages>
-    
-    <properties>
-    </properties>
-    
-    <events>
-    </events>
-
-    <handlers>
-    </handlers>
-
-    <runtime>
-        <properties>
-            <property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="false"/>
-        </properties>
-    </runtime>
-    
-    <build>
-        <android>   
-            <safe_whitelist>
-                <activities>
-                    <activity name="com.nd.paysdk.wxapi.WXPayEntryActivity" describe="微信第三方支付需要" type="activity" owner="912025"/>
-                </activities>
-            </safe_whitelist>
-        </android>
-    </build>
-
-    <android>
-        <scenes>
-            <scene name="android.permission.ACCESS_WIFI_STATE" displayName="获取WiFi状态" describe="查询用户设备的网络状态" isAsk="true" closeable="true" type="permission"/>
-            <scene name="android.permission.ACCESS_NETWORK_STATE" displayName="获取网络状态" describe="查询用户设备的网络状态" isAsk="true" closeable="true" type="permission"/>
-            <scene name="android.permission.INTERNET" displayName="访问网络" describe="提供接口访问网络的需求" isAsk="true" closeable="true" type="permission"/>
-            <scene name="android.permission.WRITE_EXTERNAL_STORAGE" displayName="写入外部存储" describe="写入数据和图片缓存" isAsk="true" closeable="true" type="permission"/>
-        </scenes>
-        <dependency>
-            <![CDATA[
-                compile('com.nd.sdp.android:social-wxpay:3.0.3.3@aar') {
-                    transitive = true
-                    changing = true
-                }
-                compile('com.tencent.android.weixin:open_sdk:1.0') {
-                    transitive = true
-                    changing = true
-                }
-             ]]>
-        </dependency>
-    </android>
+  
     <ios>
-      <class>StartupComponent</class>
-      <dependency>
-        <![CDATA[
-            pod 'WeChatPay', '0.0.11'
-            pod 'WechatOpenSDK', '1.8.6.2'
+        <class>XClassmemberSelectorComponent</class>
+        <dependency>
+            <![CDATA[
+			pod 'xst_classmember_selector_ios', '0.0.11'
+  			pod 'xst_class_sdk','0.0.73'
         ]]>
-      </dependency>
+        </dependency>
     </ios>
-    
+  
 </component><component namespace="com.nd.xst" name="x-textbook" display="Ext_X课本" extension="true">
 	<pages>
       <page type="cmp" name="bookDetail2" display="课本详情页2" allow_guest="true">
@@ -10060,164 +10170,6 @@ File.open(pod_file_path, 'w') { |file| file.write(final_pod_content) }
         ]]>
         </dependency>
     </ios>
-</component><component namespace="com.nd.social.component" name="ndvote" display="投票">
-	 <properties>
-		<property type="bool" name="vote_statistics_pk_visible" displayName="是否显示投票-PK" value="true"/>	
-        <property type="bool" name="vote_statistics_in_bottom_menu" displayName="投票是否显示在底部菜单" value="true"/>	
-    </properties>
-	<pages>
-		<page type="cmp" name="VoteList" display="投票列表" toplevel="1">
-			<params> 
-        		<param key="scopeType">投票类型</param>
-        		<param key="scopeId">投票类型Id</param>
-        		<param key="bizType">组件Id</param>
-			</params>
-  		</page>
-  
-		<page type="cmp" name="VotePublish" display="发布投票界面">
-    		<params> 
-      			<param key="scopeType">投票类型</param>
-      			<param key="scopeId">投票类型Id</param>
-      			<param key="bizType">组件Id</param>
-    		</params>
-  		</page>
-  
-		<page type="cmp" name="VoteDetail" display="投票详情界面">
-    		<params> 
-      			<param key="scopeType">投票类型</param>
-      			<param key="scopeId">投票类型Id</param>
-      			<param key="bizType">组件Id</param>
-      			<param key="voteId">投票id</param>
-     		</params>
-   		</page>
-	</pages>
-	<properties>
-		<property type="bool" name="function_enable" displayName="群投票置顶">
-        	<dependency>
-          		<component namespace="com.nd.sdp.component" name="groupstick-plugin"/>
-        	</dependency>
-    	</property>
-	</properties>
-  
-  	<runtime>
-    <properties>
-      <property type="bool" name="lazy_init_android" displayName="是否开启延迟初始化" value="true"/>
-      <property type="bool" name="lazy_init_ios" displayName="是否开启延迟初始化" value="true"/>
-    </properties>
-
-    <handlers>
-   	  <handler name="event_ndvote_get_votes" desc="获取投票信息" receive_event="event_ndvote_get_votes"/>
-  	  <handler name="event_ndvote_get_refresh_vote_view" desc="获取或刷新投票预览view" receive_event="event_ndvote_get_refresh_vote_view"/>
-      <handler name="event_ndvote_delete_vote" desc="删除投票" receive_event="event_ndvote_delete_vote"/>
-      <handler name="event_ndvote_create_vote" desc="发起投票" receive_event="event_ndvote_create_vote"/>
-      <handler name="ios://receive_imstick_component_loginin" desc="" receive_event="IMSTICK_COMPONENT_LOGININ"/> 
-      <handler name="imPlugInStartupEvent" desc="用于IM插件启动(注意实现imPlugInStartup方法)" receive_event="im_PlugIn_Startup_Event"/>
-    </handlers>
-
-    <providers>
-    <!-- <provider name="com.nd.social.component.ndvote.GetChatInputMenuItem" filter="com.nd.social.im.GetChatInputMenuItem" desc="群投票" anClass="com.nd.sdp.android.ndvote.provider.GroupVoteProvider" iosClass="NDVoteMenuItemProvider"/>     
-    	<provider name="com.nd.social.component.ndvote.GetGroupStickSettingItems" filter="com.nd.social.im.GetGroupStickSettingItems" desc="群消息置顶" iosClass="NDVoteGroupStickProvider"/> -->
-		<provider name="com.nd.social.component.ndvote.gs.ProviderName" filter="com.nd.social.im.GetChatInputMenuItem2" desc="群统计" iosClass="NDGSProvider" anClass="com.nd.sdp.android.ndvote.provider.GroupStatisticsEnterProvider"/>
-    </providers>
-  </runtime>
-  
-	<android>
-		<class>com.nd.sdp.android.ndvote.VoteComponent</class>
-		<dependency>
-			<![CDATA[
-				android {
-                    compileOptions {
-                        sourceCompatibility 1.8
-                        targetCompatibility 1.8
-                    }
-                }
-			    compile('com.nd.sdp.android.social:nd-vote-component:2.0.23') {
-			        transitive = true
-			        changing = true
-                    exclude group: 'com.nd.android.sdp.im.common.widget', module: 'emotion'
-                    exclude group: 'com.nd.android.sdp.im', module: 'imsdk'
-                    exclude group: 'com.nd.sdp.component.im', module: 'im-coresdk-impl'
-                    exclude group: 'com.nd.android.sdp.im', module: 'im_common'
-			    }
-                compile("com.nd.sdp.im:flowInteractExtender:0.2.6.release") {
-                    exclude group: 'com.nd.android.sdp.im', module: 'imsdk'
-                    exclude group: 'com.nd.sdp.component.im', module: 'im-coresdk-impl'
-                    exclude group: 'com.nd.android.sdp.im', module: 'im_common'
-                }
-             ]]>
-		</dependency>
-      	<scenes>
-        	<scene name="android.permission.ACCESS_WIFI_STATE" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="android.permission.ACCESS_NETWORK_STATE" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="android.permission.INTERNET" displayName="" describe="框架提供网络请求能力需要" isAsk="true" type="permission"/>
-            <scene name="android.permission.WRITE_EXTERNAL_STORAGE" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="android.permission.CAMERA" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="android.permission.READ_EXTERNAL_STORAGE" displayName="" describe="框架提供日志存储sd卡需要" isAsk="true" type="permission"/>
-            <scene name="android.permission.SYSTEM_OVERLAY_WINDOW" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="android.permission.GET_TASKS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.android.launcher.permission.INSTALL_SHORTCUT" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.android.launcher.permission.UNINSTALL_SHORTCUT" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.android.launcher.permission.READ_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="android.permission.WRITE_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.android.launcher.permission.WRITE_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.android.launcher2.permission.READ_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.android.launcher2.permission.WRITE_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.android.launcher3.permission.READ_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.android.launcher3.permission.WRITE_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="org.adw.launcher.permission.READ_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="org.adw.launcher.permission.WRITE_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.htc.launcher.permission.READ_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.htc.launcher.permission.WRITE_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.qihoo360.launcher.permission.READ_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.qihoo360.launcher.permission.WRITE_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.lge.launcher.permission.READ_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.lge.launcher.permission.WRITE_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="net.qihoo.launcher.permission.READ_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="net.qihoo.launcher.permission.WRITE_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="org.adwfreak.launcher.permission.READ_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="org.adwfreak.launcher.permission.WRITE_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="org.adw.launcher_donut.permission.READ_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="org.adw.launcher_donut.permission.WRITE_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.huawei.launcher3.permission.READ_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.huawei.launcher3.permission.WRITE_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.fede.launcher.permission.READ_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.fede.launcher.permission.WRITE_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.sec.android.app.twlauncher.settings.READ_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.sec.android.app.twlauncher.settings.WRITE_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.anddoes.launcher.permission.READ_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.anddoes.launcher.permission.WRITE_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.tencent.qqlauncher.permission.READ_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.tencent.qqlauncher.permission.WRITE_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.huawei.launcher2.permission.READ_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.huawei.launcher2.permission.WRITE_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.android.mylauncher.permission.READ_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.android.mylauncher.permission.WRITE_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.ebproductions.android.launcher.permission.READ_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.ebproductions.android.launcher.permission.WRITE_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.oppo.launcher.permission.READ_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.oppo.launcher.permission.WRITE_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.miui.mihome2.permission.READ_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.miui.mihome2.permission.WRITE_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.huawei.android.launcher.permission.READ_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="com.huawei.android.launcher.permission.WRITE_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="telecom.mdesk.permission.READ_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="telecom.mdesk.permission.WRITE_SETTINGS" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="dianxin.permission.ACCESS_LAUNCHER_DATA" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="android.permission.FOREGROUND_SERVICE" displayName="" describe="" isAsk="true" type="permission"/>
-            <scene name="android.permission.REQUEST_INSTALL_PACKAGES" displayName="" describe="" isAsk="true" type="permission"/>
-        </scenes>
-	</android>
-
-	<ios>
-		<class>NDVoteComponent</class>
-		<dependency>
-			<![CDATA[
-            pod 'NDVoteComponent', '17.0.35'
-			pod 'NDVoteSDK', '8.7.12'
-             ]]>
-		</dependency>
-
-	</ios>
 </component><component namespace="com.nd.sdp.component" name="microblog-mobile-common" display="微博打卡业务组件">
 	<pages>
       <page type="cmp" name="listPage" display="微博列表界面"/>
@@ -10440,7 +10392,7 @@ File.open(pod_file_path, 'w') { |file| file.write(final_pod_content) }
     <android>
 		<class>com.nd.xst.interact.cmp.XstInteractComponent</class>
 		<dependency>
-       		def interactVer = "0.2.9-rc05"
+       		def interactVer = "0.3.0-rc07"
        		implementation "com.nd.xst:xst-content-interact:${interactVer}"
             implementation "com.nd.xst:xst-interact-sdk:${interactVer}"
 		</dependency>
@@ -10460,21 +10412,19 @@ File.open(pod_file_path, 'w') { |file| file.write(final_pod_content) }
         <class>XstContentInteractComponent</class>
         <dependency>
             <![CDATA[
-				pod 'xst_content_interact', '0.0.156'
+				pod 'xst_content_interact', '0.0.160'
                ]]>
         </dependency>
     </ios>
   
-</component><component namespace="com.nd.social" name="qqshare" display="QQ分享" type="function_library">
+</component><component namespace="com.nd.sdp.component" name="e-prepare-lessons" display="强师-备课资源">
 	<pages>
+      <page type="cmp" name="debug" display="调测页面" toplevel="1" allow_guest="true"/>
+      <page type="cmp" name="course_detail" display="备授课资源详情" toplevel="1" allow_guest="true"/>
 	</pages>
 	
 	<properties>
-       <property type="string" name="umeng_qq_appkey_ios" displayName="QQ/Qzone的AppId（iOS）" senior="true"/>
-      <property type="string" name="umeng_qq_QQScheme_ios" displayName="QQ/Qzone的QQScheme（iOS）" iOS_URL_Types="1" senior="true"/>
-      <property type="string" name="umeng_qq_tencentScheme_ios" displayName="QQ/Qzone的tencentScheme（iOS）" iOS_URL_Types="1" senior="true"/>
-	  <property type="string" name="qq_universal_link" displayName="QQ/Qzone的universallink（iOS）" senior="true"/>
-  </properties>
+	</properties>
 	
 	<events>
 	</events>
@@ -10487,65 +10437,76 @@ File.open(pod_file_path, 'w') { |file| file.write(final_pod_content) }
 			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
 			<property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
 		</properties>
-       <handlers>
-    	<handler name="ios://receiveQQShareInit" desc="分享子组件初始化事件" receive_event="social_share_subcomponent_init"/>
-    </handlers>
 	</runtime>
+
+  	<android>
+		<class>com.nd.sdp.prepare.lesson.BizComponent</class>
+		<dependency>
+		<![CDATA[
+			compile('com.nd.sdp.android:e-prepare-lessons:0.0.1-beta.57') 
+		]]>
+		</dependency>
+	</android>
   
-  <ios>
-    <class>SocialShareQQComponent</class>
-    <dependency>
-      <![CDATA[
-pod 'SocialShareQQComponent', '1.1.6'
-pod 'TPQQHelper', '0.0.7'
-]]>
-    </dependency>
-  </ios>
-</component><component namespace="com.nd.xst" name="mob-stat-umeng" display="X-友盟统计" type="function_library">
-    <pages/>
-    <properties>
-        <property type="string" name="android.umeng.key" displayName="友盟-安卓-KEY"/>
-        <property type="string" name="android.umeng.channel" displayName="友盟-安卓-渠道名" value="official"/>
-        <property type="string" name="ios.umeng.key" displayName="友盟-iOS-KEY"/>
-
-
-    </properties>
-    <events/>
-    <handlers>
-  		<handler name="ios://onStartLogPageEvent" receive_event="xst_start_log_page_event" desc="页面开始"/>
-		<handler name="ios://onEndLogPageEvent" receive_event="xst_end_log_page_event" desc="结束页面"/>
-		<handler name="ios://onReveiveUMengEvent" receive_event="appfactory_data_analytics_umeng_event" desc="收到友盟埋点事件"/>
-
-    </handlers>
-    <android>
-        <dependency>
-        <![CDATA[
-            compile 'com.nd.mob.stat:ext-umeng:1.0.1-rc05'
-        ]]>
-        </dependency>
-        <meta-datas>
-            <meta-data xpath="//manifest/application" file="/app/AndroidManifest.xml">
-<![CDATA[
-				<meta-data android:name="UMENG_APPKEY" android:value="${android.umeng.key}"/>
-				<meta-data android:name="UMENG_CHANNEL" android:value="${android.umeng.channel}"/>
-]]>
-			</meta-data>
-        </meta-datas>
-    </android>
-    <runtime>
-        <properties>
-            <property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
-            <property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
-        </properties>
-    </runtime>
-        <ios>
-        <class>mob_stat_umengComponent</class>
+     <ios>
+        <class>EPLPrepareLessonsComponent</class>
         <dependency>
             <![CDATA[
-                pod 'mob_stat_umeng', '1.1.4'
-               ]]>
+	            pod 'e_prepare_lessons_ios', '0.0.28-UIOPT1'
+    	     ]]>
         </dependency>
     </ios>
+</component><component namespace="com.nd.sdp.component" name="dlna-support" display="【框架扩展】DLNA 支持" type="library">
+	<pages>
+	</pages>
+	
+	<properties>
+	</properties>
+	
+	<events>
+	</events>
+
+	<handlers>
+	</handlers>
+
+	<runtime>
+		<properties>
+			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
+			<property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
+		</properties>
+	</runtime>
+  <android>    
+		<dependency>
+					<![CDATA[
+            compile 'com.nd.sdp.android.common:com-nd-apf-dlna-control:3.0.7-release.2'
+            compile 'com.nd.sdp.android.common:com-nd-apf-dlna-extenral:3.0.7-release.1'
+android {
+   packagingOptions {
+        exclude 'META-INF/beans.xml'
+    }
+compileOptions {
+        sourceCompatibility '1.8'
+        targetCompatibility '1.8'
+    }
+}
+
+             ]]>
+		</dependency>    
+    <scenes>
+    <scene name="android.permission.change_wifi_multicast_state" displayName="WIFI状态改变权限" describe="需要监听网络变化" isAsk="true" closeable="true" type="permission"/>
+  
+</scenes>
+</android>
+    <ios>
+		<dependency>
+			<![CDATA[
+            pod 'APFDLNASupport', '1.0.12'
+             ]]>
+		</dependency>
+        <scenes>
+        	<scene name="NSLocalNetworkUsageDescription" describe="为您提供投屏搜索服务。"/>
+        </scenes>
+	</ios>
 </component><component namespace="com.nd.xst" name="mob-stat-baidu" display="X-百度统计" type="function_library">
 	<pages>
 	</pages>
@@ -10635,7 +10596,7 @@ pod 'TPQQHelper', '0.0.7'
 		<class>com.nd.sdp.android.ele.schedule.ScheduleComponent</class>
 		<dependency>
 			<![CDATA[
-     			compile 'com.nd.sdp.android:edu-schedule:1.1.0.21'
+     			compile 'com.nd.sdp.android:edu-schedule:1.1.0.24'
          ]]>
           
 		</dependency>
@@ -10712,7 +10673,7 @@ pod 'TPQQHelper', '0.0.7'
         <class>XLiveComponent</class>
         <dependency>
             <![CDATA[
-				pod 'x_live_ios', '1.1.17'
+				pod 'x_live_ios', '1.1.18'
         	]]>
         </dependency>
     </ios>
@@ -10942,159 +10903,289 @@ pod 'TPQQHelper', '0.0.7'
 			]]>
 		</dependency>
     </ios>
-</component><component namespace="com.nd.sdp.component" name="e-prepare-lessons" display="强师-备课资源">
-	<pages>
-      <page type="cmp" name="debug" display="调测页面" toplevel="1" allow_guest="true"/>
-      <page type="cmp" name="course_detail" display="备授课资源详情" toplevel="1" allow_guest="true"/>
-	</pages>
-	
-	<properties>
-	</properties>
-	
-	<events>
-	</events>
+</component><component name="pblcomponent" display="PBL" namespace="com.nd.pbl">
+    <pages>
+        <page name="me" display="我的主页" toplevel="1" type="cmp" allow_guest="true"/>
+        <page name="others" display="他人主页" toplevel="2" type="cmp"/>
+        <page name="task" display="任务列表" toplevel="2" type="cmp"/>
+        <page name="reward" display="奖励列表" toplevel="2" type="cmp"/>
+        <page name="qrcode" display="二维码页面" toplevel="2" type="cmp"/>
+        <page name="sign" display="签到页面" toplevel="2" type="cmp"/>
+        <page name="setting" display="名片信息页面" toplevel="2" type="cmp"/>
+        <page name="settingAvatar" display="头像查看" toplevel="2" type="cmp"/>
+        <page name="sendflowercenter" display="送花中心" toplevel="2" type="cmp"/>
+        <page name="alertSetting" display="日事日清提醒设置" toplevel="2" type="cmp"/>
+    </pages>
 
-	<handlers>
-	</handlers>
-
-	<runtime>
-		<properties>
-			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
-			<property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
-		</properties>
-	</runtime>
-
-  	<android>
-		<class>com.nd.sdp.prepare.lesson.BizComponent</class>
-		<dependency>
-		<![CDATA[
-			compile('com.nd.sdp.android:e-prepare-lessons:0.0.1-beta.55') 
-		]]>
+     <properties>
+        <!-- <property name="card_msg_logout" displayName="设置页面是否包含退出登录" type="bool">
+          <tip>设置页面是否包含退出登录</tip>
+          <img src="http://cdncs.101.com/v0.1/static/production_pbl_user/PBLComponent/PBL_Setting_logout.jpg"/>
+          </property> -->
+        <property name="add_friends" displayName="他人主页显示加为好友" type="bool">
+          <tip>他人主页显示加为好友</tip>
+          <img src="http://cdncs.101.com/v0.1/static/production_pbl_user/PBLComponent/PBL_Others_add_friend.jpg"/>
+          </property>
+        <property name="send_msg" displayName="他人主页显示发送消息" type="bool">
+          <tip>他人主页显示发送消息</tip>
+          <img src="http://cdncs.101.com/v0.1/static/production_pbl_user/PBLComponent/PBL_Others_send_msg.jpg"/>
+          </property>
+      <property name="show_crush" displayName="他人主页显示暗恋按钮" type="bool"/>
+      <property name="show_relationship" displayName="他人主页显示和TA建立关系按钮" type="bool"/>
+        <property name="show_qrcode" displayName="他人主页更多显示二维码按钮" type="bool">
+          <tip>他人主页更多显示二维码按钮</tip>
+          <img src="http://cdncs.101.com/v0.1/static/production_pbl_user/PBLComponent/PBL_Others_qrcode.jpg"/>
+          </property>
+      <!--  <property name="show_suspend_sign" displayName="显示悬浮签到按钮" type="bool">
+          <tip>显示悬浮签到按钮</tip>
+          <img src="http://cdncs.101.com/v0.1/static/production_pbl_user/PBLComponent/PBL_Sign_Suspend.jpg"/>
+          </property> -->
+        <property name="auto_sign" displayName="进入签到页面后自动触发签到" type="bool">
+          <tip>示例图片为标准版签到页面</tip>
+          <img src="http://cdncs.101.com/v0.1/static/production_pbl_user/PBLComponent/PBL_Sign_Standard.png"/>
+          </property>
+        <property name="sign_type" displayName="签到类型" type="string">
+            <tip>standard(标准版),fjt(佛教通),star(明星版)</tip>
+            <img src="http://cdncs.101.com/v0.1/static/production_pbl_user/PBLComponent/PBL_Sign_Type.jpg"/>
+        </property>
+      <!--	<property name="show_reward_in_dlg" displayName="弹窗显示奖励" type="bool">
+            <tip>默认false，使用系统提示；为true时，在后台配置过奖励消息推送后，前端将弹窗通知</tip>
+        </property> -->
+       <!-- <property name="use_task2" displayName="是否使用任务2.0" type="bool"/> -->
+      <property type="bool" name="open_daily_remind" displayName="启用日事日清提醒功能" value="false">
+        <tip>启用日事日清提醒功能</tip>
+        <dependency>
+			<component namespace="com.nd.social" name="remindcomponent" display="IM提醒组件"/>
 		</dependency>
-	</android>
+	  </property>
+       
+       <property type="bool" name="open_extend_button_sequence" displayName="启用他人主页底部扩展按钮顺序显示" value="false">
+        <tip>启用他人主页底部扩展按钮顺序显示（只有业务方注入功能�����PBl组件不提供默认功能的情况）</tip>
+	  </property>
+       
+       <property type="array" name="extend_button_sequence" displayName="他人主页底部扩展按钮显示顺序">
+        <tip>他人主页底部扩展按钮显示顺序（只有业务方注入功能，PBl组件不提供默认功能的情况）</tip>
+	  </property>
+       
+       <property type="array" name="extend_button_sequence_retain_default" displayName="他人主页底部按钮显示顺序">
+        <tip>他人主页底部按钮显示顺序（他人底部默认功能+业务方注入功能的情况）</tip>
+       </property>
+       
+       <property type="string" name="task_and_reward_url_param" displayName="任务和奖励H5跳转参数" value="">
+        <tip>参数例子:"?novip=1"，不显示vip</tip>
+       </property>
+       
+       <property type="bool" name="report_upload_avatar_task" displayName="上报头像上传任务" value="false">
+        <tip>上报头像上传任务</tip>
+	  </property>
+       
+       <property type="bool" name="friend_message_greenhand_guidance" displayName="非好友拒收信息引导" value="true">
+        <tip>非好友拒收信息引导</tip>
+	  </property>
+       
+       <property name="data_expire" displayName="缓存过期时间(秒)" type="int" value="7200">
+         <tip>个人主页卡片、功能入口等配置数据在缓存过期时间前不自动刷新，默认2小时，下拉可强制刷新</tip>
+       </property>
+    </properties>
+
+    <events>
+        <event name="event_pblcomponent_qrcode_scan" desc="二维码扫描后跳转" sync="1"/>
+        <!-- <event name="event_pblcomponent_get_user_data_result" desc="查询用户数据返回" sync="1"/> -->
+    </events>
+
+    <handlers>
+        <handler name="event_pblcomponent_get_user_data" desc="查询用户数据">
+            <property name="uid" displayName="用户ID(可选)" type="string"/>
+            <property name="fields" displayName="fields字段" type="string"/>
+        </handler>
+        <handler name="event_pblcomponent_get_sign_view" desc="获取签到按钮view">
+            <property name="button" displayName="签到按钮view,不传为新建view,传值为刷新view" type="view"/>
+            <result name="button" displayName="签到按钮view"/>
+        </handler>
+      	<handler name="ios://receive_event_tab_badget_start" desc="角标变化事件" receive_event="handler_badget_start_event"/>
+      	<handler name="cmp://com.nd.pbl.pblcomponent/others" desc="打开他人主页-废弃（无法保证正常跳转，请使用新事件）">
+            <property name="uid" displayName="用户ID(一定要传)" type="string"/>
+        </handler>
+        <handler name="cmp://com.nd.pbl.pblcomponent/task" desc="打开任务列表-废弃（无法保证正常跳转，请使用新事件）"/>
+        <handler name="cmp://com.nd.pbl.pblcomponent/reward" desc="打开奖励列表-废弃（无法保证正常跳转，请使用新事件）"/>
+        <handler name="cmp://com.nd.pbl.pblcomponent/sendflowercenter" desc="打开送花中心-废弃（无法保证正常跳转，请使用新事件）"/>
+      	<handler name="receive_event_show_other_page" desc="打开他人主页" receive_event="pbl_event_show_other_page">
+            <property name="uid" displayName="用户ID(一定要传)" type="string"/>
+        </handler>
+      	<handler name="receive_event_show_task_page" desc="打开任务列表" receive_event="pbl_event_show_task_page"/>
+      	<handler name="receive_event_show_reward_page" desc="打开奖励列表" receive_event="pbl_event_show_reward_page"/>
+      	<handler name="receive_event_show_sendflowercenter_page" desc="打开送花中心" receive_event="pbl_event_show_sendflowercenter_page"/>
+    </handlers>
   
-     <ios>
-        <class>EPLPrepareLessonsComponent</class>
+     <routes>
+      <route source="cmp://com.nd.social.me/me_HomePage" destination="cmp://com.nd.pbl.pblcomponent/others"/>
+    </routes> 
+  
+  	<runtime>
+      <properties>
+        <property type="bool" name="lazy_init_ios" displayName="是否开启IOS延迟初始化" value="true"/>
+        <property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="false"/>
+      </properties>
+       <providers>
+        <provider name="com.nd.pbl.pblcomponent:functiondata-provider" filter="" desc="获取个人和他人主页功能入口数据"/>
+        <provider name="com.nd.pbl.pblcomponent:functionai-provider" filter="com.nd.sdp.component.ai-assistant" desc="获取个人功能入口AI数据"/>
+        <provider name="com.nd.pbl.pblcomponent:remind-provider" filter="com.nd.social.remindcomponent.startup" desc="为提醒组件提供的"/>
+      </providers>
+    </runtime>
+ 
+    <android>
+        <class>com.nd.pbl.pblcomponent.base.LifeComponent</class>
         <dependency>
             <![CDATA[
-	            pod 'e_prepare_lessons_ios', '0.0.27'
-    	     ]]>
-        </dependency>
-    </ios>
-</component><component namespace="com.nd.sdp.component" name="dlna-support" display="【框架扩展】DLNA 支持" type="library">
-	<pages>
-	</pages>
-	
-	<properties>
-	</properties>
-	
-	<events>
-	</events>
-
-	<handlers>
-	</handlers>
-
-	<runtime>
-		<properties>
-			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
-			<property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
-		</properties>
-	</runtime>
-  <android>    
-		<dependency>
-					<![CDATA[
-            compile 'com.nd.sdp.android.common:com-nd-apf-dlna-control:3.0.7-release.2'
-            compile 'com.nd.sdp.android.common:com-nd-apf-dlna-extenral:3.0.7-release.1'
-android {
-   packagingOptions {
-        exclude 'META-INF/beans.xml'
-    }
-compileOptions {
-        sourceCompatibility '1.8'
-        targetCompatibility '1.8'
-    }
-}
-
-             ]]>
-		</dependency>    
-    <scenes>
-    <scene name="android.permission.change_wifi_multicast_state" displayName="WIFI状态改变权限" describe="需要监听网络变化" isAsk="true" closeable="true" type="permission"/>
-  
-</scenes>
-</android>
-    <ios>
-		<dependency>
-			<![CDATA[
-            pod 'APFDLNASupport', '1.0.12'
-             ]]>
-		</dependency>
-        <scenes>
-        	<scene name="NSLocalNetworkUsageDescription" describe="为您提供投屏搜索服务。"/>
-        </scenes>
-	</ios>
-</component><component namespace="com.nd.sdp.component" name="nduc-selector" display="UC选择器组件">
-	<pages>
-      	<page type="cmp" name="choose_org_or_node_single_before_login" display="组织节点选择器-单选(登录前可用)" toplevel="2" allow_guest="true"/>
-        <page type="cmp" name="choose_org_single_before_login" display="组织选择器-单选（登录前可用）" toplevel="2" allow_guest="true"/>
-	</pages>
-	
-	<properties>
-      	<property type="enum" name="data_range" displayName="数据范围" value="0">
-            <options multi="false">
-              <option value="0">机构</option>
-              <option value="1">当前组织</option>
-            </options>
-        </property>
-    	<property type="bool" name="show_my_org" displayName="显示当前组织" value="false"/>
-      	<property type="bool" name="show_orgs_under_org" displayName="递归展示组织" value="false"/>
-        <property type="bool" name="show_users_under_org" displayName="加载直接挂在组织下用户" value="true"/>
-      	<property type="enum" name="show_org_mode" displayName="组织展示方式" value="1">
-            <options multi="false">
-              <option value="1">树形</option>
-              <option value="2">平铺</option>
-            </options>
-        </property>
-      	<property type="bool" name="show_area_filter" displayName="是否开启地址过滤" value="false"/>
-	</properties>
-	
-	<events>
-	</events>
-
-	<handlers>
-	</handlers>
-
-	<runtime>
-		<properties>
-			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
-			<property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
-		</properties>
-	</runtime>
-  
-	<android>
-        <class>com.nd.sdp.nduc.selector.SelectorComponent</class>
-        <dependency>
-            <![CDATA[
-            def nducSelectorComponent = "0.0.1.3.selector.release"
-            compile('com.nd.sdp.uc:nduc_selector_component:${nducSelectorComponent}')
-            configurations.all {
-                  resolutionStrategy {
-                      force "com.nd.sdp.uc:nduc_selector_component:${nducSelectorComponent}"
+                  configurations.all {
+                      resolutionStrategy {
+                          force "com.nd.pbl:pblcomponent-sdk:4.1.22.053931e"
+                      }
                   }
-            }
+                  compile ('com.nd.pbl:pblcomponent:7.5.151.82efd3f8') {
+                      transitive = true
+                      changing = true
+                  }
+				  compile ('com.nd.sdp.android:star-module:0.9.12.610b0bd') {
+                      transitive = true
+                      changing = true
+                  }
+
             ]]>
         </dependency>
+            <groovy>
+         	<![CDATA[
+                android {
+					packagingOptions {
+	    				exclude 'META-INF/ASL2.0'
+                        exclude 'META-INF/DEPENDENCIES.txt'
+                        exclude 'META-INF/LICENSE.txt'
+                        exclude 'META-INF/NOTICE.txt'
+                        exclude 'META-INF/NOTICE'
+                        exclude 'META-INF/LICENSE'
+                        exclude 'META-INF/DEPENDENCIES'
+                        exclude 'META-INF/notice.txt'
+                        exclude 'META-INF/license.txt'
+                        exclude 'META-INF/dependencies.txt'
+                        exclude 'META-INF/LGPL2.1'
+                        exclude 'META-INF/services/javax.annotation.processing.Processor'
+                        exclude 'META-INF/rxjava.properties'
+	  				}
+                }
+             ]]>
+		</groovy>
     </android>
-  
-  	<ios>
-        <class>UCSelectorComponent</class>
 
+    <ios>
+        <class>pbl_component</class>
         <dependency>
             <![CDATA[
-				pod 'UCSelectorComponent', '1.0.25'
+                  pod 'pbl_component', '0.1.336'
+                  pod 'pbl_sdk', '0.0.25'
+                  pod 'SQXTools', '0.0.78'
+				  pod 'WCDB', '1.0.7-Framework2'
+                  pod 'SQLCipher', '0.0.2'
              ]]>
         </dependency>
-
+        <scenes>
+             <scene name="NSPhotoLibraryUsageDescription" describe="获取相册权限用于选择用户头像"/>
+             <scene name="NSCameraUsageDescription" describe="获取相机权限用于拍照生成用户头像"/>
+          	 <scene name="NSPhotoLibraryAddUsageDescription" describe="获取相册写入权限用于保存头像"/>
+        </scenes>
     </ios>
+</component><component namespace="com.nd.xst" name="mob-stat-umeng" display="X-友盟统计" type="function_library">
+    <pages/>
+    <properties>
+        <property type="string" name="android.umeng.key" displayName="友盟-安卓-KEY"/>
+        <property type="string" name="android.umeng.channel" displayName="友盟-安卓-渠道名" value="official"/>
+        <property type="string" name="ios.umeng.key" displayName="友盟-iOS-KEY"/>
+
+
+    </properties>
+    <events/>
+    <handlers>
+  		<handler name="ios://onStartLogPageEvent" receive_event="xst_start_log_page_event" desc="页面开始"/>
+		<handler name="ios://onEndLogPageEvent" receive_event="xst_end_log_page_event" desc="结束页面"/>
+		<handler name="ios://onReveiveUMengEvent" receive_event="appfactory_data_analytics_umeng_event" desc="收到友盟埋点事件"/>
+
+    </handlers>
+    <android>
+        <dependency>
+        <![CDATA[
+            compile 'com.nd.mob.stat:ext-umeng:1.0.1-rc05'
+        ]]>
+        </dependency>
+        <meta-datas>
+            <meta-data xpath="//manifest/application" file="/app/AndroidManifest.xml">
+<![CDATA[
+				<meta-data android:name="UMENG_APPKEY" android:value="${android.umeng.key}"/>
+				<meta-data android:name="UMENG_CHANNEL" android:value="${android.umeng.channel}"/>
+]]>
+			</meta-data>
+        </meta-datas>
+    </android>
+    <runtime>
+        <properties>
+            <property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
+            <property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
+        </properties>
+    </runtime>
+        <ios>
+        <class>mob_stat_umengComponent</class>
+        <dependency>
+            <![CDATA[
+                pod 'mob_stat_umeng', '1.1.4'
+               ]]>
+        </dependency>
+    </ios>
+</component><component namespace="com.nd.social.component" name="score" display="应用市场评分组件">
+	<pages>
+         <page type="cmp" name="gotoScore" display="去评分" allow_guest="true"/>
+	</pages>
+	
+	<properties>
+      <property type="enum" name="jump_type" displayName="跳转到详情/评分" value="comment">
+        <options multi="false">
+          <option value="detail">跳转到详情界面</option>
+          <option value="comment">跳转到评分界面</option>
+        </options>
+    </property>
+    <property type="string" name="app_id" displayName="AppStore的应用ID">
+    </property>
+  </properties>
+	
+	<events>
+	</events>
+
+	<handlers>
+	</handlers>
+
+	<runtime>
+		<properties>
+			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
+            <property type="bool" name="lazy_init_ios" displayName="是否开启IOS延迟初始化" value="true"/>
+		</properties>
+	</runtime>
+  <android>
+		<class>com.nd.sdp.android.score.ScoreComponent</class>
+		<dependency>
+			<![CDATA[
+			    compile('com.nd.sdp.android:score-component:16.9.2.f4f95b5@aar') {
+			        transitive = true
+			        changing = true
+                    exclude group: 'com.nd.android.sdp.im.common.widget', module: 'emotion'
+			    }    
+             ]]>
+		</dependency>
+    </android>
+  	<ios>
+		<class>ScoreComponent</class>
+		<dependency>
+			<![CDATA[
+            pod 'ScoreComponent', '1.0.0'
+            ]]>
+		</dependency>
+	</ios>
 </component><component namespace="com.nd.xst" name="mob-stat-bugly" display="X-Bugly监控" type="function_library">
 	<pages>
 	</pages>
@@ -11318,14 +11409,14 @@ compileOptions {
   	<android>
 		<class>com.nd.xst.app.center.XAppCenterComponent</class>
 		<dependency>
-        	implementation 'com.nd.xst:xst-app-center:1.1.0-rc10'
+        	implementation 'com.nd.xst:xst-app-center:1.1.0-rc12'
         </dependency>
     </android>
    	<ios>
         <class>xst_app_centerComponent</class>
         <dependency>
             <![CDATA[
-				pod 'xst_app_center', '0.0.18'
+				pod 'xst_app_center', '0.0.19'
                ]]>
         </dependency>
     </ios>
@@ -11379,9 +11470,8 @@ compileOptions {
                ]]>
       </dependency>
     </ios>
-</component><component namespace="com.nd.xst" name="x-behavior-rewards" display="行为积分">
+</component><component namespace="com.nd.sdp.component" name="applepay-component" display="苹果内购支付">
 	<pages>
-      <page type="cmp" name="main" display="积分主页" toplevel="2" allow_guest="true"/>
 	</pages>
 	
 	<properties>
@@ -11391,106 +11481,9 @@ compileOptions {
 	</events>
 
 	<handlers>
-      <handler name="uc_on_login_success" desc="登录成功事件监听" receive_event="uc_on_login_success"/>
-    </handlers>
-
-	<runtime>
-		<properties>
-			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
-			<property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
-		</properties>
-        <providers>
-        	<provider name="com.nd.xst.x-behavior-rewards.scoreProvider" filter="com.nd.xst.x-behavior-rewards.scoreProvider.filter" desc="获取总积分" iosClass="XstBehaviorRewardsProvider" anClass="com.nd.behavior.rewards.provider.RewardAccountProvider"/>
-		</providers>
-	</runtime>
-  <android>
-		<class>com.nd.behavior.rewards.BehaviorRewardComponent</class>
-		<dependency>
-        	compile 'com.nd.sdp.android:xst-behavior-rewards-android:1.1.0-rc04'
-        </dependency>
-    </android>
-	<ios>
-        <class>XstBehaviorRewardsComponent</class>
-        <dependency>
-            <![CDATA[
-			pod 'xst_behavior_rewards_ios', '0.0.18'
-        ]]>
-        </dependency>
-        <ruby>
-            <entry>XBRBuildExecutor</entry>
-            <dsl>
-                <pre_dependency_install>
-                <![CDATA[
-                require 'pathname'
-                require 'json'
-                require 'uri'
-                require 'net/http'
-                
-                current_dir = Pathname(Dir.pwd)
-                # 定义组件id
-                common_id = "com.nd.xst.x-behavior-rewards"
-            
-                # 获取sdp-app-id
-                app_json_path = current_dir.join("app/assets/app_factory/app/app.json")
-                app_json_content = File.read(app_json_path)
-                app_items = JSON.parse(app_json_content)
-                app_sdp_id_item = app_items['pkgid']
-                puts "### app_sdp_id_item #{app_sdp_id_item}"
-            
-                # 获取远程文件地址
-                incentive_service_host = ''
-                service_json = current_dir.join("app/assets/app_factory/app/service.json")
-                service_json_content = File.read(service_json)
-                service_items = JSON.parse(service_json_content)
-                service_items.each do |item|
-                    component_id = item['component']['namespace'] + '.' + item['component']['name']
-                    if component_id == common_id 
-                    incentive_service_host = item['properties']['record_config_proxy']
-                    end
-                end
-                puts "### incentive_service_host #{incentive_service_host}"
-            
-                # 拉取远程数据，并写入皮肤包资源文件
-                if not incentive_service_host.to_s.empty? 
-                    incentive_service_host = incentive_service_host+"v1/record_configs?sdp-app-id="+app_sdp_id_item
-                    puts "### 数据准备下载到皮肤包： #{incentive_service_host} "
-                    uri = URI(incentive_service_host)
-                    rule_config_response = Net::HTTP.get_response(uri)
-                    if rule_config_response.code != "200"
-                    puts "### error"
-                    else
-                    common_bundle = common_id + "_skin.bundle"
-                    file_name = "**/"+common_bundle+"/record_configs.json"
-                    puts "### write to file #{file_name}"
-                    files =  Dir.glob(current_dir.join(file_name))
-                    files.each do |json_path|
-                        puts "### #{json_path} "
-                        file = File.open(json_path, "w") { |f| f << rule_config_response.body }
-                    end
-                    end
-                else
-                    puts "### incentive_service_proxy 字段为空，不做处理 "
-                end
-                ]]>
-                </pre_dependency_install>
-            </dsl>            
-        </ruby>     
-	</ios>
-</component><component namespace="com.nd.xst" name="mob-stat-ty" display="X-听云" type="function_library">
-	<pages>
-	</pages>
-	
-	<properties>
-      <property type="string" name="ty.host" displayName="听云-服务器地址(无需协议头)" value="wkrd.tingyun.com"/>
-      <property type="string" name="android.ty.key" displayName="听云-Android-KEY" value="ad279e6d497f43bb8816f29be830184d"/>
-      <property type="string" name="ios.ty.key" displayName="听云-iOS-KEY"/>
-	</properties>
-	
-	<events>
-	</events>
-  
-  	<handlers>
-      <handler name="ios://receiveUserAcceptAgreement" receive_event="KEY_USER_ACCEPT_AGREEMENT_EVENT_ASYNC" desc="页面开始"/>
+      <handler name="ios://receive_event_pay_handleiap" desc="苹果内购" receive_event="payment_event_pay_handleiap"/>
+      <handler name="ios://receive_event_restorepay" desc="恢复购买" receive_event="payment_event_restorepay"/>
+      <handler name="ios://receive_event_consume_iap_pay_order" desc="恢复购买" receive_event="payment_event_consume_iap_pay_order"/>
 	</handlers>
 
 	<runtime>
@@ -11498,29 +11491,74 @@ compileOptions {
 			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
 			<property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
 		</properties>
-
-        <gradles name="tingyun-plugin">
-            <android-project-gradle-classpaths displayName="plugin newlens">
-                <classpath value="com.networkbench:tingyun-ea-agent-android-gradle-plugin:2.17.0"/>
-            </android-project-gradle-classpaths>
-            <android-app-gradle-applys displayName="plugin newlens">
-                <apply value="newlens"/>
-            </android-app-gradle-applys>
-        </gradles>
 	</runtime>
-  	<android>
+    <ios>
+		<class>ApplePayComponent</class>
 		<dependency>
-            implementation "com.nd.mob.stat:ext-tingyun:1.0.2-rc06"
-        </dependency>
-    </android>
-  	<ios>
-        <class>mob_stat_tyComponent</class>
+			<![CDATA[
+            	pod 'ApplePayComponent', '0.0.6'
+			]]>
+		</dependency>       
+	</ios>
+</component><component namespace="com.nd.pbl" name="weixinpay" display="微信支付" type="function_library">
+    <pages>
+    </pages>
+    
+    <properties>
+    </properties>
+    
+    <events>
+    </events>
+
+    <handlers>
+    </handlers>
+
+    <runtime>
+        <properties>
+            <property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="false"/>
+        </properties>
+    </runtime>
+    
+    <build>
+        <android>   
+            <safe_whitelist>
+                <activities>
+                    <activity name="com.nd.paysdk.wxapi.WXPayEntryActivity" describe="微信第三方支付需要" type="activity" owner="912025"/>
+                </activities>
+            </safe_whitelist>
+        </android>
+    </build>
+
+    <android>
+        <scenes>
+            <scene name="android.permission.ACCESS_WIFI_STATE" displayName="获取WiFi状态" describe="查询用户设备的网络状态" isAsk="true" closeable="true" type="permission"/>
+            <scene name="android.permission.ACCESS_NETWORK_STATE" displayName="获取网络状态" describe="查询用户设备的网络状态" isAsk="true" closeable="true" type="permission"/>
+            <scene name="android.permission.INTERNET" displayName="访问网络" describe="提供接口访问网络的需求" isAsk="true" closeable="true" type="permission"/>
+            <scene name="android.permission.WRITE_EXTERNAL_STORAGE" displayName="写入外部存储" describe="写入数据和图片缓存" isAsk="true" closeable="true" type="permission"/>
+        </scenes>
         <dependency>
             <![CDATA[
-               pod 'mob_stat_ty', '0.0.7'
-               ]]>
+                compile('com.nd.sdp.android:social-wxpay:3.0.3.3@aar') {
+                    transitive = true
+                    changing = true
+                }
+                compile('com.tencent.android.weixin:open_sdk:1.0') {
+                    transitive = true
+                    changing = true
+                }
+             ]]>
         </dependency>
+    </android>
+    <ios>
+      <class>StartupComponent</class>
+      <dependency>
+        <![CDATA[
+            pod 'WeChatPay', '0.0.11'
+            pod 'WechatOpenSDK', '1.8.6.2'
+        ]]>
+      </dependency>
     </ios>
+    
 </component><component namespace="com.nd.xst" name="x-cicada-player" display="阿里视频SDK(x-cicada-player)" type="function_library">
 	<pages>
       <page type="cmp" name="player" display="播放页" toplevel="1" allow_guest="true"/>
@@ -12169,20 +12207,22 @@ compileOptions {
         </dependency>
     </ios>
   
-</component><component namespace="com.nd.sdp.component" name="applepay-component" display="苹果内购支付">
+</component><component namespace="com.nd.xst" name="consult" display="X-答疑咨询">
 	<pages>
+		<page type="cmp" name="testMe" display="X学习云-答疑咨询Test" toplevel="1" allow_guest="true"/>
 	</pages>
 	
 	<properties>
+      <property type="bool" name="enable_shot_edit" displayName="是否允许图片编辑" value="true"/>
+       <property type="bool" name="enable_ask_other" displayName="是否开启问问其他人入口" value="false"/>
 	</properties>
 	
 	<events>
 	</events>
 
 	<handlers>
-      <handler name="ios://receive_event_pay_handleiap" desc="苹果内购" receive_event="payment_event_pay_handleiap"/>
-      <handler name="ios://receive_event_restorepay" desc="恢复购买" receive_event="payment_event_restorepay"/>
-      <handler name="ios://receive_event_consume_iap_pay_order" desc="恢复购买" receive_event="payment_event_consume_iap_pay_order"/>
+      <handler name="xst_event_asking" desc="课程提问事件" receive_event="XCloud_Event_Business_Asking"/>
+      <handler name="ios://xst_event_uc_on_login_success" receive_event="uc_on_login_success" desc="登录成功事件监听"/>
 	</handlers>
 
 	<runtime>
@@ -12191,65 +12231,68 @@ compileOptions {
 			<property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
 		</properties>
 	</runtime>
-    <ios>
-		<class>ApplePayComponent</class>
+    <android>
+    	<class>com.nd.sdp.android.xst.ask.XAskComponent</class>   
 		<dependency>
-			<![CDATA[
-            	pod 'ApplePayComponent', '0.0.6'
-			]]>
-		</dependency>       
-	</ios>
-</component><component namespace="com.nd.xst" name="edu-class" display="X-班级基础能力">
+    	<![CDATA[  
+  			compile 'com.nd.sdp.android:xst-consult-android:1.5.1-rc01'
+			implementation 'com.nd.xst:pic-editor:0.3-rc01'
+		]]> 
+		</dependency>
+   	</android> 
+	<ios>
+        <class>XSTConsultComponent</class>
+        <dependency>
+            <![CDATA[
+			pod 'xst_consult_ios', '0.0.11'
+        ]]>
+        </dependency>
+    </ios>
+</component><component namespace="com.nd.xst" name="mob-stat-ty" display="X-听云" type="function_library">
 	<pages>
 	</pages>
 	
 	<properties>
+      <property type="string" name="ty.host" displayName="听云-服务器地址(无需协议头)" value="wkrd.tingyun.com"/>
+      <property type="string" name="android.ty.key" displayName="听云-Android-KEY" value="ad279e6d497f43bb8816f29be830184d"/>
+      <property type="string" name="ios.ty.key" displayName="听云-iOS-KEY"/>
 	</properties>
 	
 	<events>
 	</events>
   
-    <routes>
-    	<route source="cmp://com.nd.sdp.component.user-select-framework/main" destination="cmp://com.nd.xst.edu-class/class_picker"/> 
-	</routes>
-
-    <handlers>
-        <handler name="ios://xClassBaseInit" desc="" receive_event="xcloud_app_init"/>
-        <handler name="ios://classSDKListenEvent" receive_event="com.nd.xcloud/class_change,com.nd.xcloud/class_statistics,com.nd.xcloud/class_dissolve,com.nd.xcloud/class_transfer,com.nd.xcloud/class_member_change,com.nd.xcloud/class_audit_change,com.nd.xcloud/class_member_delete" desc="转发班级SDK事件（班级信息变化）"/>
-        <handler name="not-ios:://xClassBaseInit" desc="" receive_event="xcloud_app_init"/>
-        <handler name="not-ios://classSDKListenEvent" receive_event="com.nd.xcloud/class_change,com.nd.xcloud/class_statistics,com.nd.xcloud/class_dissolve,com.nd.xcloud/class_transfer,com.nd.xcloud/class_member_change,com.nd.xcloud/class_audit_change,com.nd.xcloud/class_member_delete" desc="转发班级SDK事件"/>
-    </handlers>
+  	<handlers>
+      <handler name="ios://receiveUserAcceptAgreement" receive_event="KEY_USER_ACCEPT_AGREEMENT_EVENT_ASYNC" desc="页面开始"/>
+	</handlers>
 
 	<runtime>
 		<properties>
 			<property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="true"/>
 			<property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
 		</properties>
-       <providers>
-            <provider name="com.nd.xst.edu-class.selection_provider" filter="" desc="provider的声明" anClass="SelectionProvider" iosClass=""/>
-        </providers>
+
+        <gradles name="tingyun-plugin">
+            <android-project-gradle-classpaths displayName="plugin newlens">
+                <classpath value="com.networkbench:tingyun-ea-agent-android-gradle-plugin:2.17.0"/>
+            </android-project-gradle-classpaths>
+            <android-app-gradle-applys displayName="plugin newlens">
+                <apply value="newlens"/>
+            </android-app-gradle-applys>
+        </gradles>
 	</runtime>
-  
-     <android>
-    	<class>com.nd.sdp.android.xst.classmember.selector.XClassMemberSelectorComponent</class>   
+  	<android>
 		<dependency>
-    	<![CDATA[  
-  			compile 'com.nd.sdp.android:xst-classmember-selector-android:1.3.0-rc3'
-            implementation('com.nd.sdp.android:xst-class-sdk:4.6-rc09')
-		]]> 
-		</dependency>
-   	</android> 
-  
-    <ios>
-        <class>XClassmemberSelectorComponent</class>
+            implementation "com.nd.mob.stat:ext-tingyun:1.0.2-rc06"
+        </dependency>
+    </android>
+  	<ios>
+        <class>mob_stat_tyComponent</class>
         <dependency>
             <![CDATA[
-			pod 'xst_classmember_selector_ios', '0.0.11'
-  			pod 'xst_class_sdk','0.0.72'
-        ]]>
+               pod 'mob_stat_ty', '0.0.7'
+               ]]>
         </dependency>
     </ios>
-  
 </component><component namespace="com.nd.pbl" name="alipay" display="支付宝支付" type="function_library">
     <pages>
     </pages>
@@ -12400,7 +12443,7 @@ compileOptions {
 			<property type="bool" name="lazy_init_ios" displayName="是否开启iOS延迟初始化" value="true"/>
 		</properties>
 	</runtime>
-</component><component namespace="com.nd.eda" name="assemble" display="EDA-拼装门户">
+</component><component namespace="com.nd.eda" name="assemble" display="EDA-拼装部分">
 		<pages>
       <page type="cmp" name="launch_event_page" display="EDA学习-启动运营页" toplevel="2" allow_guest="true"/>
       <page type="cmp" name="preLaunch" display="EDA学习-启动中间页" toplevel="2" allow_guest="true"/>
@@ -12496,7 +12539,7 @@ compileOptions {
   	<android>
 		<class>com.nd.sdp.android.xcloud_assemble.XCloudAssembleComponent</class>
 		<dependency>
-              compile ("com.nd.sdp.android:e-cloud-assemble-android:1.0.1.117")
+              compile ("com.nd.sdp.android:e-cloud-assemble-android:1.0.1.119")
           
               // x学习定制的im界面，IM同学维护
               compile("com.nd.android.sdp.im:im-x-study-gluein:22.16.2.15184.release") {     
@@ -12589,7 +12632,7 @@ compileOptions {
     <android>
 		<class>com.nd.android.xst.study.actv.StudyActComponent</class>
 		<dependency>
-            def stuActVersion = "1.1.0.102"
+            def stuActVersion = "1.1.0.105"
         	compile "com.nd.eda:e-study-activity:${stuActVersion}"
             compile "com.nd.eda:e-study-content:${stuActVersion}"
               
@@ -12662,17 +12705,30 @@ compileOptions {
 		<class>com.nd.sdp.android.coursev5.CourseV5Component</class>
 		<dependency>
         	<![CDATA[
-       		    compile ("com.nd.sdp.android:eda-course:1.1.0.109")
+       		    compile ("com.nd.sdp.android:eda-course:1.1.0.119")
              ]]>
+          // 拼装门户
            configurations {
                 all*.exclude group:'com.nd.sdp.android', module: 'x-cloud-assemble-android'
-                all*.exclude group:'com.nd.sdp.android', module: 'xst-course'
-                all*.exclude group:'com.nd.sdp.android', module: 'xst-course-data'
-               all*.exclude group:'com.nd.sdp.android', module: 'xst-coursehour'
-               all*.exclude group:'com.nd.sdp.android', module: 'xst-off-course'
-               all*.exclude group:'com.nd.sdp.android', module: 'xst-course-presenter'
-               all*.exclude group:'com.nd.sdp.android', module: 'xst-course-sdk'
               }
+              //COURSE
+    configurations {
+        all*.exclude group:'com.nd.sdp.android', module: 'xst-course-sdk'
+        all*.exclude group:'com.nd.sdp.android', module: 'xst-course'
+        all*.exclude group:'com.nd.sdp.android', module: 'xst-course-data'
+        all*.exclude group:'com.nd.sdp.android', module: 'xst-coursehour'
+        all*.exclude group:'com.nd.sdp.android', module: 'xst-off-course'
+        all*.exclude group:'com.nd.sdp.android', module: 'xst-course-presenter'
+    }
+
+    //xcloud
+    configurations {
+        all*.exclude group: 'com.nd.sdp.android.xcloud', module: 'xcloud-sdk'
+        all*.exclude group: 'com.nd.sdp.android.xcloud', module: 'xcloud-textview-loader'
+        all*.exclude group: 'com.nd.sdp.android.xcloud', module: 'xcloud-ui'
+        all*.exclude group: 'com.nd.sdp.android.xcloud', module: 'xcloud-screen-lock'
+        all*.exclude group: 'com.nd.sdp.android.xcloud', module: 'eda-xcloud-gbase'
+    }
 		</dependency>
         <groovy>
 			<![CDATA[
@@ -12768,196 +12824,6 @@ compileOptions {
             <![CDATA[
 			pod 'x_user_ios', '1.0.188'
         ]]>
-        </dependency>
-        <scenes>
-             <scene name="NSPhotoLibraryUsageDescription" describe="获取相册权限用于选择用户头像"/>
-             <scene name="NSCameraUsageDescription" describe="获取相机权限用于拍照生成用户头像"/>
-          	 <scene name="NSPhotoLibraryAddUsageDescription" describe="获取相册写入权限用于保存头像"/>
-        </scenes>
-    </ios>
-</component><component name="pblcomponent" display="PBL" namespace="com.nd.pbl">
-    <pages>
-        <page name="me" display="我的主页" toplevel="1" type="cmp" allow_guest="true"/>
-        <page name="others" display="他人主页" toplevel="2" type="cmp"/>
-        <page name="task" display="任务列表" toplevel="2" type="cmp"/>
-        <page name="reward" display="奖励列表" toplevel="2" type="cmp"/>
-        <page name="qrcode" display="二维码页面" toplevel="2" type="cmp"/>
-        <page name="sign" display="签到页面" toplevel="2" type="cmp"/>
-        <page name="setting" display="名片信息页面" toplevel="2" type="cmp"/>
-        <page name="settingAvatar" display="头像查看" toplevel="2" type="cmp"/>
-        <page name="sendflowercenter" display="送花中心" toplevel="2" type="cmp"/>
-        <page name="alertSetting" display="日事日清提醒设置" toplevel="2" type="cmp"/>
-    </pages>
-
-     <properties>
-        <!-- <property name="card_msg_logout" displayName="设置页面是否包含退出登录" type="bool">
-          <tip>设置页面是否包含退出登录</tip>
-          <img src="http://cdncs.101.com/v0.1/static/production_pbl_user/PBLComponent/PBL_Setting_logout.jpg"/>
-          </property> -->
-        <property name="add_friends" displayName="他人主页显示加为好友" type="bool">
-          <tip>他人主页显示加为好友</tip>
-          <img src="http://cdncs.101.com/v0.1/static/production_pbl_user/PBLComponent/PBL_Others_add_friend.jpg"/>
-          </property>
-        <property name="send_msg" displayName="他人主页显示发送消息" type="bool">
-          <tip>他人主页显示发送消息</tip>
-          <img src="http://cdncs.101.com/v0.1/static/production_pbl_user/PBLComponent/PBL_Others_send_msg.jpg"/>
-          </property>
-      <property name="show_crush" displayName="他人主页显示暗恋按钮" type="bool"/>
-      <property name="show_relationship" displayName="他人主页显示和TA建立关系按钮" type="bool"/>
-        <property name="show_qrcode" displayName="他人主页更多显示二维码按钮" type="bool">
-          <tip>他人主页更多显示二维码按钮</tip>
-          <img src="http://cdncs.101.com/v0.1/static/production_pbl_user/PBLComponent/PBL_Others_qrcode.jpg"/>
-          </property>
-      <!--  <property name="show_suspend_sign" displayName="显示悬浮签到按钮" type="bool">
-          <tip>显示悬浮签到按钮</tip>
-          <img src="http://cdncs.101.com/v0.1/static/production_pbl_user/PBLComponent/PBL_Sign_Suspend.jpg"/>
-          </property> -->
-        <property name="auto_sign" displayName="进入签到页面后自动触发签到" type="bool">
-          <tip>示例图片为标准版签到页面</tip>
-          <img src="http://cdncs.101.com/v0.1/static/production_pbl_user/PBLComponent/PBL_Sign_Standard.png"/>
-          </property>
-        <property name="sign_type" displayName="签到类型" type="string">
-            <tip>standard(标准版),fjt(佛教通),star(明星版)</tip>
-            <img src="http://cdncs.101.com/v0.1/static/production_pbl_user/PBLComponent/PBL_Sign_Type.jpg"/>
-        </property>
-      <!--	<property name="show_reward_in_dlg" displayName="弹窗显示奖励" type="bool">
-            <tip>默认false，使用系统提示；为true时，在后台配置过奖励消息推送后，前端将弹窗通知</tip>
-        </property> -->
-       <!-- <property name="use_task2" displayName="是否使用任务2.0" type="bool"/> -->
-      <property type="bool" name="open_daily_remind" displayName="启用日事日清提醒功能" value="false">
-        <tip>启用日事日清提醒功能</tip>
-        <dependency>
-			<component namespace="com.nd.social" name="remindcomponent" display="IM提醒组件"/>
-		</dependency>
-	  </property>
-       
-       <property type="bool" name="open_extend_button_sequence" displayName="启用他人主页底部扩展按钮顺序显示" value="false">
-        <tip>启用他人主页底部扩展按钮顺序显示（只有业务方注入功能�����PBl组件不提供默认功能的情况）</tip>
-	  </property>
-       
-       <property type="array" name="extend_button_sequence" displayName="他人主页底部扩展按钮显示顺序">
-        <tip>他人主页底部扩展按钮显示顺序（只有业务方注入功能，PBl组件不提供默认功能的情况）</tip>
-	  </property>
-       
-       <property type="array" name="extend_button_sequence_retain_default" displayName="他人主页底部按钮显示顺序">
-        <tip>他人主页底部按钮显示顺序（他人底部默认功能+业务方注入功能的情况）</tip>
-       </property>
-       
-       <property type="string" name="task_and_reward_url_param" displayName="任务和奖励H5跳转参数" value="">
-        <tip>参数例子:"?novip=1"，不显示vip</tip>
-       </property>
-       
-       <property type="bool" name="report_upload_avatar_task" displayName="上报头像上传任务" value="false">
-        <tip>上报头像上传任务</tip>
-	  </property>
-       
-       <property type="bool" name="friend_message_greenhand_guidance" displayName="非好友拒收信息引导" value="true">
-        <tip>非好友拒收信息引导</tip>
-	  </property>
-       
-       <property name="data_expire" displayName="缓存过期时间(秒)" type="int" value="7200">
-         <tip>个人主页卡片、功能入口等配置数据在缓存过期时间前不自动刷新，默认2小时，下拉可强制刷新</tip>
-       </property>
-    </properties>
-
-    <events>
-        <event name="event_pblcomponent_qrcode_scan" desc="二维码扫描后跳转" sync="1"/>
-        <!-- <event name="event_pblcomponent_get_user_data_result" desc="查询用户数据返回" sync="1"/> -->
-    </events>
-
-    <handlers>
-        <handler name="event_pblcomponent_get_user_data" desc="查询用户数据">
-            <property name="uid" displayName="用户ID(可选)" type="string"/>
-            <property name="fields" displayName="fields字段" type="string"/>
-        </handler>
-        <handler name="event_pblcomponent_get_sign_view" desc="获取签到按钮view">
-            <property name="button" displayName="签到按钮view,不传为新建view,传值为刷新view" type="view"/>
-            <result name="button" displayName="签到按钮view"/>
-        </handler>
-      	<handler name="ios://receive_event_tab_badget_start" desc="角标变化事件" receive_event="handler_badget_start_event"/>
-      	<handler name="cmp://com.nd.pbl.pblcomponent/others" desc="打开他人主页-废弃（无法保证正常跳转，请使用新事件）">
-            <property name="uid" displayName="用户ID(一定要传)" type="string"/>
-        </handler>
-        <handler name="cmp://com.nd.pbl.pblcomponent/task" desc="打开任务列表-废弃（无法保证正常跳转，请使用新事件）"/>
-        <handler name="cmp://com.nd.pbl.pblcomponent/reward" desc="打开奖励列表-废弃（无法保证正常跳转，请使用新事件）"/>
-        <handler name="cmp://com.nd.pbl.pblcomponent/sendflowercenter" desc="打开送花中心-废弃（无法保证正常跳转，请使用新事件）"/>
-      	<handler name="receive_event_show_other_page" desc="打开他人主页" receive_event="pbl_event_show_other_page">
-            <property name="uid" displayName="用户ID(一定要传)" type="string"/>
-        </handler>
-      	<handler name="receive_event_show_task_page" desc="打开任务列表" receive_event="pbl_event_show_task_page"/>
-      	<handler name="receive_event_show_reward_page" desc="打开奖励列表" receive_event="pbl_event_show_reward_page"/>
-      	<handler name="receive_event_show_sendflowercenter_page" desc="打开送花中心" receive_event="pbl_event_show_sendflowercenter_page"/>
-    </handlers>
-  
-     <routes>
-      <route source="cmp://com.nd.social.me/me_HomePage" destination="cmp://com.nd.pbl.pblcomponent/others"/>
-    </routes> 
-  
-  	<runtime>
-      <properties>
-        <property type="bool" name="lazy_init_ios" displayName="是否开启IOS延迟初始化" value="true"/>
-        <property type="bool" name="lazy_init_android" displayName="是否开启Android延迟初始化" value="false"/>
-      </properties>
-       <providers>
-        <provider name="com.nd.pbl.pblcomponent:functiondata-provider" filter="" desc="获取个人和他人主页功能入口数据"/>
-        <provider name="com.nd.pbl.pblcomponent:functionai-provider" filter="com.nd.sdp.component.ai-assistant" desc="获取个人功能入口AI数据"/>
-        <provider name="com.nd.pbl.pblcomponent:remind-provider" filter="com.nd.social.remindcomponent.startup" desc="为提醒组件提供的"/>
-      </providers>
-    </runtime>
- 
-    <android>
-        <class>com.nd.pbl.pblcomponent.base.LifeComponent</class>
-        <dependency>
-            <![CDATA[
-                  configurations.all {
-                      resolutionStrategy {
-                          force "com.nd.pbl:pblcomponent-sdk:4.1.22.053931e"
-                      }
-                  }
-                  compile ('com.nd.pbl:pblcomponent:7.5.151.82efd3f8') {
-                      transitive = true
-                      changing = true
-                  }
-				  compile ('com.nd.sdp.android:star-module:0.9.12.610b0bd') {
-                      transitive = true
-                      changing = true
-                  }
-
-            ]]>
-        </dependency>
-            <groovy>
-         	<![CDATA[
-                android {
-					packagingOptions {
-	    				exclude 'META-INF/ASL2.0'
-                        exclude 'META-INF/DEPENDENCIES.txt'
-                        exclude 'META-INF/LICENSE.txt'
-                        exclude 'META-INF/NOTICE.txt'
-                        exclude 'META-INF/NOTICE'
-                        exclude 'META-INF/LICENSE'
-                        exclude 'META-INF/DEPENDENCIES'
-                        exclude 'META-INF/notice.txt'
-                        exclude 'META-INF/license.txt'
-                        exclude 'META-INF/dependencies.txt'
-                        exclude 'META-INF/LGPL2.1'
-                        exclude 'META-INF/services/javax.annotation.processing.Processor'
-                        exclude 'META-INF/rxjava.properties'
-	  				}
-                }
-             ]]>
-		</groovy>
-    </android>
-
-    <ios>
-        <class>pbl_component</class>
-        <dependency>
-            <![CDATA[
-                  pod 'pbl_component', '0.1.336'
-                  pod 'pbl_sdk', '0.0.25'
-                  pod 'SQXTools', '0.0.78'
-				  pod 'WCDB', '1.0.7-Framework2'
-                  pod 'SQLCipher', '0.0.2'
-             ]]>
         </dependency>
         <scenes>
              <scene name="NSPhotoLibraryUsageDescription" describe="获取相册权限用于选择用户头像"/>
