@@ -1,4 +1,14 @@
 include ':app'
-include ':e-cloud-assemble-android'
+//apply from: 'E:\\data\\eda\\android\\comps\\eda-cloud-base-android\\settings.gradle'
+//apply from: "E:\\data\\eda\\android\\comps\\e-cloud-assemble-android\\settings.gradle"
 
-project(':e-cloud-assemble-android').projectDir = new File("E:\\data\\eda\\android\\comps\\e-cloud-assemble-android\\module")
+//include ':e-cloud-assemble-android'
+//project(':e-cloud-assemble-android').projectDir = new File("../comps/e-cloud-assemble-android/module")
+
+//include ':xcloud-sdk'
+//project(':xcloud-sdk').projectDir = new File("../comps/eda-cloud-base-android/xcloud-sdk")
+//
+//
+//include ':xcloud-ui'
+//project(':xcloud-ui').projectDir = new File("../comps/eda-cloud-base-android/xcloud-ui")
+//
