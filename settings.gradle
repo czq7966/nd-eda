@@ -1,14 +1,26 @@
 include ':app'
-//apply from: 'E:\\data\\eda\\android\\comps\\eda-cloud-base-android\\settings.gradle'
-//apply from: "E:\\data\\eda\\android\\comps\\e-cloud-assemble-android\\settings.gradle"
 
-//include ':e-cloud-assemble-android'
-//project(':e-cloud-assemble-android').projectDir = new File("../comps/e-cloud-assemble-android/module")
-
-//include ':xcloud-sdk'
-//project(':xcloud-sdk').projectDir = new File("../comps/eda-cloud-base-android/xcloud-sdk")
+//include ':e-course-android'
+//project(':e-course-android').projectDir = new File("../comps/e-course-android/module")
 //
+//include ':sdk'
+//project(':sdk').projectDir = new File("../comps/e-course-android/sdk")
 //
-//include ':xcloud-ui'
-//project(':xcloud-ui').projectDir = new File("../comps/eda-cloud-base-android/xcloud-ui")
+//include ':data'
+//project(':data').projectDir = new File("../comps/e-course-android/data")
+//
+//include ':presenter'
+//project(':presenter').projectDir = new File("../comps/e-course-android/presenter")
+//
+//include ':tcourse'
+//project(':tcourse').projectDir = new File("../comps/e-course-android/tcourse")
+//
+//include ':teach-course'
+//project(':teach-course').projectDir = new File("../comps/e-course-android/teach-course")
+//
+//include ':ocourse'
+//project(':ocourse').projectDir = new File("../comps/e-course-android/ocourse")
+//
+//include ':coursehour'
+//project(':coursehour').projectDir = new File("../comps/e-course-android/coursehour")
 //

@@ -10412,7 +10412,7 @@ File.open(pod_file_path, 'w') { |file| file.write(final_pod_content) }
         <class>XstContentInteractComponent</class>
         <dependency>
             <![CDATA[
-				pod 'xst_content_interact', '0.0.160'
+				pod 'xst_content_interact', '0.0.161'
                ]]>
         </dependency>
     </ios>

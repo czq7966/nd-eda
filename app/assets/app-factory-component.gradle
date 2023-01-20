@@ -1386,9 +1386,9 @@ afterEvaluate {
        
 					
 
-       		def interactVer = "0.3.0-rc07"
-       		implementation "com.nd.xst:xst-content-interact:${interactVer}"
-            implementation "com.nd.xst:xst-interact-sdk:${interactVer}"
+//       		def interactVer = "0.3.0-rc07"
+//       		implementation "com.nd.xst:xst-content-interact:${interactVer}"
+//            implementation "com.nd.xst:xst-interact-sdk:${interactVer}"
 		
 
 		
