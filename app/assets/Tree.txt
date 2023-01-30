@@ -4228,6 +4228,125 @@
   1.818 MB	 66.661 KB	 	|	+--- com.nd.hy.android.hermes:commons-ui:2.2.2-rc1
   4.862 MB	 53.677 KB	 	|	+--- com.nd.hy.android.hermes:commons-util:2.2.6-rc8 -> 2.2.7-rc05
     464 KB	    464 KB	 	|	\--- com.github.bumptech.glide:glide:3.7.0
+ 24.893 MB	  1.090 MB	 	+--- com.nd.sdp.android:eda-user-android:1.1.2.007
+  1.512 MB	  8.604 KB	 	|	+--- org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.40 -> 1.3.50
+ 12.845 MB	 41.086 KB	 	|	+--- com.nd.sdp.android:x-ks-doc:1.1.2.007
+  1.512 MB	  8.604 KB	 	|	|	+--- org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.40 -> 1.3.50
+  2.412 MB	  1.027 MB	 	|	|	+--- androidx.appcompat:appcompat:1.0.0
+ 24.783 KB	 24.783 KB	 	|	|	+--- androidx.annotation:annotation:1.0.0
+    181 KB	 62.794 KB	 	|	|	+--- androidx.constraintlayout:constraintlayout:1.1.3
+  8.170 MB	    911 KB	 	|	|	+--- com.nd.android.smartcan:smartcan-appfactory:3.5.17-release.1 -> 3.5.39-release.1
+  3.139 MB	    280 KB	 	|	|	+--- com.nd.android.smartcan:framework-aar:3.3.0-release.1 -> 3.4.09-release.1
+ 11.537 MB	    241 KB	 	|	|	\--- com.nd.sdp.android:xst-config:1.3.8-rc08 -> 1.4.3-rc02
+ 13.366 MB	    319 KB	 	|	+--- com.nd.xst:x-study-report:0.1-rc07
+ 26.533 KB	  1.750 KB	 	|	|	+--- androidx.databinding:viewbinding:3.6.4 -> 4.2.2
+  1.512 MB	  8.604 KB	 	|	|	+--- org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.40 -> 1.3.50
+  1.507 MB	  3.057 KB	 	|	|	+--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.21 -> 1.3.72
+    503 KB	    413 KB	 	|	|	+--- com.squareup.okhttp3:okhttp:3.12.1
+  3.088 MB	  1.584 MB	 	|	|	+--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.2.2 -> 1.3.8
+ 65.228 KB	 65.228 KB	 	|	|	+--- com.fasterxml.jackson.core:jackson-annotations:2.9.2
+  2.412 MB	  1.027 MB	 	|	|	+--- androidx.appcompat:appcompat:1.0.0
+  1.321 MB	    153 KB	 	|	|	+--- androidx.fragment:fragment:1.0.0
+    174 KB	 94.465 KB	 	|	|	+--- androidx.room:room-runtime:2.2.6
+  3.304 MB	 28.187 KB	 	|	|	+--- androidx.room:room-ktx:2.2.6
+    185 KB	 59.799 KB	 	|	|	+--- androidx.databinding:databinding-runtime:3.6.4 -> 4.2.2
+    181 KB	 62.794 KB	 	|	|	+--- androidx.constraintlayout:constraintlayout:1.1.3
+    629 KB	    126 KB	 	|	|	+--- com.squareup.retrofit2:retrofit:2.2.0 -> 2.6.4
+  2.278 MB	  5.583 KB	 	|	|	+--- com.squareup.retrofit2:converter-jackson:2.1.0 -> 2.6.4
+  8.170 MB	    911 KB	 	|	|	+--- com.nd.android.smartcan:smartcan-appfactory:3.5.32-release.1 -> 3.5.39-release.1
+    141 KB	    141 KB	 	|	|	\--- pl.droidsonroids.gif:android-gif-drawable:1.2.2 -> 1.2.25
+ 16.559 MB	    146 KB	 	|	+--- com.nd.eda:eda-userinfo:1.1.1
+ 26.533 KB	  1.750 KB	 	|	|	+--- androidx.databinding:viewbinding:3.6.4 -> 4.2.2
+  1.512 MB	  8.604 KB	 	|	|	+--- org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.40 -> 1.3.50
+  1.507 MB	  3.057 KB	 	|	|	+--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.21 -> 1.3.72
+    503 KB	    413 KB	 	|	|	+--- com.squareup.okhttp3:okhttp:3.12.1
+  3.088 MB	  1.584 MB	 	|	|	+--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.2.2 -> 1.3.8
+  2.412 MB	  1.027 MB	 	|	|	+--- androidx.appcompat:appcompat:1.0.0
+  1.321 MB	    153 KB	 	|	|	+--- androidx.fragment:fragment:1.0.0
+    181 KB	 62.794 KB	 	|	|	+--- androidx.constraintlayout:constraintlayout:1.1.3
+  1.508 MB	    344 KB	 	|	|	+--- androidx.recyclerview:recyclerview:1.0.0
+    629 KB	    126 KB	 	|	|	+--- com.squareup.retrofit2:retrofit:2.2.0 -> 2.6.4
+  2.278 MB	  5.583 KB	 	|	|	+--- com.squareup.retrofit2:converter-jackson:2.1.0 -> 2.6.4
+  8.170 MB	    911 KB	 	|	|	+--- com.nd.android.smartcan:smartcan-appfactory:3.5.32-release.1 -> 3.5.39-release.1
+  4.047 MB	 22.316 KB	 	|	|	+--- com.nd.sdp.android.common:res:0.2.6-release -> 2.6.3
+  4.433 MB	 12.784 KB	 	|	|	+--- com.nd.xst.hermex:jpk-lifecycle:0.1-beta01 -> 0.2-dev01
+  4.430 MB	  7.570 KB	 	|	|	+--- com.nd.xst.hermex:jpk-view:0.1-beta01 -> 0.2-dev01
+ 13.941 MB	 61.487 KB	 	|	|	\--- com.nd.sdp.android.common.ui:nd-avatar-imageview:2.1.1.9.release -> 2.1.2.8.release
+  2.412 MB	  1.027 MB	 	|	+--- androidx.appcompat:appcompat:1.0.0
+ 24.783 KB	 24.783 KB	 	|	+--- androidx.annotation:annotation:1.0.0
+  1.508 MB	    344 KB	 	|	+--- androidx.recyclerview:recyclerview:1.0.0
+  1.647 MB	  2.777 KB	 	|	+--- androidx.legacy:legacy-support-v4:1.0.0
+    181 KB	 62.794 KB	 	|	+--- androidx.constraintlayout:constraintlayout:1.1.3
+  8.170 MB	    911 KB	 	|	+--- com.nd.android.smartcan:smartcan-appfactory:3.5.17-release.1 -> 3.5.39-release.1
+  3.139 MB	    280 KB	 	|	+--- com.nd.android.smartcan:framework-aar:3.3.0-release.1 -> 3.4.09-release.1
+ 10.932 MB	 47.048 KB	 	|	+--- com.nd.sdp.android:org.server.adapter:1.0.21.release -> 1.0.28.androidx
+  4.047 MB	 22.316 KB	 	|	+--- com.nd.sdp.android.common:res:2.6.3
+ 20.022 MB	    170 KB	 	|	+--- com.nd.android.sdp.social:module_commonResource:16.7.0 -> 17.0.0.andriodx
+ 13.941 MB	 61.487 KB	 	|	+--- com.nd.sdp.android.common.ui:nd-avatar-imageview:2.1.1.3.release -> 2.1.2.8.release
+  1.158 MB	 47.063 KB	 	|	+--- com.nd.sdp.uc:nducsdk:0.1.4.0.nducsdk.release -> 0.1.5.0.nducsdk.release
+  1.507 MB	  3.057 KB	 	|	+--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.21 -> 1.3.72
+  8.236 MB	 67.701 KB	 	|	+--- com.nd.sdp.android.centralsdk:configuration-central-sdk:3.0.0.7.release -> 3.0.0.13.release
+    252 KB	    252 KB	 	|	+--- com.google.code.gson:gson:2.8.9
+  9.359 MB	 17.437 KB	 	|	+--- com.nd.sdp.android.common.ui:uc-user-textview:0.0.0.5.release -> 0.0.1.2.release
+ 18.243 KB	 18.243 KB	 	|	+--- com.nd.android.smartcan:commons-bus:1.0.2
+    887 KB	  6.051 KB	 	|	+--- com.squareup.retrofit2:converter-gson:2.6.4
+    629 KB	    126 KB	 	|	+--- com.squareup.retrofit2:retrofit:2.6.4
+  2.692 MB	 15.544 KB	 	|	+--- com.squareup.retrofit2:adapter-rxjava2:2.6.4
+  2.073 MB	  9.671 KB	 	|	+--- io.reactivex.rxjava2:rxandroid:2.0.0 -> 2.0.1
+  2.063 MB	  2.061 MB	 	|	+--- io.reactivex.rxjava2:rxjava:2.0.0 -> 2.1.2
+ 14.081 KB	 14.081 KB	 	|	+--- com.nd.hy.android.hermes:commons-bus:2.2.3 -> 2.2.7-rc03
+ 11.537 MB	    241 KB	 	|	+--- com.nd.sdp.android:xst-config:1.4.1-rc02 -> 1.4.3-rc02
+ 13.367 MB	    287 KB	 	|	+--- com.nd.sdp.android:xst-class-sdk:4.6-rc05 -> 4.6-rc09
+  9.024 MB	 49.115 KB	 	|	\--- com.nd.android.sdp.im:im_group_sdk:23.8.105.release -> 23.12.132.release
+ 16.559 MB	    146 KB	 	+--- com.nd.eda:eda-userinfo:1.1.1
+ 22.418 MB	  1.159 MB	 	+--- com.nd.pbl:pblcomponent:7.5.151.82efd3f8
+  8.200 MB	 30.721 KB	 	|	+--- com.nd.sdp.android:ucx-sdk:0.0.0.8.ucxsdk.release -> 0.0.0.9.ucxsdk.release
+ 20.447 MB	    276 KB	 	|	+--- com.nd.sdp.android:star-module:0.9.10.38056fd -> 0.9.12.610b0bd
+  8.388 MB	 26.065 KB	 	|	+--- com.nd.pbl:pblcomponent-sdk:4.1.22.053931e
+  8.362 MB	    220 KB	 	|	|	\--- com.nd.android.smartcan:smartcan-accountclient-aar:1.2.7.7.ucsdk.release -> 1.3.1.9.ucsdk.release
+  2.444 MB	 32.080 KB	 	|	+--- com.nd.android.sdp.common.draggablewidget:draggable-tip:1.1.1.20160218.1
+ 13.941 MB	 61.487 KB	 	|	+--- com.nd.sdp.android.common.ui:nd-avatar-imageview:2.1.1.4.release -> 2.1.2.8.release
+  2.565 MB	 19.449 KB	 	|	+--- com.nd.sdp.android.common.ui:nd-avatar-loader-iml:2.1.1.4.release -> 2.1.2.8.release
+  9.561 MB	 78.286 KB	 	|	+--- com.nd.android.sdp.social:module_rbac:20.0.0.7 -> 20.0.1.0.release
+  5.799 MB	 14.184 KB	 	|	+--- com.nd.social3:org:0.8.4.9.orgsdk.release -> 0.8.5.2.orgsdk.release
+ 10.932 MB	 47.048 KB	 	|	+--- com.nd.sdp.android:org.server.adapter:1.0.26.release -> 1.0.28.androidx
+    127 KB	    127 KB	 	|	+--- com.nd.hy.component:CropImage:1.9.16
+ 17.247 MB	    133 KB	 	|	+--- com.nd.sdp.android:userinfo-view-group-component-android:0.7.3.release -> 1.1.1.release
+  1.078 MB	 27.594 KB	 	|	+--- com.nd.android.file:file_provider:2.0.120.release -> 3.0.126.release
+  8.999 MB	    473 KB	 	|	+--- com.nd.sdp.uc:nducsdk_implenment:0.1.0.2.nducsdk.androidX-SNAPSHOT -> 0.1.5.0.nducsdk.release
+  1.158 MB	 47.063 KB	 	|	+--- com.nd.sdp.uc:nducsdk:0.1.0.2.nducsdk.androidX-SNAPSHOT -> 0.1.5.0.nducsdk.release
+  9.359 MB	 17.437 KB	 	|	+--- com.nd.sdp.android.common.ui:uc-user-textview:0.0.0.5.release -> 0.0.1.2.release
+  1.425 MB	 63.609 KB	 	|	\--- com.nd.sdp.android.common:com-nd-permission-check:3.0.8-release.1 -> 3.1.5-release.2
+ 20.447 MB	    276 KB	 	+--- com.nd.sdp.android:star-module:0.9.12.610b0bd
+ 13.656 MB	  1.104 MB	 	+--- com.nd.sdp.android.common:com-nd-apf-dlna-control:3.0.7-release.2
+  6.635 KB	  6.635 KB	 	|	+--- com.nd.sdp.android.common:com-nd-apf-dlna-extenral:3.0.7-release.1
+  9.903 MB	    205 KB	 	|	+--- com.nd.sdp.android.common.ui:nd-button:1.3.3
+    824 KB	    649 KB	 	|	+--- org.fourthline.cling:cling-core:2.1.2
+ 91.870 KB	 91.870 KB	 	|	|	+--- org.seamless:seamless-util:1.1.2
+    113 KB	 21.057 KB	 	|	|	+--- org.seamless:seamless-http:1.1.2
+ 91.870 KB	 91.870 KB	 	|	|	|	\--- org.seamless:seamless-util:1.1.2
+ 61.828 KB	 61.828 KB	 	|	|	\--- org.seamless:seamless-xml:1.1.2
+  1.350 MB	    488 KB	 	|	+--- org.fourthline.cling:cling-support:2.1.2
+    824 KB	    649 KB	 	|	|	+--- org.fourthline.cling:cling-core:2.1.2
+ 70.333 KB	 70.333 KB	 	|	|	\--- org.seamless:seamless-swing:1.1.2
+  1.023 MB	    352 KB	 	|	+--- org.eclipse.jetty:jetty-server:8.1.22.v20160922
+    196 KB	    196 KB	 	|	|	+--- org.eclipse.jetty.orbit:javax.servlet:3.0.0.v201112011016
+ 20.673 KB	 20.673 KB	 	|	|	+--- org.eclipse.jetty:jetty-continuation:8.1.22.v20160922
+    479 KB	 94.123 KB	 	|	|	\--- org.eclipse.jetty:jetty-http:8.1.22.v20160922
+    385 KB	    104 KB	 	|	|	 	\--- org.eclipse.jetty:jetty-io:8.1.22.v20160922
+    281 KB	    281 KB	 	|	|	 	 	\--- org.eclipse.jetty:jetty-util:8.1.22.v20160922
+  1.206 MB	 99.845 KB	 	|	+--- org.eclipse.jetty:jetty-servlet:8.1.22.v20160922
+  1.109 MB	 87.838 KB	 	|	|	\--- org.eclipse.jetty:jetty-security:8.1.22.v20160922
+  1.023 MB	    352 KB	 	|	|	 	\--- org.eclipse.jetty:jetty-server:8.1.22.v20160922
+    567 KB	 87.604 KB	 	|	\--- org.eclipse.jetty:jetty-client:8.1.22.v20160922
+    479 KB	 94.123 KB	 	|	 	\--- org.eclipse.jetty:jetty-http:8.1.22.v20160922
+  6.635 KB	  6.635 KB	 	+--- com.nd.sdp.android.common:com-nd-apf-dlna-extenral:3.0.7-release.1
+ 10.757 MB	 47.618 KB	 	+--- com.nd.android.im_plugin:chat_activity_skin_plugin:0.1.40.release
+  2.754 MB	 10.246 KB	 	|	+--- com.nd.android.im_plugin:im-plugin-sdk:0.0.14.27.develop -> 0.0.14.60.develop
+  4.055 MB	    139 KB	 	|	+--- com.nd.android.sdp.common:downloadmanager:1.3.152.release -> 1.8.234.release
+  8.170 MB	    911 KB	 	|	+--- com.nd.android.smartcan:smartcan-appfactory:2.0.4.7.smartcan.release -> 3.5.39-release.1
+  3.220 MB	    121 KB	 	|	\--- com.nd.sdp.im.common:utils:0.1.47.release -> 3.0.178.release
+  8.388 MB	 27.134 KB	 	+--- com.nd.hy.android.hermes:hermes-compat:2.2.6-rc8 -> 2.2.7-rc03
  50.349 MB	       0 B	 	+--- com.nd.sdp.android:eda-course:1.1.0.119-feature-praise-SNAPSHOT
  42.818 MB	       0 B	 	|	+--- com.nd.sdp.android:eda-course-sdk:1.1.0.119-feature-praise-SNAPSHOT
  39.854 MB	       0 B	 	|	|	+--- com.nd.sdp.android:eda-course-data:1.1.0.119-feature-praise-SNAPSHOT
@@ -4350,125 +4469,28 @@
  17.375 MB	 43.682 KB	 	|	 	+--- com.nd.sdp.android.im:im-push-component:3.5.170 -> 3.7.191.f89167c
   5.970 MB	 10.591 KB	 	|	 	+--- com.nd.sdp.android.ele:timer-core:0.2-rc7
   1.514 MB	  1.607 KB	 	|	 	\--- com.nd.mob.stat:mob-stat-common:0.1-rc2
- 24.893 MB	  1.090 MB	 	+--- com.nd.sdp.android:eda-user-android:1.1.2.007
-  1.512 MB	  8.604 KB	 	|	+--- org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.40 -> 1.3.50
- 12.845 MB	 41.086 KB	 	|	+--- com.nd.sdp.android:x-ks-doc:1.1.2.007
-  1.512 MB	  8.604 KB	 	|	|	+--- org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.40 -> 1.3.50
-  2.412 MB	  1.027 MB	 	|	|	+--- androidx.appcompat:appcompat:1.0.0
- 24.783 KB	 24.783 KB	 	|	|	+--- androidx.annotation:annotation:1.0.0
-    181 KB	 62.794 KB	 	|	|	+--- androidx.constraintlayout:constraintlayout:1.1.3
-  8.170 MB	    911 KB	 	|	|	+--- com.nd.android.smartcan:smartcan-appfactory:3.5.17-release.1 -> 3.5.39-release.1
-  3.139 MB	    280 KB	 	|	|	+--- com.nd.android.smartcan:framework-aar:3.3.0-release.1 -> 3.4.09-release.1
- 11.537 MB	    241 KB	 	|	|	\--- com.nd.sdp.android:xst-config:1.3.8-rc08 -> 1.4.3-rc02
- 13.366 MB	    319 KB	 	|	+--- com.nd.xst:x-study-report:0.1-rc07
- 26.533 KB	  1.750 KB	 	|	|	+--- androidx.databinding:viewbinding:3.6.4 -> 4.2.2
-  1.512 MB	  8.604 KB	 	|	|	+--- org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.40 -> 1.3.50
-  1.507 MB	  3.057 KB	 	|	|	+--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.21 -> 1.3.72
-    503 KB	    413 KB	 	|	|	+--- com.squareup.okhttp3:okhttp:3.12.1
-  3.088 MB	  1.584 MB	 	|	|	+--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.2.2 -> 1.3.8
- 65.228 KB	 65.228 KB	 	|	|	+--- com.fasterxml.jackson.core:jackson-annotations:2.9.2
-  2.412 MB	  1.027 MB	 	|	|	+--- androidx.appcompat:appcompat:1.0.0
-  1.321 MB	    153 KB	 	|	|	+--- androidx.fragment:fragment:1.0.0
-    174 KB	 94.465 KB	 	|	|	+--- androidx.room:room-runtime:2.2.6
-  3.304 MB	 28.187 KB	 	|	|	+--- androidx.room:room-ktx:2.2.6
-    185 KB	 59.799 KB	 	|	|	+--- androidx.databinding:databinding-runtime:3.6.4 -> 4.2.2
-    181 KB	 62.794 KB	 	|	|	+--- androidx.constraintlayout:constraintlayout:1.1.3
-    629 KB	    126 KB	 	|	|	+--- com.squareup.retrofit2:retrofit:2.2.0 -> 2.6.4
-  2.278 MB	  5.583 KB	 	|	|	+--- com.squareup.retrofit2:converter-jackson:2.1.0 -> 2.6.4
-  8.170 MB	    911 KB	 	|	|	+--- com.nd.android.smartcan:smartcan-appfactory:3.5.32-release.1 -> 3.5.39-release.1
-    141 KB	    141 KB	 	|	|	\--- pl.droidsonroids.gif:android-gif-drawable:1.2.2 -> 1.2.25
- 16.559 MB	    146 KB	 	|	+--- com.nd.eda:eda-userinfo:1.1.1
- 26.533 KB	  1.750 KB	 	|	|	+--- androidx.databinding:viewbinding:3.6.4 -> 4.2.2
-  1.512 MB	  8.604 KB	 	|	|	+--- org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.40 -> 1.3.50
-  1.507 MB	  3.057 KB	 	|	|	+--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.21 -> 1.3.72
-    503 KB	    413 KB	 	|	|	+--- com.squareup.okhttp3:okhttp:3.12.1
-  3.088 MB	  1.584 MB	 	|	|	+--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.2.2 -> 1.3.8
-  2.412 MB	  1.027 MB	 	|	|	+--- androidx.appcompat:appcompat:1.0.0
-  1.321 MB	    153 KB	 	|	|	+--- androidx.fragment:fragment:1.0.0
-    181 KB	 62.794 KB	 	|	|	+--- androidx.constraintlayout:constraintlayout:1.1.3
-  1.508 MB	    344 KB	 	|	|	+--- androidx.recyclerview:recyclerview:1.0.0
-    629 KB	    126 KB	 	|	|	+--- com.squareup.retrofit2:retrofit:2.2.0 -> 2.6.4
-  2.278 MB	  5.583 KB	 	|	|	+--- com.squareup.retrofit2:converter-jackson:2.1.0 -> 2.6.4
-  8.170 MB	    911 KB	 	|	|	+--- com.nd.android.smartcan:smartcan-appfactory:3.5.32-release.1 -> 3.5.39-release.1
-  4.047 MB	 22.316 KB	 	|	|	+--- com.nd.sdp.android.common:res:0.2.6-release -> 2.6.3
-  4.433 MB	 12.784 KB	 	|	|	+--- com.nd.xst.hermex:jpk-lifecycle:0.1-beta01 -> 0.2-dev01
-  4.430 MB	  7.570 KB	 	|	|	+--- com.nd.xst.hermex:jpk-view:0.1-beta01 -> 0.2-dev01
- 13.941 MB	 61.487 KB	 	|	|	\--- com.nd.sdp.android.common.ui:nd-avatar-imageview:2.1.1.9.release -> 2.1.2.8.release
-  2.412 MB	  1.027 MB	 	|	+--- androidx.appcompat:appcompat:1.0.0
- 24.783 KB	 24.783 KB	 	|	+--- androidx.annotation:annotation:1.0.0
-  1.508 MB	    344 KB	 	|	+--- androidx.recyclerview:recyclerview:1.0.0
-  1.647 MB	  2.777 KB	 	|	+--- androidx.legacy:legacy-support-v4:1.0.0
+ 20.707 MB	       0 B	 	+--- com.nd.eda:eda-content-interact:0.3.0.2-feature-praise-SNAPSHOT
+ 26.533 KB	  1.750 KB	 	|	+--- androidx.databinding:viewbinding:3.6.4 -> 4.2.2
+  1.504 MB	  1.316 MB	 	|	+--- org.jetbrains.kotlin:kotlin-stdlib:1.3.40 -> 1.3.72
+  8.170 MB	    911 KB	 	|	+--- com.nd.android.smartcan:smartcan-appfactory:3.5.32-release.1 -> 3.5.39-release.1
+ 18.494 MB	 36.731 KB	 	|	+--- com.nd.sdp.android:e_common_util:1.5-rc05 -> 1.6-rc10
+  7.479 KB	  7.479 KB	 	|	+--- de.hdodenhof:circleimageview:2.1.0
     181 KB	 62.794 KB	 	|	+--- androidx.constraintlayout:constraintlayout:1.1.3
-  8.170 MB	    911 KB	 	|	+--- com.nd.android.smartcan:smartcan-appfactory:3.5.17-release.1 -> 3.5.39-release.1
-  3.139 MB	    280 KB	 	|	+--- com.nd.android.smartcan:framework-aar:3.3.0-release.1 -> 3.4.09-release.1
- 10.932 MB	 47.048 KB	 	|	+--- com.nd.sdp.android:org.server.adapter:1.0.21.release -> 1.0.28.androidx
-  4.047 MB	 22.316 KB	 	|	+--- com.nd.sdp.android.common:res:2.6.3
- 20.022 MB	    170 KB	 	|	+--- com.nd.android.sdp.social:module_commonResource:16.7.0 -> 17.0.0.andriodx
- 13.941 MB	 61.487 KB	 	|	+--- com.nd.sdp.android.common.ui:nd-avatar-imageview:2.1.1.3.release -> 2.1.2.8.release
-  1.158 MB	 47.063 KB	 	|	+--- com.nd.sdp.uc:nducsdk:0.1.4.0.nducsdk.release -> 0.1.5.0.nducsdk.release
   1.507 MB	  3.057 KB	 	|	+--- org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.2.21 -> 1.3.72
-  8.236 MB	 67.701 KB	 	|	+--- com.nd.sdp.android.centralsdk:configuration-central-sdk:3.0.0.7.release -> 3.0.0.13.release
-    252 KB	    252 KB	 	|	+--- com.google.code.gson:gson:2.8.9
-  9.359 MB	 17.437 KB	 	|	+--- com.nd.sdp.android.common.ui:uc-user-textview:0.0.0.5.release -> 0.0.1.2.release
- 18.243 KB	 18.243 KB	 	|	+--- com.nd.android.smartcan:commons-bus:1.0.2
-    887 KB	  6.051 KB	 	|	+--- com.squareup.retrofit2:converter-gson:2.6.4
-    629 KB	    126 KB	 	|	+--- com.squareup.retrofit2:retrofit:2.6.4
-  2.692 MB	 15.544 KB	 	|	+--- com.squareup.retrofit2:adapter-rxjava2:2.6.4
-  2.073 MB	  9.671 KB	 	|	+--- io.reactivex.rxjava2:rxandroid:2.0.0 -> 2.0.1
-  2.063 MB	  2.061 MB	 	|	+--- io.reactivex.rxjava2:rxjava:2.0.0 -> 2.1.2
- 14.081 KB	 14.081 KB	 	|	+--- com.nd.hy.android.hermes:commons-bus:2.2.3 -> 2.2.7-rc03
- 11.537 MB	    241 KB	 	|	+--- com.nd.sdp.android:xst-config:1.4.1-rc02 -> 1.4.3-rc02
- 13.367 MB	    287 KB	 	|	+--- com.nd.sdp.android:xst-class-sdk:4.6-rc05 -> 4.6-rc09
-  9.024 MB	 49.115 KB	 	|	\--- com.nd.android.sdp.im:im_group_sdk:23.8.105.release -> 23.12.132.release
- 16.559 MB	    146 KB	 	+--- com.nd.eda:eda-userinfo:1.1.1
- 22.418 MB	  1.159 MB	 	+--- com.nd.pbl:pblcomponent:7.5.151.82efd3f8
-  8.200 MB	 30.721 KB	 	|	+--- com.nd.sdp.android:ucx-sdk:0.0.0.8.ucxsdk.release -> 0.0.0.9.ucxsdk.release
- 20.447 MB	    276 KB	 	|	+--- com.nd.sdp.android:star-module:0.9.10.38056fd -> 0.9.12.610b0bd
-  8.388 MB	 26.065 KB	 	|	+--- com.nd.pbl:pblcomponent-sdk:4.1.22.053931e
-  8.362 MB	    220 KB	 	|	|	\--- com.nd.android.smartcan:smartcan-accountclient-aar:1.2.7.7.ucsdk.release -> 1.3.1.9.ucsdk.release
-  2.444 MB	 32.080 KB	 	|	+--- com.nd.android.sdp.common.draggablewidget:draggable-tip:1.1.1.20160218.1
- 13.941 MB	 61.487 KB	 	|	+--- com.nd.sdp.android.common.ui:nd-avatar-imageview:2.1.1.4.release -> 2.1.2.8.release
-  2.565 MB	 19.449 KB	 	|	+--- com.nd.sdp.android.common.ui:nd-avatar-loader-iml:2.1.1.4.release -> 2.1.2.8.release
-  9.561 MB	 78.286 KB	 	|	+--- com.nd.android.sdp.social:module_rbac:20.0.0.7 -> 20.0.1.0.release
-  5.799 MB	 14.184 KB	 	|	+--- com.nd.social3:org:0.8.4.9.orgsdk.release -> 0.8.5.2.orgsdk.release
- 10.932 MB	 47.048 KB	 	|	+--- com.nd.sdp.android:org.server.adapter:1.0.26.release -> 1.0.28.androidx
-    127 KB	    127 KB	 	|	+--- com.nd.hy.component:CropImage:1.9.16
- 17.247 MB	    133 KB	 	|	+--- com.nd.sdp.android:userinfo-view-group-component-android:0.7.3.release -> 1.1.1.release
-  1.078 MB	 27.594 KB	 	|	+--- com.nd.android.file:file_provider:2.0.120.release -> 3.0.126.release
-  8.999 MB	    473 KB	 	|	+--- com.nd.sdp.uc:nducsdk_implenment:0.1.0.2.nducsdk.androidX-SNAPSHOT -> 0.1.5.0.nducsdk.release
-  1.158 MB	 47.063 KB	 	|	+--- com.nd.sdp.uc:nducsdk:0.1.0.2.nducsdk.androidX-SNAPSHOT -> 0.1.5.0.nducsdk.release
-  9.359 MB	 17.437 KB	 	|	+--- com.nd.sdp.android.common.ui:uc-user-textview:0.0.0.5.release -> 0.0.1.2.release
-  1.425 MB	 63.609 KB	 	|	\--- com.nd.sdp.android.common:com-nd-permission-check:3.0.8-release.1 -> 3.1.5-release.2
- 20.447 MB	    276 KB	 	+--- com.nd.sdp.android:star-module:0.9.12.610b0bd
- 13.656 MB	  1.104 MB	 	+--- com.nd.sdp.android.common:com-nd-apf-dlna-control:3.0.7-release.2
-  6.635 KB	  6.635 KB	 	|	+--- com.nd.sdp.android.common:com-nd-apf-dlna-extenral:3.0.7-release.1
-  9.903 MB	    205 KB	 	|	+--- com.nd.sdp.android.common.ui:nd-button:1.3.3
-    824 KB	    649 KB	 	|	+--- org.fourthline.cling:cling-core:2.1.2
- 91.870 KB	 91.870 KB	 	|	|	+--- org.seamless:seamless-util:1.1.2
-    113 KB	 21.057 KB	 	|	|	+--- org.seamless:seamless-http:1.1.2
- 91.870 KB	 91.870 KB	 	|	|	|	\--- org.seamless:seamless-util:1.1.2
- 61.828 KB	 61.828 KB	 	|	|	\--- org.seamless:seamless-xml:1.1.2
-  1.350 MB	    488 KB	 	|	+--- org.fourthline.cling:cling-support:2.1.2
-    824 KB	    649 KB	 	|	|	+--- org.fourthline.cling:cling-core:2.1.2
- 70.333 KB	 70.333 KB	 	|	|	\--- org.seamless:seamless-swing:1.1.2
-  1.023 MB	    352 KB	 	|	+--- org.eclipse.jetty:jetty-server:8.1.22.v20160922
-    196 KB	    196 KB	 	|	|	+--- org.eclipse.jetty.orbit:javax.servlet:3.0.0.v201112011016
- 20.673 KB	 20.673 KB	 	|	|	+--- org.eclipse.jetty:jetty-continuation:8.1.22.v20160922
-    479 KB	 94.123 KB	 	|	|	\--- org.eclipse.jetty:jetty-http:8.1.22.v20160922
-    385 KB	    104 KB	 	|	|	 	\--- org.eclipse.jetty:jetty-io:8.1.22.v20160922
-    281 KB	    281 KB	 	|	|	 	 	\--- org.eclipse.jetty:jetty-util:8.1.22.v20160922
-  1.206 MB	 99.845 KB	 	|	+--- org.eclipse.jetty:jetty-servlet:8.1.22.v20160922
-  1.109 MB	 87.838 KB	 	|	|	\--- org.eclipse.jetty:jetty-security:8.1.22.v20160922
-  1.023 MB	    352 KB	 	|	|	 	\--- org.eclipse.jetty:jetty-server:8.1.22.v20160922
-    567 KB	 87.604 KB	 	|	\--- org.eclipse.jetty:jetty-client:8.1.22.v20160922
-    479 KB	 94.123 KB	 	|	 	\--- org.eclipse.jetty:jetty-http:8.1.22.v20160922
-  6.635 KB	  6.635 KB	 	+--- com.nd.sdp.android.common:com-nd-apf-dlna-extenral:3.0.7-release.1
- 10.757 MB	 47.618 KB	 	+--- com.nd.android.im_plugin:chat_activity_skin_plugin:0.1.40.release
-  2.754 MB	 10.246 KB	 	|	+--- com.nd.android.im_plugin:im-plugin-sdk:0.0.14.27.develop -> 0.0.14.60.develop
-  4.055 MB	    139 KB	 	|	+--- com.nd.android.sdp.common:downloadmanager:1.3.152.release -> 1.8.234.release
-  8.170 MB	    911 KB	 	|	+--- com.nd.android.smartcan:smartcan-appfactory:2.0.4.7.smartcan.release -> 3.5.39-release.1
-  3.220 MB	    121 KB	 	|	\--- com.nd.sdp.im.common:utils:0.1.47.release -> 3.0.178.release
-  8.388 MB	 27.134 KB	 	+--- com.nd.hy.android.hermes:hermes-compat:2.2.6-rc8 -> 2.2.7-rc03
+  3.482 MB	    567 KB	 	|	+--- com.google.android.material:material:1.0.0
+ 46.782 KB	 21.999 KB	 	|	+--- androidx.cardview:cardview:1.0.0
+  4.433 MB	 12.784 KB	 	|	+--- com.nd.xst.hermex:jpk-lifecycle:0.1-beta01 -> 0.2-dev01
+  4.430 MB	  7.570 KB	 	|	+--- com.nd.xst.hermex:jpk-view:0.1-beta01 -> 0.2-dev01
+ 20.523 MB	       0 B	 	|	+--- com.nd.eda:eda-interact-sdk:0.3.0.2-feature-praise-SNAPSHOT
+  1.512 MB	  8.604 KB	 	|	|	+--- org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.40 -> 1.3.50
+  1.504 MB	  1.316 MB	 	|	|	+--- org.jetbrains.kotlin:kotlin-stdlib:1.3.40 -> 1.3.72
+    317 KB	    259 KB	 	|	|	+--- com.github.Raizlabs.DBFlow:dbflow:3.1.1
+ 18.494 MB	 36.731 KB	 	|	|	+--- com.nd.sdp.android:e_common_util:1.5-rc06 -> 1.6-rc10
+  1.277 MB	    159 KB	 	|	|	+--- com.jakewharton.rxbinding:rxbinding:0.4.0
+ 11.537 MB	    241 KB	 	|	|	+--- com.nd.sdp.android:xst-config:1.3.9-rc04 -> 1.4.3-rc02
+  4.433 MB	 12.784 KB	 	|	|	+--- com.nd.xst.hermex:jpk-lifecycle:0.1-beta01 -> 0.2-dev01
+  4.430 MB	  7.570 KB	 	|	|	\--- com.nd.xst.hermex:jpk-view:0.1-beta01 -> 0.2-dev01
+ 11.537 MB	    241 KB	 	|	\--- com.nd.sdp.android:xst-config:1.3.9-rc04 -> 1.4.3-rc02
   4.713 KB	  4.713 KB	 	+--- com.nd.sdp.android:im-friend-res:0.0.5.12.release
   3.228 MB	 64.842 KB	 	+--- com.nd.znyang:executor-pool:0.1-rc20
  34.563 MB	    927 KB	 	+--- com.nd.sdp.android:edu-appraise-pro:{strictly 0.0.2} -> 0.0.2
@@ -4696,12 +4718,13 @@
  46.356 MB	    198 KB	 	+--- com.nd.android.sdp.im:im-x-study-gluein:{strictly 22.16.2.15184.release} -> 22.16.2.15184.release
  38.436 MB	  2.748 MB	 	+--- com.nd.eda:e-study-activity:{strictly 1.1.0.105} -> 1.1.0.105
  14.908 MB	    119 KB	 	+--- com.nd.eda:e-study-content:{strictly 1.1.0.105} -> 1.1.0.105
- 50.349 MB	       0 B	 	+--- com.nd.sdp.android:eda-course:{strictly 1.1.0.119-feature-praise-SNAPSHOT} -> 1.1.0.119-feature-praise-SNAPSHOT
  24.893 MB	  1.090 MB	 	+--- com.nd.sdp.android:eda-user-android:{strictly 1.1.2.007} -> 1.1.2.007
  16.559 MB	    146 KB	 	+--- com.nd.eda:eda-userinfo:{strictly 1.1.1} -> 1.1.1
  22.418 MB	  1.159 MB	 	+--- com.nd.pbl:pblcomponent:{strictly 7.5.151.82efd3f8} -> 7.5.151.82efd3f8
  13.656 MB	  1.104 MB	 	+--- com.nd.sdp.android.common:com-nd-apf-dlna-control:{strictly 3.0.7-release.2} -> 3.0.7-release.2
  10.757 MB	 47.618 KB	 	+--- com.nd.android.im_plugin:chat_activity_skin_plugin:{strictly 0.1.40.release} -> 0.1.40.release
+ 50.349 MB	       0 B	 	+--- com.nd.sdp.android:eda-course:{strictly 1.1.0.119-feature-praise-SNAPSHOT} -> 1.1.0.119-feature-praise-SNAPSHOT
+ 20.707 MB	       0 B	 	+--- com.nd.eda:eda-content-interact:{strictly 0.3.0.2-feature-praise-SNAPSHOT} -> 0.3.0.2-feature-praise-SNAPSHOT
   4.713 KB	  4.713 KB	 	+--- com.nd.sdp.android:im-friend-res:{strictly 0.0.5.12.release} -> 0.0.5.12.release
   1.504 MB	  1.316 MB	 	+--- org.jetbrains.kotlin:kotlin-stdlib:1.2.21 -> 1.3.72
  48.085 KB	 23.302 KB	 	+--- com.nd.sdp.android:processcheck:1.0.1 -> 3.1.1-release.1
@@ -5354,13 +5377,6 @@
  23.826 MB	    344 KB	 	+--- com.nd.xst:x-video:{strictly 0.8.3-rc08} -> 0.8.3-rc08
  20.809 MB	 82.671 KB	 	+--- com.nd.xst:x-doc:{strictly 0.8.3-rc08} -> 0.8.3-rc08
  31.945 MB	    153 KB	 	+--- com.nd.xst:x-player:{strictly 0.8.3-rc08} -> 0.8.3-rc08
- 42.818 MB	       0 B	 	+--- com.nd.sdp.android:eda-course-sdk:{strictly 1.1.0.119-feature-praise-SNAPSHOT} -> 1.1.0.119-feature-praise-SNAPSHOT
- 39.854 MB	       0 B	 	+--- com.nd.sdp.android:eda-course-presenter:{strictly 1.1.0.119-feature-praise-SNAPSHOT} -> 1.1.0.119-feature-praise-SNAPSHOT
-  5.970 MB	 10.591 KB	 	+--- com.nd.sdp.android.ele:timer-core:{strictly 0.2-rc7} -> 0.2-rc7
- 42.818 MB	       0 B	 	+--- com.nd.sdp.android:xst-teac-course:{strictly 1.1.0.119-feature-praise-SNAPSHOT} -> 1.1.0.119-feature-praise-SNAPSHOT
- 43.085 MB	       0 B	 	+--- com.nd.sdp.android:eda-tcourse-ex:{strictly 1.1.0.119-feature-praise-SNAPSHOT} -> 1.1.0.119-feature-praise-SNAPSHOT
- 42.900 MB	       0 B	 	+--- com.nd.sdp.android:eda-off-course:{strictly 1.1.0.119-feature-praise-SNAPSHOT} -> 1.1.0.119-feature-praise-SNAPSHOT
- 48.431 MB	       0 B	 	+--- com.nd.sdp.android:eda-coursehour:{strictly 1.1.0.119-feature-praise-SNAPSHOT} -> 1.1.0.119-feature-praise-SNAPSHOT
  12.845 MB	 41.086 KB	 	+--- com.nd.sdp.android:x-ks-doc:{strictly 1.1.2.007} -> 1.1.2.007
  13.366 MB	    319 KB	 	+--- com.nd.xst:x-study-report:{strictly 0.1-rc07} -> 0.1-rc07
   8.388 MB	 26.065 KB	 	+--- com.nd.pbl:pblcomponent-sdk:{strictly 4.1.22.053931e} -> 4.1.22.053931e
@@ -5369,6 +5385,14 @@
   1.023 MB	    352 KB	 	+--- org.eclipse.jetty:jetty-server:{strictly 8.1.22.v20160922} -> 8.1.22.v20160922
   1.206 MB	 99.845 KB	 	+--- org.eclipse.jetty:jetty-servlet:{strictly 8.1.22.v20160922} -> 8.1.22.v20160922
     567 KB	 87.604 KB	 	+--- org.eclipse.jetty:jetty-client:{strictly 8.1.22.v20160922} -> 8.1.22.v20160922
+ 42.818 MB	       0 B	 	+--- com.nd.sdp.android:eda-course-sdk:{strictly 1.1.0.119-feature-praise-SNAPSHOT} -> 1.1.0.119-feature-praise-SNAPSHOT
+ 39.854 MB	       0 B	 	+--- com.nd.sdp.android:eda-course-presenter:{strictly 1.1.0.119-feature-praise-SNAPSHOT} -> 1.1.0.119-feature-praise-SNAPSHOT
+  5.970 MB	 10.591 KB	 	+--- com.nd.sdp.android.ele:timer-core:{strictly 0.2-rc7} -> 0.2-rc7
+ 42.818 MB	       0 B	 	+--- com.nd.sdp.android:xst-teac-course:{strictly 1.1.0.119-feature-praise-SNAPSHOT} -> 1.1.0.119-feature-praise-SNAPSHOT
+ 43.085 MB	       0 B	 	+--- com.nd.sdp.android:eda-tcourse-ex:{strictly 1.1.0.119-feature-praise-SNAPSHOT} -> 1.1.0.119-feature-praise-SNAPSHOT
+ 42.900 MB	       0 B	 	+--- com.nd.sdp.android:eda-off-course:{strictly 1.1.0.119-feature-praise-SNAPSHOT} -> 1.1.0.119-feature-praise-SNAPSHOT
+ 48.431 MB	       0 B	 	+--- com.nd.sdp.android:eda-coursehour:{strictly 1.1.0.119-feature-praise-SNAPSHOT} -> 1.1.0.119-feature-praise-SNAPSHOT
+ 20.523 MB	       0 B	 	+--- com.nd.eda:eda-interact-sdk:{strictly 0.3.0.2-feature-praise-SNAPSHOT} -> 0.3.0.2-feature-praise-SNAPSHOT
     319 KB	    319 KB	 	+--- org.apache.httpcomponents:httpcore:{strictly 4.4.4} -> 4.4.4
     175 KB	    175 KB	 	+--- org.jetbrains.kotlin:kotlin-stdlib-common:{strictly 1.3.72} -> 1.3.72
   7.930 MB	 74.992 KB	 	+--- com.nd.sdp.android:ext-downloadmanager:{strictly 3.0.1-release.5} -> 3.0.1-release.5
@@ -5485,7 +5509,6 @@
   1.399 MB	    422 KB	 	+--- com.facebook.android:facebook-core:{strictly 5.5.1} -> 5.5.1
   3.742 MB	    461 KB	 	+--- com.facebook.android:facebook-common:{strictly 5.5.1} -> 5.5.1
   1.514 MB	  1.638 KB	 	+--- com.nd.xst:x-player-common:{strictly 0.7.2-dev01} -> 0.7.2-dev01
- 39.854 MB	       0 B	 	+--- com.nd.sdp.android:eda-course-data:{strictly 1.1.0.119-feature-praise-SNAPSHOT} -> 1.1.0.119-feature-praise-SNAPSHOT
  91.870 KB	 91.870 KB	 	+--- org.seamless:seamless-util:{strictly 1.1.2} -> 1.1.2
     113 KB	 21.057 KB	 	+--- org.seamless:seamless-http:{strictly 1.1.2} -> 1.1.2
  61.828 KB	 61.828 KB	 	+--- org.seamless:seamless-xml:{strictly 1.1.2} -> 1.1.2
@@ -5494,6 +5517,7 @@
  20.673 KB	 20.673 KB	 	+--- org.eclipse.jetty:jetty-continuation:{strictly 8.1.22.v20160922} -> 8.1.22.v20160922
     479 KB	 94.123 KB	 	+--- org.eclipse.jetty:jetty-http:{strictly 8.1.22.v20160922} -> 8.1.22.v20160922
   1.109 MB	 87.838 KB	 	+--- org.eclipse.jetty:jetty-security:{strictly 8.1.22.v20160922} -> 8.1.22.v20160922
+ 39.854 MB	       0 B	 	+--- com.nd.sdp.android:eda-course-data:{strictly 1.1.0.119-feature-praise-SNAPSHOT} -> 1.1.0.119-feature-praise-SNAPSHOT
  15.254 KB	  8.779 KB	 	+--- com.nd.sdp.android:float-view-bridge:{strictly 3.0.1-release.1} -> 3.0.1-release.1
   6.475 KB	  6.475 KB	 	+--- com.nd.sdp.android:float-view-inter:{strictly 3.0.1-release.1} -> 3.0.1-release.1
   3.523 MB	 22.954 KB	 	+--- com.nd.hy.android.blur:core:{strictly 0.1-rc2} -> 0.1-rc2
@@ -5517,10 +5541,10 @@
     104 KB	 13.990 KB	 	+--- androidx.lifecycle:lifecycle-viewmodel-savedstate:{strictly 1.0.0} -> 1.0.0
  62.008 KB	     384 B	 	+--- com.parse.bolts:bolts-android:{strictly 1.4.0} -> 1.4.0
   1.231 MB	 60.853 KB	 	+--- androidx.browser:browser:{strictly 1.0.0} -> 1.0.0
+    385 KB	    104 KB	 	+--- org.eclipse.jetty:jetty-io:{strictly 8.1.22.v20160922} -> 8.1.22.v20160922
  24.251 MB	    220 KB	 	+--- com.nd.eda:eda-xcloud-sdk:{strictly 1.1.0.103} -> 1.1.0.103
  10.832 MB	 63.797 KB	 	+--- com.nd.eda:eda-xcloud-textview-loader:{strictly 1.1.0.103} -> 1.1.0.103
   6.956 MB	    858 KB	 	+--- com.nd.eda:eda-xcloud-ui:{strictly 1.1.0.103} -> 1.1.0.103
-    385 KB	    104 KB	 	+--- org.eclipse.jetty:jetty-io:{strictly 8.1.22.v20160922} -> 8.1.22.v20160922
     119 KB	    119 KB	 	+--- org.ow2.asm:asm:{strictly 9.1} -> 9.1
  37.199 KB	 37.199 KB	 	+--- com.parse.bolts:bolts-tasks:{strictly 1.4.0} -> 1.4.0
  61.633 KB	 24.434 KB	 	+--- com.parse.bolts:bolts-applinks:{strictly 1.4.0} -> 1.4.0
@@ -6287,8 +6311,10 @@ jar	com.parse.bolts:bolts-android:1.4.0
 pom	com.nd.sdp.android:eda-course-data:1.1.0.119-feature-praise-SNAPSHOT:20230119.153400-1
 pom	com.nd.sdp.android:eda-course-presenter:1.1.0.119-feature-praise-SNAPSHOT:20230119.153402-1
 pom	com.nd.sdp.android:eda-course:1.1.0.119-feature-praise-SNAPSHOT:20230119.153434-1
+pom	com.nd.eda:eda-content-interact:0.3.0.2-feature-praise-SNAPSHOT:20230120.170714-1
 pom	com.nd.sdp.android:eda-course-sdk:1.1.0.119-feature-praise-SNAPSHOT:20230119.153417-1
 pom	com.nd.sdp.android:eda-off-course:1.1.0.119-feature-praise-SNAPSHOT:20230119.153421-1
 pom	com.nd.sdp.android:eda-tcourse-ex:1.1.0.119-feature-praise-SNAPSHOT:20230119.153426-1
 pom	com.nd.sdp.android:eda-coursehour:1.1.0.119-feature-praise-SNAPSHOT:20230119.153429-1
+pom	com.nd.eda:eda-interact-sdk:0.3.0.2-feature-praise-SNAPSHOT:20230120.170704-1
 pom	com.nd.sdp.android:xst-teac-course:1.1.0.119-feature-praise-SNAPSHOT:20230119.153424-1

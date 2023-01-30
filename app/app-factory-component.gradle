@@ -1624,9 +1624,7 @@ afterEvaluate {
         
 
         	
-       		    compile ("com.nd.sdp.android:eda-course:1.1.0.119-feature-praise-SNAPSHOT")
-//    api project(":e-course-android")
-             
+
           // 拼装门户
            configurations {
                 all*.exclude group:'com.nd.sdp.android', module: 'x-cloud-assemble-android'
@@ -1833,7 +1831,10 @@ android {
 
 
 
-
+dependencies {
+    compile ("com.nd.sdp.android:eda-course:1.1.0.119-feature-praise-SNAPSHOT")
+    compile ("com.nd.eda:eda-content-interact:0.3.0.2-feature-praise-SNAPSHOT")
+}
 
 android {
     configurations {
